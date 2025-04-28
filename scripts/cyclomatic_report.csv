@@ -1,0 +1,25 @@
+File,Class,Cyclomatic Complexity
+Codec_10_Caverphone.java,Caverphone,9
+Codec_1_Caverphone.java,Caverphone,9
+Codec_4_Base64.java,Base64,123
+Codec_7_Base64.java,Base64,118
+Codec_8_Base64.java,Base64,112
+Codec_9_Base64.java,Base64,115
+DefaultParser.java,DefaultParser,101
+DoubleMetaphone.java,DoubleMetaphone,255
+Elements.java,Elements,101
+HelpFormatter.java,HelpFormatter,103
+Jsoup_22_Element.java,Element,158
+Jsoup_22_Node.java,Node,92
+Jsoup_3_Element.java,Element,120
+Jsoup_4_Entities.java,Entities,15
+Jsoup_6_Entities.java,Entities,15
+Jsoup_8_Node.java,Node,60
+Lang.java,Lang,20
+Metaphone.java,Metaphone,110
+OptionGroup.java,OptionGroup,15
+Parser.java,Parser,62
+PhoneticEngine.java,PhoneticEngine,37
+PosixParser.java,PosixParser,28
+SoundexUtils.java,SoundexUtils,12
+StringUtils.java,StringUtils,31
