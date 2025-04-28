@@ -1,0 +1,3651 @@
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/0/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/0/Entities.java:25: error: cannot find symbol
+        return esc(string, out.encoder(), out.escapeMode());
+               ^
+  symbol:   method esc(String,CharsetEncoder,EscapeMode)
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/1/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/1/Entities.java:25: error: cannot find symbol
+        return escaped(string, out.encoder(), out.escapeMode());
+               ^
+  symbol:   method escaped(String,CharsetEncoder,EscapeMode)
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/10/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/10/Entities.java:25: error: cannot find symbol
+        return escape(string, out.document(), out.escapeMode());
+                                 ^
+  symbol:   method document()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/100/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/100/Entities.java:33: error: cannot find symbol
+            Character c = string.get(pos);
+                                ^
+  symbol:   method get(int)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/101/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/101/Entities.java:33: error: cannot find symbol
+            Character c = string.item(pos);
+                                ^
+  symbol:   method item(int)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/102/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/102/Entities.java:33: error: cannot find symbol
+            Character c = string.at(pos);
+                                ^
+  symbol:   method at(int)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/103/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/103/Entities.java:33: error: <identifier> expected
+            Character c = string.char(pos);
+                                 ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/103/Entities.java:33: error: ';' expected
+            Character c = string.char(pos);
+                                     ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/103/Entities.java:33: error: not a statement
+            Character c = string.char(pos);
+                                      ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/103/Entities.java:33: error: ';' expected
+            Character c = string.char(pos);
+                                         ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/104/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/104/Entities.java:33: error: cannot find symbol
+            Character c = string.At(pos);
+                                ^
+  symbol:   method At(int)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/105/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/105/Entities.java:33: error: non-static method charAt(int) cannot be referenced from a static context
+            Character c = String.charAt(pos);
+                                ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/106/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/106/Entities.java:33: error: cannot find symbol
+            Character c = source.charAt(pos);
+                          ^
+  symbol:   variable source
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/107/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/107/Entities.java:33: error: cannot find symbol
+            Character c = str.charAt(pos);
+                          ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/108/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/108/Entities.java:33: error: cannot find symbol
+            Character c = string.charAt(Pos);
+                                        ^
+  symbol:   variable Pos
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/109/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/109/Entities.java:33: error: cannot find symbol
+            Character c = string.charAt(position);
+                                        ^
+  symbol:   variable position
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/11/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/11/Entities.java:25: error: non-static variable this cannot be referenced from a static context
+        return escape(string, this.encoder(), out.escapeMode());
+                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/11/Entities.java:25: error: cannot find symbol
+        return escape(string, this.encoder(), out.escapeMode());
+                                  ^
+  symbol: method encoder()
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/110/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/111/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/111/Entities.java:34: error: cannot find symbol
+            if (map.has(c))
+                   ^
+  symbol:   method has(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/112/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/112/Entities.java:34: error: cannot find symbol
+            if (map.key(c))
+                   ^
+  symbol:   method key(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/113/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/113/Entities.java:34: error: incompatible types: String cannot be converted to boolean
+            if (map.get(c))
+                       ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/114/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/114/Entities.java:34: error: incompatible types: String cannot be converted to boolean
+            if (map.remove(c))
+                          ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/115/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/115/Entities.java:34: error: cannot find symbol
+            if (map.add(c))
+                   ^
+  symbol:   method add(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/116/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/116/Entities.java:34: error: non-static method containsKey(Object) cannot be referenced from a static context
+            if (Map.containsKey(c))
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/117/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/117/Entities.java:34: error: cannot find symbol
+            if (dict.containsKey(c))
+                ^
+  symbol:   variable dict
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/118/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/118/Entities.java:34: error: cannot find symbol
+            if (code.containsKey(c))
+                ^
+  symbol:   variable code
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/119/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/119/Entities.java:34: error: cannot find symbol
+            if (map.containsKey(cc))
+                                ^
+  symbol:   variable cc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/12/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/12/Entities.java:25: error: cannot find symbol
+        return escape(string, in.encoder(), out.escapeMode());
+                              ^
+  symbol:   variable in
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/120/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/120/Entities.java:34: error: cannot find symbol
+            if (map.containsKey(f))
+                                ^
+  symbol:   variable f
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/121/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/121/Entities.java:34: error: cannot find symbol
+            if (map.containsKey(lc))
+                                ^
+  symbol:   variable lc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/122/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/122/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(c)).join(';');
+                                                    ^
+  symbol:   method join(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/123/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/123/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(c)).end(';');
+                                                    ^
+  symbol:   method end(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/124/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/124/Entities.java:35: error: method replace in class StringBuilder cannot be applied to given types;
+                accum.append('&').append(map.get(c)).replace(';');
+                                                    ^
+  required: int,int,String
+  found: char
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/125/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/125/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(c)).escape(';');
+                                                    ^
+  symbol:   method escape(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/126/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/126/Entities.java:35: error: cannot find symbol
+                accum.append('&').end(map.get(c)).append(';');
+                                 ^
+  symbol:   method end(String)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/127/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/127/Entities.java:35: error: cannot find symbol
+                accum.append('&').join(map.get(c)).append(';');
+                                 ^
+  symbol:   method join(String)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/128/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/128/Entities.java:35: error: cannot find symbol
+                accum.append('&').escape(map.get(c)).append(';');
+                                 ^
+  symbol:   method escape(String)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/129/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/129/Entities.java:35: error: cannot find symbol
+                accum.end('&').append(map.get(c)).append(';');
+                     ^
+  symbol:   method end(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/13/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/13/Entities.java:25: error: cannot find symbol
+        return escape(string, document.encoder(), out.escapeMode());
+                              ^
+  symbol:   variable document
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/130/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/130/Entities.java:35: error: cannot find symbol
+                accum.join('&').append(map.get(c)).append(';');
+                     ^
+  symbol:   method join(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/131/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/131/Entities.java:35: error: cannot find symbol
+                accum.open('&').append(map.get(c)).append(';');
+                     ^
+  symbol:   method open(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/132/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/132/Entities.java:35: error: cannot find symbol
+                acc.append('&').append(map.get(c)).append(';');
+                ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/133/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/133/Entities.java:35: error: cannot find symbol
+                accumulate.append('&').append(map.get(c)).append(';');
+                ^
+  symbol:   variable accumulate
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/134/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/134/Entities.java:35: error: cannot find symbol
+                buf.append('&').append(map.get(c)).append(';');
+                ^
+  symbol:   variable buf
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/135/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/135/Entities.java:35: error: cannot find symbol
+                result.append('&').append(map.get(c)).append(';');
+                ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/136/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/137/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/137/Entities.java:35: error: illegal start of expression
+                accum.append(&).append(map.get(c)).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/137/Entities.java:35: error: illegal start of expression
+                accum.append(&).append(map.get(c)).append(';');
+                              ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/138/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/138/Entities.java:35: error: illegal character: '#'
+                accum.append(#).append(map.get(c)).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/138/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/139/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/139/Entities.java:35: error: illegal character: '\'
+                accum.append(\\).append(map.get(c)).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/139/Entities.java:35: error: illegal character: '\'
+                accum.append(\\).append(map.get(c)).append(';');
+                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/139/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/14/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/14/Entities.java:25: error: cannot find symbol
+        return escape(string, doc.encoder(), out.escapeMode());
+                              ^
+  symbol:   variable doc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/140/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/140/Entities.java:35: error: illegal character: '\'
+                accum.append(\").append(map.get(c)).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/140/Entities.java:35: error: unclosed string literal
+                accum.append(\").append(map.get(c)).append(';');
+                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/140/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/141/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/142/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/142/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.Get(c)).append(';');
+                                            ^
+  symbol:   method Get(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/143/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/143/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.pop(c)).append(';');
+                                            ^
+  symbol:   method pop(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/144/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/144/Entities.java:35: error: non-static method get(Object) cannot be referenced from a static context
+                accum.append('&').append(Map.get(c)).append(';');
+                                            ^
+  where V is a type-variable:
+    V extends Object declared in interface Map
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/145/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/145/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(MAP.get(c)).append(';');
+                                         ^
+  symbol:   variable MAP
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/146/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/146/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(code.get(c)).append(';');
+                                         ^
+  symbol:   variable code
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/147/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/147/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(f)).append(';');
+                                                 ^
+  symbol:   variable f
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/148/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/148/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(lc)).append(';');
+                                                 ^
+  symbol:   variable lc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/149/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/149/Entities.java:35: error: cannot find symbol
+                accum.append('&').append(map.get(C)).append(';');
+                                                 ^
+  symbol:   variable C
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/15/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/15/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), out.settings());
+                                                ^
+  symbol:   method settings()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/150/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/150/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append(;);
+                                                            ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/150/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append(;);
+                                                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/150/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/151/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/152/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/152/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append(;;);
+                                                            ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/152/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append(;;);
+                                                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/152/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/153/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/153/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append(););
+                                                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/153/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/154/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/154/Entities.java:35: error: -> expected
+                accum.append('&').append(map.get(c)).append((););
+                                                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/154/Entities.java:35: error: illegal start of expression
+                accum.append('&').append(map.get(c)).append((););
+                                                               ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/154/Entities.java:36: error: 'else' without 'if'
+            else if (encoder.canEncode(c))
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/155/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/155/Entities.java:36: error: cannot find symbol
+            else if (encoder.escape(c))
+                            ^
+  symbol:   method escape(Character)
+  location: variable encoder of type CharsetEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/156/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/156/Entities.java:36: error: cannot find symbol
+            else if (encoder.enabled(c))
+                            ^
+  symbol:   method enabled(Character)
+  location: variable encoder of type CharsetEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/157/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/157/Entities.java:36: error: cannot find symbol
+            else if (encoder.check(c))
+                            ^
+  symbol:   method check(Character)
+  location: variable encoder of type CharsetEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/158/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/158/Entities.java:36: error: cannot find symbol
+            else if (encoder.allowed(c))
+                            ^
+  symbol:   method allowed(Character)
+  location: variable encoder of type CharsetEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/159/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/159/Entities.java:36: error: cannot find symbol
+            else if (encoder.transform(c))
+                            ^
+  symbol:   method transform(Character)
+  location: variable encoder of type CharsetEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/16/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/16/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), out.output());
+                                                ^
+  symbol:   method output()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/160/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/160/Entities.java:36: error: cannot find symbol
+            else if (oder.canEncode(c))
+                     ^
+  symbol:   variable oder
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/161/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/161/Entities.java:36: error: cannot find symbol
+            else if (enc.canEncode(c))
+                     ^
+  symbol:   variable enc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/162/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/162/Entities.java:36: error: cannot find symbol
+            else if (map.canEncode(c))
+                        ^
+  symbol:   method canEncode(Character)
+  location: variable map of type Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/163/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/163/Entities.java:36: error: cannot find symbol
+            else if (code.canEncode(c))
+                     ^
+  symbol:   variable code
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/164/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/164/Entities.java:36: error: cannot find symbol
+            else if (conv.canEncode(c))
+                     ^
+  symbol:   variable conv
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/165/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/165/Entities.java:36: error: cannot find symbol
+            else if (encoder.canEncode(f))
+                                       ^
+  symbol:   variable f
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/166/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/166/Entities.java:36: error: cannot find symbol
+            else if (encoder.canEncode(C))
+                                       ^
+  symbol:   variable C
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/167/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/167/Entities.java:36: error: '.class' expected
+            else if (encoder.canEncode(char))
+                                           ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/168/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/168/Entities.java:37: error: cannot find symbol
+                accum.end(c.charValue());
+                     ^
+  symbol:   method end(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/169/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/169/Entities.java:37: error: cannot find symbol
+                accum.push(c.charValue());
+                     ^
+  symbol:   method push(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/17/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/17/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), out.style());
+                                                ^
+  symbol:   method style()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/170/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/170/Entities.java:37: error: cannot find symbol
+                accum.add(c.charValue());
+                     ^
+  symbol:   method add(char)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/171/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/171/Entities.java:37: error: cannot find symbol
+                acc.append(c.charValue());
+                ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/172/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/172/Entities.java:37: error: cannot find symbol
+                accumulate.append(c.charValue());
+                ^
+  symbol:   variable accumulate
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/173/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/173/Entities.java:37: error: cannot find symbol
+                buf.append(c.charValue());
+                ^
+  symbol:   variable buf
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/174/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/174/Entities.java:37: error: cannot find symbol
+                result.append(c.charValue());
+                ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/175/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/175/Entities.java:37: error: cannot find symbol
+                accum.append(c.escape());
+                              ^
+  symbol:   method escape()
+  location: variable c of type Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/176/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/176/Entities.java:37: error: cannot find symbol
+                accum.append(c.length());
+                              ^
+  symbol:   method length()
+  location: variable c of type Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/177/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/177/Entities.java:37: error: cannot find symbol
+                accum.append(c.reverse());
+                              ^
+  symbol:   method reverse()
+  location: variable c of type Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/178/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/178/Entities.java:37: error: <identifier> expected
+                accum.append(c.char());
+                               ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/178/Entities.java:37: error: ';' expected
+                accum.append(c.char());
+                                   ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/178/Entities.java:38: error: 'else' without 'if'
+            else
+            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/179/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/179/Entities.java:37: error: cannot find symbol
+                accum.append(c.string());
+                              ^
+  symbol:   method string()
+  location: variable c of type Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/18/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/18/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), out.options());
+                                                ^
+  symbol:   method options()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/180/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/180/Entities.java:37: error: cannot find symbol
+                accum.append(f.charValue());
+                             ^
+  symbol:   variable f
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/181/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/181/Entities.java:37: error: cannot find symbol
+                accum.append(C.charValue());
+                             ^
+  symbol:   variable C
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/182/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/182/Entities.java:37: error: cannot find symbol
+                accum.append(cc.charValue());
+                             ^
+  symbol:   variable cc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/183/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/183/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append((int) c).end(';');
+                                                  ^
+  symbol:   method end(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/184/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/184/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append((int) c).join(';');
+                                                  ^
+  symbol:   method join(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/185/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/185/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append((int) c).escape(';');
+                                                  ^
+  symbol:   method escape(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/186/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/186/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append((int) c).add(';');
+                                                  ^
+  symbol:   method add(char)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/187/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/187/Entities.java:39: error: cannot find symbol
+                accum.append("&#").join((int) c).append(';');
+                                  ^
+  symbol:   method join(int)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/188/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/188/Entities.java:39: error: cannot find symbol
+                accum.append("&#").end((int) c).append(';');
+                                  ^
+  symbol:   method end(int)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/189/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/189/Entities.java:39: error: cannot find symbol
+                accum.append("&#").add((int) c).append(';');
+                                  ^
+  symbol:   method add(int)
+  location: class StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/19/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/19/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), out.format());
+                                                ^
+  symbol:   method format()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/190/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/190/Entities.java:39: error: cannot find symbol
+                accum.end("&#").append((int) c).append(';');
+                     ^
+  symbol:   method end(String)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/191/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/191/Entities.java:39: error: method replace in class StringBuilder cannot be applied to given types;
+                accum.replace("&#").append((int) c).append(';');
+                     ^
+  required: int,int,String
+  found: String
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/192/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/192/Entities.java:39: error: cannot find symbol
+                accum.join("&#").append((int) c).append(';');
+                     ^
+  symbol:   method join(String)
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/193/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/193/Entities.java:39: error: cannot find symbol
+                acc.append("&#").append((int) c).append(';');
+                ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/194/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/194/Entities.java:39: error: cannot find symbol
+                accumulate.append("&#").append((int) c).append(';');
+                ^
+  symbol:   variable accumulate
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/195/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/195/Entities.java:39: error: cannot find symbol
+                result.append("&#").append((int) c).append(';');
+                ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/196/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/196/Entities.java:39: error: cannot find symbol
+                buf.append("&#").append((int) c).append(';');
+                ^
+  symbol:   variable buf
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/197/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/197/Entities.java:39: error: illegal start of expression
+                accum.append(&).append((int) c).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/197/Entities.java:39: error: illegal start of expression
+                accum.append(&).append((int) c).append(';');
+                              ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/198/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/198/Entities.java:39: error: illegal character: '\'
+                accum.append(\\).append((int) c).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/198/Entities.java:39: error: illegal character: '\'
+                accum.append(\\).append((int) c).append(';');
+                              ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/199/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/199/Entities.java:39: error: illegal character: '\'
+                accum.append(\').append((int) c).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/199/Entities.java:39: error: unclosed character literal
+                accum.append(\').append((int) c).append(';');
+                              ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/2/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/2/Entities.java:25: error: cannot find symbol
+        return encode(string, out.encoder(), out.escapeMode());
+               ^
+  symbol:   method encode(String,CharsetEncoder,EscapeMode)
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/20/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/20/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), in.escapeMode());
+                                             ^
+  symbol:   variable in
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/200/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/200/Entities.java:39: error: cannot find symbol
+                accum.append(and).append((int) c).append(';');
+                             ^
+  symbol:   variable and
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/201/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/201/Entities.java:39: error: illegal start of expression
+                accum.append(&&).append((int) c).append(';');
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/201/Entities.java:39: error: illegal start of expression
+                accum.append(&&).append((int) c).append(';');
+                               ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/202/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/203/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/204/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/204/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append(lc).append(';');
+                                          ^
+  symbol:   variable lc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/205/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/205/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append(C).append(';');
+                                          ^
+  symbol:   variable C
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/206/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/206/Entities.java:39: error: cannot find symbol
+                accum.append("&#").append(s).append(';');
+                                          ^
+  symbol:   variable s
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/207/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/207/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(;);
+                                                          ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/207/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(;);
+                                                           ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/208/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/208/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(););
+                                                            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/209/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/209/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(;;);
+                                                          ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/209/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(;;);
+                                                            ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/21/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/21/Entities.java:25: error: non-static variable this cannot be referenced from a static context
+        return escape(string, out.encoder(), this.escapeMode());
+                                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/21/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), this.escapeMode());
+                                                 ^
+  symbol: method escapeMode()
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/210/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/210/Entities.java:39: error: unclosed character literal
+                accum.append("&#").append((int) c).append(';);
+                                                          ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/211/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/211/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(&);
+                                                          ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/211/Entities.java:39: error: illegal start of expression
+                accum.append("&#").append((int) c).append(&);
+                                                           ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/212/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/212/Entities.java:42: error: cannot find symbol
+        return accum.string();
+                    ^
+  symbol:   method string()
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/213/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/213/Entities.java:42: error: cannot find symbol
+        return accum.value();
+                    ^
+  symbol:   method value()
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/214/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/214/Entities.java:42: error: cannot find symbol
+        return accum.join();
+                    ^
+  symbol:   method join()
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/215/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/215/Entities.java:42: error: cannot find symbol
+        return accum.build();
+                    ^
+  symbol:   method build()
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/216/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/216/Entities.java:42: error: cannot find symbol
+        return accum.format();
+                    ^
+  symbol:   method format()
+  location: variable accum of type StringBuilder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/217/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/218/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/218/Entities.java:42: error: cannot find symbol
+        return str.toString();
+               ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/219/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/219/Entities.java:42: error: cannot find symbol
+        return acc.toString();
+               ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/22/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/22/Entities.java:25: error: cannot find symbol
+        return escape(string, out.encoder(), Out.escapeMode());
+                                             ^
+  symbol:   variable Out
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/220/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/220/Entities.java:42: error: cannot find symbol
+        return result.toString();
+               ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/221/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/222/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/222/Entities.java:46: error: illegal start of expression
+        if (?string.contains("&"))
+            ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/222/Entities.java:46: error: : expected
+        if (?string.contains("&"))
+                                 ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/223/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/223/Entities.java:46: error: illegal start of expression
+        if (...string.contains("&"))
+            ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/223/Entities.java:46: error: ';' expected
+        if (...string.contains("&"))
+                                   ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/224/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/224/Entities.java:46: error: cannot find symbol
+        if (!string.has("&"))
+                   ^
+  symbol:   method has(String)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/225/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/225/Entities.java:46: error: cannot find symbol
+        if (!string.match("&"))
+                   ^
+  symbol:   method match(String)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/226/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/226/Entities.java:46: error: bad operand type String[] for unary operator '!'
+        if (!string.split("&"))
+            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/227/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/227/Entities.java:46: error: cannot find symbol
+        if (!string.append("&"))
+                   ^
+  symbol:   method append(String)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/228/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/228/Entities.java:46: error: cannot find symbol
+        if (!string.include("&"))
+                   ^
+  symbol:   method include(String)
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/229/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/229/Entities.java:46: error: non-static method contains(CharSequence) cannot be referenced from a static context
+        if (!String.contains("&"))
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/23/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/23/Entities.java:29: error: illegal start of expression
+        StringBuilder accum = new StringBuilder(string.length()**2);
+                                                                ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/230/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/230/Entities.java:46: error: cannot find symbol
+        if (!str.contains("&"))
+             ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/231/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/231/Entities.java:46: error: cannot find symbol
+        if (!pattern.contains("&"))
+             ^
+  symbol:   variable pattern
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/232/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/232/Entities.java:46: error: cannot find symbol
+        if (!string.contains(escape))
+                             ^
+  symbol:   variable escape
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/233/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/233/Entities.java:46: error: cannot find symbol
+        if (!string.contains(pattern))
+                             ^
+  symbol:   variable pattern
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/234/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/234/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\))
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/234/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\))
+                              ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/235/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/235/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\\\))
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/235/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\\\))
+                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/235/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\\\))
+                               ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/235/Entities.java:46: error: illegal character: '\'
+        if (!string.contains(\\\\))
+                                ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/236/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/236/Entities.java:46: error: empty character literal
+        if (!string.contains(''))
+                             ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/237/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/238/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/239/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/239/Entities.java:47: error: empty character literal
+            return '';
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/24/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/240/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/240/Entities.java:47: error: cannot find symbol
+            return str;
+                   ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/241/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/241/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.match(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                   ^
+  symbol:   method match(String)
+  location: variable unescapePattern of type Pattern
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/242/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/242/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.exec(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                   ^
+  symbol:   method exec(String)
+  location: variable unescapePattern of type Pattern
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/243/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/243/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.cher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                   ^
+  symbol:   method cher(String)
+  location: variable unescapePattern of type Pattern
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/244/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/244/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.matched(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                   ^
+  symbol:   method matched(String)
+  location: variable unescapePattern of type Pattern
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/245/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/245/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.parse(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                   ^
+  symbol:   method parse(String)
+  location: variable unescapePattern of type Pattern
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/246/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/246/Entities.java:49: error: cannot find symbol
+        Matcher m = pattern.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable pattern
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/247/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/247/Entities.java:49: error: cannot find symbol
+        Matcher m = regex.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable regex
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/248/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/248/Entities.java:49: error: cannot find symbol
+        Matcher m = re.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable re
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/249/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/249/Entities.java:49: error: cannot find symbol
+        Matcher m = escape.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable escape
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/25/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/250/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/250/Entities.java:49: error: cannot find symbol
+        Matcher m = r.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable r
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/251/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/251/Entities.java:49: error: cannot find symbol
+        Matcher m = pattern.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable pattern
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/252/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/252/Entities.java:49: error: cannot find symbol
+        Matcher m = regex.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable regex
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/253/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/253/Entities.java:49: error: cannot find symbol
+        Matcher m = re.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable re
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/254/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/254/Entities.java:49: error: cannot find symbol
+        Matcher m = escape.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable escape
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/255/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/255/Entities.java:49: error: cannot find symbol
+        Matcher m = r.matcher(string); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                    ^
+  symbol:   variable r
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/256/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/256/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.matcher(String); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                            ^
+  symbol:   variable String
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/257/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/257/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.matcher(str); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                            ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/258/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/258/Entities.java:49: error: cannot find symbol
+        Matcher m = unescapePattern.matcher(word); // &(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?
+                                            ^
+  symbol:   variable word
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/259/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/259/Entities.java:50: error: cannot find symbol
+        StringBuffer accum = new StringBuffer(string.string()); // pity matcher can't use stringbuilder, avoid syncs
+                                                    ^
+  symbol:   method string()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/26/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/26/Entities.java:29: error: cannot find symbol
+        StringBuilder accum = new StringBuilder(string.width() * 2);
+                                                      ^
+  symbol:   method width()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/260/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/260/Entities.java:50: error: no suitable method found for split(no arguments)
+        StringBuffer accum = new StringBuffer(string.split()); // pity matcher can't use stringbuilder, avoid syncs
+                                                    ^
+    method String.split(String,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method String.split(String) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/261/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/261/Entities.java:50: error: cannot find symbol
+        StringBuffer accum = new StringBuffer(string.bytes()); // pity matcher can't use stringbuilder, avoid syncs
+                                                    ^
+  symbol:   method bytes()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/262/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/262/Entities.java:50: error: cannot find symbol
+        StringBuffer accum = new StringBuffer(string.get()); // pity matcher can't use stringbuilder, avoid syncs
+                                                    ^
+  symbol:   method get()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/263/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/263/Entities.java:50: error: non-static method length() cannot be referenced from a static context
+        StringBuffer accum = new StringBuffer(String.length()); // pity matcher can't use stringbuilder, avoid syncs
+                                                    ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/264/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/264/Entities.java:50: error: cannot find symbol
+        StringBuffer accum = new StringBuffer(str.length()); // pity matcher can't use stringbuilder, avoid syncs
+                                              ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/265/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/265/Entities.java:50: error: cannot find symbol
+        StringBuffer accum = new StringBuffer(s.length()); // pity matcher can't use stringbuilder, avoid syncs
+                                              ^
+  symbol:   variable s
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/266/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/266/Entities.java:53: error: cannot find symbol
+        while (m.next()) {
+                ^
+  symbol:   method next()
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/267/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/267/Entities.java:53: error: method search in class Matcher cannot be applied to given types;
+        while (m.search()) {
+                ^
+  required: int
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/268/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/268/Entities.java:53: error: cannot find symbol
+        while (m.more()) {
+                ^
+  symbol:   method more()
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/269/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/269/Entities.java:53: error: cannot find symbol
+        while (m.matched()) {
+                ^
+  symbol:   method matched()
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/27/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/27/Entities.java:29: error: cannot find symbol
+        StringBuilder accum = new StringBuilder(string.len() * 2);
+                                                      ^
+  symbol:   method len()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/270/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/270/Entities.java:53: error: cannot find symbol
+        while (fm.find()) {
+               ^
+  symbol:   variable fm
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/271/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/271/Entities.java:53: error: cannot find symbol
+        while (match.find()) {
+               ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/272/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/272/Entities.java:53: error: cannot find symbol
+        while (mc.find()) {
+               ^
+  symbol:   variable mc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/273/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/273/Entities.java:53: error: cannot find symbol
+        while (mi.find()) {
+               ^
+  symbol:   variable mi
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/274/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/275/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/275/Entities.java:54: error: cannot find symbol
+            int charval = $1;
+                          ^
+  symbol:   variable $1
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/276/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/276/Entities.java:54: error: incompatible types: possible lossy conversion from double to int
+            int charval = .1;
+                          ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/277/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/278/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/279/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/28/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/28/Entities.java:29: error: cannot find symbol
+        StringBuilder accum = new StringBuilder(string.size() * 2);
+                                                      ^
+  symbol:   method size()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/280/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/280/Entities.java:55: error: cannot find symbol
+            String num = m.groups(3);
+                          ^
+  symbol:   method groups(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/281/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/281/Entities.java:55: error: cannot find symbol
+            String num = m.get(3);
+                          ^
+  symbol:   method get(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/282/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/282/Entities.java:55: error: cannot find symbol
+            String num = m.Group(3);
+                          ^
+  symbol:   method Group(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/283/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/283/Entities.java:55: error: cannot find symbol
+            String num = r.group(3);
+                         ^
+  symbol:   variable r
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/284/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/284/Entities.java:55: error: cannot find symbol
+            String num = match.group(3);
+                         ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/285/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/285/Entities.java:55: error: cannot find symbol
+            String num = b.group(3);
+                         ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/286/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/287/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/288/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/289/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/29/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/29/Entities.java:29: error: non-static method length() cannot be referenced from a static context
+        StringBuilder accum = new StringBuilder(String.length() * 2);
+                                                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/290/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/291/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/291/Entities.java:56: error: incompatible types: String cannot be converted to boolean
+            if (num=null) {
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/292/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/293/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/293/Entities.java:56: error: <identifier> expected
+            if (num.null) {
+                    ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/293/Entities.java:56: error: ';' expected
+            if (num.null) {
+                        ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/293/Entities.java:62: error: 'else' without 'if'
+            } else {
+              ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/294/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/294/Entities.java:56: error: cannot find symbol
+            if (n != null) {
+                ^
+  symbol:   variable n
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/295/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/295/Entities.java:56: error: cannot find symbol
+            if (Num != null) {
+                ^
+  symbol:   variable Num
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/296/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/296/Entities.java:56: error: cannot find symbol
+            if (uni != null) {
+                ^
+  symbol:   variable uni
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/297/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/297/Entities.java:56: error: cannot find symbol
+            if (mon != null) {
+                ^
+  symbol:   variable mon
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/298/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/299/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/299/Entities.java:56: error: cannot find symbol
+            if (num != NULL) {
+                       ^
+  symbol:   variable NULL
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/3/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/3/Entities.java:25: error: cannot find symbol
+        return escape(String, out.encoder(), out.escapeMode());
+                      ^
+  symbol:   variable String
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/30/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/30/Entities.java:29: error: cannot find symbol
+        StringBuilder accum = new StringBuilder(strings.length() * 2);
+                                                ^
+  symbol:   variable strings
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/300/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/300/Entities.java:56: error: bad operand types for binary operator '!='
+            if (num != 0) {
+                    ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/301/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/302/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/303/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/304/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/305/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/306/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/307/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/308/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/308/Entities.java:58: error: unexpected type
+                    int base = m.group(2)=null ? 16 : 10; // 2 is hex indicator
+                                      ^
+  required: variable
+  found:    value
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/308/Entities.java:58: error: incompatible types: <null> cannot be converted to boolean
+                    int base = m.group(2)=null ? 16 : 10; // 2 is hex indicator
+                                          ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/309/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/309/Entities.java:58: error: illegal start of expression
+                    int base = m.group(2)=>null ? 16 : 10; // 2 is hex indicator
+                                          ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/31/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/31/Entities.java:29: error: cannot find symbol
+        StringBuilder accum = new StringBuilder(str.length() * 2);
+                                                ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/310/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/310/Entities.java:58: error: cannot find symbol
+                    int base = m.arg(2) != null ? 16 : 10; // 2 is hex indicator
+                                ^
+  symbol:   method arg(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/311/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/311/Entities.java:58: error: cannot find symbol
+                    int base = m.get(2) != null ? 16 : 10; // 2 is hex indicator
+                                ^
+  symbol:   method get(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/312/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/312/Entities.java:58: error: cannot find symbol
+                    int base = m.part(2) != null ? 16 : 10; // 2 is hex indicator
+                                ^
+  symbol:   method part(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/313/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/313/Entities.java:58: error: cannot find symbol
+                    int base = match.group(2) != null ? 16 : 10; // 2 is hex indicator
+                               ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/314/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/314/Entities.java:58: error: cannot find symbol
+                    int base = n.group(2) != null ? 16 : 10; // 2 is hex indicator
+                               ^
+  symbol:   variable n
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/315/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/315/Entities.java:58: error: cannot find symbol
+                    int base = b.group(2) != null ? 16 : 10; // 2 is hex indicator
+                               ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/316/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/317/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/318/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/319/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/32/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/320/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/320/Entities.java:58: error: bad operand types for binary operator '!='
+                    int base = m.group(2) != 0 ? 16 : 10; // 2 is hex indicator
+                                          ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/321/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/322/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/322/Entities.java:58: error: bad operand types for binary operator '!='
+                    int base = m.group(2) != 16 ? 16 : 10; // 2 is hex indicator
+                                          ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/323/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/323/Entities.java:58: error: bad operand types for binary operator '!='
+                    int base = m.group(2) != 1 ? 16 : 10; // 2 is hex indicator
+                                          ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/324/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/325/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/326/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/327/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/328/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/329/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/33/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/330/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/331/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/332/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/333/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/334/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/335/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/336/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/337/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/338/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/338/Entities.java:59: error: incompatible types: Integer cannot be converted to String
+                    num = Integer.valueOf(num, base);
+                                         ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/339/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/339/Entities.java:59: error: cannot find symbol
+                    val = Integer.valueOf(num, base);
+                    ^
+  symbol:   variable val
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/34/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/340/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/340/Entities.java:59: error: cannot find symbol
+                    value = Integer.valueOf(num, base);
+                    ^
+  symbol:   variable value
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/341/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/341/Entities.java:59: error: incompatible types: Integer cannot be converted to String
+                    num = Integer.valueOf(num, base);
+                                         ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/342/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/342/Entities.java:59: error: cannot find symbol
+                    number = Integer.valueOf(num, base);
+                    ^
+  symbol:   variable number
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/343/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/343/Entities.java:59: error: cannot find symbol
+                    charval = Integer.format(num, base);
+                                     ^
+  symbol:   method format(String,int)
+  location: class Integer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/344/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/344/Entities.java:59: error: cannot find symbol
+                    charval = Integer.parse(num, base);
+                                     ^
+  symbol:   method parse(String,int)
+  location: class Integer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/345/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/345/Entities.java:59: error: cannot find symbol
+                    charval = Integer.round(num, base);
+                                     ^
+  symbol:   method round(String,int)
+  location: class Integer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: <identifier> expected
+                    charval = Integer.int(num, base);
+                                      ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: ';' expected
+                    charval = Integer.int(num, base);
+                                         ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: not a statement
+                    charval = Integer.int(num, base);
+                                          ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: ';' expected
+                    charval = Integer.int(num, base);
+                                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: not a statement
+                    charval = Integer.int(num, base);
+                                               ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/346/Entities.java:59: error: ';' expected
+                    charval = Integer.int(num, base);
+                                                   ^
+6 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/347/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/347/Entities.java:59: error: cannot find symbol
+                    charval = Integer.digit(num, base);
+                                     ^
+  symbol:   method digit(String,int)
+  location: class Integer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/348/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/348/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(number, base);
+                                              ^
+  symbol:   variable number
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/349/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/349/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(Num, base);
+                                              ^
+  symbol:   variable Num
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/35/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/350/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/350/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(n, base);
+                                              ^
+  symbol:   variable n
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/351/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/351/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(uni, base);
+                                              ^
+  symbol:   variable uni
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/352/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/352/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(num, Base);
+                                                   ^
+  symbol:   variable Base
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/353/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/354/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/354/Entities.java:59: error: cannot find symbol
+                    charval = Integer.valueOf(num, BASE);
+                                                   ^
+  symbol:   variable BASE
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/355/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/355/Entities.java:63: error: cannot find symbol
+                String name = m.get(1);
+                               ^
+  symbol:   method get(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/356/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/356/Entities.java:63: error: cannot find symbol
+                String name = m.groups(1);
+                               ^
+  symbol:   method groups(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/357/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/357/Entities.java:63: error: cannot find symbol
+                String name = m.arg(1);
+                               ^
+  symbol:   method arg(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/358/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/358/Entities.java:63: error: cannot find symbol
+                String name = match.group(1);
+                              ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/359/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/359/Entities.java:63: error: cannot find symbol
+                String name = r.group(1);
+                              ^
+  symbol:   variable r
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/36/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/36/Entities.java:30: error: variable map might not have been initialized
+        Map<Character, String> map = map;
+                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/360/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/360/Entities.java:63: error: cannot find symbol
+                String name = n.group(1);
+                              ^
+  symbol:   variable n
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/361/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/362/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/363/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/364/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/365/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/365/Entities.java:64: error: cannot find symbol
+                if (full.key(name))
+                        ^
+  symbol:   method key(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/366/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/366/Entities.java:64: error: cannot find symbol
+                if (full.has(name))
+                        ^
+  symbol:   method has(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/367/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/367/Entities.java:64: error: incompatible types: Character cannot be converted to boolean
+                if (full.get(name))
+                            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/368/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/368/Entities.java:64: error: cannot find symbol
+                if (full.Key(name))
+                        ^
+  symbol:   method Key(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/369/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/369/Entities.java:64: error: cannot find symbol
+                if (full.contains(name))
+                        ^
+  symbol:   method contains(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/37/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/370/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/371/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/371/Entities.java:64: error: cannot find symbol
+                if (partial.containsKey(name))
+                    ^
+  symbol:   variable partial
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/372/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/372/Entities.java:64: error: cannot find symbol
+                if (flat.containsKey(name))
+                    ^
+  symbol:   variable flat
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/373/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/373/Entities.java:64: error: cannot find symbol
+                if (raw.containsKey(name))
+                    ^
+  symbol:   variable raw
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/374/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/374/Entities.java:64: error: cannot find symbol
+                if (map.containsKey(name))
+                    ^
+  symbol:   variable map
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/375/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/375/Entities.java:64: error: cannot find symbol
+                if (partial.containsKey(name))
+                    ^
+  symbol:   variable partial
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/376/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/376/Entities.java:64: error: cannot find symbol
+                if (flat.containsKey(name))
+                    ^
+  symbol:   variable flat
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/377/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/377/Entities.java:64: error: cannot find symbol
+                if (raw.containsKey(name))
+                    ^
+  symbol:   variable raw
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/378/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/378/Entities.java:64: error: cannot find symbol
+                if (map.containsKey(name))
+                    ^
+  symbol:   variable map
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/379/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/379/Entities.java:64: error: cannot find symbol
+                if (full.containsKey(Name))
+                                     ^
+  symbol:   variable Name
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/38/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/38/Entities.java:30: error: illegal initializer for Map<Character,String>
+        Map<Character, String> map = {};
+                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/380/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/380/Entities.java:64: error: cannot find symbol
+                if (full.containsKey(key))
+                                     ^
+  symbol:   variable key
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/381/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/381/Entities.java:64: error: cannot find symbol
+                if (full.containsKey(names))
+                                     ^
+  symbol:   variable names
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/382/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/383/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/384/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/385/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/386/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/387/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/387/Entities.java:65: error: incompatible types: Character cannot be converted to String
+                    name = full.get(name);
+                                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/388/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/388/Entities.java:65: error: incompatible types: Character cannot be converted to StringBuffer
+                    accum = full.get(name);
+                                    ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/389/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/389/Entities.java:65: error: cannot find symbol
+                    acc = full.get(name);
+                    ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/39/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/39/Entities.java:30: error: non-static variable this cannot be referenced from a static context
+        Map<Character, String> map = this;
+                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/390/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/390/Entities.java:65: error: cannot assign a value to final variable full
+                    full = full.get(name);
+                    ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/390/Entities.java:65: error: incompatible types: Character cannot be converted to Map<String,Character>
+                    full = full.get(name);
+                                   ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/391/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/391/Entities.java:65: error: incompatible types: Character cannot be converted to String
+                    num = full.get(name);
+                                  ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/392/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/393/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/393/Entities.java:65: error: cannot find symbol
+                    charval = full.pop(name);
+                                  ^
+  symbol:   method pop(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/394/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/394/Entities.java:65: error: cannot find symbol
+                    charval = full.key(name);
+                                  ^
+  symbol:   method key(String)
+  location: variable full of type Map<String,Character>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/395/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/396/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/396/Entities.java:65: error: cannot find symbol
+                    charval = partial.get(name);
+                              ^
+  symbol:   variable partial
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/397/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/397/Entities.java:65: error: cannot find symbol
+                    charval = raw.get(name);
+                              ^
+  symbol:   variable raw
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/398/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/398/Entities.java:65: error: cannot find symbol
+                    charval = total.get(name);
+                              ^
+  symbol:   variable total
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/399/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/399/Entities.java:65: error: cannot find symbol
+                    charval = result.get(name);
+                              ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/4/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/4/Entities.java:25: error: cannot find symbol
+        return escape(str, out.encoder(), out.escapeMode());
+                      ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/40/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/40/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = maps;
+                                     ^
+  symbol:   variable maps
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/400/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/400/Entities.java:65: error: cannot find symbol
+                    charval = partial.get(name);
+                              ^
+  symbol:   variable partial
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/401/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/401/Entities.java:65: error: cannot find symbol
+                    charval = raw.get(name);
+                              ^
+  symbol:   variable raw
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/402/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/402/Entities.java:65: error: cannot find symbol
+                    charval = total.get(name);
+                              ^
+  symbol:   variable total
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/403/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/403/Entities.java:65: error: cannot find symbol
+                    charval = result.get(name);
+                              ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/404/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/404/Entities.java:65: error: cannot find symbol
+                    charval = full.get(Name);
+                                       ^
+  symbol:   variable Name
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/405/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/405/Entities.java:65: error: cannot find symbol
+                    charval = full.get(key);
+                                       ^
+  symbol:   variable key
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/406/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/406/Entities.java:65: error: cannot find symbol
+                    charval = full.get(names);
+                                       ^
+  symbol:   variable names
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/407/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/408/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/409/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/41/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/410/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/410/Entities.java:68: error: ')' expected
+            if (charval != -1ANDcharval > 0xFFFF) { // out of range
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/410/Entities.java:68: error: not a statement
+            if (charval != -1ANDcharval > 0xFFFF) { // out of range
+                                        ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/410/Entities.java:68: error: ';' expected
+            if (charval != -1ANDcharval > 0xFFFF) { // out of range
+                                                ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/410/Entities.java:71: error: 'else' without 'if'
+            } else {
+              ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/411/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/411/Entities.java:68: error: ')' expected
+            if (charval != -1andcharval > 0xFFFF) { // out of range
+                             ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/411/Entities.java:68: error: not a statement
+            if (charval != -1andcharval > 0xFFFF) { // out of range
+                                        ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/411/Entities.java:68: error: ';' expected
+            if (charval != -1andcharval > 0xFFFF) { // out of range
+                                                ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/411/Entities.java:71: error: 'else' without 'if'
+            } else {
+              ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/412/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/413/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/414/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/415/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/416/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/416/Entities.java:68: error: illegal start of expression
+            if (charval===-1 || charval > 0xFFFF) { // out of range
+                         ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/417/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/417/Entities.java:68: error: '.class' expected
+            if (char != -1 || charval > 0xFFFF) { // out of range
+                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/418/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/418/Entities.java:68: error: cannot find symbol
+            if (value != -1 || charval > 0xFFFF) { // out of range
+                ^
+  symbol:   variable value
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/419/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/419/Entities.java:68: error: bad operand types for binary operator '!='
+            if (num != -1 || charval > 0xFFFF) { // out of range
+                    ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/42/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/42/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode.EscapeMode.extended ? fullByVal : baseByVal;
+                                               ^
+  symbol:   variable EscapeMode
+  location: variable escapeMode of type EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/420/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/420/Entities.java:68: error: cannot find symbol
+            if (val != -1 || charval > 0xFFFF) { // out of range
+                ^
+  symbol:   variable val
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/421/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/421/Entities.java:68: error: cannot find symbol
+            if (name != -1 || charval > 0xFFFF) { // out of range
+                ^
+  symbol:   variable name
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/422/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/422/Entities.java:68: error: cannot find symbol
+            if (charval != $1 || charval > 0xFFFF) { // out of range
+                           ^
+  symbol:   variable $1
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/423/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/423/Entities.java:68: error: cannot find symbol
+            if (charval != Na1 || charval > 0xFFFF) { // out of range
+                           ^
+  symbol:   variable Na1
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/424/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/424/Entities.java:68: error: cannot find symbol
+            if (charval != C1 || charval > 0xFFFF) { // out of range
+                           ^
+  symbol:   variable C1
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/425/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/426/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/426/Entities.java:68: error: cannot find symbol
+            if (charval != -VALUE || charval > 0xFFFF) { // out of range
+                            ^
+  symbol:   variable VALUE
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/427/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/428/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/429/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/43/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/43/Entities.java:30: error: incompatible types: EscapeMode cannot be converted to boolean
+        Map<Character, String> map = escapeMode=EscapeMode.extended ? fullByVal : baseByVal;
+                                                          ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/43/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode=EscapeMode.extended ? fullByVal : baseByVal;
+                                                                      ^
+    Map<Character,String> cannot be converted to EscapeMode
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/43/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode=EscapeMode.extended ? fullByVal : baseByVal;
+                                                                                  ^
+    Map<Character,String> cannot be converted to EscapeMode
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/43/Entities.java:30: error: incompatible types: EscapeMode cannot be converted to Map<Character,String>
+        Map<Character, String> map = escapeMode=EscapeMode.extended ? fullByVal : baseByVal;
+                                               ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/430/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/431/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/432/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/432/Entities.java:68: error: cannot find symbol
+            if (charval != -1 || c > 0xFFFF) { // out of range
+                                 ^
+  symbol:   variable c
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/433/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/433/Entities.java:68: error: bad operand types for binary operator '>'
+            if (charval != -1 || num > 0xFFFF) { // out of range
+                                     ^
+  first type:  String
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/434/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/434/Entities.java:68: error: cannot find symbol
+            if (charval != -1 || val > 0xFFFF) { // out of range
+                                 ^
+  symbol:   variable val
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/435/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/435/Entities.java:68: error: '.class' expected
+            if (charval != -1 || char > 0xFFFF) { // out of range
+                                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/436/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/436/Entities.java:68: error: cannot find symbol
+            if (charval != -1 || value > 0xFFFF) { // out of range
+                                 ^
+  symbol:   variable value
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/437/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/438/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/439/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/44/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/44/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = mode == EscapeMode.extended ? fullByVal : baseByVal;
+                                     ^
+  symbol:   variable mode
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/440/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/441/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/441/Entities.java:68: error: cannot find symbol
+            if (charval != -1 || charval > max) { // out of range
+                                           ^
+  symbol:   variable max
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/442/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/442/Entities.java:69: error: cannot find symbol
+                String c = Character.escape((char) charval);
+                                    ^
+  symbol:   method escape(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/443/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/443/Entities.java:69: error: cannot find symbol
+                String c = Character.name((char) charval);
+                                    ^
+  symbol:   method name(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/444/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/444/Entities.java:69: error: cannot find symbol
+                String c = Character.format((char) charval);
+                                    ^
+  symbol:   method format(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/445/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/445/Entities.java:69: error: cannot find symbol
+                String c = Character.get((char) charval);
+                                    ^
+  symbol:   method get(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/446/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/446/Entities.java:69: error: cannot find symbol
+                String c = Character.string((char) charval);
+                                    ^
+  symbol:   method string(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/447/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/447/Entities.java:69: error: cannot find symbol
+                String c = Character.toString(name);
+                                              ^
+  symbol:   variable name
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/448/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/448/Entities.java:69: error: '.class' expected
+                String c = Character.toString(char);
+                                                  ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/449/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/449/Entities.java:69: error: no suitable method found for toString(String)
+                String c = Character.toString(num);
+                                    ^
+    method Character.toString(char) is not applicable
+      (argument mismatch; String cannot be converted to char)
+    method Character.toString(int) is not applicable
+      (argument mismatch; String cannot be converted to int)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/45/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/45/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = modes == EscapeMode.extended ? fullByVal : baseByVal;
+                                     ^
+  symbol:   variable modes
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/450/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/450/Entities.java:69: error: no suitable method found for toString(String)
+                String c = Character.toString(c);
+                                    ^
+    method Character.toString(char) is not applicable
+      (argument mismatch; String cannot be converted to char)
+    method Character.toString(int) is not applicable
+      (argument mismatch; String cannot be converted to int)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/451/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/451/Entities.java:69: error: cannot find symbol
+                String c = Character.toString(value);
+                                              ^
+  symbol:   variable value
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/452/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/452/Entities.java:70: error: cannot find symbol
+                m.replace(accum, Matcher.quoteReplacement(c));
+                 ^
+  symbol:   method replace(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/453/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/453/Entities.java:70: error: cannot find symbol
+                m.append(accum, Matcher.quoteReplacement(c));
+                 ^
+  symbol:   method append(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/454/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/454/Entities.java:70: error: cannot find symbol
+                m.insert(accum, Matcher.quoteReplacement(c));
+                 ^
+  symbol:   method insert(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/455/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/455/Entities.java:70: error: cannot find symbol
+                m.add(accum, Matcher.quoteReplacement(c));
+                 ^
+  symbol:   method add(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/456/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/456/Entities.java:70: error: incompatible types: StringBuffer cannot be converted to int
+                m.match(accum, Matcher.quoteReplacement(c));
+                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/457/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/457/Entities.java:70: error: cannot find symbol
+                b.appendReplacement(accum, Matcher.quoteReplacement(c));
+                ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/458/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/458/Entities.java:70: error: cannot find symbol
+                c.appendReplacement(accum, Matcher.quoteReplacement(c));
+                 ^
+  symbol:   method appendReplacement(StringBuffer,String)
+  location: variable c of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/459/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/459/Entities.java:70: error: cannot find symbol
+                p.appendReplacement(accum, Matcher.quoteReplacement(c));
+                ^
+  symbol:   variable p
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/46/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/46/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = mode == EscapeMode.extended ? fullByVal : baseByVal;
+                                     ^
+  symbol:   variable mode
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/460/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/460/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(acc, Matcher.quoteReplacement(c));
+                                    ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/461/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/461/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(ac, Matcher.quoteReplacement(c));
+                                    ^
+  symbol:   variable ac
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/462/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/462/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(cum, Matcher.quoteReplacement(c));
+                                    ^
+  symbol:   variable cum
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/463/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/463/Entities.java:70: error: no suitable method found for appendReplacement(String,String)
+                m.appendReplacement(c, Matcher.quoteReplacement(c));
+                 ^
+    method Matcher.appendReplacement(StringBuffer,String) is not applicable
+      (argument mismatch; String cannot be converted to StringBuffer)
+    method Matcher.appendReplacement(StringBuilder,String) is not applicable
+      (argument mismatch; String cannot be converted to StringBuilder)
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/464/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/464/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(uc, Matcher.quoteReplacement(c));
+                                    ^
+  symbol:   variable uc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/465/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/465/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quote(c));
+                                                  ^
+  symbol:   method quote(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/466/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/466/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.escape(c));
+                                                  ^
+  symbol:   method escape(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/467/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/467/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.replace(c));
+                                                  ^
+  symbol:   method replace(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/468/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/468/Entities.java:70: error: method match in class Matcher cannot be applied to given types;
+                m.appendReplacement(accum, Matcher.match(c));
+                                                  ^
+  required: int,int
+  found: String
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/469/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/469/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.escape(c));
+                                                  ^
+  symbol:   method escape(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/47/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/47/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = type == EscapeMode.extended ? fullByVal : baseByVal;
+                                     ^
+  symbol:   variable type
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/470/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/470/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(lc));
+                                                                    ^
+  symbol:   variable lc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/471/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/471/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(s));
+                                                                    ^
+  symbol:   variable s
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/472/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/472/Entities.java:70: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(cc));
+                                                                    ^
+  symbol:   variable cc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/473/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/473/Entities.java:72: error: cannot find symbol
+                m.replace(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                 ^
+  symbol:   method replace(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/474/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/474/Entities.java:72: error: cannot find symbol
+                m.append(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                 ^
+  symbol:   method append(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/475/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/475/Entities.java:72: error: cannot find symbol
+                m.insert(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                 ^
+  symbol:   method insert(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/476/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/476/Entities.java:72: error: cannot find symbol
+                m.replace(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                 ^
+  symbol:   method replace(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/477/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/477/Entities.java:72: error: cannot find symbol
+                m.place(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                 ^
+  symbol:   method place(StringBuffer,String)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/478/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/478/Entities.java:72: error: cannot find symbol
+                accum.appendReplacement(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                     ^
+  symbol:   method appendReplacement(StringBuffer,String)
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/479/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/479/Entities.java:72: error: cannot find symbol
+                b.appendReplacement(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/48/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/48/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = Mode == EscapeMode.extended ? fullByVal : baseByVal;
+                                     ^
+  symbol:   variable Mode
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/480/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/480/Entities.java:72: error: cannot find symbol
+                c.appendReplacement(accum, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                ^
+  symbol:   variable c
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/481/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/481/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(acc, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                                    ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/482/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/482/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(ac, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                                    ^
+  symbol:   variable ac
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/483/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/483/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(original, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                                    ^
+  symbol:   variable original
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/484/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/484/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(result, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                                    ^
+  symbol:   variable result
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/485/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/485/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(orig, Matcher.quoteReplacement(m.group(0))); // replace with original string
+                                    ^
+  symbol:   variable orig
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/486/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/486/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quote(m.group(0))); // replace with original string
+                                                  ^
+  symbol:   method quote(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/487/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/487/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.escape(m.group(0))); // replace with original string
+                                                  ^
+  symbol:   method escape(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/488/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/488/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.replace(m.group(0))); // replace with original string
+                                                  ^
+  symbol:   method replace(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/489/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/489/Entities.java:72: error: method match in class Matcher cannot be applied to given types;
+                m.appendReplacement(accum, Matcher.match(m.group(0))); // replace with original string
+                                                  ^
+  required: int,int
+  found: String
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/49/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/490/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/490/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.none(m.group(0))); // replace with original string
+                                                  ^
+  symbol:   method none(String)
+  location: class Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/491/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/491/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(m.arg(0))); // replace with original string
+                                                                     ^
+  symbol:   method arg(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/492/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/492/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(m.get(0))); // replace with original string
+                                                                     ^
+  symbol:   method get(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/493/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/493/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(m.value(0))); // replace with original string
+                                                                     ^
+  symbol:   method value(int)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/494/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/494/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(match.group(0))); // replace with original string
+                                                                    ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/495/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/495/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(c.group(0))); // replace with original string
+                                                                    ^
+  symbol:   variable c
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/496/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/496/Entities.java:72: error: cannot find symbol
+                m.appendReplacement(accum, Matcher.quoteReplacement(s.group(0))); // replace with original string
+                                                                    ^
+  symbol:   variable s
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/497/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/498/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/499/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/5/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/5/Entities.java:25: error: cannot find symbol
+        return escape(text, out.encoder(), out.escapeMode());
+                      ^
+  symbol:   variable text
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/50/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/50/Entities.java:30: error: bad operand types for binary operator '=='
+        Map<Character, String> map = escapeMode == true ? fullByVal : baseByVal;
+                                                ^
+  first type:  EscapeMode
+  second type: boolean
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/500/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/501/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/501/Entities.java:75: error: cannot find symbol
+        m.append(accum);
+         ^
+  symbol:   method append(StringBuffer)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/502/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/502/Entities.java:75: error: cannot find symbol
+        m.replace(accum);
+         ^
+  symbol:   method replace(StringBuffer)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/503/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/503/Entities.java:75: error: cannot find symbol
+        m.update(accum);
+         ^
+  symbol:   method update(StringBuffer)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/504/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/504/Entities.java:75: error: cannot find symbol
+        m.remove(accum);
+         ^
+  symbol:   method remove(StringBuffer)
+  location: variable m of type Matcher
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/505/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/505/Entities.java:75: error: method match in class Matcher cannot be applied to given types;
+        m.match(accum);
+         ^
+  required: int,int
+  found: StringBuffer
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/506/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/506/Entities.java:75: error: cannot find symbol
+        accum.appendTail(accum);
+             ^
+  symbol:   method appendTail(StringBuffer)
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/507/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/507/Entities.java:75: error: cannot find symbol
+        acc.appendTail(accum);
+        ^
+  symbol:   variable acc
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/508/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/508/Entities.java:75: error: cannot find symbol
+        c.appendTail(accum);
+        ^
+  symbol:   variable c
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/509/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/509/Entities.java:75: error: cannot find symbol
+        b.appendTail(accum);
+        ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/51/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/51/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == FULL ? fullByVal : baseByVal;
+                                                   ^
+  symbol:   variable FULL
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/510/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/510/Entities.java:75: error: no suitable method found for appendTail(String)
+        m.appendTail(string);
+         ^
+    method Matcher.appendTail(StringBuffer) is not applicable
+      (argument mismatch; String cannot be converted to StringBuffer)
+    method Matcher.appendTail(StringBuilder) is not applicable
+      (argument mismatch; String cannot be converted to StringBuilder)
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/511/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/511/Entities.java:75: error: cannot find symbol
+        m.appendTail(word);
+                     ^
+  symbol:   variable word
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/512/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/512/Entities.java:75: error: cannot find symbol
+        m.appendTail(str);
+                     ^
+  symbol:   variable str
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/513/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/513/Entities.java:75: error: cannot find symbol
+        m.appendTail(match);
+                     ^
+  symbol:   variable match
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/514/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/514/Entities.java:75: error: cannot find symbol
+        m.appendTail(end);
+                     ^
+  symbol:   variable end
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/515/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/515/Entities.java:76: error: cannot find symbol
+        return accum.join();
+                    ^
+  symbol:   method join()
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/516/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/516/Entities.java:76: error: cannot find symbol
+        return accum.value();
+                    ^
+  symbol:   method value()
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/517/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/517/Entities.java:76: error: cannot find symbol
+        return accum.build();
+                    ^
+  symbol:   method build()
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/518/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/518/Entities.java:76: error: cannot find symbol
+        return accum.string();
+                    ^
+  symbol:   method string()
+  location: variable accum of type StringBuffer
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/519/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/519/Entities.java:76: error: method replace in class StringBuffer cannot be applied to given types;
+        return accum.replace();
+                    ^
+  required: int,int,String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/52/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/52/Entities.java:30: error: bad operand types for binary operator '=='
+        Map<Character, String> map = escapeMode == false ? fullByVal : baseByVal;
+                                                ^
+  first type:  EscapeMode
+  second type: boolean
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/520/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/521/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/521/Entities.java:76: error: cannot find symbol
+        return b.toString();
+               ^
+  symbol:   variable b
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/522/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/522/Entities.java:76: error: cannot find symbol
+        return c.toString();
+               ^
+  symbol:   variable c
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/523/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/523/Entities.java:76: error: cannot find symbol
+        return s.toString();
+               ^
+  symbol:   variable s
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/524/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/524/Entities.java:76: error: cannot find symbol
+        return r.toString();
+               ^
+  symbol:   variable r
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/53/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/53/Entities.java:30: error: bad operand types for binary operator '=='
+        Map<Character, String> map = escapeMode == 1 ? fullByVal : baseByVal;
+                                                ^
+  first type:  EscapeMode
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/54/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/54/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.full ? fullByVal : baseByVal;
+                                                             ^
+  symbol:   variable full
+  location: class EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/55/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/55/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.Full ? fullByVal : baseByVal;
+                                                             ^
+  symbol:   variable Full
+  location: class EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/56/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/56/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.ALL ? fullByVal : baseByVal;
+                                                             ^
+  symbol:   variable ALL
+  location: class EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/57/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/57/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.RAW ? fullByVal : baseByVal;
+                                                             ^
+  symbol:   variable RAW
+  location: class EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/58/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/58/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.FULL ? fullByVal : baseByVal;
+                                                             ^
+  symbol:   variable FULL
+  location: class EscapeMode
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/59/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/59/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extended : baseByVal;
+                                                                         ^
+  symbol:   variable extended
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/6/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/6/Entities.java:25: error: cannot find symbol
+        return escape(string, out.writer(), out.escapeMode());
+                                 ^
+  symbol:   method writer()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/60/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/60/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? base : baseByVal;
+                                                                         ^
+  symbol:   variable base
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/61/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/62/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/62/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? "" : baseByVal;
+                                                                         ^
+    String cannot be converted to Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/63/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/63/Entities.java:30: error: illegal start of expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extends : baseByVal;
+                                                                         ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/63/Entities.java:30: error: not a statement
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extends : baseByVal;
+                                                                                   ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/64/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/64/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extended : baseByVal;
+                                                                         ^
+  symbol:   variable extended
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/65/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/65/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? base : baseByVal;
+                                                                         ^
+  symbol:   variable base
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/66/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/67/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/67/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? "" : baseByVal;
+                                                                         ^
+    String cannot be converted to Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/68/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/68/Entities.java:30: error: illegal start of expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extends : baseByVal;
+                                                                         ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/68/Entities.java:30: error: not a statement
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? extends : baseByVal;
+                                                                                   ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/69/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/69/Entities.java:30: error: variable map might not have been initialized
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : map;
+                                                                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/7/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/7/Entities.java:25: error: cannot find symbol
+        return escape(string, out.escape(), out.escapeMode());
+                                 ^
+  symbol:   method escape()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/70/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/71/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/71/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : full;
+                                                                                     ^
+    Map<String,Character> cannot be converted to Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/72/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/72/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : empty;
+                                                                                     ^
+  symbol:   variable empty
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/73/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/73/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : maps;
+                                                                                     ^
+  symbol:   variable maps
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/74/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/74/Entities.java:30: error: variable map might not have been initialized
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : map;
+                                                                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/75/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/76/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/76/Entities.java:30: error: incompatible types: bad type in conditional expression
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : full;
+                                                                                     ^
+    Map<String,Character> cannot be converted to Map<Character,String>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/77/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/77/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : empty;
+                                                                                     ^
+  symbol:   variable empty
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/78/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/78/Entities.java:30: error: cannot find symbol
+        Map<Character, String> map = escapeMode == EscapeMode.extended ? fullByVal : maps;
+                                                                                     ^
+  symbol:   variable maps
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/79/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/8/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/8/Entities.java:25: error: cannot find symbol
+        return escape(string, out.output(), out.escapeMode());
+                                 ^
+  symbol:   method output()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/80/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/81/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/81/Entities.java:32: error: variable pos might not have been initialized
+        for (int pos = pos; pos < string.length(); pos++) {
+                       ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/82/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/83/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/84/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/84/Entities.java:32: error: ';' expected
+        for (int pos = 0; pos++string.length(); pos++) {
+                               ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/84/Entities.java:32: error: ')' expected
+        for (int pos = 0; pos++string.length(); pos++) {
+                                              ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/84/Entities.java:32: error: ';' expected
+        for (int pos = 0; pos++string.length(); pos++) {
+                                                     ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/85/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/85/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; position < string.length(); pos++) {
+                          ^
+  symbol:   variable position
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/86/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/86/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; Pos < string.length(); pos++) {
+                          ^
+  symbol:   variable Pos
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/87/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/87/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; i < string.length(); pos++) {
+                          ^
+  symbol:   variable i
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/88/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/88/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.position(); pos++) {
+                                      ^
+  symbol:   method position()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/89/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/89/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.width(); pos++) {
+                                      ^
+  symbol:   method width()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/9/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/9/Entities.java:25: error: cannot find symbol
+        return escape(string, out.settings(), out.escapeMode());
+                                 ^
+  symbol:   method settings()
+  location: variable out of type Document.OutputSettings
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/90/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/90/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.size(); pos++) {
+                                      ^
+  symbol:   method size()
+  location: variable string of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/91/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/91/Entities.java:32: error: non-static method length() cannot be referenced from a static context
+        for (int pos = 0; pos < String.length(); pos++) {
+                                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/92/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/92/Entities.java:32: error: non-static method length() cannot be referenced from a static context
+        for (int pos = 0; pos < String.length(); pos++) {
+                                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/93/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/93/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < source.length(); pos++) {
+                                ^
+  symbol:   variable source
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/94/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/94/Entities.java:32: error: illegal start of expression
+        for (int pos = 0; pos < string.length(); pos++)) {
+                                                       ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/95/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/95/Entities.java:32: error: ')' expected
+        for (int pos = 0; pos < string.length(); pos++;) {
+                                                      ^
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/95/Entities.java:32: error: illegal start of expression
+        for (int pos = 0; pos < string.length(); pos++;) {
+                                                       ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/96/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/97/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/97/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.length(); position++) {
+                                                 ^
+  symbol:   variable position
+  location: class Entities
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/98/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/98/Entities.java:32: error: illegal start of expression
+        for (int pos = 0; pos < string.length(); ++++) {
+                                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/99/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/99/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.length(); p++) {
+                                                 ^
+  symbol:   variable p
+  location: class Entities
+1 error
+
+
+Mutants: 525
+Compilable: 100
+Total Compilation Time: 545 seconds

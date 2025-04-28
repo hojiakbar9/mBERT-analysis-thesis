@@ -1,0 +1,5 @@
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_3/generated-mutants-full/parser/999/Parser.java:169: error: incompatible types: String cannot be converted to Node
+            child.appendChild(data);   
+                              ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

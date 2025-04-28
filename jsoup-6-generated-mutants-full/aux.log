@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_6/generated-mutants-full/99/Entities.java:32: error: cannot find symbol
+        for (int pos = 0; pos < string.length(); p++) {
+                                                 ^
+  symbol:   variable p
+  location: class Entities
+1 error

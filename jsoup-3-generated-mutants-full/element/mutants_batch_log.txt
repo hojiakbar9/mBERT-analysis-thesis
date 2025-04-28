@@ -1,0 +1,3578 @@
+[2025-03-16 03:52:01] Found 334 compilable mutants
+[2025-03-16 03:52:01] Created 17 batches (batch size: 20)
+[2025-03-16 04:06:01] [batch_1577_1738] Completed:
+[batch_1577_1738 - Mutant 1577] Exit Code: 0
+Failing tests: 0
+
+[batch_1577_1738 - Mutant 158] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+
+[batch_1577_1738 - Mutant 1581] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1577_1738 - Mutant 1586] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1577_1738 - Mutant 1597] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1577_1738 - Mutant 160] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+
+[batch_1577_1738 - Mutant 1602] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1577_1738 - Mutant 1613] Exit Code: 0
+Failing tests: 0
+
+[batch_1577_1738 - Mutant 1643] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1577_1738 - Mutant 1647] Exit Code: 0
+Failing tests: 0
+
+[batch_1577_1738 - Mutant 1650] Exit Code: 0
+Failing tests: 18
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1577_1738 - Mutant 1668] Exit Code: 0
+Failing tests: 0
+
+[batch_1577_1738 - Mutant 1678] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1577_1738 - Mutant 169] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+
+[batch_1577_1738 - Mutant 1706] Exit Code: 0
+Failing tests: 0
+
+[batch_1577_1738 - Mutant 1715] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1577_1738 - Mutant 172] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1577_1738 - Mutant 1722] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1577_1738 - Mutant 1724] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1577_1738 - Mutant 1738] Exit Code: 0
+Failing tests: 0
+
+[2025-03-16 04:06:02] [batch_1000_1061] Completed:
+[batch_1000_1061 - Mutant 1000] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+
+[batch_1000_1061 - Mutant 1001] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1000_1061 - Mutant 1004] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1000_1061 - Mutant 1008] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 102] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+
+[batch_1000_1061 - Mutant 1020] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1021] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1022] Exit Code: 0
+Failing tests: 0
+
+[batch_1000_1061 - Mutant 1030] Exit Code: 0
+Failing tests: 0
+
+[batch_1000_1061 - Mutant 1031] Exit Code: 0
+Failing tests: 0
+
+[batch_1000_1061 - Mutant 1033] Exit Code: 0
+Failing tests: 0
+
+[batch_1000_1061 - Mutant 1035] Exit Code: 0
+Failing tests: 0
+
+[batch_1000_1061 - Mutant 1041] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1042] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1043] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1044] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1000_1061 - Mutant 1053] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+
+[batch_1000_1061 - Mutant 1056] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+
+[batch_1000_1061 - Mutant 1060] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+
+[batch_1000_1061 - Mutant 1061] Exit Code: 0
+Failing tests: 0
+
+[2025-03-16 04:06:03] [batch_191_1958] Completed:
+[batch_191_1958 - Mutant 191] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_191_1958 - Mutant 1911] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_191_1958 - Mutant 1916] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_191_1958 - Mutant 1917] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_191_1958 - Mutant 1918] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_191_1958 - Mutant 1924] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1939] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1942] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1943] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1944] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1945] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1946] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1950] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1951] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1952] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1953] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1954] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1955] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1957] Exit Code: 0
+Failing tests: 0
+
+[batch_191_1958 - Mutant 1958] Exit Code: 0
+Failing tests: 0
+
+[2025-03-16 04:06:03] [batch_1196_1323] Completed:
+[batch_1196_1323 - Mutant 1196] Exit Code: 0
+Failing tests: 21
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1196_1323 - Mutant 1197] Exit Code: 0
+Failing tests: 0
+
+[batch_1196_1323 - Mutant 1206] Exit Code: 0
+Failing tests: 20
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1196_1323 - Mutant 1208] Exit Code: 0
+Failing tests: 21
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1196_1323 - Mutant 1211] Exit Code: 0
+Failing tests: 0
+
+[batch_1196_1323 - Mutant 1217] Exit Code: 0
+Failing tests: 22
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1196_1323 - Mutant 1219] Exit Code: 0
+Failing tests: 22
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1196_1323 - Mutant 1224] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.select.SelectorTest::testById
+
+[batch_1196_1323 - Mutant 1243] Exit Code: 0
+Failing tests: 16
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1196_1323 - Mutant 1255] Exit Code: 0
+Failing tests: 0
+
+[batch_1196_1323 - Mutant 1259] Exit Code: 0
+Failing tests: 0
+
+[batch_1196_1323 - Mutant 1271] Exit Code: 0
+Failing tests: 0
+
+[batch_1196_1323 - Mutant 1283] Exit Code: 0
+Failing tests: 8
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1196_1323 - Mutant 129] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1196_1323 - Mutant 1294] Exit Code: 0
+Failing tests: 8
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+
+[batch_1196_1323 - Mutant 1297] Exit Code: 0
+Failing tests: 8
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+
+[batch_1196_1323 - Mutant 1308] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1196_1323 - Mutant 1312] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1196_1323 - Mutant 1322] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1196_1323 - Mutant 1323] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[2025-03-16 04:06:08] [batch_1744_188] Completed:
+[batch_1744_188 - Mutant 1744] Exit Code: 0
+Failing tests: 0
+
+[batch_1744_188 - Mutant 1755] Exit Code: 0
+Failing tests: 0
+
+[batch_1744_188 - Mutant 1756] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 1763] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 1765] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 1766] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 1773] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 1778] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+
+[batch_1744_188 - Mutant 179] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+
+[batch_1744_188 - Mutant 1798] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+
+[batch_1744_188 - Mutant 1807] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1809] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1810] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1816] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1835] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1843] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1845] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1864] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1744_188 - Mutant 1866] Exit Code: 0
+Failing tests: 0
+
+[batch_1744_188 - Mutant 188] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[2025-03-16 04:06:34] [batch_1325_1428] Completed:
+[batch_1325_1428 - Mutant 1325] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1325_1428 - Mutant 1338] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1325_1428 - Mutant 1341] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttribute
+
+[batch_1325_1428 - Mutant 1353] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::multiChildDescent
+
+[batch_1325_1428 - Mutant 1362] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+
+[batch_1325_1428 - Mutant 1363] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+
+[batch_1325_1428 - Mutant 1366] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+
+[batch_1325_1428 - Mutant 1373] Exit Code: 0
+Failing tests: 0
+
+[batch_1325_1428 - Mutant 1374] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+
+[batch_1325_1428 - Mutant 1378] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+
+[batch_1325_1428 - Mutant 138] Exit Code: 0
+Failing tests: 0
+
+[batch_1325_1428 - Mutant 1384] Exit Code: 0
+Failing tests: 0
+
+[batch_1325_1428 - Mutant 1385] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+
+[batch_1325_1428 - Mutant 1388] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+
+[batch_1325_1428 - Mutant 139] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1325_1428 - Mutant 1394] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::parentChildStar
+
+[batch_1325_1428 - Mutant 141] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1325_1428 - Mutant 1418] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+
+[batch_1325_1428 - Mutant 1419] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+
+[batch_1325_1428 - Mutant 1428] Exit Code: 0
+Failing tests: 80
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[2025-03-16 04:06:44] [batch_1433_1570] Completed:
+[batch_1433_1570 - Mutant 1433] Exit Code: 0
+Failing tests: 80
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 1441] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+
+[batch_1433_1570 - Mutant 1442] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+
+[batch_1433_1570 - Mutant 1445] Exit Code: 0
+Failing tests: 74
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 1449] Exit Code: 0
+Failing tests: 74
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 145] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1570 - Mutant 1456] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+
+[batch_1433_1570 - Mutant 1465] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1570 - Mutant 1478] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1433_1570 - Mutant 1483] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1433_1570 - Mutant 149] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1433_1570 - Mutant 1493] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.select.ElementsTest::val
+
+[batch_1433_1570 - Mutant 1498] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.NodeTest::testReplace
+
+[batch_1433_1570 - Mutant 150] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1570 - Mutant 1501] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 1503] Exit Code: 0
+Failing tests: 19
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 153] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.SelectorTest::testPseudoHas
+
+[batch_1433_1570 - Mutant 1540] Exit Code: 0
+Failing tests: 17
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1433_1570 - Mutant 157] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1570 - Mutant 1570] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+
+[2025-03-16 04:07:19] [batch_1081_1193] Completed:
+[batch_1081_1193 - Mutant 1081] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 1093] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1095] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 110] Exit Code: 0
+Failing tests: 91
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1081_1193 - Mutant 1103] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1104] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1105] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1107] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 111] Exit Code: 0
+Failing tests: 91
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1081_1193 - Mutant 1115] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 1124] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 1125] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 1126] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+
+[batch_1081_1193 - Mutant 1141] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1142] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1153] Exit Code: 0
+Failing tests: 0
+
+[batch_1081_1193 - Mutant 1157] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.select.SelectorTest::caseInsensitive
+
+[batch_1081_1193 - Mutant 1173] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1081_1193 - Mutant 1191] Exit Code: 0
+Failing tests: 22
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[batch_1081_1193 - Mutant 1193] Exit Code: 0
+Failing tests: 22
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+
+[2025-03-16 04:20:06] [batch_511_586] Completed:
+[batch_511_586 - Mutant 511] Exit Code: 0
+Failing tests: 0
+
+[batch_511_586 - Mutant 516] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+
+[batch_511_586 - Mutant 535] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 539] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 549] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 550] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 551] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 552] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 553] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 554] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+
+[batch_511_586 - Mutant 555] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 559] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 560] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 562] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 571] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 576] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+
+[batch_511_586 - Mutant 578] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 584] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 585] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_511_586 - Mutant 586] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[2025-03-16 04:20:15] [batch_587_680] Completed:
+[batch_587_680 - Mutant 587] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 589] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 590] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 597] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 598] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 607] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_587_680 - Mutant 609] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 61] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 611] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 62] Exit Code: 0
+Failing tests: 27
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+
+[batch_587_680 - Mutant 627] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 64] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 642] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_587_680 - Mutant 643] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 644] Exit Code: 0
+Failing tests: 0
+
+[batch_587_680 - Mutant 653] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_587_680 - Mutant 658] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_587_680 - Mutant 662] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_587_680 - Mutant 670] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_587_680 - Mutant 680] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[2025-03-16 04:20:58] [batch_685_757] Completed:
+[batch_685_757 - Mutant 685] Exit Code: 0
+Failing tests: 0
+
+[batch_685_757 - Mutant 689] Exit Code: 0
+Failing tests: 0
+
+[batch_685_757 - Mutant 690] Exit Code: 0
+Failing tests: 0
+
+[batch_685_757 - Mutant 70] Exit Code: 0
+Failing tests: 27
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+
+[batch_685_757 - Mutant 701] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_685_757 - Mutant 707] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_685_757 - Mutant 712] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_685_757 - Mutant 721] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_685_757 - Mutant 730] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_685_757 - Mutant 734] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_685_757 - Mutant 737] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_685_757 - Mutant 738] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 749] Exit Code: 0
+Failing tests: 0
+
+[batch_685_757 - Mutant 750] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 751] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 752] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 753] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 754] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 755] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_685_757 - Mutant 757] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[2025-03-16 04:21:09] [batch_377_501] Completed:
+[batch_377_501 - Mutant 377] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 390] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testPrependElement
+
+[batch_377_501 - Mutant 391] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testPrependElement
+
+[batch_377_501 - Mutant 397] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 411] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 417] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 431] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 447] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+
+[batch_377_501 - Mutant 45] Exit Code: 0
+Failing tests: 50
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 460] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 464] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 467] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 474] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 475] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 479] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 488] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 489] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 50] Exit Code: 0
+Failing tests: 50
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_377_501 - Mutant 500] Exit Code: 0
+Failing tests: 0
+
+[batch_377_501 - Mutant 501] Exit Code: 0
+Failing tests: 0
+
+[2025-03-16 04:21:10] [batch_76_830] Completed:
+[batch_76_830 - Mutant 76] Exit Code: 0
+Failing tests: 0
+
+[batch_76_830 - Mutant 760] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 769] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 770] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 777] Exit Code: 0
+Failing tests: 0
+
+[batch_76_830 - Mutant 78] Exit Code: 0
+Failing tests: 0
+
+[batch_76_830 - Mutant 784] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 785] Exit Code: 0
+Failing tests: 0
+
+[batch_76_830 - Mutant 792] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 794] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 798] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 807] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 81] Exit Code: 0
+Failing tests: 27
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+
+[batch_76_830 - Mutant 810] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 816] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 818] Exit Code: 0
+Failing tests: 0
+
+[batch_76_830 - Mutant 822] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+
+[batch_76_830 - Mutant 825] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_76_830 - Mutant 828] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_76_830 - Mutant 830] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[2025-03-16 04:21:34] [batch_2000_364] Completed:
+[batch_2000_364 - Mutant 2000] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 205] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.parser.ParserTest::parsesComments
+
+[batch_2000_364 - Mutant 225] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 226] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 232] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 262] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 274] Exit Code: 0
+Failing tests: 37
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 278] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 28] Exit Code: 0
+Failing tests: 131
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 291] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 294] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 302] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 314] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 315] Exit Code: 0
+Failing tests: 11
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_2000_364 - Mutant 32] Exit Code: 0
+Failing tests: 131
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_2000_364 - Mutant 334] Exit Code: 0
+Failing tests: 11
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_2000_364 - Mutant 338] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 350] Exit Code: 0
+Failing tests: 0
+
+[batch_2000_364 - Mutant 363] Exit Code: 0
+Failing tests: 27
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::setHtml
+
+[batch_2000_364 - Mutant 364] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+
+[2025-03-16 04:21:41] [batch_834_925] Completed:
+[batch_834_925 - Mutant 834] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_834_925 - Mutant 837] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_834_925 - Mutant 838] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 846] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 848] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_834_925 - Mutant 855] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 861] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testWrap
+
+[batch_834_925 - Mutant 864] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.select.ElementsTest::wrap
+
+[batch_834_925 - Mutant 878] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_834_925 - Mutant 89] Exit Code: 0
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attributes
+
+[batch_834_925 - Mutant 904] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 907] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_834_925 - Mutant 908] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_834_925 - Mutant 909] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 917] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 920] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 921] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 923] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_834_925 - Mutant 924] Exit Code: 0
+Failing tests: 0
+
+[batch_834_925 - Mutant 925] Exit Code: 0
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[2025-03-16 04:21:50] [batch_1959_1998] Completed:
+[batch_1959_1998 - Mutant 1959] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1960] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1961] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1964] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1965] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1966] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1967] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1968] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1969] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1970] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1981] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1988] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1989] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1959_1998 - Mutant 199] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1991] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1992] Exit Code: 0
+Failing tests: 133
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testBinary
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.nodes.ElementTest::testPrependElement
+  - org.jsoup.nodes.ElementTest::testOuterHtml
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAddNewText
+  - org.jsoup.nodes.ElementTest::testGetElementById
+  - org.jsoup.nodes.ElementTest::testClassDomMethods
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttribute
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testGetElementsWithClass
+  - org.jsoup.nodes.ElementTest::testWrapWithRemainder
+  - org.jsoup.nodes.ElementTest::testKeepsPreTextInCode
+  - org.jsoup.nodes.ElementTest::testGetParents
+  - org.jsoup.nodes.ElementTest::testGetText
+  - org.jsoup.nodes.ElementTest::getElementsByTagName
+  - org.jsoup.nodes.ElementTest::testFormatHtml
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.nodes.ElementTest::testHasText
+  - org.jsoup.nodes.ElementTest::testNormalisesText
+  - org.jsoup.nodes.ElementTest::testClassUpdates
+  - org.jsoup.nodes.ElementTest::testAddNewElement
+  - org.jsoup.nodes.ElementTest::testPrependText
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testSetText
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.nodes.ElementTest::testKeepsPreText
+  - org.jsoup.nodes.NodeTest::testReplace
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.nodes.NodeTest::testRemove
+  - org.jsoup.nodes.TextNodeTest::testTextBean
+  - org.jsoup.parser.AttributeParseTest::emptyOnNoKey
+  - org.jsoup.parser.AttributeParseTest::parsesRoughAttributeString
+  - org.jsoup.parser.AttributeParseTest::parsesEmptyString
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.parser.ParserTest::normalisesDocument
+  - org.jsoup.parser.ParserTest::createsStructureFromBodySnippet
+  - org.jsoup.parser.ParserTest::parsesSimpleDocument
+  - org.jsoup.parser.ParserTest::handlesInvalidStartTags
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::createsDocumentStructure
+  - org.jsoup.parser.ParserTest::parsesUnterminatedComments
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+  - org.jsoup.parser.ParserTest::handlesEmptyBlocks
+  - org.jsoup.parser.ParserTest::handlesCdata
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::handlesBaseTags
+  - org.jsoup.parser.ParserTest::handlesFrames
+  - org.jsoup.parser.ParserTest::handlesJavadocFont
+  - org.jsoup.parser.ParserTest::handlesUnknownTags
+  - org.jsoup.parser.ParserTest::handlesTextArea
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::parsesRoughAttributes
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.parser.ParserTest::handlesBaseWithoutHref
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.ParserTest::normalisesEmptyDocument
+  - org.jsoup.parser.ParserTest::parsesComments
+  - org.jsoup.parser.ParserTest::createsImplicitLists
+  - org.jsoup.parser.ParserTest::createsImplicitTable
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::handlesMultiClosingBody
+  - org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropScript
+  - org.jsoup.safety.CleanerTest::testRelaxed
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropComments
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::testDropImageScript
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.safety.CleanerTest::basicWithImagesTest
+  - org.jsoup.safety.CleanerTest::testDropXmlProc
+  - org.jsoup.select.ElementsTest::filter
+  - org.jsoup.select.ElementsTest::parents
+  - org.jsoup.select.ElementsTest::eq
+  - org.jsoup.select.ElementsTest::is
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.ElementsTest::attr
+  - org.jsoup.select.ElementsTest::html
+  - org.jsoup.select.ElementsTest::text
+  - org.jsoup.select.ElementsTest::wrap
+  - org.jsoup.select.ElementsTest::attributes
+  - org.jsoup.select.ElementsTest::hasAttr
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.ElementsTest::classes
+  - org.jsoup.select.ElementsTest::outerHtml
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::deeperDescendant
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testAllWithClass
+  - org.jsoup.select.SelectorTest::testByTag
+  - org.jsoup.select.SelectorTest::testById
+  - org.jsoup.select.SelectorTest::descendant
+  - org.jsoup.select.SelectorTest::testByAttribute
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testAllElements
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testByClass
+  - org.jsoup.select.SelectorTest::and
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::parentWithClassChild
+  - org.jsoup.select.SelectorTest::generalSiblings
+  - org.jsoup.select.SelectorTest::parentChildStar
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_1959_1998 - Mutant 1994] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1995] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1996] Exit Code: 0
+Failing tests: 0
+
+[batch_1959_1998 - Mutant 1998] Exit Code: 0
+Failing tests: 0
+
+[2025-03-16 04:27:45] [batch_927_994] Completed:
+[batch_927_994 - Mutant 927] Exit Code: 0
+Failing tests: 0
+
+[batch_927_994 - Mutant 934] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_927_994 - Mutant 940] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_927_994 - Mutant 941] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_927_994 - Mutant 942] Exit Code: 0
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists
+
+[batch_927_994 - Mutant 945] Exit Code: 0
+Failing tests: 0
+
+[batch_927_994 - Mutant 949] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_927_994 - Mutant 974] Exit Code: 0
+Failing tests: 0
+
+[batch_927_994 - Mutant 977] Exit Code: 0
+Failing tests: 6
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_927_994 - Mutant 978] Exit Code: 0
+Failing tests: 4
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_927_994 - Mutant 983] Exit Code: 0
+Failing tests: 5
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_927_994 - Mutant 984] Exit Code: 0
+Failing tests: 5
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[batch_927_994 - Mutant 987] Exit Code: 0
+Failing tests: 0
+
+[batch_927_994 - Mutant 994] Exit Code: 0
+Failing tests: 7
+  - org.jsoup.nodes.ElementTest::testGetSiblings
+  - org.jsoup.select.ElementsTest::hasText
+  - org.jsoup.select.SelectorTest::notAdjacent
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::adjacentSiblingsWithId
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+
+[2025-03-16 04:27:45] All batches completed.

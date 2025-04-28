@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/jsoup/jsoup_3/generated-mutants-full/element/999/Element.java:379: error: cannot find symbol
+            return siblings.get(x-1);
+                                ^
+  symbol:   variable x
+  location: class Element
+1 error
