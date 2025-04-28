@@ -1,0 +1,8 @@
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/99/OptionGroup.java:98: error: cannot find symbol
+        if (checked == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable checked
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/99/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

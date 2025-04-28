@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/cli/cli_38/generated-mutants-full/999/DefaultParser.java:309: error: incompatible types: int cannot be converted to String
+        String optName = pos;
+                         ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_38/generated-mutants-full/999/DefaultParser.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

@@ -1,0 +1,33 @@
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:78: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public int defaultWidth = DEFAULT_WIDTH;
+               ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:86: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public int defaultLeftPad = DEFAULT_LEFT_PAD;
+               ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:95: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public int defaultDescPad = DEFAULT_DESC_PAD;
+               ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:103: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public String defaultSyntaxPrefix = DEFAULT_SYNTAX_PREFIX;
+                  ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:111: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public String defaultNewLine = System.getProperty("line.separator");
+                  ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:119: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public String defaultOptPrefix = DEFAULT_OPT_PREFIX;
+                  ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:127: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public String defaultLongOptPrefix = DEFAULT_LONG_OPT_PREFIX;
+                  ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:138: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public String defaultArgName = DEFAULT_ARG_NAME;
+                  ^
+/mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java:587: error: cannot find symbol
+            if (options.hasNext())
+                       ^
+  symbol:   method hasNext()
+  location: variable options of type Options
+Note: /mnt/c/Users/localadmin/repos/cli/cli_33/generated-mutants-full/999/HelpFormatter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+8 warnings

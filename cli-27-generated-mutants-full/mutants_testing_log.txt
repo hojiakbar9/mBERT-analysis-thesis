@@ -1,0 +1,727 @@
+[2025-03-10 04:35:06] Starting parallel mutant testing...
+[2025-03-10 04:35:06] Found 41 compilable mutants.
+[2025-03-10 04:35:15] [Mutant 156] Project copied to /tmp/mutant_156_uz9c_2aj/cli_27
+[2025-03-10 04:35:15] [Mutant 158] Project copied to /tmp/mutant_158_0d87v95j/cli_27
+[2025-03-10 04:35:15] [Mutant 152] Project copied to /tmp/mutant_152_ij7mj30w/cli_27
+[2025-03-10 04:35:15] [Mutant 144] Project copied to /tmp/mutant_144_ivmhqwl2/cli_27
+[2025-03-10 04:35:15] [Mutant 103] Project copied to /tmp/mutant_103_lxdmzijj/cli_27
+[2025-03-10 04:35:15] [Mutant 150] Project copied to /tmp/mutant_150_dzafg4_k/cli_27
+[2025-03-10 04:35:15] [Mutant 152] Mutant content written to /tmp/mutant_152_ij7mj30w/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:15] [Mutant 156] Mutant content written to /tmp/mutant_156_uz9c_2aj/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:15] [Mutant 144] Mutant content written to /tmp/mutant_144_ivmhqwl2/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:15] [Mutant 103] Mutant content written to /tmp/mutant_103_lxdmzijj/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:15] [Mutant 150] Mutant content written to /tmp/mutant_150_dzafg4_k/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:15] [Mutant 158] Mutant content written to /tmp/mutant_158_0d87v95j/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:17] [Mutant 147] Project copied to /tmp/mutant_147_nhviqqxt/cli_27
+[2025-03-10 04:35:17] [Mutant 147] Mutant content written to /tmp/mutant_147_nhviqqxt/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:18] [Mutant 154] Project copied to /tmp/mutant_154_xxwdvi93/cli_27
+[2025-03-10 04:35:18] [Mutant 154] Mutant content written to /tmp/mutant_154_xxwdvi93/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:20] [Mutant 103] Compilation successful
+[2025-03-10 04:35:21] [Mutant 150] Compilation successful
+[2025-03-10 04:35:21] [Mutant 156] Compilation successful
+[2025-03-10 04:35:21] [Mutant 152] Compilation successful
+[2025-03-10 04:35:21] [Mutant 158] Compilation successful
+[2025-03-10 04:35:21] [Mutant 144] Compilation successful
+[2025-03-10 04:35:23] [Mutant 147] Compilation successful
+[2025-03-10 04:35:23] [Mutant 103] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 156] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 103] Test run completed.
+[Mutant 103] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 103] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:23] [Mutant 156] Test run completed.
+[Mutant 156] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 156] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:23] [Mutant 144] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 158] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 144] Test run completed.
+[Mutant 144] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+
+[Mutant 144] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:23] [Mutant 158] Test run completed.
+[Mutant 158] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 158] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:23] [Mutant 150] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 150] Test run completed.
+[Mutant 150] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 150] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:23] [Mutant 152] Cleaned up temp directory.
+[2025-03-10 04:35:23] [Mutant 152] Test run completed.
+[Mutant 152] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 152] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:24] [Mutant 154] Compilation successful
+[2025-03-10 04:35:25] [Mutant 147] Cleaned up temp directory.
+[2025-03-10 04:35:25] [Mutant 147] Test run completed.
+[Mutant 147] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+
+[Mutant 147] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:25] [Mutant 154] Cleaned up temp directory.
+[2025-03-10 04:35:25] [Mutant 154] Test run completed.
+[Mutant 154] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 154] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:34] [Mutant 163] Project copied to /tmp/mutant_163_7mpncj7u/cli_27
+[2025-03-10 04:35:34] [Mutant 163] Mutant content written to /tmp/mutant_163_7mpncj7u/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:35] [Mutant 160] Project copied to /tmp/mutant_160_9ur8cnff/cli_27
+[2025-03-10 04:35:35] [Mutant 160] Mutant content written to /tmp/mutant_160_9ur8cnff/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:35] [Mutant 159] Project copied to /tmp/mutant_159_rnncg_iq/cli_27
+[2025-03-10 04:35:35] [Mutant 159] Mutant content written to /tmp/mutant_159_rnncg_iq/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:35] [Mutant 166] Project copied to /tmp/mutant_166_vzpo8z84/cli_27
+[2025-03-10 04:35:35] [Mutant 166] Mutant content written to /tmp/mutant_166_vzpo8z84/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:35] [Mutant 174] Project copied to /tmp/mutant_174_wi3tmhtb/cli_27
+[2025-03-10 04:35:35] [Mutant 174] Mutant content written to /tmp/mutant_174_wi3tmhtb/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:35] [Mutant 175] Project copied to /tmp/mutant_175_if_24uc5/cli_27
+[2025-03-10 04:35:35] [Mutant 175] Mutant content written to /tmp/mutant_175_if_24uc5/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:37] [Mutant 177] Project copied to /tmp/mutant_177_5nfjxs32/cli_27
+[2025-03-10 04:35:37] [Mutant 177] Mutant content written to /tmp/mutant_177_5nfjxs32/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:39] [Mutant 178] Project copied to /tmp/mutant_178_xo1a_9k4/cli_27
+[2025-03-10 04:35:39] [Mutant 178] Mutant content written to /tmp/mutant_178_xo1a_9k4/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:39] [Mutant 163] Compilation successful
+[2025-03-10 04:35:39] [Mutant 160] Compilation successful
+[2025-03-10 04:35:39] [Mutant 166] Compilation successful
+[2025-03-10 04:35:39] [Mutant 159] Compilation successful
+[2025-03-10 04:35:40] [Mutant 174] Compilation successful
+[2025-03-10 04:35:40] [Mutant 175] Compilation successful
+[2025-03-10 04:35:42] [Mutant 160] Cleaned up temp directory.
+[2025-03-10 04:35:42] [Mutant 160] Test run completed.
+[Mutant 160] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 160] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:42] [Mutant 163] Cleaned up temp directory.
+[2025-03-10 04:35:42] [Mutant 163] Test run completed.
+[Mutant 163] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 163] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:42] [Mutant 159] Cleaned up temp directory.
+[2025-03-10 04:35:42] [Mutant 159] Test run completed.
+[Mutant 159] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 159] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:42] [Mutant 166] Cleaned up temp directory.
+[2025-03-10 04:35:42] [Mutant 166] Test run completed.
+[Mutant 166] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 166] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:43] [Mutant 177] Compilation successful
+[2025-03-10 04:35:43] [Mutant 174] Cleaned up temp directory.
+[2025-03-10 04:35:43] [Mutant 174] Test run completed.
+[Mutant 174] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 174] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:43] [Mutant 175] Cleaned up temp directory.
+[2025-03-10 04:35:43] [Mutant 175] Test run completed.
+[Mutant 175] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 175] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:43] [Mutant 178] Compilation successful
+[2025-03-10 04:35:45] [Mutant 177] Cleaned up temp directory.
+[2025-03-10 04:35:45] [Mutant 177] Test run completed.
+[Mutant 177] --- STDOUT ---
+Failing tests: 9
+  - org.apache.commons.cli.HelpFormatterTest::testPrintOptionGroupUsage
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+
+[Mutant 177] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:45] [Mutant 178] Cleaned up temp directory.
+[2025-03-10 04:35:45] [Mutant 178] Test run completed.
+[Mutant 178] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 178] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:35:54] [Mutant 182] Project copied to /tmp/mutant_182_0ztio7s3/cli_27
+[2025-03-10 04:35:54] [Mutant 182] Mutant content written to /tmp/mutant_182_0ztio7s3/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:54] [Mutant 181] Project copied to /tmp/mutant_181_0x_2z0sj/cli_27
+[2025-03-10 04:35:54] [Mutant 181] Mutant content written to /tmp/mutant_181_0x_2z0sj/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:54] [Mutant 220] Project copied to /tmp/mutant_220_to8dyhc5/cli_27
+[2025-03-10 04:35:54] [Mutant 220] Mutant content written to /tmp/mutant_220_to8dyhc5/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:55] [Mutant 222] Project copied to /tmp/mutant_222_rzwivc6d/cli_27
+[2025-03-10 04:35:55] [Mutant 222] Mutant content written to /tmp/mutant_222_rzwivc6d/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:55] [Mutant 233] Project copied to /tmp/mutant_233_2_f30gkg/cli_27
+[2025-03-10 04:35:55] [Mutant 233] Mutant content written to /tmp/mutant_233_2_f30gkg/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:55] [Mutant 243] Project copied to /tmp/mutant_243_r84x5om3/cli_27
+[2025-03-10 04:35:55] [Mutant 243] Mutant content written to /tmp/mutant_243_r84x5om3/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:58] [Mutant 244] Project copied to /tmp/mutant_244_9lcl4v7z/cli_27
+[2025-03-10 04:35:58] [Mutant 244] Mutant content written to /tmp/mutant_244_9lcl4v7z/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:58] [Mutant 182] Compilation successful
+[2025-03-10 04:35:58] [Mutant 181] Compilation successful
+[2025-03-10 04:35:59] [Mutant 251] Project copied to /tmp/mutant_251_epw2k4gy/cli_27
+[2025-03-10 04:35:59] [Mutant 251] Mutant content written to /tmp/mutant_251_epw2k4gy/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:35:59] [Mutant 220] Compilation successful
+[2025-03-10 04:35:59] [Mutant 222] Compilation successful
+[2025-03-10 04:36:00] [Mutant 243] Compilation successful
+[2025-03-10 04:36:00] [Mutant 233] Compilation successful
+[2025-03-10 04:36:01] [Mutant 182] Cleaned up temp directory.
+[2025-03-10 04:36:01] [Mutant 182] Test run completed.
+[Mutant 182] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+
+[Mutant 182] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:01] [Mutant 181] Cleaned up temp directory.
+[2025-03-10 04:36:01] [Mutant 181] Test run completed.
+[Mutant 181] --- STDOUT ---
+Failing tests: 9
+  - org.apache.commons.cli.HelpFormatterTest::testPrintOptionGroupUsage
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+
+[Mutant 181] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:02] [Mutant 220] Cleaned up temp directory.
+[2025-03-10 04:36:02] [Mutant 220] Test run completed.
+[Mutant 220] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 220] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:02] [Mutant 222] Cleaned up temp directory.
+[2025-03-10 04:36:02] [Mutant 222] Test run completed.
+[Mutant 222] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 222] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:03] [Mutant 244] Compilation successful
+[2025-03-10 04:36:03] [Mutant 233] Cleaned up temp directory.
+[2025-03-10 04:36:03] [Mutant 233] Test run completed.
+[Mutant 233] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 233] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:03] [Mutant 243] Cleaned up temp directory.
+[2025-03-10 04:36:03] [Mutant 243] Test run completed.
+[Mutant 243] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 243] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:03] [Mutant 251] Compilation successful
+[2025-03-10 04:36:04] [Mutant 244] Cleaned up temp directory.
+[2025-03-10 04:36:04] [Mutant 244] Test run completed.
+[Mutant 244] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 244] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:05] [Mutant 251] Cleaned up temp directory.
+[2025-03-10 04:36:05] [Mutant 251] Test run completed.
+[Mutant 251] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 251] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:13] [Mutant 269] Project copied to /tmp/mutant_269_cxip9h8o/cli_27
+[2025-03-10 04:36:13] [Mutant 269] Mutant content written to /tmp/mutant_269_cxip9h8o/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:13] [Mutant 277] Project copied to /tmp/mutant_277_pm88gtf6/cli_27
+[2025-03-10 04:36:13] [Mutant 277] Mutant content written to /tmp/mutant_277_pm88gtf6/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:14] [Mutant 29] Project copied to /tmp/mutant_29_i_uk35jl/cli_27
+[2025-03-10 04:36:14] [Mutant 29] Mutant content written to /tmp/mutant_29_i_uk35jl/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:14] [Mutant 300] Project copied to /tmp/mutant_300_o8saow50/cli_27
+[2025-03-10 04:36:14] [Mutant 300] Mutant content written to /tmp/mutant_300_o8saow50/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:14] [Mutant 307] Project copied to /tmp/mutant_307_dt1ime5z/cli_27
+[2025-03-10 04:36:14] [Mutant 307] Mutant content written to /tmp/mutant_307_dt1ime5z/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:15] [Mutant 332] Project copied to /tmp/mutant_332_903ubvqj/cli_27
+[2025-03-10 04:36:15] [Mutant 332] Mutant content written to /tmp/mutant_332_903ubvqj/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:16] [Mutant 269] Compilation successful
+[2025-03-10 04:36:16] [Mutant 277] Compilation successful
+[2025-03-10 04:36:18] [Mutant 333] Project copied to /tmp/mutant_333_rsc4fabl/cli_27
+[2025-03-10 04:36:18] [Mutant 333] Mutant content written to /tmp/mutant_333_rsc4fabl/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:19] [Mutant 57] Project copied to /tmp/mutant_57_2qi_l8q4/cli_27
+[2025-03-10 04:36:19] [Mutant 57] Mutant content written to /tmp/mutant_57_2qi_l8q4/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:20] [Mutant 29] Compilation successful
+[2025-03-10 04:36:20] [Mutant 300] Compilation successful
+[2025-03-10 04:36:20] [Mutant 269] Cleaned up temp directory.
+[2025-03-10 04:36:20] [Mutant 269] Test run completed.
+[Mutant 269] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 269] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:20] [Mutant 277] Cleaned up temp directory.
+[2025-03-10 04:36:20] [Mutant 277] Test run completed.
+[Mutant 277] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 277] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:20] [Mutant 307] Compilation successful
+[2025-03-10 04:36:20] [Mutant 332] Compilation successful
+[2025-03-10 04:36:22] [Mutant 29] Cleaned up temp directory.
+[2025-03-10 04:36:22] [Mutant 29] Test run completed.
+[Mutant 29] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testGetNames
+
+[Mutant 29] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:22] [Mutant 300] Cleaned up temp directory.
+[2025-03-10 04:36:22] [Mutant 300] Test run completed.
+[Mutant 300] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 300] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:22] [Mutant 307] Cleaned up temp directory.
+[2025-03-10 04:36:22] [Mutant 307] Test run completed.
+[Mutant 307] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 307] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:23] [Mutant 333] Compilation successful
+[2025-03-10 04:36:23] [Mutant 332] Cleaned up temp directory.
+[2025-03-10 04:36:23] [Mutant 332] Test run completed.
+[Mutant 332] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 332] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:23] [Mutant 57] Compilation successful
+[2025-03-10 04:36:24] [Mutant 333] Cleaned up temp directory.
+[2025-03-10 04:36:24] [Mutant 333] Test run completed.
+[Mutant 333] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testToString
+
+[Mutant 333] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:25] [Mutant 57] Cleaned up temp directory.
+[2025-03-10 04:36:25] [Mutant 57] Test run completed.
+[Mutant 57] --- STDOUT ---
+Failing tests: 21
+  - org.apache.commons.cli.BasicParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testMissingRequiredGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 57] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:32] [Mutant 60] Project copied to /tmp/mutant_60_6k8dphop/cli_27
+[2025-03-10 04:36:32] [Mutant 60] Mutant content written to /tmp/mutant_60_6k8dphop/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:33] [Mutant 67] Project copied to /tmp/mutant_67_i2a37kse/cli_27
+[2025-03-10 04:36:33] [Mutant 67] Mutant content written to /tmp/mutant_67_i2a37kse/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:34] [Mutant 73] Project copied to /tmp/mutant_73_ho1c9vbb/cli_27
+[2025-03-10 04:36:34] [Mutant 73] Mutant content written to /tmp/mutant_73_ho1c9vbb/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:34] [Mutant 78] Project copied to /tmp/mutant_78_a0rjr4j2/cli_27
+[2025-03-10 04:36:34] [Mutant 78] Mutant content written to /tmp/mutant_78_a0rjr4j2/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:35] [Mutant 86] Project copied to /tmp/mutant_86_pwb_b1dw/cli_27
+[2025-03-10 04:36:35] [Mutant 86] Mutant content written to /tmp/mutant_86_pwb_b1dw/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:35] [Mutant 60] Compilation successful
+[2025-03-10 04:36:36] [Mutant 87] Project copied to /tmp/mutant_87_8hrj_xpz/cli_27
+[2025-03-10 04:36:36] [Mutant 87] Mutant content written to /tmp/mutant_87_8hrj_xpz/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:36] [Mutant 67] Compilation successful
+[2025-03-10 04:36:37] [Mutant 91] Project copied to /tmp/mutant_91_u2rmonaq/cli_27
+[2025-03-10 04:36:37] [Mutant 91] Mutant content written to /tmp/mutant_91_u2rmonaq/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:38] [Mutant 60] Cleaned up temp directory.
+[2025-03-10 04:36:38] [Mutant 60] Test run completed.
+[Mutant 60] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 60] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:38] [Mutant 94] Project copied to /tmp/mutant_94_rl74mnnr/cli_27
+[2025-03-10 04:36:38] [Mutant 94] Mutant content written to /tmp/mutant_94_rl74mnnr/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:38] [Mutant 73] Compilation successful
+[2025-03-10 04:36:38] [Mutant 78] Compilation successful
+[2025-03-10 04:36:39] [Mutant 67] Cleaned up temp directory.
+[2025-03-10 04:36:39] [Mutant 67] Test run completed.
+[Mutant 67] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 67] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:40] [Mutant 86] Compilation successful
+[2025-03-10 04:36:40] [Mutant 87] Compilation successful
+[2025-03-10 04:36:41] [Mutant 78] Cleaned up temp directory.
+[2025-03-10 04:36:41] [Mutant 78] Test run completed.
+[Mutant 78] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+
+[Mutant 78] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:41] [Mutant 73] Cleaned up temp directory.
+[2025-03-10 04:36:41] [Mutant 73] Test run completed.
+[Mutant 73] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+
+[Mutant 73] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:42] [Mutant 91] Compilation successful
+[2025-03-10 04:36:42] [Mutant 86] Cleaned up temp directory.
+[2025-03-10 04:36:42] [Mutant 86] Test run completed.
+[Mutant 86] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 86] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:42] [Mutant 94] Compilation successful
+[2025-03-10 04:36:42] [Mutant 87] Cleaned up temp directory.
+[2025-03-10 04:36:42] [Mutant 87] Test run completed.
+[Mutant 87] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 87] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:43] [Mutant 91] Cleaned up temp directory.
+[2025-03-10 04:36:43] [Mutant 91] Test run completed.
+[Mutant 91] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 91] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:44] [Mutant 94] Cleaned up temp directory.
+[2025-03-10 04:36:44] [Mutant 94] Test run completed.
+[Mutant 94] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 94] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:51] [Mutant 98] Project copied to /tmp/mutant_98_k1l0qekh/cli_27
+[2025-03-10 04:36:51] [Mutant 98] Mutant content written to /tmp/mutant_98_k1l0qekh/cli_27/src/java/org/apache/commons/cli/OptionGroup.java
+[2025-03-10 04:36:53] [Mutant 98] Compilation successful
+[2025-03-10 04:36:54] [Mutant 98] Cleaned up temp directory.
+[2025-03-10 04:36:54] [Mutant 98] Test run completed.
+[Mutant 98] --- STDOUT ---
+Failing tests: 16
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroup
+  - org.apache.commons.cli.BugsTest::test12210
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroup
+
+[Mutant 98] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:36:54] Parallel mutant testing completed.

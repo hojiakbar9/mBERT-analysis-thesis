@@ -1,0 +1,2788 @@
+[2025-03-10 04:19:26] Starting parallel mutant testing...
+[2025-03-10 04:19:26] Found 129 compilable mutants.
+[2025-03-10 04:19:45] [Mutant 110] Project copied to /tmp/mutant_110_lxxjxpd_/cli_22
+[2025-03-10 04:19:45] [Mutant 110] Mutant content written to /tmp/mutant_110_lxxjxpd_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:46] [Mutant 109] Project copied to /tmp/mutant_109_3ni5by93/cli_22
+[2025-03-10 04:19:46] [Mutant 109] Mutant content written to /tmp/mutant_109_3ni5by93/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:46] [Mutant 120] Project copied to /tmp/mutant_120_w9f436yk/cli_22
+[2025-03-10 04:19:46] [Mutant 120] Mutant content written to /tmp/mutant_120_w9f436yk/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:46] [Mutant 125] Project copied to /tmp/mutant_125_hi31gmes/cli_22
+[2025-03-10 04:19:46] [Mutant 125] Mutant content written to /tmp/mutant_125_hi31gmes/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:46] [Mutant 115] Project copied to /tmp/mutant_115_t_7qjaev/cli_22
+[2025-03-10 04:19:46] [Mutant 115] Mutant content written to /tmp/mutant_115_t_7qjaev/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:46] [Mutant 123] Project copied to /tmp/mutant_123_ish3azsc/cli_22
+[2025-03-10 04:19:46] [Mutant 123] Mutant content written to /tmp/mutant_123_ish3azsc/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:47] [Mutant 111] Project copied to /tmp/mutant_111_01330n60/cli_22
+[2025-03-10 04:19:47] [Mutant 111] Mutant content written to /tmp/mutant_111_01330n60/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:47] [Mutant 124] Project copied to /tmp/mutant_124_3ddgk1nr/cli_22
+[2025-03-10 04:19:47] [Mutant 124] Mutant content written to /tmp/mutant_124_3ddgk1nr/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:19:48] [Mutant 110] Compilation successful
+[2025-03-10 04:19:48] [Mutant 109] Compilation successful
+[2025-03-10 04:19:48] [Mutant 120] Compilation successful
+[2025-03-10 04:19:48] [Mutant 125] Compilation successful
+[2025-03-10 04:19:48] [Mutant 115] Compilation successful
+[2025-03-10 04:19:49] [Mutant 123] Compilation successful
+[2025-03-10 04:19:49] [Mutant 111] Compilation successful
+[2025-03-10 04:19:50] [Mutant 124] Compilation successful
+[2025-03-10 04:19:50] [Mutant 110] Cleaned up temp directory.
+[2025-03-10 04:19:50] [Mutant 110] Test run completed.
+[Mutant 110] --- STDOUT ---
+Failing tests: 3
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 110] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:50] [Mutant 109] Cleaned up temp directory.
+[2025-03-10 04:19:50] [Mutant 109] Test run completed.
+[Mutant 109] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 109] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:51] [Mutant 125] Cleaned up temp directory.
+[2025-03-10 04:19:51] [Mutant 125] Test run completed.
+[Mutant 125] --- STDOUT ---
+Failing tests: 32
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 125] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:51] [Mutant 120] Cleaned up temp directory.
+[2025-03-10 04:19:51] [Mutant 120] Test run completed.
+[Mutant 120] --- STDOUT ---
+Failing tests: 32
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 120] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:51] [Mutant 115] Cleaned up temp directory.
+[2025-03-10 04:19:51] [Mutant 115] Test run completed.
+[Mutant 115] --- STDOUT ---
+Failing tests: 34
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 115] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:51] [Mutant 123] Cleaned up temp directory.
+[2025-03-10 04:19:51] [Mutant 123] Test run completed.
+[Mutant 123] --- STDOUT ---
+Failing tests: 32
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 123] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:51] [Mutant 111] Cleaned up temp directory.
+[2025-03-10 04:19:51] [Mutant 111] Test run completed.
+[Mutant 111] --- STDOUT ---
+Failing tests: 3
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 111] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:19:52] [Mutant 124] Cleaned up temp directory.
+[2025-03-10 04:19:52] [Mutant 124] Test run completed.
+[Mutant 124] --- STDOUT ---
+Failing tests: 32
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 124] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:12] [Mutant 126] Project copied to /tmp/mutant_126_w2aunzj3/cli_22
+[2025-03-10 04:20:12] [Mutant 126] Mutant content written to /tmp/mutant_126_w2aunzj3/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:12] [Mutant 127] Project copied to /tmp/mutant_127_mmaxbbdy/cli_22
+[2025-03-10 04:20:12] [Mutant 127] Mutant content written to /tmp/mutant_127_mmaxbbdy/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:12] [Mutant 138] Project copied to /tmp/mutant_138_w1djv6y4/cli_22
+[2025-03-10 04:20:12] [Mutant 138] Mutant content written to /tmp/mutant_138_w1djv6y4/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:12] [Mutant 139] Project copied to /tmp/mutant_139_o2s2pewl/cli_22
+[2025-03-10 04:20:12] [Mutant 139] Mutant content written to /tmp/mutant_139_o2s2pewl/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:13] [Mutant 140] Project copied to /tmp/mutant_140_t83qmnh5/cli_22
+[2025-03-10 04:20:13] [Mutant 140] Mutant content written to /tmp/mutant_140_t83qmnh5/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:13] [Mutant 144] Project copied to /tmp/mutant_144_x9y5997s/cli_22
+[2025-03-10 04:20:13] [Mutant 144] Mutant content written to /tmp/mutant_144_x9y5997s/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:14] [Mutant 126] Compilation successful
+[2025-03-10 04:20:14] [Mutant 127] Compilation successful
+[2025-03-10 04:20:14] [Mutant 15] Project copied to /tmp/mutant_15_dbmrybkn/cli_22
+[2025-03-10 04:20:14] [Mutant 15] Mutant content written to /tmp/mutant_15_dbmrybkn/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:14] [Mutant 138] Compilation successful
+[2025-03-10 04:20:15] [Mutant 139] Compilation successful
+[2025-03-10 04:20:15] [Mutant 156] Project copied to /tmp/mutant_156_6628v55x/cli_22
+[2025-03-10 04:20:15] [Mutant 156] Mutant content written to /tmp/mutant_156_6628v55x/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:15] [Mutant 140] Compilation successful
+[2025-03-10 04:20:16] [Mutant 144] Compilation successful
+[2025-03-10 04:20:16] [Mutant 126] Cleaned up temp directory.
+[2025-03-10 04:20:16] [Mutant 126] Test run completed.
+[Mutant 126] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+
+[Mutant 126] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:16] [Mutant 127] Cleaned up temp directory.
+[2025-03-10 04:20:16] [Mutant 127] Test run completed.
+[Mutant 127] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+
+[Mutant 127] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:17] [Mutant 138] Cleaned up temp directory.
+[2025-03-10 04:20:17] [Mutant 138] Test run completed.
+[Mutant 138] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 138] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:17] [Mutant 15] Compilation successful
+[2025-03-10 04:20:17] [Mutant 139] Cleaned up temp directory.
+[2025-03-10 04:20:17] [Mutant 139] Test run completed.
+[Mutant 139] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 139] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:17] [Mutant 156] Compilation successful
+[2025-03-10 04:20:18] [Mutant 140] Cleaned up temp directory.
+[2025-03-10 04:20:18] [Mutant 140] Test run completed.
+[Mutant 140] --- STDOUT ---
+Failing tests: 3
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 140] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:18] [Mutant 144] Cleaned up temp directory.
+[2025-03-10 04:20:18] [Mutant 144] Test run completed.
+[Mutant 144] --- STDOUT ---
+Failing tests: 4
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 144] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:18] [Mutant 15] Cleaned up temp directory.
+[2025-03-10 04:20:18] [Mutant 15] Test run completed.
+[Mutant 15] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 15] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:19] [Mutant 156] Cleaned up temp directory.
+[2025-03-10 04:20:19] [Mutant 156] Test run completed.
+[Mutant 156] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 156] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:38] [Mutant 164] Project copied to /tmp/mutant_164_ujurp89t/cli_22
+[2025-03-10 04:20:38] [Mutant 164] Mutant content written to /tmp/mutant_164_ujurp89t/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:38] [Mutant 197] Project copied to /tmp/mutant_197_y0w67v7m/cli_22
+[2025-03-10 04:20:38] [Mutant 197] Mutant content written to /tmp/mutant_197_y0w67v7m/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:39] [Mutant 200] Project copied to /tmp/mutant_200_iozltyoj/cli_22
+[2025-03-10 04:20:39] [Mutant 200] Mutant content written to /tmp/mutant_200_iozltyoj/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:39] [Mutant 164] Compilation successful
+[2025-03-10 04:20:39] [Mutant 212] Project copied to /tmp/mutant_212_4hhe7tsz/cli_22
+[2025-03-10 04:20:39] [Mutant 212] Mutant content written to /tmp/mutant_212_4hhe7tsz/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:39] [Mutant 197] Compilation successful
+[2025-03-10 04:20:40] [Mutant 216] Project copied to /tmp/mutant_216_g015ikgz/cli_22
+[2025-03-10 04:20:40] [Mutant 216] Mutant content written to /tmp/mutant_216_g015ikgz/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:40] [Mutant 217] Project copied to /tmp/mutant_217_hscyqos7/cli_22
+[2025-03-10 04:20:40] [Mutant 217] Mutant content written to /tmp/mutant_217_hscyqos7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:41] [Mutant 200] Compilation successful
+[2025-03-10 04:20:41] [Mutant 164] Cleaned up temp directory.
+[2025-03-10 04:20:41] [Mutant 164] Test run completed.
+[Mutant 164] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 164] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:41] [Mutant 218] Project copied to /tmp/mutant_218_md8klx2y/cli_22
+[2025-03-10 04:20:41] [Mutant 218] Mutant content written to /tmp/mutant_218_md8klx2y/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:42] [Mutant 197] Cleaned up temp directory.
+[2025-03-10 04:20:42] [Mutant 197] Test run completed.
+[Mutant 197] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 197] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:42] [Mutant 212] Compilation successful
+[2025-03-10 04:20:42] [Mutant 216] Compilation successful
+[2025-03-10 04:20:42] [Mutant 217] Compilation successful
+[2025-03-10 04:20:42] [Mutant 219] Project copied to /tmp/mutant_219_wsjbf7vm/cli_22
+[2025-03-10 04:20:42] [Mutant 219] Mutant content written to /tmp/mutant_219_wsjbf7vm/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:20:43] [Mutant 200] Cleaned up temp directory.
+[2025-03-10 04:20:43] [Mutant 200] Test run completed.
+[Mutant 200] --- STDOUT ---
+Failing tests: 19
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+
+[Mutant 200] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:44] [Mutant 218] Compilation successful
+[2025-03-10 04:20:44] [Mutant 212] Cleaned up temp directory.
+[2025-03-10 04:20:44] [Mutant 212] Test run completed.
+[Mutant 212] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 212] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:44] [Mutant 216] Cleaned up temp directory.
+[2025-03-10 04:20:44] [Mutant 216] Test run completed.
+[Mutant 216] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 216] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:45] [Mutant 219] Compilation successful
+[2025-03-10 04:20:45] [Mutant 217] Cleaned up temp directory.
+[2025-03-10 04:20:45] [Mutant 217] Test run completed.
+[Mutant 217] --- STDOUT ---
+Failing tests: 27
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 217] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:46] [Mutant 218] Cleaned up temp directory.
+[2025-03-10 04:20:46] [Mutant 218] Test run completed.
+[Mutant 218] --- STDOUT ---
+Failing tests: 27
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 218] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:20:46] [Mutant 219] Cleaned up temp directory.
+[2025-03-10 04:20:46] [Mutant 219] Test run completed.
+[Mutant 219] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 219] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:04] [Mutant 224] Project copied to /tmp/mutant_224_l6jeg9vq/cli_22
+[2025-03-10 04:21:04] [Mutant 224] Mutant content written to /tmp/mutant_224_l6jeg9vq/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:04] [Mutant 226] Project copied to /tmp/mutant_226_ftiq4o83/cli_22
+[2025-03-10 04:21:04] [Mutant 226] Mutant content written to /tmp/mutant_226_ftiq4o83/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:06] [Mutant 224] Compilation successful
+[2025-03-10 04:21:06] [Mutant 226] Compilation successful
+[2025-03-10 04:21:07] [Mutant 227] Project copied to /tmp/mutant_227_earv3koy/cli_22
+[2025-03-10 04:21:07] [Mutant 227] Mutant content written to /tmp/mutant_227_earv3koy/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:07] [Mutant 228] Project copied to /tmp/mutant_228_a3mz5j_9/cli_22
+[2025-03-10 04:21:07] [Mutant 228] Mutant content written to /tmp/mutant_228_a3mz5j_9/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:08] [Mutant 224] Cleaned up temp directory.
+[2025-03-10 04:21:08] [Mutant 224] Test run completed.
+[Mutant 224] --- STDOUT ---
+Failing tests: 25
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 224] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:08] [Mutant 229] Project copied to /tmp/mutant_229_7ic41fmy/cli_22
+[2025-03-10 04:21:08] [Mutant 229] Mutant content written to /tmp/mutant_229_7ic41fmy/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:08] [Mutant 226] Cleaned up temp directory.
+[2025-03-10 04:21:08] [Mutant 226] Test run completed.
+[Mutant 226] --- STDOUT ---
+Failing tests: 25
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 226] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:08] [Mutant 246] Project copied to /tmp/mutant_246_sgg_j7y0/cli_22
+[2025-03-10 04:21:08] [Mutant 246] Mutant content written to /tmp/mutant_246_sgg_j7y0/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:09] [Mutant 227] Compilation successful
+[2025-03-10 04:21:09] [Mutant 228] Compilation successful
+[2025-03-10 04:21:10] [Mutant 251] Project copied to /tmp/mutant_251_njfcid3f/cli_22
+[2025-03-10 04:21:10] [Mutant 251] Mutant content written to /tmp/mutant_251_njfcid3f/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:10] [Mutant 229] Compilation successful
+[2025-03-10 04:21:11] [Mutant 246] Compilation successful
+[2025-03-10 04:21:11] [Mutant 252] Project copied to /tmp/mutant_252_qayvqbz0/cli_22
+[2025-03-10 04:21:11] [Mutant 252] Mutant content written to /tmp/mutant_252_qayvqbz0/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:11] [Mutant 227] Cleaned up temp directory.
+[2025-03-10 04:21:11] [Mutant 227] Test run completed.
+[Mutant 227] --- STDOUT ---
+Failing tests: 25
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 227] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:11] [Mutant 228] Cleaned up temp directory.
+[2025-03-10 04:21:11] [Mutant 228] Test run completed.
+[Mutant 228] --- STDOUT ---
+Failing tests: 25
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+
+[Mutant 228] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:12] [Mutant 251] Compilation successful
+[2025-03-10 04:21:12] [Mutant 229] Cleaned up temp directory.
+[2025-03-10 04:21:12] [Mutant 229] Test run completed.
+[Mutant 229] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 229] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:13] [Mutant 246] Cleaned up temp directory.
+[2025-03-10 04:21:13] [Mutant 246] Test run completed.
+[Mutant 246] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 246] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:13] [Mutant 252] Compilation successful
+[2025-03-10 04:21:14] [Mutant 251] Cleaned up temp directory.
+[2025-03-10 04:21:14] [Mutant 251] Test run completed.
+[Mutant 251] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 251] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:14] [Mutant 252] Cleaned up temp directory.
+[2025-03-10 04:21:14] [Mutant 252] Test run completed.
+[Mutant 252] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 252] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:30] [Mutant 253] Project copied to /tmp/mutant_253_0wcu7m67/cli_22
+[2025-03-10 04:21:30] [Mutant 253] Mutant content written to /tmp/mutant_253_0wcu7m67/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:31] [Mutant 257] Project copied to /tmp/mutant_257_byj0iesc/cli_22
+[2025-03-10 04:21:31] [Mutant 257] Mutant content written to /tmp/mutant_257_byj0iesc/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:32] [Mutant 253] Compilation successful
+[2025-03-10 04:21:32] [Mutant 257] Compilation successful
+[2025-03-10 04:21:34] [Mutant 253] Cleaned up temp directory.
+[2025-03-10 04:21:34] [Mutant 253] Test run completed.
+[Mutant 253] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 253] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:34] [Mutant 257] Cleaned up temp directory.
+[2025-03-10 04:21:34] [Mutant 257] Test run completed.
+[Mutant 257] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 257] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:34] [Mutant 258] Project copied to /tmp/mutant_258_08583r65/cli_22
+[2025-03-10 04:21:34] [Mutant 258] Mutant content written to /tmp/mutant_258_08583r65/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:34] [Mutant 259] Project copied to /tmp/mutant_259_8795b2no/cli_22
+[2025-03-10 04:21:34] [Mutant 259] Mutant content written to /tmp/mutant_259_8795b2no/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:35] [Mutant 260] Project copied to /tmp/mutant_260_bg_asa8u/cli_22
+[2025-03-10 04:21:35] [Mutant 260] Mutant content written to /tmp/mutant_260_bg_asa8u/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:35] [Mutant 258] Compilation successful
+[2025-03-10 04:21:36] [Mutant 267] Project copied to /tmp/mutant_267_o97dz_hm/cli_22
+[2025-03-10 04:21:36] [Mutant 267] Mutant content written to /tmp/mutant_267_o97dz_hm/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:36] [Mutant 259] Compilation successful
+[2025-03-10 04:21:37] [Mutant 275] Project copied to /tmp/mutant_275_xz08e60o/cli_22
+[2025-03-10 04:21:37] [Mutant 275] Mutant content written to /tmp/mutant_275_xz08e60o/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:37] [Mutant 260] Compilation successful
+[2025-03-10 04:21:37] [Mutant 258] Cleaned up temp directory.
+[2025-03-10 04:21:37] [Mutant 258] Test run completed.
+[Mutant 258] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 258] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:38] [Mutant 267] Compilation successful
+[2025-03-10 04:21:38] [Mutant 259] Cleaned up temp directory.
+[2025-03-10 04:21:38] [Mutant 259] Test run completed.
+[Mutant 259] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 259] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:38] [Mutant 3] Project copied to /tmp/mutant_3_94rlox5k/cli_22
+[2025-03-10 04:21:38] [Mutant 3] Mutant content written to /tmp/mutant_3_94rlox5k/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:39] [Mutant 275] Compilation successful
+[2025-03-10 04:21:39] [Mutant 260] Cleaned up temp directory.
+[2025-03-10 04:21:39] [Mutant 260] Test run completed.
+[Mutant 260] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+
+[Mutant 260] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:40] [Mutant 267] Cleaned up temp directory.
+[2025-03-10 04:21:40] [Mutant 267] Test run completed.
+[Mutant 267] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 267] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:41] [Mutant 3] Compilation successful
+[2025-03-10 04:21:41] [Mutant 275] Cleaned up temp directory.
+[2025-03-10 04:21:41] [Mutant 275] Test run completed.
+[Mutant 275] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+
+[Mutant 275] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:42] [Mutant 3] Cleaned up temp directory.
+[2025-03-10 04:21:42] [Mutant 3] Test run completed.
+[Mutant 3] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 3] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:21:57] [Mutant 304] Project copied to /tmp/mutant_304_nrra_2jf/cli_22
+[2025-03-10 04:21:57] [Mutant 304] Mutant content written to /tmp/mutant_304_nrra_2jf/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:57] [Mutant 305] Project copied to /tmp/mutant_305_1sve4ffh/cli_22
+[2025-03-10 04:21:57] [Mutant 305] Mutant content written to /tmp/mutant_305_1sve4ffh/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:21:58] [Mutant 304] Compilation successful
+[2025-03-10 04:21:58] [Mutant 305] Compilation successful
+[2025-03-10 04:22:00] [Mutant 304] Cleaned up temp directory.
+[2025-03-10 04:22:00] [Mutant 304] Test run completed.
+[Mutant 304] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+
+[Mutant 304] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:00] [Mutant 305] Cleaned up temp directory.
+[2025-03-10 04:22:00] [Mutant 305] Test run completed.
+[Mutant 305] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+
+[Mutant 305] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:01] [Mutant 306] Project copied to /tmp/mutant_306_a30668ea/cli_22
+[2025-03-10 04:22:01] [Mutant 306] Mutant content written to /tmp/mutant_306_a30668ea/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:01] [Mutant 308] Project copied to /tmp/mutant_308_2e4u2aq8/cli_22
+[2025-03-10 04:22:01] [Mutant 308] Mutant content written to /tmp/mutant_308_2e4u2aq8/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:02] [Mutant 306] Compilation successful
+[2025-03-10 04:22:03] [Mutant 309] Project copied to /tmp/mutant_309_xyr4razi/cli_22
+[2025-03-10 04:22:03] [Mutant 309] Mutant content written to /tmp/mutant_309_xyr4razi/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:03] [Mutant 308] Compilation successful
+[2025-03-10 04:22:03] [Mutant 310] Project copied to /tmp/mutant_310_i8erh22w/cli_22
+[2025-03-10 04:22:03] [Mutant 310] Mutant content written to /tmp/mutant_310_i8erh22w/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:04] [Mutant 306] Cleaned up temp directory.
+[2025-03-10 04:22:04] [Mutant 306] Test run completed.
+[Mutant 306] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+
+[Mutant 306] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:04] [Mutant 320] Project copied to /tmp/mutant_320_eq6yt7xm/cli_22
+[2025-03-10 04:22:04] [Mutant 320] Mutant content written to /tmp/mutant_320_eq6yt7xm/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:05] [Mutant 309] Compilation successful
+[2025-03-10 04:22:05] [Mutant 308] Cleaned up temp directory.
+[2025-03-10 04:22:05] [Mutant 308] Test run completed.
+[Mutant 308] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 308] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:05] [Mutant 310] Compilation successful
+[2025-03-10 04:22:06] [Mutant 321] Project copied to /tmp/mutant_321_dth8kgqo/cli_22
+[2025-03-10 04:22:06] [Mutant 321] Mutant content written to /tmp/mutant_321_dth8kgqo/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:06] [Mutant 320] Compilation successful
+[2025-03-10 04:22:06] [Mutant 309] Cleaned up temp directory.
+[2025-03-10 04:22:06] [Mutant 309] Test run completed.
+[Mutant 309] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 309] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:07] [Mutant 310] Cleaned up temp directory.
+[2025-03-10 04:22:07] [Mutant 310] Test run completed.
+[Mutant 310] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 310] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:08] [Mutant 321] Compilation successful
+[2025-03-10 04:22:08] [Mutant 320] Cleaned up temp directory.
+[2025-03-10 04:22:08] [Mutant 320] Test run completed.
+[Mutant 320] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 320] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:09] [Mutant 321] Cleaned up temp directory.
+[2025-03-10 04:22:09] [Mutant 321] Test run completed.
+[Mutant 321] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 321] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:22] [Mutant 322] Project copied to /tmp/mutant_322_liyv7u4w/cli_22
+[2025-03-10 04:22:22] [Mutant 322] Mutant content written to /tmp/mutant_322_liyv7u4w/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:22] [Mutant 323] Project copied to /tmp/mutant_323_7ru7002t/cli_22
+[2025-03-10 04:22:22] [Mutant 323] Mutant content written to /tmp/mutant_323_7ru7002t/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:23] [Mutant 322] Compilation successful
+[2025-03-10 04:22:24] [Mutant 323] Compilation successful
+[2025-03-10 04:22:25] [Mutant 322] Cleaned up temp directory.
+[2025-03-10 04:22:25] [Mutant 322] Test run completed.
+[Mutant 322] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 322] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:25] [Mutant 323] Cleaned up temp directory.
+[2025-03-10 04:22:25] [Mutant 323] Test run completed.
+[Mutant 323] --- STDOUT ---
+Failing tests: 3
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+
+[Mutant 323] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:28] [Mutant 346] Project copied to /tmp/mutant_346_zkrxwz83/cli_22
+[2025-03-10 04:22:28] [Mutant 346] Mutant content written to /tmp/mutant_346_zkrxwz83/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:28] [Mutant 347] Project copied to /tmp/mutant_347_dq3bf5t5/cli_22
+[2025-03-10 04:22:28] [Mutant 347] Mutant content written to /tmp/mutant_347_dq3bf5t5/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:29] [Mutant 346] Compilation successful
+[2025-03-10 04:22:29] [Mutant 359] Project copied to /tmp/mutant_359_a9p1ah8f/cli_22
+[2025-03-10 04:22:29] [Mutant 359] Mutant content written to /tmp/mutant_359_a9p1ah8f/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:30] [Mutant 360] Project copied to /tmp/mutant_360_jysrl_5r/cli_22
+[2025-03-10 04:22:30] [Mutant 360] Mutant content written to /tmp/mutant_360_jysrl_5r/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:30] [Mutant 347] Compilation successful
+[2025-03-10 04:22:31] [Mutant 346] Cleaned up temp directory.
+[2025-03-10 04:22:31] [Mutant 346] Test run completed.
+[Mutant 346] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 346] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:31] [Mutant 359] Compilation successful
+[2025-03-10 04:22:31] [Mutant 374] Project copied to /tmp/mutant_374_xshsqg8q/cli_22
+[2025-03-10 04:22:31] [Mutant 374] Mutant content written to /tmp/mutant_374_xshsqg8q/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:32] [Mutant 360] Compilation successful
+[2025-03-10 04:22:32] [Mutant 347] Cleaned up temp directory.
+[2025-03-10 04:22:32] [Mutant 347] Test run completed.
+[Mutant 347] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+
+[Mutant 347] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:33] [Mutant 359] Cleaned up temp directory.
+[2025-03-10 04:22:33] [Mutant 359] Test run completed.
+[Mutant 359] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 359] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:33] [Mutant 375] Project copied to /tmp/mutant_375_e33qae1n/cli_22
+[2025-03-10 04:22:33] [Mutant 375] Mutant content written to /tmp/mutant_375_e33qae1n/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:33] [Mutant 374] Compilation successful
+[2025-03-10 04:22:33] [Mutant 360] Cleaned up temp directory.
+[2025-03-10 04:22:33] [Mutant 360] Test run completed.
+[Mutant 360] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+
+[Mutant 360] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:35] [Mutant 375] Compilation successful
+[2025-03-10 04:22:35] [Mutant 374] Cleaned up temp directory.
+[2025-03-10 04:22:35] [Mutant 374] Test run completed.
+[Mutant 374] --- STDOUT ---
+Failing tests: 7
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 374] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:36] [Mutant 375] Cleaned up temp directory.
+[2025-03-10 04:22:36] [Mutant 375] Test run completed.
+[Mutant 375] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+
+[Mutant 375] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:48] [Mutant 40] Project copied to /tmp/mutant_40_2yzpo5dv/cli_22
+[2025-03-10 04:22:48] [Mutant 40] Mutant content written to /tmp/mutant_40_2yzpo5dv/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:48] [Mutant 413] Project copied to /tmp/mutant_413_gpmswst4/cli_22
+[2025-03-10 04:22:48] [Mutant 413] Mutant content written to /tmp/mutant_413_gpmswst4/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:49] [Mutant 40] Compilation successful
+[2025-03-10 04:22:50] [Mutant 413] Compilation successful
+[2025-03-10 04:22:51] [Mutant 40] Cleaned up temp directory.
+[2025-03-10 04:22:51] [Mutant 40] Test run completed.
+[Mutant 40] --- STDOUT ---
+Failing tests: 75
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 40] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:51] [Mutant 413] Cleaned up temp directory.
+[2025-03-10 04:22:51] [Mutant 413] Test run completed.
+[Mutant 413] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 413] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:55] [Mutant 418] Project copied to /tmp/mutant_418_zmo8h5o3/cli_22
+[2025-03-10 04:22:55] [Mutant 418] Mutant content written to /tmp/mutant_418_zmo8h5o3/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:55] [Mutant 43] Project copied to /tmp/mutant_43_m3up02bz/cli_22
+[2025-03-10 04:22:55] [Mutant 43] Mutant content written to /tmp/mutant_43_m3up02bz/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:56] [Mutant 418] Compilation successful
+[2025-03-10 04:22:56] [Mutant 431] Project copied to /tmp/mutant_431_fgf4rg7n/cli_22
+[2025-03-10 04:22:56] [Mutant 431] Mutant content written to /tmp/mutant_431_fgf4rg7n/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:57] [Mutant 449] Project copied to /tmp/mutant_449_ioyjgi8t/cli_22
+[2025-03-10 04:22:57] [Mutant 449] Mutant content written to /tmp/mutant_449_ioyjgi8t/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:57] [Mutant 43] Compilation successful
+[2025-03-10 04:22:58] [Mutant 418] Cleaned up temp directory.
+[2025-03-10 04:22:58] [Mutant 418] Test run completed.
+[Mutant 418] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 418] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:22:59] [Mutant 431] Compilation successful
+[2025-03-10 04:22:59] [Mutant 450] Project copied to /tmp/mutant_450_k2x8rk3k/cli_22
+[2025-03-10 04:22:59] [Mutant 450] Mutant content written to /tmp/mutant_450_k2x8rk3k/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:22:59] [Mutant 449] Compilation successful
+[2025-03-10 04:22:59] [Mutant 43] Cleaned up temp directory.
+[2025-03-10 04:22:59] [Mutant 43] Test run completed.
+[Mutant 43] --- STDOUT ---
+Failing tests: 75
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 43] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:00] [Mutant 431] Cleaned up temp directory.
+[2025-03-10 04:23:00] [Mutant 431] Test run completed.
+[Mutant 431] --- STDOUT ---
+Failing tests: 6
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+
+[Mutant 431] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:01] [Mutant 450] Compilation successful
+[2025-03-10 04:23:01] [Mutant 451] Project copied to /tmp/mutant_451_ljly9_8x/cli_22
+[2025-03-10 04:23:01] [Mutant 451] Mutant content written to /tmp/mutant_451_ljly9_8x/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:01] [Mutant 449] Cleaned up temp directory.
+[2025-03-10 04:23:01] [Mutant 449] Test run completed.
+[Mutant 449] --- STDOUT ---
+Failing tests: 9
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 449] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:02] [Mutant 450] Cleaned up temp directory.
+[2025-03-10 04:23:02] [Mutant 450] Test run completed.
+[Mutant 450] --- STDOUT ---
+Failing tests: 9
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 450] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:02] [Mutant 451] Compilation successful
+[2025-03-10 04:23:04] [Mutant 451] Cleaned up temp directory.
+[2025-03-10 04:23:04] [Mutant 451] Test run completed.
+[Mutant 451] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 451] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:14] [Mutant 452] Project copied to /tmp/mutant_452_ukz_wuwq/cli_22
+[2025-03-10 04:23:14] [Mutant 452] Mutant content written to /tmp/mutant_452_ukz_wuwq/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:14] [Mutant 457] Project copied to /tmp/mutant_457_pvz_9mjo/cli_22
+[2025-03-10 04:23:14] [Mutant 457] Mutant content written to /tmp/mutant_457_pvz_9mjo/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:16] [Mutant 452] Compilation successful
+[2025-03-10 04:23:16] [Mutant 457] Compilation successful
+[2025-03-10 04:23:18] [Mutant 452] Cleaned up temp directory.
+[2025-03-10 04:23:18] [Mutant 452] Test run completed.
+[Mutant 452] --- STDOUT ---
+Failing tests: 7
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+
+[Mutant 452] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:18] [Mutant 457] Cleaned up temp directory.
+[2025-03-10 04:23:18] [Mutant 457] Test run completed.
+[Mutant 457] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+
+[Mutant 457] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:23] [Mutant 458] Project copied to /tmp/mutant_458_d60sqxws/cli_22
+[2025-03-10 04:23:23] [Mutant 458] Mutant content written to /tmp/mutant_458_d60sqxws/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:23] [Mutant 462] Project copied to /tmp/mutant_462_avtt9lfn/cli_22
+[2025-03-10 04:23:23] [Mutant 462] Mutant content written to /tmp/mutant_462_avtt9lfn/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:24] [Mutant 458] Compilation successful
+[2025-03-10 04:23:24] [Mutant 463] Project copied to /tmp/mutant_463_q9ahem4y/cli_22
+[2025-03-10 04:23:24] [Mutant 463] Mutant content written to /tmp/mutant_463_q9ahem4y/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:25] [Mutant 468] Project copied to /tmp/mutant_468_kd6i9oes/cli_22
+[2025-03-10 04:23:25] [Mutant 468] Mutant content written to /tmp/mutant_468_kd6i9oes/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:25] [Mutant 462] Compilation successful
+[2025-03-10 04:23:26] [Mutant 458] Cleaned up temp directory.
+[2025-03-10 04:23:26] [Mutant 458] Test run completed.
+[Mutant 458] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+
+[Mutant 458] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:26] [Mutant 463] Compilation successful
+[2025-03-10 04:23:26] [Mutant 497] Project copied to /tmp/mutant_497_p56x1hfb/cli_22
+[2025-03-10 04:23:26] [Mutant 497] Mutant content written to /tmp/mutant_497_p56x1hfb/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:27] [Mutant 468] Compilation successful
+[2025-03-10 04:23:27] [Mutant 462] Cleaned up temp directory.
+[2025-03-10 04:23:27] [Mutant 462] Test run completed.
+[Mutant 462] --- STDOUT ---
+Failing tests: 3
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+
+[Mutant 462] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:28] [Mutant 463] Cleaned up temp directory.
+[2025-03-10 04:23:28] [Mutant 463] Test run completed.
+[Mutant 463] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+
+[Mutant 463] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:28] [Mutant 497] Compilation successful
+[2025-03-10 04:23:28] [Mutant 509] Project copied to /tmp/mutant_509_hmh2t68b/cli_22
+[2025-03-10 04:23:28] [Mutant 509] Mutant content written to /tmp/mutant_509_hmh2t68b/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:29] [Mutant 468] Cleaned up temp directory.
+[2025-03-10 04:23:29] [Mutant 468] Test run completed.
+[Mutant 468] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+
+[Mutant 468] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:30] [Mutant 497] Cleaned up temp directory.
+[2025-03-10 04:23:30] [Mutant 497] Test run completed.
+[Mutant 497] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 497] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:30] [Mutant 509] Compilation successful
+[2025-03-10 04:23:31] [Mutant 509] Cleaned up temp directory.
+[2025-03-10 04:23:31] [Mutant 509] Test run completed.
+[Mutant 509] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+
+[Mutant 509] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:40] [Mutant 512] Project copied to /tmp/mutant_512_fiogwlgo/cli_22
+[2025-03-10 04:23:40] [Mutant 512] Mutant content written to /tmp/mutant_512_fiogwlgo/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:41] [Mutant 52] Project copied to /tmp/mutant_52_95sf0wf0/cli_22
+[2025-03-10 04:23:41] [Mutant 52] Mutant content written to /tmp/mutant_52_95sf0wf0/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:42] [Mutant 512] Compilation successful
+[2025-03-10 04:23:42] [Mutant 52] Compilation successful
+[2025-03-10 04:23:44] [Mutant 512] Cleaned up temp directory.
+[2025-03-10 04:23:44] [Mutant 512] Test run completed.
+[Mutant 512] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 512] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:44] [Mutant 52] Cleaned up temp directory.
+[2025-03-10 04:23:44] [Mutant 52] Test run completed.
+[Mutant 52] --- STDOUT ---
+Failing tests: 75
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 52] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:50] [Mutant 524] Project copied to /tmp/mutant_524_0q0osuvw/cli_22
+[2025-03-10 04:23:50] [Mutant 524] Mutant content written to /tmp/mutant_524_0q0osuvw/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:51] [Mutant 526] Project copied to /tmp/mutant_526_c6dxb9rt/cli_22
+[2025-03-10 04:23:51] [Mutant 526] Mutant content written to /tmp/mutant_526_c6dxb9rt/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:51] [Mutant 524] Compilation successful
+[2025-03-10 04:23:52] [Mutant 529] Project copied to /tmp/mutant_529_e132c5ds/cli_22
+[2025-03-10 04:23:52] [Mutant 529] Mutant content written to /tmp/mutant_529_e132c5ds/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:52] [Mutant 544] Project copied to /tmp/mutant_544_dh6dfe2g/cli_22
+[2025-03-10 04:23:52] [Mutant 544] Mutant content written to /tmp/mutant_544_dh6dfe2g/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:53] [Mutant 526] Compilation successful
+[2025-03-10 04:23:53] [Mutant 524] Cleaned up temp directory.
+[2025-03-10 04:23:53] [Mutant 524] Test run completed.
+[Mutant 524] --- STDOUT ---
+Failing tests: 6
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+
+[Mutant 524] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:54] [Mutant 545] Project copied to /tmp/mutant_545_pk7lqhj7/cli_22
+[2025-03-10 04:23:54] [Mutant 529] Compilation successful
+[2025-03-10 04:23:54] [Mutant 545] Mutant content written to /tmp/mutant_545_pk7lqhj7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:54] [Mutant 544] Compilation successful
+[2025-03-10 04:23:55] [Mutant 526] Cleaned up temp directory.
+[2025-03-10 04:23:55] [Mutant 526] Test run completed.
+[Mutant 526] --- STDOUT ---
+Failing tests: 6
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+
+[Mutant 526] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:56] [Mutant 529] Cleaned up temp directory.
+[2025-03-10 04:23:56] [Mutant 529] Test run completed.
+[Mutant 529] --- STDOUT ---
+Failing tests: 56
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 529] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:56] [Mutant 545] Compilation successful
+[2025-03-10 04:23:56] [Mutant 546] Project copied to /tmp/mutant_546_o0mic4xw/cli_22
+[2025-03-10 04:23:56] [Mutant 546] Mutant content written to /tmp/mutant_546_o0mic4xw/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:23:56] [Mutant 544] Cleaned up temp directory.
+[2025-03-10 04:23:56] [Mutant 544] Test run completed.
+[Mutant 544] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 544] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:57] [Mutant 545] Cleaned up temp directory.
+[2025-03-10 04:23:57] [Mutant 545] Test run completed.
+[Mutant 545] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 545] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:23:58] [Mutant 546] Compilation successful
+[2025-03-10 04:23:59] [Mutant 546] Cleaned up temp directory.
+[2025-03-10 04:23:59] [Mutant 546] Test run completed.
+[Mutant 546] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 546] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:08] [Mutant 551] Project copied to /tmp/mutant_551_cam83los/cli_22
+[2025-03-10 04:24:08] [Mutant 551] Mutant content written to /tmp/mutant_551_cam83los/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:08] [Mutant 584] Project copied to /tmp/mutant_584_3twdnq4_/cli_22
+[2025-03-10 04:24:08] [Mutant 584] Mutant content written to /tmp/mutant_584_3twdnq4_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:09] [Mutant 551] Compilation successful
+[2025-03-10 04:24:09] [Mutant 584] Compilation successful
+[2025-03-10 04:24:11] [Mutant 551] Cleaned up temp directory.
+[2025-03-10 04:24:11] [Mutant 551] Test run completed.
+[Mutant 551] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 551] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:11] [Mutant 584] Cleaned up temp directory.
+[2025-03-10 04:24:11] [Mutant 584] Test run completed.
+[Mutant 584] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+
+[Mutant 584] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:17] [Mutant 62] Project copied to /tmp/mutant_62_jg01r77k/cli_22
+[2025-03-10 04:24:17] [Mutant 62] Mutant content written to /tmp/mutant_62_jg01r77k/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:18] [Mutant 632] Project copied to /tmp/mutant_632_7nzbtfxr/cli_22
+[2025-03-10 04:24:18] [Mutant 632] Mutant content written to /tmp/mutant_632_7nzbtfxr/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:19] [Mutant 642] Project copied to /tmp/mutant_642_fhfmtwb_/cli_22
+[2025-03-10 04:24:19] [Mutant 642] Mutant content written to /tmp/mutant_642_fhfmtwb_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:19] [Mutant 62] Compilation successful
+[2025-03-10 04:24:19] [Mutant 644] Project copied to /tmp/mutant_644_2j1bs5y_/cli_22
+[2025-03-10 04:24:19] [Mutant 644] Mutant content written to /tmp/mutant_644_2j1bs5y_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:20] [Mutant 632] Compilation successful
+[2025-03-10 04:24:21] [Mutant 642] Compilation successful
+[2025-03-10 04:24:21] [Mutant 62] Cleaned up temp directory.
+[2025-03-10 04:24:21] [Mutant 62] Test run completed.
+[Mutant 62] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 62] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:21] [Mutant 645] Project copied to /tmp/mutant_645_hoksl6x_/cli_22
+[2025-03-10 04:24:21] [Mutant 645] Mutant content written to /tmp/mutant_645_hoksl6x_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:21] [Mutant 644] Compilation successful
+[2025-03-10 04:24:22] [Mutant 632] Cleaned up temp directory.
+[2025-03-10 04:24:22] [Mutant 632] Test run completed.
+[Mutant 632] --- STDOUT ---
+Failing tests: 55
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test13425
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 632] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:23] [Mutant 642] Cleaned up temp directory.
+[2025-03-10 04:24:23] [Mutant 642] Test run completed.
+[Mutant 642] --- STDOUT ---
+Failing tests: 67
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 642] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:23] [Mutant 645] Compilation successful
+[2025-03-10 04:24:23] [Mutant 644] Cleaned up temp directory.
+[2025-03-10 04:24:23] [Mutant 644] Test run completed.
+[Mutant 644] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 644] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:23] [Mutant 646] Project copied to /tmp/mutant_646_xs8pf6h4/cli_22
+[2025-03-10 04:24:23] [Mutant 646] Mutant content written to /tmp/mutant_646_xs8pf6h4/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:24] [Mutant 645] Cleaned up temp directory.
+[2025-03-10 04:24:24] [Mutant 645] Test run completed.
+[Mutant 645] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 645] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:25] [Mutant 646] Compilation successful
+[2025-03-10 04:24:26] [Mutant 646] Cleaned up temp directory.
+[2025-03-10 04:24:26] [Mutant 646] Test run completed.
+[Mutant 646] --- STDOUT ---
+Failing tests: 10
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 646] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:34] [Mutant 647] Project copied to /tmp/mutant_647_d2cykx9l/cli_22
+[2025-03-10 04:24:34] [Mutant 647] Mutant content written to /tmp/mutant_647_d2cykx9l/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:34] [Mutant 648] Project copied to /tmp/mutant_648_6zsbd1gy/cli_22
+[2025-03-10 04:24:34] [Mutant 648] Mutant content written to /tmp/mutant_648_6zsbd1gy/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:36] [Mutant 647] Compilation successful
+[2025-03-10 04:24:37] [Mutant 648] Compilation successful
+[2025-03-10 04:24:38] [Mutant 647] Cleaned up temp directory.
+[2025-03-10 04:24:38] [Mutant 647] Test run completed.
+[Mutant 647] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 647] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:38] [Mutant 648] Cleaned up temp directory.
+[2025-03-10 04:24:38] [Mutant 648] Test run completed.
+[Mutant 648] --- STDOUT ---
+Failing tests: 13
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 648] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:45] [Mutant 649] Project copied to /tmp/mutant_649_y2v5fwg7/cli_22
+[2025-03-10 04:24:45] [Mutant 649] Mutant content written to /tmp/mutant_649_y2v5fwg7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:46] [Mutant 65] Project copied to /tmp/mutant_65_m48o1erz/cli_22
+[2025-03-10 04:24:46] [Mutant 65] Mutant content written to /tmp/mutant_65_m48o1erz/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:47] [Mutant 652] Project copied to /tmp/mutant_652_tqsp5s50/cli_22
+[2025-03-10 04:24:47] [Mutant 652] Mutant content written to /tmp/mutant_652_tqsp5s50/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:47] [Mutant 649] Compilation successful
+[2025-03-10 04:24:47] [Mutant 660] Project copied to /tmp/mutant_660_6jcgrn57/cli_22
+[2025-03-10 04:24:47] [Mutant 660] Mutant content written to /tmp/mutant_660_6jcgrn57/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:48] [Mutant 65] Compilation successful
+[2025-03-10 04:24:49] [Mutant 652] Compilation successful
+[2025-03-10 04:24:49] [Mutant 678] Project copied to /tmp/mutant_678_c9uqxqns/cli_22
+[2025-03-10 04:24:49] [Mutant 678] Mutant content written to /tmp/mutant_678_c9uqxqns/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:49] [Mutant 649] Cleaned up temp directory.
+[2025-03-10 04:24:49] [Mutant 649] Test run completed.
+[Mutant 649] --- STDOUT ---
+Failing tests: 13
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 649] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:49] [Mutant 660] Compilation successful
+[2025-03-10 04:24:50] [Mutant 65] Cleaned up temp directory.
+[2025-03-10 04:24:50] [Mutant 65] Test run completed.
+[Mutant 65] --- STDOUT ---
+Failing tests: 91
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument
+  - org.apache.commons.cli.ArgumentIsOptionTest::testOption
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.BugsTest::test11680
+  - org.apache.commons.cli.BugsTest::test13935
+  - org.apache.commons.cli.BugsTest::test15046
+  - org.apache.commons.cli.BugsTest::test15648
+  - org.apache.commons.cli.BugsTest::test31148
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup
+  - org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOption
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions
+  - org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup
+  - org.apache.commons.cli.OptionGroupTest::testSingleLongOption
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsException
+  - org.apache.commons.cli.OptionsTest::testMissingOptionException
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+  - org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption
+  - org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testURLPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testClassPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testRequiredOption
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.PosixParserTest::testSimpleLong
+  - org.apache.commons.cli.PosixParserTest::testSimpleShort
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionLong
+  - org.apache.commons.cli.PosixParserTest::testNegativeArgument
+  - org.apache.commons.cli.PosixParserTest::testStopAtUnexpectedArg
+  - org.apache.commons.cli.PosixParserTest::testMissingArg
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption
+  - org.apache.commons.cli.PosixParserTest::testDoubleDash
+  - org.apache.commons.cli.PosixParserTest::testSingleDash
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionShort
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+  - org.apache.commons.cli.PosixParserTest::testLongWithEqual
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI133Test::testOrder
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround2
+  - org.apache.commons.cli.bug.BugCLI71Test::testBasic
+  - org.apache.commons.cli.bug.BugCLI71Test::testLackOfError
+  - org.apache.commons.cli.bug.BugCLI71Test::testMistakenArgument
+  - org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional
+
+[Mutant 65] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:51] [Mutant 652] Cleaned up temp directory.
+[2025-03-10 04:24:51] [Mutant 652] Test run completed.
+[Mutant 652] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 652] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:51] [Mutant 678] Compilation successful
+[2025-03-10 04:24:51] [Mutant 660] Cleaned up temp directory.
+[2025-03-10 04:24:51] [Mutant 660] Test run completed.
+[Mutant 660] --- STDOUT ---
+Failing tests: 4
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+
+[Mutant 660] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:51] [Mutant 679] Project copied to /tmp/mutant_679_m1agyvsq/cli_22
+[2025-03-10 04:24:51] [Mutant 679] Mutant content written to /tmp/mutant_679_m1agyvsq/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:24:53] [Mutant 678] Cleaned up temp directory.
+[2025-03-10 04:24:53] [Mutant 678] Test run completed.
+[Mutant 678] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 678] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:24:53] [Mutant 679] Compilation successful
+[2025-03-10 04:24:55] [Mutant 679] Cleaned up temp directory.
+[2025-03-10 04:24:55] [Mutant 679] Test run completed.
+[Mutant 679] --- STDOUT ---
+Failing tests: 5
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+
+[Mutant 679] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:02] [Mutant 698] Project copied to /tmp/mutant_698_fqlpv90m/cli_22
+[2025-03-10 04:25:02] [Mutant 698] Mutant content written to /tmp/mutant_698_fqlpv90m/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:03] [Mutant 713] Project copied to /tmp/mutant_713_cjuf3b2i/cli_22
+[2025-03-10 04:25:03] [Mutant 713] Mutant content written to /tmp/mutant_713_cjuf3b2i/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:04] [Mutant 698] Compilation successful
+[2025-03-10 04:25:04] [Mutant 713] Compilation successful
+[2025-03-10 04:25:05] [Mutant 698] Cleaned up temp directory.
+[2025-03-10 04:25:05] [Mutant 698] Test run completed.
+[Mutant 698] --- STDOUT ---
+Failing tests: 12
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 698] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:06] [Mutant 713] Cleaned up temp directory.
+[2025-03-10 04:25:06] [Mutant 713] Test run completed.
+[Mutant 713] --- STDOUT ---
+Failing tests: 14
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 713] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:13] [Mutant 716] Project copied to /tmp/mutant_716_63ktfdz7/cli_22
+[2025-03-10 04:25:13] [Mutant 716] Mutant content written to /tmp/mutant_716_63ktfdz7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:14] [Mutant 719] Project copied to /tmp/mutant_719_i_x_gqt7/cli_22
+[2025-03-10 04:25:14] [Mutant 719] Mutant content written to /tmp/mutant_719_i_x_gqt7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:14] [Mutant 751] Project copied to /tmp/mutant_751_tumlzo1c/cli_22
+[2025-03-10 04:25:14] [Mutant 751] Mutant content written to /tmp/mutant_751_tumlzo1c/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:15] [Mutant 716] Compilation successful
+[2025-03-10 04:25:15] [Mutant 752] Project copied to /tmp/mutant_752_rep2dv2s/cli_22
+[2025-03-10 04:25:15] [Mutant 752] Mutant content written to /tmp/mutant_752_rep2dv2s/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:16] [Mutant 719] Compilation successful
+[2025-03-10 04:25:16] [Mutant 751] Compilation successful
+[2025-03-10 04:25:16] [Mutant 753] Project copied to /tmp/mutant_753_b65t_ake/cli_22
+[2025-03-10 04:25:17] [Mutant 753] Mutant content written to /tmp/mutant_753_b65t_ake/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:17] [Mutant 716] Cleaned up temp directory.
+[2025-03-10 04:25:17] [Mutant 716] Test run completed.
+[Mutant 716] --- STDOUT ---
+Failing tests: 13
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 716] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:17] [Mutant 752] Compilation successful
+[2025-03-10 04:25:18] [Mutant 719] Cleaned up temp directory.
+[2025-03-10 04:25:18] [Mutant 719] Test run completed.
+[Mutant 719] --- STDOUT ---
+Failing tests: 14
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 719] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:18] [Mutant 751] Cleaned up temp directory.
+[2025-03-10 04:25:18] [Mutant 751] Test run completed.
+[Mutant 751] --- STDOUT ---
+Failing tests: 4
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+
+[Mutant 751] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:19] [Mutant 753] Compilation successful
+[2025-03-10 04:25:19] [Mutant 752] Cleaned up temp directory.
+[2025-03-10 04:25:19] [Mutant 752] Test run completed.
+[Mutant 752] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 752] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:19] [Mutant 769] Project copied to /tmp/mutant_769_qqpmml2b/cli_22
+[2025-03-10 04:25:19] [Mutant 769] Mutant content written to /tmp/mutant_769_qqpmml2b/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:20] [Mutant 753] Cleaned up temp directory.
+[2025-03-10 04:25:20] [Mutant 753] Test run completed.
+[Mutant 753] --- STDOUT ---
+Failing tests: 4
+  - org.apache.commons.cli.PatternOptionBuilderTest::testUntypedPattern
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+
+[Mutant 753] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:21] [Mutant 769] Compilation successful
+[2025-03-10 04:25:22] [Mutant 769] Cleaned up temp directory.
+[2025-03-10 04:25:22] [Mutant 769] Test run completed.
+[Mutant 769] --- STDOUT ---
+Failing tests: 15
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 769] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:29] [Mutant 770] Project copied to /tmp/mutant_770_7jvmlkhb/cli_22
+[2025-03-10 04:25:29] [Mutant 770] Mutant content written to /tmp/mutant_770_7jvmlkhb/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:29] [Mutant 771] Project copied to /tmp/mutant_771_znkn2yae/cli_22
+[2025-03-10 04:25:29] [Mutant 771] Mutant content written to /tmp/mutant_771_znkn2yae/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:30] [Mutant 770] Compilation successful
+[2025-03-10 04:25:31] [Mutant 771] Compilation successful
+[2025-03-10 04:25:32] [Mutant 770] Cleaned up temp directory.
+[2025-03-10 04:25:32] [Mutant 770] Test run completed.
+[Mutant 770] --- STDOUT ---
+Failing tests: 14
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 770] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:32] [Mutant 771] Cleaned up temp directory.
+[2025-03-10 04:25:32] [Mutant 771] Test run completed.
+[Mutant 771] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 771] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:41] [Mutant 772] Project copied to /tmp/mutant_772_b486syt9/cli_22
+[2025-03-10 04:25:41] [Mutant 772] Mutant content written to /tmp/mutant_772_b486syt9/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:41] [Mutant 773] Project copied to /tmp/mutant_773_jc6k5wx7/cli_22
+[2025-03-10 04:25:41] [Mutant 773] Mutant content written to /tmp/mutant_773_jc6k5wx7/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:42] [Mutant 782] Project copied to /tmp/mutant_782_lqe7ie50/cli_22
+[2025-03-10 04:25:42] [Mutant 782] Mutant content written to /tmp/mutant_782_lqe7ie50/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:42] [Mutant 772] Compilation successful
+[2025-03-10 04:25:42] [Mutant 784] Project copied to /tmp/mutant_784_j8zbgk4c/cli_22
+[2025-03-10 04:25:42] [Mutant 784] Mutant content written to /tmp/mutant_784_j8zbgk4c/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:43] [Mutant 773] Compilation successful
+[2025-03-10 04:25:44] [Mutant 782] Compilation successful
+[2025-03-10 04:25:44] [Mutant 789] Project copied to /tmp/mutant_789_zbljuev2/cli_22
+[2025-03-10 04:25:44] [Mutant 789] Mutant content written to /tmp/mutant_789_zbljuev2/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:44] [Mutant 772] Cleaned up temp directory.
+[2025-03-10 04:25:44] [Mutant 772] Test run completed.
+[Mutant 772] --- STDOUT ---
+Failing tests: 14
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 772] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:45] [Mutant 784] Compilation successful
+[2025-03-10 04:25:45] [Mutant 773] Cleaned up temp directory.
+[2025-03-10 04:25:45] [Mutant 773] Test run completed.
+[Mutant 773] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 773] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:46] [Mutant 782] Cleaned up temp directory.
+[2025-03-10 04:25:46] [Mutant 782] Test run completed.
+[Mutant 782] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 782] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:46] [Mutant 789] Compilation successful
+[2025-03-10 04:25:46] [Mutant 784] Cleaned up temp directory.
+[2025-03-10 04:25:46] [Mutant 784] Test run completed.
+[Mutant 784] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 784] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:46] [Mutant 790] Project copied to /tmp/mutant_790_5shzo9lg/cli_22
+[2025-03-10 04:25:46] [Mutant 790] Mutant content written to /tmp/mutant_790_5shzo9lg/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:48] [Mutant 789] Cleaned up temp directory.
+[2025-03-10 04:25:48] [Mutant 789] Test run completed.
+[Mutant 789] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 789] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:48] [Mutant 790] Compilation successful
+[2025-03-10 04:25:50] [Mutant 790] Cleaned up temp directory.
+[2025-03-10 04:25:50] [Mutant 790] Test run completed.
+[Mutant 790] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+
+[Mutant 790] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:25:56] [Mutant 791] Project copied to /tmp/mutant_791_g_kwxow8/cli_22
+[2025-03-10 04:25:56] [Mutant 791] Mutant content written to /tmp/mutant_791_g_kwxow8/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:57] [Mutant 792] Project copied to /tmp/mutant_792_rrtjbjtc/cli_22
+[2025-03-10 04:25:57] [Mutant 792] Mutant content written to /tmp/mutant_792_rrtjbjtc/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:25:58] [Mutant 791] Compilation successful
+[2025-03-10 04:25:58] [Mutant 792] Compilation successful
+[2025-03-10 04:26:00] [Mutant 791] Cleaned up temp directory.
+[2025-03-10 04:26:00] [Mutant 791] Test run completed.
+[Mutant 791] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testMissingArgWithBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+
+[Mutant 791] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:00] [Mutant 792] Cleaned up temp directory.
+[2025-03-10 04:26:00] [Mutant 792] Test run completed.
+[Mutant 792] --- STDOUT ---
+Failing tests: 14
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 792] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:08] [Mutant 813] Project copied to /tmp/mutant_813_sc9nu4n6/cli_22
+[2025-03-10 04:26:08] [Mutant 813] Mutant content written to /tmp/mutant_813_sc9nu4n6/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:09] [Mutant 814] Project copied to /tmp/mutant_814_5qcm4hbt/cli_22
+[2025-03-10 04:26:09] [Mutant 814] Mutant content written to /tmp/mutant_814_5qcm4hbt/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:10] [Mutant 818] Project copied to /tmp/mutant_818_7b1_5nyc/cli_22
+[2025-03-10 04:26:10] [Mutant 818] Mutant content written to /tmp/mutant_818_7b1_5nyc/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:10] [Mutant 813] Compilation successful
+[2025-03-10 04:26:10] [Mutant 819] Project copied to /tmp/mutant_819_hwf_kru_/cli_22
+[2025-03-10 04:26:10] [Mutant 819] Mutant content written to /tmp/mutant_819_hwf_kru_/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:10] [Mutant 814] Compilation successful
+[2025-03-10 04:26:11] [Mutant 820] Project copied to /tmp/mutant_820_k8jziduo/cli_22
+[2025-03-10 04:26:11] [Mutant 820] Mutant content written to /tmp/mutant_820_k8jziduo/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:12] [Mutant 818] Compilation successful
+[2025-03-10 04:26:12] [Mutant 813] Cleaned up temp directory.
+[2025-03-10 04:26:12] [Mutant 813] Test run completed.
+[Mutant 813] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 813] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:12] [Mutant 819] Compilation successful
+[2025-03-10 04:26:13] [Mutant 814] Cleaned up temp directory.
+[2025-03-10 04:26:13] [Mutant 814] Test run completed.
+[Mutant 814] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 814] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:14] [Mutant 820] Compilation successful
+[2025-03-10 04:26:14] [Mutant 818] Cleaned up temp directory.
+[2025-03-10 04:26:14] [Mutant 818] Test run completed.
+[Mutant 818] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 818] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:14] [Mutant 821] Project copied to /tmp/mutant_821_afekv6pm/cli_22
+[2025-03-10 04:26:14] [Mutant 821] Mutant content written to /tmp/mutant_821_afekv6pm/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:14] [Mutant 819] Cleaned up temp directory.
+[2025-03-10 04:26:14] [Mutant 819] Test run completed.
+[Mutant 819] --- STDOUT ---
+Failing tests: 8
+  - org.apache.commons.cli.BugsTest::test11456
+  - org.apache.commons.cli.BugsTest::test11458
+  - org.apache.commons.cli.PosixParserTest::testStopBursting2
+  - org.apache.commons.cli.PosixParserTest::testBursting
+  - org.apache.commons.cli.PosixParserTest::testShortWithoutEqual
+  - org.apache.commons.cli.PosixParserTest::testPropertiesOption
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1
+
+[Mutant 819] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:15] [Mutant 820] Cleaned up temp directory.
+[2025-03-10 04:26:15] [Mutant 820] Test run completed.
+[Mutant 820] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testBursting
+
+[Mutant 820] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:16] [Mutant 821] Compilation successful
+[2025-03-10 04:26:17] [Mutant 821] Cleaned up temp directory.
+[2025-03-10 04:26:17] [Mutant 821] Test run completed.
+[Mutant 821] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 821] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:23] [Mutant 840] Project copied to /tmp/mutant_840_ny9bfxr5/cli_22
+[2025-03-10 04:26:23] [Mutant 840] Mutant content written to /tmp/mutant_840_ny9bfxr5/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:24] [Mutant 841] Project copied to /tmp/mutant_841_begprb0e/cli_22
+[2025-03-10 04:26:24] [Mutant 841] Mutant content written to /tmp/mutant_841_begprb0e/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:25] [Mutant 840] Compilation successful
+[2025-03-10 04:26:25] [Mutant 841] Compilation successful
+[2025-03-10 04:26:26] [Mutant 840] Cleaned up temp directory.
+[2025-03-10 04:26:26] [Mutant 840] Test run completed.
+[Mutant 840] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+
+[Mutant 840] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:27] [Mutant 841] Cleaned up temp directory.
+[2025-03-10 04:26:27] [Mutant 841] Test run completed.
+[Mutant 841] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 841] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:34] [Mutant 842] Project copied to /tmp/mutant_842_86u78jec/cli_22
+[2025-03-10 04:26:34] [Mutant 842] Mutant content written to /tmp/mutant_842_86u78jec/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:35] [Mutant 843] Project copied to /tmp/mutant_843_lfcprlc4/cli_22
+[2025-03-10 04:26:35] [Mutant 843] Mutant content written to /tmp/mutant_843_lfcprlc4/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:36] [Mutant 848] Project copied to /tmp/mutant_848_03sv07ji/cli_22
+[2025-03-10 04:26:36] [Mutant 848] Mutant content written to /tmp/mutant_848_03sv07ji/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:36] [Mutant 842] Compilation successful
+[2025-03-10 04:26:36] [Mutant 860] Project copied to /tmp/mutant_860_cx9xhtsb/cli_22
+[2025-03-10 04:26:36] [Mutant 860] Mutant content written to /tmp/mutant_860_cx9xhtsb/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:36] [Mutant 843] Compilation successful
+[2025-03-10 04:26:37] [Mutant 861] Project copied to /tmp/mutant_861_naly3ghp/cli_22
+[2025-03-10 04:26:37] [Mutant 861] Mutant content written to /tmp/mutant_861_naly3ghp/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:37] [Mutant 848] Compilation successful
+[2025-03-10 04:26:38] [Mutant 842] Cleaned up temp directory.
+[2025-03-10 04:26:38] [Mutant 842] Test run completed.
+[Mutant 842] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+
+[Mutant 842] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:38] [Mutant 860] Compilation successful
+[2025-03-10 04:26:38] [Mutant 843] Cleaned up temp directory.
+[2025-03-10 04:26:38] [Mutant 843] Test run completed.
+[Mutant 843] --- STDOUT ---
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+
+[Mutant 843] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:39] [Mutant 861] Compilation successful
+[2025-03-10 04:26:39] [Mutant 848] Cleaned up temp directory.
+[2025-03-10 04:26:39] [Mutant 848] Test run completed.
+[Mutant 848] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 848] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:39] [Mutant 863] Project copied to /tmp/mutant_863_8h45vyf9/cli_22
+[2025-03-10 04:26:39] [Mutant 863] Mutant content written to /tmp/mutant_863_8h45vyf9/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:39] [Mutant 860] Cleaned up temp directory.
+[2025-03-10 04:26:39] [Mutant 860] Test run completed.
+[Mutant 860] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 860] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:40] [Mutant 861] Cleaned up temp directory.
+[2025-03-10 04:26:40] [Mutant 861] Test run completed.
+[Mutant 861] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 861] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:41] [Mutant 863] Compilation successful
+[2025-03-10 04:26:42] [Mutant 863] Cleaned up temp directory.
+[2025-03-10 04:26:42] [Mutant 863] Test run completed.
+[Mutant 863] --- STDOUT ---
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOptionWithBursting
+  - org.apache.commons.cli.PosixParserTest::testArgumentStartingWithHyphen
+
+[Mutant 863] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:49] [Mutant 87] Project copied to /tmp/mutant_87_rz4n2uk1/cli_22
+[2025-03-10 04:26:49] [Mutant 87] Mutant content written to /tmp/mutant_87_rz4n2uk1/cli_22/src/java/org/apache/commons/cli/PosixParser.java
+[2025-03-10 04:26:50] [Mutant 87] Compilation successful
+[2025-03-10 04:26:51] [Mutant 87] Cleaned up temp directory.
+[2025-03-10 04:26:51] [Mutant 87] Test run completed.
+[Mutant 87] --- STDOUT ---
+Failing tests: 0
+
+[Mutant 87] --- STDERR ---
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+
+[2025-03-10 04:26:51] Parallel mutant testing completed.

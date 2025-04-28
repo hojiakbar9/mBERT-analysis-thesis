@@ -1,0 +1,3204 @@
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//0/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/0/OptionGroup.java:55: error: cannot find symbol
+        optionMap.set(option.getKey(), option);
+                 ^
+  symbol:   method set(String,Option)
+  location: variable optionMap of type Map
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//1/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/1/OptionGroup.java:55: error: cannot find symbol
+        optionMap.Put(option.getKey(), option);
+                 ^
+  symbol:   method Put(String,Option)
+  location: variable optionMap of type Map
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//10/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/10/OptionGroup.java:55: error: cannot find symbol
+        option.put(option.getKey(), option);
+              ^
+  symbol:   method put(String,Option)
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//100/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/100/OptionGroup.java:98: error: cannot find symbol
+        if (edited == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable edited
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/100/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//101/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/101/OptionGroup.java:98: error: incomparable types: String and Option
+        if (selected == option || selected.equals(option.getKey()))
+                     ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/101/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//102/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/102/OptionGroup.java:98: error: bad operand types for binary operator '=='
+        if (selected == 0 || selected.equals(option.getKey()))
+                     ^
+  first type:  String
+  second type: int
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/102/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//103/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/103/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//104/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/104/OptionGroup.java:98: error: cannot find symbol
+        if (selected == NULL || selected.equals(option.getKey()))
+                        ^
+  symbol:   variable NULL
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/104/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//105/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/105/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equ(option.getKey()))
+                                        ^
+  symbol:   method equ(String)
+  location: variable selected of type String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/105/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//106/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/106/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.add(option.getKey()))
+                                        ^
+  symbol:   method add(String)
+  location: variable selected of type String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/106/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//107/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/107/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.get(option.getKey()))
+                                        ^
+  symbol:   method get(String)
+  location: variable selected of type String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/107/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//108/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/108/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equal(option.getKey()))
+                                        ^
+  symbol:   method equal(String)
+  location: variable selected of type String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/108/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//109/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/109/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || chosen.equals(option.getKey()))
+                                ^
+  symbol:   variable chosen
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/109/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//11/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/11/OptionGroup.java:55: error: cannot find symbol
+        values.put(option.getKey(), option);
+        ^
+  symbol:   variable values
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//110/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/110/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || key.equals(option.getKey()))
+                                ^
+  symbol:   variable key
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/110/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//111/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/111/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || checked.equals(option.getKey()))
+                                ^
+  symbol:   variable checked
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/111/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//112/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/112/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || chosen.equals(option.getKey()))
+                                ^
+  symbol:   variable chosen
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/112/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//113/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/113/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || key.equals(option.getKey()))
+                                ^
+  symbol:   variable key
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/113/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//114/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/114/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || checked.equals(option.getKey()))
+                                ^
+  symbol:   variable checked
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/114/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//115/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/115/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(option.key()))
+                                                      ^
+  symbol:   method key()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/115/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//116/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/116/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(option.selected()))
+                                                      ^
+  symbol:   method selected()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/116/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//117/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/117/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(option.value()))
+                                                      ^
+  symbol:   method value()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/117/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//118/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/118/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(option.select()))
+                                                      ^
+  symbol:   method select()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/118/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//119/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/119/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(option.get()))
+                                                      ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/119/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//12/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/12/OptionGroup.java:55: error: cannot find symbol
+        Options.put(option.getKey(), option);
+               ^
+  symbol:   method put(String,Option)
+  location: class Options
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//120/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/120/OptionGroup.java:98: error: non-static method getKey() cannot be referenced from a static context
+        if (selected == null || selected.equals(Option.getKey()))
+                                                      ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/120/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//121/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/121/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(this.getKey()))
+                                                    ^
+  symbol: method getKey()
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/121/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//122/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/122/OptionGroup.java:98: error: cannot find symbol
+        if (selected == null || selected.equals(element.getKey()))
+                                                ^
+  symbol:   variable element
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/122/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//123/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/123/OptionGroup.java:100: error: bad operand types for binary operator '|'
+            selected|= option.getKey();
+                    ^
+  first type:  String
+  second type: String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/123/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//124/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/124/OptionGroup.java:100: error: bad operand types for binary operator '^'
+            selected^= option.getKey();
+                    ^
+  first type:  String
+  second type: String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/124/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//125/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/125/OptionGroup.java:100: error: bad operand types for binary operator '&'
+            selected&= option.getKey();
+                    ^
+  first type:  String
+  second type: String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/125/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//126/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/126/OptionGroup.java:100: error: bad operand types for binary operator '*'
+            selected*= option.getKey();
+                    ^
+  first type:  String
+  second type: String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/126/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//127/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/127/OptionGroup.java:100: error: illegal start of expression
+            selected||= option.getKey();
+                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//128/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/128/OptionGroup.java:100: error: cannot find symbol
+            chosen = option.getKey();
+            ^
+  symbol:   variable chosen
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/128/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//129/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/129/OptionGroup.java:100: error: cannot find symbol
+            key = option.getKey();
+            ^
+  symbol:   variable key
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/129/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//13/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/13/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.name(), option);
+                            ^
+  symbol:   method name()
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//130/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/130/OptionGroup.java:100: error: cannot find symbol
+            current = option.getKey();
+            ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/130/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//131/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/131/OptionGroup.java:100: error: cannot find symbol
+            chosen = option.getKey();
+            ^
+  symbol:   variable chosen
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/131/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//132/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/132/OptionGroup.java:100: error: cannot find symbol
+            key = option.getKey();
+            ^
+  symbol:   variable key
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/132/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//133/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/133/OptionGroup.java:100: error: cannot find symbol
+            current = option.getKey();
+            ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/133/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//134/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/134/OptionGroup.java:100: error: cannot find symbol
+            selected = option.selected();
+                             ^
+  symbol:   method selected()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/134/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//135/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/135/OptionGroup.java:100: error: cannot find symbol
+            selected = option.key();
+                             ^
+  symbol:   method key()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/135/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//136/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/136/OptionGroup.java:100: error: cannot find symbol
+            selected = option.select();
+                             ^
+  symbol:   method select()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/136/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//137/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/137/OptionGroup.java:100: error: incompatible types: Object cannot be converted to String
+            selected = option.clone();
+                                   ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/137/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//138/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/138/OptionGroup.java:100: error: cannot find symbol
+            selected = option.get();
+                             ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/138/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//139/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/139/OptionGroup.java:100: error: cannot find symbol
+            selected = options.getKey();
+                       ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/139/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//14/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/14/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.key(), option);
+                            ^
+  symbol:   method key()
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//140/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/140/OptionGroup.java:100: error: cannot find symbol
+            selected = element.getKey();
+                       ^
+  symbol:   variable element
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/140/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//141/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/141/OptionGroup.java:100: error: cannot find symbol
+            selected = this.getKey();
+                           ^
+  symbol: method getKey()
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/141/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//142/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/142/OptionGroup.java:104: error: incompatible types: String cannot be converted to OptionGroup
+            throw new AlreadySelectedException(selected, option);
+                                               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/142/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//143/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/143/OptionGroup.java:104: error: incompatible types: Option cannot be converted to OptionGroup
+            throw new AlreadySelectedException(option, option);
+                                               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/143/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//144/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/144/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//145/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/145/OptionGroup.java:104: error: cannot find symbol
+            throw new AlreadySelectedException(name, option);
+                                               ^
+  symbol:   variable name
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/145/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//146/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/146/OptionGroup.java:104: error: incompatible types: String cannot be converted to Option
+            throw new AlreadySelectedException(this, selected);
+                                                     ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/146/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//147/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/147/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//148/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/148/OptionGroup.java:104: error: cannot find symbol
+            throw new AlreadySelectedException(this, options);
+                                                     ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/148/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//149/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/149/OptionGroup.java:104: error: incompatible types: boolean cannot be converted to Option
+            throw new AlreadySelectedException(this, true);
+                                                     ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/149/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//15/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/15/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.id(), option);
+                            ^
+  symbol:   method id()
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//150/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/150/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//151/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/151/OptionGroup.java:113: error: incompatible types: boolean cannot be converted to String
+        return true;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/151/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//152/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/152/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//153/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/153/OptionGroup.java:113: error: incompatible types: boolean cannot be converted to String
+        return false;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/153/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//154/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/154/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//155/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/155/OptionGroup.java:113: error: incompatible types: boolean cannot be converted to String
+        return true;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/155/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//156/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/156/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//157/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/157/OptionGroup.java:113: error: incompatible types: boolean cannot be converted to String
+        return false;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/157/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//158/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/158/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//159/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/159/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//16/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/16/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.label(), option);
+                            ^
+  symbol:   method label()
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//160/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/160/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//161/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/161/OptionGroup.java:121: error: bad operand types for binary operator '*'
+        this.required*= required;
+                     ^
+  first type:  boolean
+  second type: boolean
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/161/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//162/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/162/OptionGroup.java:121: error: not a statement
+        this.required== required;
+                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//163/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/163/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//164/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/164/OptionGroup.java:121: error: cannot find symbol
+        optional = required;
+        ^
+  symbol:   variable optional
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/164/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//165/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/165/OptionGroup.java:121: error: cannot find symbol
+        mandatory = required;
+        ^
+  symbol:   variable mandatory
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/165/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//166/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/166/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//167/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/167/OptionGroup.java:121: error: cannot find symbol
+        Required = required;
+        ^
+  symbol:   variable Required
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/167/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//168/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/168/OptionGroup.java:121: error: cannot find symbol
+        config.required = required;
+        ^
+  symbol:   variable config
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/168/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//169/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/169/OptionGroup.java:121: error: cannot find symbol
+        m.required = required;
+        ^
+  symbol:   variable m
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/169/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//17/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/17/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.value(), option);
+                            ^
+  symbol:   method value()
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//170/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/170/OptionGroup.java:121: error: cannot find symbol
+        super.required = required;
+             ^
+  symbol: variable required
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/170/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//171/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/171/OptionGroup.java:121: error: cannot find symbol
+        this.Required = required;
+            ^
+  symbol: variable Required
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/171/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//172/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/172/OptionGroup.java:121: error: cannot find symbol
+        this.optional = required;
+            ^
+  symbol: variable optional
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/172/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//173/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/173/OptionGroup.java:121: error: cannot find symbol
+        this.require = required;
+            ^
+  symbol: variable require
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/173/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//174/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/174/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//175/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/175/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//176/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/176/OptionGroup.java:121: error: cannot find symbol
+        this.required = optional;
+                        ^
+  symbol:   variable optional
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/176/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//177/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/177/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//178/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/178/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//179/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/179/OptionGroup.java:131: error: incompatible types: <null> cannot be converted to boolean
+        return null;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/179/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//18/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/18/OptionGroup.java:55: error: non-static method getKey() cannot be referenced from a static context
+        optionMap.put(Option.getKey(), option);
+                            ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/18/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//180/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/180/OptionGroup.java:131: error: cannot find symbol
+        return req;
+               ^
+  symbol:   variable req
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/180/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//181/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/181/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//182/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/182/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//183/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/183/OptionGroup.java:131: error: incompatible types: <null> cannot be converted to boolean
+        return null;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/183/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//184/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/184/OptionGroup.java:131: error: cannot find symbol
+        return req;
+               ^
+  symbol:   variable req
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/184/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//185/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/185/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = getOptions().iter();
+                                    ^
+  symbol:   method iter()
+  location: interface Collection
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/185/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//186/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/186/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = getOptions().Iterator();
+                                    ^
+  symbol:   method Iterator()
+  location: interface Collection
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/186/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//187/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/187/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = getOptions().values();
+                                    ^
+  symbol:   method values()
+  location: interface Collection
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/187/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//188/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/188/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = options().iterator();
+                        ^
+  symbol:   method options()
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/188/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//189/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/189/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = list().iterator();
+                        ^
+  symbol:   method list()
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/189/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//19/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/19/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(this.getKey(), option);
+                          ^
+  symbol: method getKey()
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//190/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/190/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = option().iterator();
+                        ^
+  symbol:   method option()
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/190/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//191/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/191/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = values().iterator();
+                        ^
+  symbol:   method values()
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/191/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//192/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/192/OptionGroup.java:143: error: cannot find symbol
+        Iterator iter = args().iterator();
+                        ^
+  symbol:   method args()
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/192/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//193/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/193/OptionGroup.java:145: error: cannot find symbol
+        buff.write("[");
+            ^
+  symbol:   method write(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/193/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//194/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/194/OptionGroup.java:145: error: cannot find symbol
+        buff.printf("[");
+            ^
+  symbol:   method printf(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/194/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//195/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/195/OptionGroup.java:145: error: cannot find symbol
+        buff.join("[");
+            ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/195/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//196/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/196/OptionGroup.java:145: error: cannot find symbol
+        buff.push("[");
+            ^
+  symbol:   method push(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/196/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//197/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/197/OptionGroup.java:145: error: cannot find symbol
+        buffer.append("[");
+        ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/197/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//198/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/198/OptionGroup.java:145: error: cannot find symbol
+        buf.append("[");
+        ^
+  symbol:   variable buf
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/198/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//199/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/199/OptionGroup.java:145: error: cannot find symbol
+        text.append("[");
+        ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/199/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//2/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/2/OptionGroup.java:55: error: cannot find symbol
+        optionMap.add(option.getKey(), option);
+                 ^
+  symbol:   method add(String,Option)
+  location: variable optionMap of type Map
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//20/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/20/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(options.getKey(), option);
+                      ^
+  symbol:   variable options
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//200/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/200/OptionGroup.java:145: error: illegal start of expression
+        buff.append([);
+                    ^
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/200/OptionGroup.java:145: error: illegal start of expression
+        buff.append([);
+                     ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//201/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/201/OptionGroup.java:145: error: cannot find symbol
+        buff.append(name);
+                    ^
+  symbol:   variable name
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/201/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//202/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/202/OptionGroup.java:145: error: illegal start of expression
+        buff.append(--);
+                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//203/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/203/OptionGroup.java:145: error: cannot find symbol
+        buff.append(description);
+                    ^
+  symbol:   variable description
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/203/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//204/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/204/OptionGroup.java:145: error: cannot find symbol
+        buff.append(tag);
+                    ^
+  symbol:   variable tag
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/204/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//205/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/205/OptionGroup.java:147: error: incompatible types: Object cannot be converted to boolean
+        while (iter.next())
+                        ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/205/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//206/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/206/OptionGroup.java:147: error: cannot find symbol
+        while (iter.has())
+                   ^
+  symbol:   method has()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/206/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//207/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/207/OptionGroup.java:147: error: cannot find symbol
+        while (iter.valid())
+                   ^
+  symbol:   method valid()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/207/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//208/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/208/OptionGroup.java:147: error: cannot find symbol
+        while (iter.Next())
+                   ^
+  symbol:   method Next()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/208/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//209/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/209/OptionGroup.java:147: error: cannot find symbol
+        while (iter.more())
+                   ^
+  symbol:   method more()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/209/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//21/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/21/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.getKey(), value);
+                                       ^
+  symbol:   variable value
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//210/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/210/OptionGroup.java:147: error: cannot find symbol
+        while (iterator.hasNext())
+               ^
+  symbol:   variable iterator
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/210/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//211/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/211/OptionGroup.java:147: error: cannot find symbol
+        while (inner.hasNext())
+               ^
+  symbol:   variable inner
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/211/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//212/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/212/OptionGroup.java:147: error: cannot find symbol
+        while (loop.hasNext())
+               ^
+  symbol:   variable loop
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/212/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//213/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/213/OptionGroup.java:147: error: cannot find symbol
+        while (Iter.hasNext())
+               ^
+  symbol:   variable Iter
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/213/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//214/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/214/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) iter.Next();
+                                         ^
+  symbol:   method Next()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/214/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//215/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/215/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) iter.current();
+                                         ^
+  symbol:   method current()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/215/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//216/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/216/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) iter.value();
+                                         ^
+  symbol:   method value()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/216/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//217/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/217/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) iterator.next();
+                                     ^
+  symbol:   variable iterator
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/217/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//218/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/218/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) inner.next();
+                                     ^
+  symbol:   variable inner
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/218/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//219/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/219/OptionGroup.java:149: error: cannot find symbol
+            Option option = (Option) iterator.next();
+                                     ^
+  symbol:   variable iterator
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/219/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//22/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/22/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.getKey(), options);
+                                       ^
+  symbol:   variable options
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//220/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/220/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//221/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/221/OptionGroup.java:151: error: unexpected type
+            if (option.getOpt()=null)
+                             ^
+  required: variable
+  found:    value
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/221/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//222/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/222/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//223/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/223/OptionGroup.java:151: error: illegal start of expression
+            if (option.getOpt()===null)
+                                 ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//224/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/224/OptionGroup.java:151: error: cannot find symbol
+            if (option.opt() != null)
+                      ^
+  symbol:   method opt()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/224/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//225/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/225/OptionGroup.java:151: error: cannot find symbol
+            if (option.help() != null)
+                      ^
+  symbol:   method help()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/225/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//226/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/226/OptionGroup.java:151: error: cannot find symbol
+            if (option.value() != null)
+                      ^
+  symbol:   method value()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/226/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//227/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/227/OptionGroup.java:151: error: cannot find symbol
+            if (option.get() != null)
+                      ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/227/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//228/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/228/OptionGroup.java:151: error: cannot find symbol
+            if (option.option() != null)
+                      ^
+  symbol:   method option()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/228/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//229/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/229/OptionGroup.java:151: error: cannot find symbol
+            if (argument.getOpt() != null)
+                ^
+  symbol:   variable argument
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/229/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//23/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/23/OptionGroup.java:55: error: cannot find symbol
+        optionMap.put(option.getKey(), argument);
+                                       ^
+  symbol:   variable argument
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//230/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/230/OptionGroup.java:151: error: cannot find symbol
+            if (options.getOpt() != null)
+                ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/230/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//231/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/231/OptionGroup.java:151: error: non-static method getOpt() cannot be referenced from a static context
+            if (Option.getOpt() != null)
+                      ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/231/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//232/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/232/OptionGroup.java:151: error: incomparable types: String and Option
+            if (option.getOpt() != option)
+                                ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/232/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//233/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/233/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//234/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/234/OptionGroup.java:151: error: bad operand types for binary operator '!='
+            if (option.getOpt() != 0)
+                                ^
+  first type:  String
+  second type: int
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/234/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//235/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/235/OptionGroup.java:151: error: cannot find symbol
+            if (option.getOpt() != undefined)
+                                   ^
+  symbol:   variable undefined
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/235/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//236/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/236/OptionGroup.java:153: error: cannot find symbol
+                buff.join("-");
+                    ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/236/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//237/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/237/OptionGroup.java:153: error: cannot find symbol
+                buff.add("-");
+                    ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/237/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//238/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/238/OptionGroup.java:153: error: cannot find symbol
+                buff.end("-");
+                    ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/238/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//239/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/239/OptionGroup.java:153: error: method replace in class StringBuffer cannot be applied to given types;
+                buff.replace("-");
+                    ^
+  required: int,int,String
+  found: String
+  reason: actual and formal argument lists differ in length
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/239/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//24/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/24/OptionGroup.java:57: error: incompatible types: Option cannot be converted to OptionGroup
+        return option;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/24/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//240/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/240/OptionGroup.java:153: error: cannot find symbol
+                buffer.append("-");
+                ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/240/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//241/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/241/OptionGroup.java:153: error: cannot find symbol
+                buf.append("-");
+                ^
+  symbol:   variable buf
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/241/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//242/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/242/OptionGroup.java:153: error: cannot find symbol
+                text.append("-");
+                ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/242/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//243/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/243/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//244/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/244/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//245/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/245/OptionGroup.java:153: error: illegal start of expression
+                buff.append(--);
+                              ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//246/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/246/OptionGroup.java:153: error: cannot find symbol
+                buff.append(Option);
+                            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/246/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//247/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/247/OptionGroup.java:153: error: empty character literal
+                buff.append('');
+                            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//248/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/248/OptionGroup.java:154: error: cannot find symbol
+                buff.end(option.getOpt());
+                    ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/248/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//249/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/249/OptionGroup.java:154: error: cannot find symbol
+                buff.add(option.getOpt());
+                    ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/249/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//25/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/25/OptionGroup.java:57: error: incompatible types: boolean cannot be converted to OptionGroup
+        return true;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/25/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//250/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/250/OptionGroup.java:154: error: cannot find symbol
+                buff.join(option.getOpt());
+                    ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/250/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//251/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/251/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//252/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/252/OptionGroup.java:154: error: cannot find symbol
+                text.append(option.getOpt());
+                ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/252/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//253/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/253/OptionGroup.java:154: error: cannot find symbol
+                app.append(option.getOpt());
+                ^
+  symbol:   variable app
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/253/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//254/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/254/OptionGroup.java:154: error: cannot find symbol
+                buff.append(option.help());
+                                  ^
+  symbol:   method help()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/254/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//255/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/255/OptionGroup.java:154: error: cannot find symbol
+                buff.append(option.get());
+                                  ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/255/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//256/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/256/OptionGroup.java:154: error: cannot find symbol
+                buff.append(option.opt());
+                                  ^
+  symbol:   method opt()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/256/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//257/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/257/OptionGroup.java:154: error: cannot find symbol
+                buff.append(option.name());
+                                  ^
+  symbol:   method name()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/257/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//258/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/258/OptionGroup.java:154: error: cannot find symbol
+                buff.append(option.option());
+                                  ^
+  symbol:   method option()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/258/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//259/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/259/OptionGroup.java:154: error: non-static method getOpt() cannot be referenced from a static context
+                buff.append(Option.getOpt());
+                                  ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/259/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//26/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/26/OptionGroup.java:57: error: cannot find symbol
+        return group;
+               ^
+  symbol:   variable group
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/26/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//260/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/260/OptionGroup.java:154: error: cannot find symbol
+                buff.append(argument.getOpt());
+                            ^
+  symbol:   variable argument
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/260/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//261/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/261/OptionGroup.java:154: error: cannot find symbol
+                buff.append(options.getOpt());
+                            ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/261/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//262/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/262/OptionGroup.java:158: error: cannot find symbol
+                buff.join("--");
+                    ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/262/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//263/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/263/OptionGroup.java:158: error: cannot find symbol
+                buff.add("--");
+                    ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/263/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//264/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/264/OptionGroup.java:158: error: cannot find symbol
+                buff.end("--");
+                    ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/264/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//265/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/265/OptionGroup.java:158: error: method replace in class StringBuffer cannot be applied to given types;
+                buff.replace("--");
+                    ^
+  required: int,int,String
+  found: String
+  reason: actual and formal argument lists differ in length
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/265/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//266/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/266/OptionGroup.java:158: error: cannot find symbol
+                buffer.append("--");
+                ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/266/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//267/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/267/OptionGroup.java:158: error: cannot find symbol
+                b.append("--");
+                ^
+  symbol:   variable b
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/267/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//268/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/268/OptionGroup.java:158: error: cannot find symbol
+                text.append("--");
+                ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/268/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//269/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/269/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//27/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/27/OptionGroup.java:57: error: incompatible types: boolean cannot be converted to OptionGroup
+        return false;
+               ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/27/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//270/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/270/OptionGroup.java:158: error: illegal start of expression
+                buff.append(--);
+                              ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//271/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/271/OptionGroup.java:158: error: unclosed string literal
+                buff.append(-");
+                             ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//272/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/272/OptionGroup.java:158: error: illegal start of expression
+                buff.append(---);
+                               ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//273/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/273/OptionGroup.java:158: error: cannot find symbol
+                buff.append(Option);
+                            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/273/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//274/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/274/OptionGroup.java:159: error: cannot find symbol
+                buff.end(option.getLongOpt());
+                    ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/274/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//275/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/275/OptionGroup.java:159: error: cannot find symbol
+                buff.join(option.getLongOpt());
+                    ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/275/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//276/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/276/OptionGroup.java:159: error: cannot find symbol
+                buff.add(option.getLongOpt());
+                    ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/276/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//277/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/277/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//278/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/278/OptionGroup.java:159: error: cannot find symbol
+                std.append(option.getLongOpt());
+                ^
+  symbol:   variable std
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/278/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//279/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/279/OptionGroup.java:159: error: cannot find symbol
+                ret.append(option.getLongOpt());
+                ^
+  symbol:   variable ret
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/279/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//28/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/28/OptionGroup.java:67: error: cannot find symbol
+        return optionMap.keys();
+                        ^
+  symbol:   method keys()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/28/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//280/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/280/OptionGroup.java:159: error: cannot find symbol
+                option.append(option.getLongOpt());
+                      ^
+  symbol:   method append(String)
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/280/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//281/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/281/OptionGroup.java:159: error: cannot find symbol
+                buff.append(option.help());
+                                  ^
+  symbol:   method help()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/281/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//282/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/282/OptionGroup.java:159: error: cannot find symbol
+                buff.append(option.name());
+                                  ^
+  symbol:   method name()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/282/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//283/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/283/OptionGroup.java:159: error: cannot find symbol
+                buff.append(option.option());
+                                  ^
+  symbol:   method option()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/283/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//284/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/284/OptionGroup.java:159: error: cannot find symbol
+                buff.append(option.value());
+                                  ^
+  symbol:   method value()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/284/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//285/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/285/OptionGroup.java:159: error: cannot find symbol
+                buff.append(option.get());
+                                  ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/285/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//286/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/286/OptionGroup.java:159: error: non-static method getLongOpt() cannot be referenced from a static context
+                buff.append(Option.getLongOpt());
+                                  ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/286/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//287/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/287/OptionGroup.java:159: error: cannot find symbol
+                buff.append(options.getLongOpt());
+                            ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/287/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//288/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/288/OptionGroup.java:159: error: cannot find symbol
+                buff.append(argument.getLongOpt());
+                            ^
+  symbol:   variable argument
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/288/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//289/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/289/OptionGroup.java:162: error: cannot find symbol
+            buff.end(" ");
+                ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/289/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//29/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/29/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//290/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/290/OptionGroup.java:162: error: cannot find symbol
+            buff.join(" ");
+                ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/290/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//291/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/291/OptionGroup.java:162: error: cannot find symbol
+            buff.add(" ");
+                ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/291/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//292/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/292/OptionGroup.java:162: error: cannot find symbol
+            buffer.append(" ");
+            ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/292/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//293/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/293/OptionGroup.java:162: error: cannot find symbol
+            text.append(" ");
+            ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/293/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//294/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/294/OptionGroup.java:162: error: cannot find symbol
+            app.append(" ");
+            ^
+  symbol:   variable app
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/294/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//295/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/295/OptionGroup.java:162: error: cannot find symbol
+            b.append(" ");
+            ^
+  symbol:   variable b
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/295/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//296/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/296/OptionGroup.java:162: error: illegal start of expression
+            buff.append(--);
+                          ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//297/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/297/OptionGroup.java:162: error: unclosed string literal
+            buff.append(");
+                        ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//298/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/298/OptionGroup.java:162: error: illegal character: '\'
+            buff.append(\");
+                        ^
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/298/OptionGroup.java:162: error: unclosed string literal
+            buff.append(\");
+                         ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//299/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/299/OptionGroup.java:162: error: unclosed string literal
+            buff.append(");
+                        ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//3/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/3/OptionGroup.java:55: error: cannot find symbol
+        options.put(option.getKey(), option);
+        ^
+  symbol:   variable options
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//30/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/30/OptionGroup.java:67: error: cannot find symbol
+        return optionMap.names();
+                        ^
+  symbol:   method names()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/30/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//300/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/300/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//301/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/301/OptionGroup.java:163: error: cannot find symbol
+            buff.end(option.getDescription());
+                ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/301/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//302/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/302/OptionGroup.java:163: error: cannot find symbol
+            buff.join(option.getDescription());
+                ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/302/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//303/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/303/OptionGroup.java:163: error: cannot find symbol
+            buff.add(option.getDescription());
+                ^
+  symbol:   method add(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/303/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//304/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/304/OptionGroup.java:163: error: cannot find symbol
+            buff.format(option.getDescription());
+                ^
+  symbol:   method format(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/304/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//305/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/305/OptionGroup.java:163: error: cannot find symbol
+            buffer.append(option.getDescription());
+            ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/305/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//306/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/306/OptionGroup.java:163: error: cannot find symbol
+            b.append(option.getDescription());
+            ^
+  symbol:   variable b
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/306/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//307/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/307/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//308/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/308/OptionGroup.java:163: error: cannot find symbol
+            buff.append(option.help());
+                              ^
+  symbol:   method help()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/308/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//309/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/309/OptionGroup.java:163: error: cannot find symbol
+            buff.append(option.name());
+                              ^
+  symbol:   method name()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/309/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//31/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/31/OptionGroup.java:67: error: method get in interface Map<K,V> cannot be applied to given types;
+        return optionMap.get();
+                        ^
+  required: Object
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where K,V are type-variables:
+    K extends Object declared in interface Map
+    V extends Object declared in interface Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/31/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//310/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/310/OptionGroup.java:163: error: cannot find symbol
+            buff.append(option.value());
+                              ^
+  symbol:   method value()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/310/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//311/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/311/OptionGroup.java:163: error: cannot find symbol
+            buff.append(option.get());
+                              ^
+  symbol:   method get()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/311/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//312/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/312/OptionGroup.java:163: error: cannot find symbol
+            buff.append(option.opt());
+                              ^
+  symbol:   method opt()
+  location: variable option of type Option
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/312/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//313/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/313/OptionGroup.java:163: error: cannot find symbol
+            buff.append(options.getDescription());
+                        ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/313/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//314/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/314/OptionGroup.java:163: error: non-static method getDescription() cannot be referenced from a static context
+            buff.append(Option.getDescription());
+                              ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/314/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//315/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/315/OptionGroup.java:163: error: cannot find symbol
+            buff.append(argument.getDescription());
+                        ^
+  symbol:   variable argument
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/315/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//316/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/316/OptionGroup.java:165: error: incompatible types: Object cannot be converted to boolean
+            if (iter.next())
+                         ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/316/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//317/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/317/OptionGroup.java:165: error: cannot find symbol
+            if (iter.back())
+                    ^
+  symbol:   method back()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/317/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//318/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/318/OptionGroup.java:165: error: incompatible types: void cannot be converted to boolean
+            if (iter.remove())
+                           ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/318/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//319/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/319/OptionGroup.java:165: error: <identifier> expected
+            if (iter.continue())
+                     ^
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/319/OptionGroup.java:165: error: ';' expected
+            if (iter.continue())
+                             ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//32/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/32/OptionGroup.java:67: error: cannot find symbol
+        return optionMap.name();
+                        ^
+  symbol:   method name()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/32/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//320/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/320/OptionGroup.java:165: error: cannot find symbol
+            if (iter.valid())
+                    ^
+  symbol:   method valid()
+  location: variable iter of type Iterator
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/320/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//321/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/321/OptionGroup.java:165: error: cannot find symbol
+            if (iterator.hasNext())
+                ^
+  symbol:   variable iterator
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/321/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//322/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/322/OptionGroup.java:165: error: cannot find symbol
+            if (loop.hasNext())
+                ^
+  symbol:   variable loop
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/322/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//323/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/323/OptionGroup.java:165: error: cannot find symbol
+            if (it.hasNext())
+                ^
+  symbol:   variable it
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/323/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//324/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/324/OptionGroup.java:165: error: cannot find symbol
+            if (Iter.hasNext())
+                ^
+  symbol:   variable Iter
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/324/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//325/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/325/OptionGroup.java:167: error: cannot find symbol
+                buff.join(", ");
+                    ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/325/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//326/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/326/OptionGroup.java:167: error: method replace in class StringBuffer cannot be applied to given types;
+                buff.replace(", ");
+                    ^
+  required: int,int,String
+  found: String
+  reason: actual and formal argument lists differ in length
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/326/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//327/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/327/OptionGroup.java:167: error: cannot find symbol
+                buff.push(", ");
+                    ^
+  symbol:   method push(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/327/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//328/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/328/OptionGroup.java:167: error: no suitable method found for insert(String)
+                buff.insert(", ");
+                    ^
+    method StringBuffer.insert(int,char[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,String) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,char[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,CharSequence) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,CharSequence,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,char) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,long) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,float) is not applicable
+      (actual and formal argument lists differ in length)
+    method StringBuffer.insert(int,double) is not applicable
+      (actual and formal argument lists differ in length)
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/328/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//329/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/329/OptionGroup.java:167: error: cannot find symbol
+                buffer.append(", ");
+                ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/329/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//33/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/33/OptionGroup.java:67: error: cannot find symbol
+        return names.keySet();
+               ^
+  symbol:   variable names
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/33/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//330/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/330/OptionGroup.java:167: error: cannot find symbol
+                ret.append(", ");
+                ^
+  symbol:   variable ret
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/330/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//331/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/331/OptionGroup.java:167: error: cannot find symbol
+                b.append(", ");
+                ^
+  symbol:   variable b
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/331/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//332/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/332/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//333/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/333/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//334/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/334/OptionGroup.java:167: error: cannot find symbol
+                buff.append(next);
+                            ^
+  symbol:   variable next
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/334/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//335/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/335/OptionGroup.java:167: error: cannot find symbol
+                buff.append(options);
+                            ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/335/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//336/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/336/OptionGroup.java:167: error: cannot find symbol
+                buff.append(opt);
+                            ^
+  symbol:   variable opt
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/336/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//337/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/337/OptionGroup.java:171: error: cannot find symbol
+        buff.join("]");
+            ^
+  symbol:   method join(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/337/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//338/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/338/OptionGroup.java:171: error: cannot find symbol
+        buff.end("]");
+            ^
+  symbol:   method end(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/338/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//339/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/339/OptionGroup.java:171: error: cannot find symbol
+        buff.push("]");
+            ^
+  symbol:   method push(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/339/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//34/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/34/OptionGroup.java:67: error: cannot find symbol
+        return collection.keySet();
+               ^
+  symbol:   variable collection
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/34/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//340/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/340/OptionGroup.java:171: error: cannot find symbol
+        buff.remove("]");
+            ^
+  symbol:   method remove(String)
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/340/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//341/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/341/OptionGroup.java:171: error: cannot find symbol
+        buffer.append("]");
+        ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/341/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//342/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/342/OptionGroup.java:171: error: cannot find symbol
+        text.append("]");
+        ^
+  symbol:   variable text
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/342/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//343/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/343/OptionGroup.java:171: error: cannot find symbol
+        ret.append("]");
+        ^
+  symbol:   variable ret
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/343/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//344/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/344/OptionGroup.java:171: error: cannot find symbol
+        buf.append("]");
+        ^
+  symbol:   variable buf
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/344/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//345/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/345/OptionGroup.java:171: error: cannot find symbol
+        buff.append(option);
+                    ^
+  symbol:   variable option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/345/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//346/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/346/OptionGroup.java:171: error: cannot find symbol
+        buff.append(description);
+                    ^
+  symbol:   variable description
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/346/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//347/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/347/OptionGroup.java:171: error: illegal start of expression
+        buff.append(--);
+                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//348/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/348/OptionGroup.java:171: error: cannot find symbol
+        buff.append(opt);
+                    ^
+  symbol:   variable opt
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/348/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//349/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/349/OptionGroup.java:171: error: illegal character: '\'
+        buff.append(\");
+                    ^
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/349/OptionGroup.java:171: error: unclosed string literal
+        buff.append(\");
+                     ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//35/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/35/OptionGroup.java:67: error: cannot find symbol
+        return collections.keySet();
+               ^
+  symbol:   variable collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/35/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//350/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/350/OptionGroup.java:173: error: cannot find symbol
+        return buff.join();
+                   ^
+  symbol:   method join()
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/350/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//351/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/351/OptionGroup.java:173: error: cannot find symbol
+        return buff.value();
+                   ^
+  symbol:   method value()
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/351/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//352/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/352/OptionGroup.java:173: error: cannot find symbol
+        return buff.build();
+                   ^
+  symbol:   method build()
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/352/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//353/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/353/OptionGroup.java:173: error: cannot find symbol
+        return buff.string();
+                   ^
+  symbol:   method string()
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/353/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//354/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/354/OptionGroup.java:173: error: cannot find symbol
+        return buff.format();
+                   ^
+  symbol:   method format()
+  location: variable buff of type StringBuffer
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/354/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//355/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/355/OptionGroup.java:173: error: cannot find symbol
+        return buffer.toString();
+               ^
+  symbol:   variable buffer
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/355/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//356/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/356/OptionGroup.java:173: error: cannot find symbol
+        return ret.toString();
+               ^
+  symbol:   variable ret
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/356/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//357/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/357/OptionGroup.java:173: error: cannot find symbol
+        return buf.toString();
+               ^
+  symbol:   variable buf
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/357/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//358/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/358/OptionGroup.java:173: error: cannot find symbol
+        return obj.toString();
+               ^
+  symbol:   variable obj
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/358/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//36/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/36/OptionGroup.java:67: error: cannot find symbol
+        return Collections.keySet();
+               ^
+  symbol:   variable Collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/36/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//37/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/37/OptionGroup.java:67: error: cannot find symbol
+        return result.keySet();
+               ^
+  symbol:   variable result
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/37/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//38/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/38/OptionGroup.java:67: error: cannot find symbol
+        return names.keySet();
+               ^
+  symbol:   variable names
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/38/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//39/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/39/OptionGroup.java:67: error: cannot find symbol
+        return collection.keySet();
+               ^
+  symbol:   variable collection
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/39/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//4/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/4/OptionGroup.java:55: error: cannot find symbol
+        map.put(option.getKey(), option);
+        ^
+  symbol:   variable map
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//40/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/40/OptionGroup.java:67: error: cannot find symbol
+        return collections.keySet();
+               ^
+  symbol:   variable collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/40/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//41/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/41/OptionGroup.java:67: error: cannot find symbol
+        return Collections.keySet();
+               ^
+  symbol:   variable Collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/41/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//42/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/42/OptionGroup.java:67: error: cannot find symbol
+        return result.keySet();
+               ^
+  symbol:   variable result
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/42/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//43/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/43/OptionGroup.java:76: error: method get in interface Map<K,V> cannot be applied to given types;
+        return optionMap.get();
+                        ^
+  required: Object
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where K,V are type-variables:
+    K extends Object declared in interface Map
+    V extends Object declared in interface Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/43/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//44/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/44/OptionGroup.java:76: error: cannot find symbol
+        return optionMap.items();
+                        ^
+  symbol:   method items()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/44/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//45/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/45/OptionGroup.java:76: error: cannot find symbol
+        return optionMap.keys();
+                        ^
+  symbol:   method keys()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/45/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//46/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/46/OptionGroup.java:76: error: cannot find symbol
+        return optionMap.value();
+                        ^
+  symbol:   method value()
+  location: variable optionMap of type Map
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/46/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//47/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/47/OptionGroup.java:76: error: cannot find symbol
+        return options.values();
+               ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/47/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//48/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/48/OptionGroup.java:76: error: cannot find symbol
+        return collection.values();
+               ^
+  symbol:   variable collection
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/48/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//49/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/49/OptionGroup.java:76: error: cannot find symbol
+        return Collections.values();
+               ^
+  symbol:   variable Collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/49/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//5/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/5/OptionGroup.java:55: error: cannot find symbol
+        option.put(option.getKey(), option);
+              ^
+  symbol:   method put(String,Option)
+  location: variable option of type Option
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//50/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/50/OptionGroup.java:76: error: cannot find symbol
+        return collections.values();
+               ^
+  symbol:   variable collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/50/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//51/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/51/OptionGroup.java:76: error: cannot find symbol
+        return Collection.values();
+                         ^
+  symbol:   method values()
+  location: interface Collection
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/51/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//52/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/52/OptionGroup.java:76: error: cannot find symbol
+        return options.values();
+               ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/52/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//53/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/53/OptionGroup.java:76: error: cannot find symbol
+        return collection.values();
+               ^
+  symbol:   variable collection
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/53/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//54/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/54/OptionGroup.java:76: error: cannot find symbol
+        return Collections.values();
+               ^
+  symbol:   variable Collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/54/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//55/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/55/OptionGroup.java:76: error: cannot find symbol
+        return collections.values();
+               ^
+  symbol:   variable collections
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/55/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//56/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/56/OptionGroup.java:76: error: cannot find symbol
+        return Collection.values();
+                         ^
+  symbol:   method values()
+  location: interface Collection
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/56/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//57/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/57/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//58/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/58/OptionGroup.java:88: error: incompatible types: Option cannot be converted to boolean
+        if (option=null)
+                  ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/58/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//59/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/59/OptionGroup.java:88: error: illegal start of expression
+        if (option===null)
+                    ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//6/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/6/OptionGroup.java:55: error: cannot find symbol
+        values.put(option.getKey(), option);
+        ^
+  symbol:   variable values
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//60/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/60/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//61/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/61/OptionGroup.java:88: error: cannot find symbol
+        if (current == null)
+            ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/61/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//62/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/62/OptionGroup.java:88: error: cannot find symbol
+        if (select == null)
+            ^
+  symbol:   variable select
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/62/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//63/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/63/OptionGroup.java:88: error: cannot find symbol
+        if (active == null)
+            ^
+  symbol:   variable active
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/63/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//64/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/64/OptionGroup.java:88: error: incomparable types: Option and OptionGroup
+        if (option == this)
+                   ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/64/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//65/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/65/OptionGroup.java:88: error: incomparable types: Option and String
+        if (option == selected)
+                   ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/65/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//66/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/66/OptionGroup.java:88: error: cannot find symbol
+        if (option == current)
+                      ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/66/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//67/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/67/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//68/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/68/OptionGroup.java:91: error: cannot find symbol
+            selectedOption= null;
+            ^
+  symbol:   variable selectedOption
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/68/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//69/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/69/OptionGroup.java:91: error: cannot find symbol
+            selectedValue= null;
+            ^
+  symbol:   variable selectedValue
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/69/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//7/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/7/OptionGroup.java:55: error: cannot find symbol
+        Options.put(option.getKey(), option);
+               ^
+  symbol:   method put(String,Option)
+  location: class Options
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//70/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/70/OptionGroup.java:91: error: cannot find symbol
+            selectedOptions= null;
+            ^
+  symbol:   variable selectedOptions
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/70/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//71/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/71/OptionGroup.java:91: error: bad operand types for binary operator '|'
+            selected|= null;
+                    ^
+  first type:  String
+  second type: <null>
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/71/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//72/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/72/OptionGroup.java:91: error: cannot find symbol
+            selected2= null;
+            ^
+  symbol:   variable selected2
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/72/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//73/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/73/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//74/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/74/OptionGroup.java:91: error: cannot find symbol
+            Option = null;
+            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/74/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//75/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/75/OptionGroup.java:91: error: cannot find symbol
+            options = null;
+            ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/75/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//76/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/76/OptionGroup.java:91: error: cannot find symbol
+            Option = null;
+            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/76/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//77/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/77/OptionGroup.java:91: error: cannot find symbol
+            value = null;
+            ^
+  symbol:   variable value
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/77/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//78/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/78/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//79/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/79/OptionGroup.java:91: error: cannot find symbol
+            Option = null;
+            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/79/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//8/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/8/OptionGroup.java:55: error: cannot find symbol
+        options.put(option.getKey(), option);
+        ^
+  symbol:   variable options
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//80/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/80/OptionGroup.java:91: error: cannot find symbol
+            options = null;
+            ^
+  symbol:   variable options
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/80/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//81/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/81/OptionGroup.java:91: error: cannot find symbol
+            Option = null;
+            ^
+  symbol:   variable Option
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/81/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//82/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/82/OptionGroup.java:91: error: cannot find symbol
+            value = null;
+            ^
+  symbol:   variable value
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/82/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//83/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/83/OptionGroup.java:91: error: incompatible types: boolean cannot be converted to String
+            selected = false;
+                       ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/83/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//84/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/84/OptionGroup.java:91: error: incompatible types: Option cannot be converted to String
+            selected = option;
+                       ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/84/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//85/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/85/OptionGroup.java:91: error: incompatible types: boolean cannot be converted to String
+            selected = true;
+                       ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/85/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//86/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/86/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//87/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/87/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//88/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/88/OptionGroup.java:98: error: <null> cannot be dereferenced
+        if (selected == null.selected.equals(option.getKey()))
+                            ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/88/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//89/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/89/OptionGroup.java:98: error: : expected
+        if (selected == null?selected.equals(option.getKey()))
+                                                             ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//9/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/9/OptionGroup.java:55: error: cannot find symbol
+        map.put(option.getKey(), option);
+        ^
+  symbol:   variable map
+  location: class OptionGroup
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//90/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/90/OptionGroup.java:98: error: bad operand types for binary operator '||'
+        if (selected=null || selected.equals(option.getKey()))
+                          ^
+  first type:  <null>
+  second type: boolean
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/90/OptionGroup.java:98: error: incompatible types: String cannot be converted to boolean
+        if (selected=null || selected.equals(option.getKey()))
+                    ^
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/90/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//91/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/91/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//92/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/92/OptionGroup.java:98: error: illegal start of expression
+        if (selected===null || selected.equals(option.getKey()))
+                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//93/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/93/OptionGroup.java:98: error: cannot find symbol
+        if (current == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/93/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//94/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/94/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//95/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/95/OptionGroup.java:98: error: cannot find symbol
+        if (checked == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable checked
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/95/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//96/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/96/OptionGroup.java:98: error: cannot find symbol
+        if (edited == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable edited
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/96/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//97/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/97/OptionGroup.java:98: error: cannot find symbol
+        if (current == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable current
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/97/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//98/
+> Mutant Compiled
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/98/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Processing mutant: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full//99/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/99/OptionGroup.java:98: error: cannot find symbol
+        if (checked == null || selected.equals(option.getKey()))
+            ^
+  symbol:   variable checked
+  location: class OptionGroup
+Note: /mnt/c/Users/localadmin/repos/cli/cli_27/generated-mutants-full/99/OptionGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+
+
+Mutants: 359
+Compilable: 41
+Total Compilation Time: 190 seconds

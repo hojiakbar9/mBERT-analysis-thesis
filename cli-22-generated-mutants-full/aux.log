@@ -1,0 +1,8 @@
+/mnt/c/Users/localadmin/repos/cli/cli_22/generated-mutants-full/99/PosixParser.java:112: error: cannot find symbol
+                int pos = token.position('=');
+                               ^
+  symbol:   method position(char)
+  location: variable token of type String
+Note: /mnt/c/Users/localadmin/repos/cli/cli_22/generated-mutants-full/99/PosixParser.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
