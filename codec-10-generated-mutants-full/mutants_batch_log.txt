@@ -1,0 +1,2239 @@
+[2025-03-14 15:47:12] Found 326 compilable mutants
+[2025-03-14 15:47:12] Created 17 batches (batch size: 20)
+[2025-03-14 15:58:07] [batch_1433_1524] Completed:
+[batch_1433_1524 - Mutant 1433] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 1434] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1436] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_1433_1524 - Mutant 1440] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_1433_1524 - Mutant 1441] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 1458] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_1433_1524 - Mutant 1462] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1463] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 1466] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_1433_1524 - Mutant 1470] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1473] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 148] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1494] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1496] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 15] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1500] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1502] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 152] Exit Code: 0
+Failing tests: 0
+
+[batch_1433_1524 - Mutant 1520] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1433_1524 - Mutant 1524] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 15:58:25] [batch_1318_1427] Completed:
+[batch_1318_1427 - Mutant 1318] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1323] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1325] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1345] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1347] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1352] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1354] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1356] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1369] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1373] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1378] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1382] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1386] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 14] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1405] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1406] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 141] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1411] Exit Code: 0
+Failing tests: 0
+
+[batch_1318_1427 - Mutant 1414] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1318_1427 - Mutant 1427] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 15:58:27] [batch_1668_1766] Completed:
+[batch_1668_1766 - Mutant 1668] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1674] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1675] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1678] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1690] Exit Code: 0
+Failing tests: 7
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1692] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1701] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1702] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 171] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1715] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1720] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1722] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1723] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1729] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1730] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1733] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1747] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1750] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1766 - Mutant 1764] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1766 - Mutant 1766] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 15:58:27] [batch_1099_1176] Completed:
+[batch_1099_1176 - Mutant 1099] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_1099_1176 - Mutant 1104] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1106] Exit Code: 0
+Failing tests: 0
+
+[batch_1099_1176 - Mutant 1108] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1113] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1114] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1117] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1130] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1134] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1136] Exit Code: 0
+Failing tests: 0
+
+[batch_1099_1176 - Mutant 1138] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 114] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1142] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1143] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1146] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1160] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1163] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1168] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1173] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1099_1176 - Mutant 1176] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 15:58:32] [batch_1526_1667] Completed:
+[batch_1526_1667 - Mutant 1526] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+
+[batch_1526_1667 - Mutant 1530] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+
+[batch_1526_1667 - Mutant 1533] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1554] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1559] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 156] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1574] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1582] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1584] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1588] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1603] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1609] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1617] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1636] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1638] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1646] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1648] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1526_1667 - Mutant 1660] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1666] Exit Code: 0
+Failing tests: 0
+
+[batch_1526_1667 - Mutant 1667] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 15:58:36] [batch_119_1315] Completed:
+[batch_119_1315 - Mutant 119] Exit Code: 0
+Failing tests: 0
+
+[batch_119_1315 - Mutant 1193] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1198] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1203] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1206] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1223] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1228] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+
+[batch_119_1315 - Mutant 1233] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+
+[batch_119_1315 - Mutant 1236] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1254] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1258] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_119_1315 - Mutant 126] Exit Code: 0
+Failing tests: 0
+
+[batch_119_1315 - Mutant 1263] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_119_1315 - Mutant 1266] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1284] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1288] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1293] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1296] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1314] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_119_1315 - Mutant 1315] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 15:58:37] [batch_1769_1814] Completed:
+[batch_1769_1814 - Mutant 1769] Exit Code: 0
+Failing tests: 11
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1770] Exit Code: 0
+Failing tests: 11
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1771] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1772] Exit Code: 0
+Failing tests: 11
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1773] Exit Code: 0
+Failing tests: 11
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1775] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1776] Exit Code: 0
+Failing tests: 11
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1777] Exit Code: 0
+Failing tests: 10
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1778] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1769_1814 - Mutant 1789] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1790] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1791] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1792] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1793] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1795] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1796] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1797] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1769_1814 - Mutant 1811] Exit Code: 0
+Failing tests: 0
+
+[batch_1769_1814 - Mutant 1813] Exit Code: 0
+Failing tests: 0
+
+[batch_1769_1814 - Mutant 1814] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+
+[2025-03-14 15:58:38] [batch_0_1085] Completed:
+[batch_0_1085 - Mutant 0] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_0_1085 - Mutant 10] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_0_1085 - Mutant 1008] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 101] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1015] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1018] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1023] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1025] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1026] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1027] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1043] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1047] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1048] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+
+[batch_0_1085 - Mutant 1053] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1057] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1071] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1073] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1085 - Mutant 1078] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_0_1085 - Mutant 1083] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1085 - Mutant 1085] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:09:24] [batch_182_29] Completed:
+[batch_182_29 - Mutant 182] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 1821] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 1831] Exit Code: 0
+Failing tests: 10
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_182_29 - Mutant 186] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 201] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 209] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_182_29 - Mutant 212] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 216] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 220] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_182_29 - Mutant 23] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_182_29 - Mutant 231] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 240] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_182_29 - Mutant 246] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 249] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_182_29 - Mutant 25] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 26] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_182_29 - Mutant 261] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 275] Exit Code: 0
+Failing tests: 0
+
+[batch_182_29 - Mutant 28] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+
+[batch_182_29 - Mutant 29] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 16:09:25] [batch_290_386] Completed:
+[batch_290_386 - Mutant 290] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 298] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 30] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 304] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_290_386 - Mutant 305] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_290_386 - Mutant 308] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_290_386 - Mutant 319] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_290_386 - Mutant 323] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+
+[batch_290_386 - Mutant 327] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 333] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 337] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_290_386 - Mutant 34] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 349] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 35] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 356] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 358] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_290_386 - Mutant 363] Exit Code: 0
+Failing tests: 0
+
+[batch_290_386 - Mutant 366] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_290_386 - Mutant 379] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_290_386 - Mutant 386] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:09:29] [batch_486_58] Completed:
+[batch_486_58 - Mutant 486] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 5] Exit Code: 0
+Failing tests: 10
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_486_58 - Mutant 506] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 507] Exit Code: 0
+Failing tests: 0
+
+[batch_486_58 - Mutant 508] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_486_58 - Mutant 510] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_486_58 - Mutant 513] Exit Code: 0
+Failing tests: 0
+
+[batch_486_58 - Mutant 516] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 52] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 531] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_486_58 - Mutant 537] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 538] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_486_58 - Mutant 543] Exit Code: 0
+Failing tests: 0
+
+[batch_486_58 - Mutant 546] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 567] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 568] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+
+[batch_486_58 - Mutant 571] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+
+[batch_486_58 - Mutant 573] Exit Code: 0
+Failing tests: 0
+
+[batch_486_58 - Mutant 576] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_486_58 - Mutant 58] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 16:09:38] [batch_59_665] Completed:
+[batch_59_665 - Mutant 59] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 597] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 598] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 603] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 605] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 607] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 619] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 626] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 627] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 628] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 63] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 631] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 633] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 635] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 64] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 649] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 657] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_59_665 - Mutant 658] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 663] Exit Code: 0
+Failing tests: 0
+
+[batch_59_665 - Mutant 665] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:09:40] [batch_771_868] Completed:
+[batch_771_868 - Mutant 771] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 777] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 778] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 783] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 784] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 799] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 806] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 808] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 813] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 814] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 830] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 836] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 837] Exit Code: 0
+Failing tests: 0
+
+[batch_771_868 - Mutant 838] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 843] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 846] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 847] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 862] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 865] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_771_868 - Mutant 868] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:09:41] [batch_388_483] Completed:
+[batch_388_483 - Mutant 388] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 392] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 393] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 396] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_388_483 - Mutant 410] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 417] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_388_483 - Mutant 418] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 422] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 423] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 426] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_388_483 - Mutant 446] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_388_483 - Mutant 448] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 452] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 453] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 456] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_388_483 - Mutant 471] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 477] Exit Code: 0
+Failing tests: 0
+
+[batch_388_483 - Mutant 478] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_388_483 - Mutant 482] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+
+[batch_388_483 - Mutant 483] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 16:09:45] [batch_873_980] Completed:
+[batch_873_980 - Mutant 873] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 875] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 89] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+
+[batch_873_980 - Mutant 894] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 898] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+
+[batch_873_980 - Mutant 90] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 903] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 906] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 92] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 922] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 923] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 931] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 933] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 936] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 937] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 951] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 954] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 963] Exit Code: 0
+Failing tests: 0
+
+[batch_873_980 - Mutant 965] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_873_980 - Mutant 980] Exit Code: 0
+Failing tests: 0
+
+[2025-03-14 16:09:45] [batch_667_754] Completed:
+[batch_667_754 - Mutant 667] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 680] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 687] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 688] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 691] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 693] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 694] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 709] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 716] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 718] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 72] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 722] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 723] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 725] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 739] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 74] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 747] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 748] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_667_754 - Mutant 753] Exit Code: 0
+Failing tests: 0
+
+[batch_667_754 - Mutant 754] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:13:11] [batch_983_997] Completed:
+[batch_983_997 - Mutant 983] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_983_997 - Mutant 986] Exit Code: 0
+Failing tests: 0
+
+[batch_983_997 - Mutant 989] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_983_997 - Mutant 99] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_983_997 - Mutant 993] Exit Code: 0
+Failing tests: 0
+
+[batch_983_997 - Mutant 997] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTTA1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameTN11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomNameKLN1111111
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedRandomWords
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testIsCaverphoneEquals
+  - org.apache.commons.codec.language.CaverphoneTest::testDavidHoodRevisitedCommonCodeAT11111111
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-14 16:13:11] All batches completed.

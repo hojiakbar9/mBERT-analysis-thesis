@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/metaphone/999/Metaphone.java:186: error: cannot find symbol
+                        code.format('K');
+                            ^
+  symbol:   method format(char)
+  location: variable code of type StringBuffer
+1 error

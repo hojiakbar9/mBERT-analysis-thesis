@@ -1,0 +1,13 @@
+/mnt/c/Users/localadmin/repos/codec/codec_9/generated-mutants-full/999/Base64.java:471: error: cannot find symbol
+            byte b = lineSeparator[position];
+                                   ^
+  symbol:   variable position
+  location: class Base64
+/mnt/c/Users/localadmin/repos/codec/codec_9/generated-mutants-full/999/Base64.java:620: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static boolean isArrayByteBase64(byte[] arrayOctet) {
+                          ^
+/mnt/c/Users/localadmin/repos/codec/codec_9/generated-mutants-full/999/Base64.java:870: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    static byte[] discardWhitespace(byte[] data) {
+                  ^
+1 error
+2 warnings

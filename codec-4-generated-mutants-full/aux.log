@@ -1,0 +1,4 @@
+/mnt/c/Users/localadmin/repos/codec/codec_4/generated-mutants-full/999/Base64.java:852: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    static byte[] discardWhitespace(byte[] data) {
+                  ^
+1 warning

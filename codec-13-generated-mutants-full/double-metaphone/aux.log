@@ -1,0 +1,4 @@
+/mnt/c/Users/localadmin/repos/codec/codec_13/generated-mutants-full/double-metaphone/999/DoubleMetaphone.java:173: error: illegal start of expression
+                index = charAt(value, index + 1)==='V' ? index + 2 : index + 1;
+                                                  ^
+1 error

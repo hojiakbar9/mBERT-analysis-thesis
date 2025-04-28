@@ -1,0 +1,541 @@
+[2025-03-15 07:03:01] Found 59 compilable mutants
+[2025-03-15 07:03:01] Created 3 batches (batch size: 20)
+[2025-03-15 07:25:42] [batch_376_92] Completed:
+[batch_376_92 - Mutant 376] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+
+[batch_376_92 - Mutant 377] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+
+[batch_376_92 - Mutant 389] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+
+[batch_376_92 - Mutant 39] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_376_92 - Mutant 391] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+
+[batch_376_92 - Mutant 4] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_376_92 - Mutant 42] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_376_92 - Mutant 46] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 47] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 48] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 58] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 59] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 62] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 74] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 75] Exit Code: 0
+Failing tests: 0
+
+[batch_376_92 - Mutant 8] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_376_92 - Mutant 87] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[batch_376_92 - Mutant 88] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[batch_376_92 - Mutant 92] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[2025-03-15 07:26:03] [batch_271_37] Completed:
+[batch_271_37 - Mutant 271] Exit Code: 0
+Failing tests: 0
+
+[batch_271_37 - Mutant 274] Exit Code: 0
+Failing tests: 17
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32Test::testBase32Samples
+  - org.apache.commons.codec.binary.Base32Test::testBase32SamplesNonDefaultPadding
+  - org.apache.commons.codec.binary.Base32Test::testBase32HexSamples
+  - org.apache.commons.codec.binary.Base32Test::testBase32Chunked
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean_UrlSafe
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testBase64
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+
+[batch_271_37 - Mutant 275] Exit Code: 0
+Failing tests: 17
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32Test::testBase32Samples
+  - org.apache.commons.codec.binary.Base32Test::testBase32SamplesNonDefaultPadding
+  - org.apache.commons.codec.binary.Base32Test::testBase32HexSamples
+  - org.apache.commons.codec.binary.Base32Test::testBase32Chunked
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean_UrlSafe
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testBase64
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+
+[batch_271_37 - Mutant 28] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_271_37 - Mutant 281] Exit Code: 0
+Failing tests: 17
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32Test::testBase32Samples
+  - org.apache.commons.codec.binary.Base32Test::testBase32SamplesNonDefaultPadding
+  - org.apache.commons.codec.binary.Base32Test::testBase32HexSamples
+  - org.apache.commons.codec.binary.Base32Test::testBase32Chunked
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean_UrlSafe
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testBase64
+  - org.apache.commons.codec.binary.Base64Test::testConstructor_Int_ByteArray_Boolean
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+
+[batch_271_37 - Mutant 288] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+
+[batch_271_37 - Mutant 302] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringNullInput
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringBadEnc
+
+[batch_271_37 - Mutant 305] Exit Code: 0
+Failing tests: 7
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringBadEnc
+
+[batch_271_37 - Mutant 309] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringNullInput
+
+[batch_271_37 - Mutant 31] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[batch_271_37 - Mutant 315] Exit Code: 0
+Failing tests: 7
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringBadEnc
+
+[batch_271_37 - Mutant 327] Exit Code: 0
+Failing tests: 0
+
+[batch_271_37 - Mutant 331] Exit Code: 0
+Failing tests: 0
+
+[batch_271_37 - Mutant 337] Exit Code: 0
+Failing tests: 0
+
+[batch_271_37 - Mutant 340] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1
+
+[batch_271_37 - Mutant 350] Exit Code: 0
+Failing tests: 0
+
+[batch_271_37 - Mutant 353] Exit Code: 0
+Failing tests: 23
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeWithCrLf
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Decode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUsAscii
+  - org.apache.commons.codec.net.BCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.BCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.BCodecTest::testEncodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QCodecTest::testEncodeDecodeBlanks
+  - org.apache.commons.codec.net.QCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QCodecTest::testEncodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testEncodeObjects
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.URLCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testEncodeObjects
+  - org.apache.commons.codec.net.URLCodecTest::testUnsafeEncodeDecode
+
+[batch_271_37 - Mutant 363] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+
+[batch_271_37 - Mutant 364] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringUtf16
+
+[batch_271_37 - Mutant 37] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[2025-03-15 07:26:05] [batch_119_265] Completed:
+[batch_119_265 - Mutant 119] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 121] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 123] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 13] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_119_265 - Mutant 140] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 142] Exit Code: 0
+Failing tests: 91
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testBase32InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipNone
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testRead0
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testReadOutOfBounds
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testReadNull
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testBase32InputStreamByChunk
+  - org.apache.commons.codec.binary.Base32OutputStreamTest::testBase32OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base32OutputStreamTest::testBase32OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipNone
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testRead0
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByChunk
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testInputStreamReader
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testReadOutOfBounds
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testReadNull
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testUUID
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testChunkedEncodeMultipleOf76
+  - org.apache.commons.codec.binary.Base64Test::testBase64
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeWithCrLf
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Decode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testIsStringBase64
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.BaseNCodecTest::testIsInAlphabetString
+  - org.apache.commons.codec.binary.HexTest::testHelloWorldLowerCaseHex
+  - org.apache.commons.codec.binary.HexTest::testHelloWorldUpperCaseHex
+  - org.apache.commons.codec.binary.HexTest::testEncodeDecodeRandom
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Le
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2Length
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha1UpdateWithString
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5HexLength
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5Length
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha1Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2HexLength
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha256
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha384
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha512
+  - org.apache.commons.codec.digest.DigestUtilsTest::testShaHex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testShaUpdateWithString
+  - org.apache.commons.codec.net.BCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.BCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.BCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QCodecTest::testEncodeDecodeBlanks
+  - org.apache.commons.codec.net.QCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testEncodeUrlWithNullBitSet
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testDecodeInvalid
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.URLCodecTest::testEncodeUrlWithNullBitSet
+  - org.apache.commons.codec.net.URLCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testDecodeInvalid
+  - org.apache.commons.codec.net.URLCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.URLCodecTest::testInvalidEncoding
+  - org.apache.commons.codec.net.URLCodecTest::testUnsafeEncodeDecode
+
+[batch_119_265 - Mutant 145] Exit Code: 0
+Failing tests: 91
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testBase32InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipNone
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testRead0
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testReadOutOfBounds
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testReadNull
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testBase32InputStreamByChunk
+  - org.apache.commons.codec.binary.Base32OutputStreamTest::testBase32OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base32OutputStreamTest::testBase32OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipNone
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testRead0
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByChunk
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testInputStreamReader
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testReadOutOfBounds
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testReadNull
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testUUID
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testChunkedEncodeMultipleOf76
+  - org.apache.commons.codec.binary.Base64Test::testBase64
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeWithCrLf
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Decode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testIsStringBase64
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.binary.BaseNCodecTest::testIsInAlphabetString
+  - org.apache.commons.codec.binary.HexTest::testHelloWorldLowerCaseHex
+  - org.apache.commons.codec.binary.HexTest::testHelloWorldUpperCaseHex
+  - org.apache.commons.codec.binary.HexTest::testEncodeDecodeRandom
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Le
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2Length
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha1UpdateWithString
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5HexLength
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5Length
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha1Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2HexLength
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha256
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha384
+  - org.apache.commons.codec.digest.DigestUtilsTest::testSha512
+  - org.apache.commons.codec.digest.DigestUtilsTest::testShaHex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testShaUpdateWithString
+  - org.apache.commons.codec.net.BCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.BCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.BCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QCodecTest::testEncodeDecodeBlanks
+  - org.apache.commons.codec.net.QCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testEncodeUrlWithNullBitSet
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testDecodeInvalid
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testUTF8RoundTrip
+  - org.apache.commons.codec.net.URLCodecTest::testEncodeUrlWithNullBitSet
+  - org.apache.commons.codec.net.URLCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testSafeCharEncodeDecode
+  - org.apache.commons.codec.net.URLCodecTest::testDecodeInvalid
+  - org.apache.commons.codec.net.URLCodecTest::testDecodeObjects
+  - org.apache.commons.codec.net.URLCodecTest::testInvalidEncoding
+  - org.apache.commons.codec.net.URLCodecTest::testUnsafeEncodeDecode
+
+[batch_119_265 - Mutant 149] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.binary.Base64Test::testStringToByteVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10DecodeEncode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Decode
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+  - org.apache.commons.codec.binary.Base64Test::testIsStringBase64
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10EncodeDecode
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd2Hex
+  - org.apache.commons.codec.digest.DigestUtilsTest::testMd5Hex
+
+[batch_119_265 - Mutant 17] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_119_265 - Mutant 176] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUncheckedNullInput
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUncheckedBadName
+
+[batch_119_265 - Mutant 179] Exit Code: 0
+Failing tests: 7
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf8
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesIso8859_1
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUsAscii
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Be
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUtf16Le
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUncheckedBadName
+
+[batch_119_265 - Mutant 18] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+
+[batch_119_265 - Mutant 182] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testGetBytesUncheckedNullInput
+
+[batch_119_265 - Mutant 20] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[batch_119_265 - Mutant 206] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 208] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 212] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 25] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCCedilla
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualExtended2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualWithMATCHES
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testNTilde
+
+[batch_119_265 - Mutant 254] Exit Code: 0
+Failing tests: 0
+
+[batch_119_265 - Mutant 265] Exit Code: 0
+Failing tests: 0
+
+[2025-03-15 07:26:05] All batches completed.

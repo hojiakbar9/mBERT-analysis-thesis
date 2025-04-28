@@ -1,0 +1,3118 @@
+id,classname,method_name,method_sig,method_def_line,mut_location,mut_start,mut_end,mut_operator,orig_token,pred_token,pred_pos,pred_score,masked_expr,masked_seq
+0,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2654,2657,BinaryOperatorMutator,==,===,2,0.04981092,cs1 <mask> cs2,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1<mask>cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+1,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2654,2657,BinaryOperatorMutator,==,&&,3,0.025683977,cs1 <mask> cs2,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1<mask>cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+2,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2654,2657,BinaryOperatorMutator,==,===,4,0.019924872,cs1 <mask> cs2,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1<mask>cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+3,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2651,2653,IdentifierMutator-Variable,cs1,1,0,0.6898456,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (<mask> == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+4,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2651,2653,IdentifierMutator-Variable,cs1,null,1,0.07642681,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (<mask> == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+5,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2651,2653,IdentifierMutator-Variable,cs1,cs,2,0.04393018,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (<mask> == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+6,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2651,2653,IdentifierMutator-Variable,cs1,this,3,0.01973464,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (<mask> == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+7,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2651,2653,IdentifierMutator-Variable,cs1,c,4,0.019106574,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (<mask> == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+8,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2658,2660,IdentifierMutator-Variable,cs2,null,0,0.64898545,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 ==<mask>) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+9,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2658,2660,IdentifierMutator-Variable,cs2,2,1,0.16664687,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 ==<mask>) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+10,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2658,2660,IdentifierMutator-Variable,cs2,2,2,0.046996925,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 ==<mask>) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+11,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2658,2660,IdentifierMutator-Variable,cs2,cs,3,0.01995549,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 ==<mask>) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+12,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,71,2658,2660,IdentifierMutator-Variable,cs2,this,4,0.01656585,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 ==<mask>) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+13,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,72,2684,2687,IdentifierMutator-Literal,true,false,1,0.015516386,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return<mask>;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+14,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,72,2684,2687,IdentifierMutator-Literal,true,1,2,0.0016427086,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return<mask>;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+15,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,72,2684,2687,IdentifierMutator-Literal,true,0,3,4.482405E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return<mask>;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+16,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,72,2684,2687,IdentifierMutator-Literal,true,TRUE,4,1.3026653E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return<mask>;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+17,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2723,2726,BinaryOperatorMutator,||,&&,1,0.058674753,(cs1 == null) <mask> (cs2 == null),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null<mask>cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+18,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2723,2726,BinaryOperatorMutator,||,&&,2,0.013418897,(cs1 == null) <mask> (cs2 == null),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null<mask>cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+19,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2723,2726,BinaryOperatorMutator,||,.,4,0.0028458172,(cs1 == null) <mask> (cs2 == null),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null<mask>cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+20,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2715,2718,BinaryOperatorMutator,==,!=,2,0.002841465,cs1 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1<mask>null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+21,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2715,2718,BinaryOperatorMutator,==,=,3,4.4206815E-4,cs1 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1<mask>null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+22,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2715,2718,BinaryOperatorMutator,==,===,4,1.4818955E-4,cs1 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1<mask>null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+23,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2712,2714,IdentifierMutator-Variable,cs1,cs,0,0.20333421,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (<mask> == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+24,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2712,2714,IdentifierMutator-Variable,cs1,1,1,0.15913166,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (<mask> == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+25,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2712,2714,IdentifierMutator-Variable,cs1,null,2,0.15365753,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (<mask> == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+26,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2712,2714,IdentifierMutator-Variable,cs1,src,3,0.01964001,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (<mask> == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+27,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2712,2714,IdentifierMutator-Variable,cs1,this,4,0.018159468,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (<mask> == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+28,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2719,2722,IdentifierMutator-Literal,null,"""""",1,4.966135E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 ==<mask> || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+29,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2719,2722,IdentifierMutator-Literal,null,this,2,1.8186122E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 ==<mask> || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+30,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2719,2722,IdentifierMutator-Literal,null,"''",4,5.9970895E-5,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 ==<mask> || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+31,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2730,2733,BinaryOperatorMutator,==,!=,2,0.0020576594,cs2 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2<mask>null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+32,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2730,2733,BinaryOperatorMutator,==,=,3,2.8871224E-4,cs2 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2<mask>null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+33,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2730,2733,BinaryOperatorMutator,==,.,4,2.4917952E-4,cs2 <mask> null,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2<mask>null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+34,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2727,2729,IdentifierMutator-Variable,cs2,2,0,0.46692243,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null ||<mask> == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+35,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2727,2729,IdentifierMutator-Variable,cs2,2,1,0.18635309,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null ||<mask> == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+36,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2727,2729,IdentifierMutator-Variable,cs2,second,2,0.050533727,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null ||<mask> == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+37,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2727,2729,IdentifierMutator-Variable,cs2,null,3,0.050006952,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null ||<mask> == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+38,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2727,2729,IdentifierMutator-Variable,cs2,both,4,0.04802833,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null ||<mask> == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+39,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2734,2737,IdentifierMutator-Literal,null,"""""",2,7.732992E-5,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 ==<mask>) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+40,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2734,2737,IdentifierMutator-Literal,null,this,3,6.2973246E-5,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 ==<mask>) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+41,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,74,2734,2737,IdentifierMutator-Literal,null,NULL,4,4.3666536E-5,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 ==<mask>) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+42,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,75,2761,2765,IdentifierMutator-Literal,false,true,1,0.09586786,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return<mask>;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+43,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,75,2761,2765,IdentifierMutator-Literal,false,null,2,0.0022487636,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return<mask>;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+44,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,75,2761,2765,IdentifierMutator-Literal,false,0,3,5.866536E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return<mask>;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+45,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,75,2761,2765,IdentifierMutator-Literal,false,FALSE,4,2.4531252E-4,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return<mask>;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+46,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2811,2814,BinaryOperatorMutator,&&,||,2,0.038845327,(cs1 instanceof java.lang.String) <mask> (cs2 instanceof java.lang.String),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String<mask>cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+47,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2811,2814,BinaryOperatorMutator,&&,||,3,0.0061064013,(cs1 instanceof java.lang.String) <mask> (cs2 instanceof java.lang.String),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String<mask>cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+48,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2811,2814,BinaryOperatorMutator,&&,|,4,6.659035E-4,(cs1 instanceof java.lang.String) <mask> (cs2 instanceof java.lang.String),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String<mask>cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+49,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2793,2804,BinaryOperatorMutator,instanceof,==,0,0.363322,cs1 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1<mask>String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+50,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2793,2804,BinaryOperatorMutator,instanceof,!=,1,0.3267761,cs1 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1<mask>String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+51,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2793,2804,BinaryOperatorMutator,instanceof,of,2,0.10731627,cs1 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1<mask>String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+52,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2793,2804,BinaryOperatorMutator,instanceof,==,3,0.09156305,cs1 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1<mask>String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+53,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2793,2804,BinaryOperatorMutator,instanceof,===,4,0.024339942,cs1 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1<mask>String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+54,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2790,2792,IdentifierMutator-Variable,cs1,1,0,0.432452,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (<mask> instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+55,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2790,2792,IdentifierMutator-Variable,cs1,this,1,0.12620936,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (<mask> instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+56,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2790,2792,IdentifierMutator-Variable,cs1,cs,2,0.0588969,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (<mask> instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+57,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2790,2792,IdentifierMutator-Variable,cs1,self,3,0.057172112,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (<mask> instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+58,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2790,2792,IdentifierMutator-Variable,cs1,null,4,0.030166918,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (<mask> instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+59,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2805,2810,TypeReferenceMutator,java.lang.String,String,0,0.9979285,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof<mask> && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+60,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2805,2810,TypeReferenceMutator,java.lang.String,Pattern,1,4.2963552E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof<mask> && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+61,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2805,2810,TypeReferenceMutator,java.lang.String,string,2,2.9289935E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof<mask> && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+62,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2805,2810,TypeReferenceMutator,java.lang.String,Number,3,2.3706777E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof<mask> && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+63,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2805,2810,TypeReferenceMutator,java.lang.String,Character,4,2.0966337E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof<mask> && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+64,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2818,2829,BinaryOperatorMutator,instanceof,==,0,0.71223384,cs2 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2<mask>String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+65,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2818,2829,BinaryOperatorMutator,instanceof,!=,1,0.08713303,cs2 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2<mask>String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+66,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2818,2829,BinaryOperatorMutator,instanceof,==,2,0.050110836,cs2 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2<mask>String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+67,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2818,2829,BinaryOperatorMutator,instanceof,of,3,0.030419942,cs2 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2<mask>String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+68,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2818,2829,BinaryOperatorMutator,instanceof,.,4,0.018037612,cs2 <mask> java.lang.String,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2<mask>String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+69,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2815,2817,IdentifierMutator-Variable,cs2,2,0,0.44221509,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String &&<mask> instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+70,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2815,2817,IdentifierMutator-Variable,cs2,2,1,0.31412578,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String &&<mask> instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+71,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2815,2817,IdentifierMutator-Variable,cs2,second,2,0.05638704,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String &&<mask> instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+72,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2815,2817,IdentifierMutator-Variable,cs2,two,3,0.017726582,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String &&<mask> instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+73,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2815,2817,IdentifierMutator-Variable,cs2,other,4,0.011983909,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String &&<mask> instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+74,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2830,2835,TypeReferenceMutator,java.lang.String,String,0,0.99725986,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof<mask>) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+75,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2830,2835,TypeReferenceMutator,java.lang.String,Number,1,3.1924245E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof<mask>) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+76,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2830,2835,TypeReferenceMutator,java.lang.String,string,2,3.163478E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof<mask>) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+77,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2830,2835,TypeReferenceMutator,java.lang.String,Pattern,3,1.9729536E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof<mask>) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+78,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,77,2830,2835,TypeReferenceMutator,java.lang.String,Character,4,1.9623514E-4,java.lang<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof<mask>) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+79,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2863,2868,MethodCallMutator,equals,match,1,0.094661005,cs1.<mask>(cs2),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.<mask>(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+80,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2863,2868,MethodCallMutator,equals,equal,2,0.065409124,cs1.<mask>(cs2),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.<mask>(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+81,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2863,2868,MethodCallMutator,equals,matches,3,0.06158816,cs1.<mask>(cs2),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.<mask>(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+82,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2863,2868,MethodCallMutator,equals,Compare,4,0.027988892,cs1.<mask>(cs2),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.<mask>(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+83,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2859,2861,IdentifierMutator-Variable,cs1,str,0,0.1408287,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return<mask>.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+84,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2859,2861,IdentifierMutator-Variable,cs1,string,1,0.12008452,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return<mask>.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+85,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2859,2861,IdentifierMutator-Variable,cs1,this,2,0.11605838,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return<mask>.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+86,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2859,2861,IdentifierMutator-Variable,cs1,super,3,0.10156849,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return<mask>.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+87,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2859,2861,IdentifierMutator-Variable,cs1,"""""",4,0.06551392,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return<mask>.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+88,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2870,2872,IdentifierMutator-Variable,cs2,2,0,0.48731092,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(<mask>);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+89,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2870,2872,IdentifierMutator-Variable,cs2,cs,1,0.15052944,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(<mask>);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+90,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2870,2872,IdentifierMutator-Variable,cs2,string,2,0.09453857,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(<mask>);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+91,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2870,2872,IdentifierMutator-Variable,cs2,str,3,0.05995098,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(<mask>);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+92,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,78,2870,2872,IdentifierMutator-Variable,cs2,true,4,0.015218702,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(<mask>);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+93,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2919,2931,MethodCallMutator,regionMatches,replace,0,0.31887507,"CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+94,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2919,2931,MethodCallMutator,regionMatches,match,1,0.07684346,"CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+95,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2919,2931,MethodCallMutator,regionMatches,equal,2,0.051022686,"CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+96,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2919,2931,MethodCallMutator,regionMatches,copy,3,0.03905723,"CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+97,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2919,2931,MethodCallMutator,regionMatches,escape,4,0.036230154,"CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.<mask>(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+98,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2933,2935,IdentifierMutator-Variable,cs1,this,0,0.12330621,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(<mask>, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+99,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2933,2935,IdentifierMutator-Variable,cs1,string,1,0.10596097,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(<mask>, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+100,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2933,2935,IdentifierMutator-Variable,cs1,1,2,0.08911022,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(<mask>, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+101,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2933,2935,IdentifierMutator-Variable,cs1,region,3,0.04691334,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(<mask>, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+102,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2933,2935,IdentifierMutator-Variable,cs1,true,4,0.04668621,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(<mask>, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+103,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2938,2942,IdentifierMutator-Literal,false,0,0,0.96829903,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1,<mask>, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+104,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2938,2942,IdentifierMutator-Literal,false,1,1,0.004187586,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1,<mask>, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+105,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2938,2942,IdentifierMutator-Literal,false,2,2,0.002853532,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1,<mask>, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+106,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2938,2942,IdentifierMutator-Literal,false,null,3,0.002032115,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1,<mask>, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+107,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2938,2942,IdentifierMutator-Literal,false,"""""",4,0.0014757046,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1,<mask>, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+108,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2945,2945,IdentifierMutator-Literal,0,false,0,0.4513934,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false,<mask>, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+109,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2945,2945,IdentifierMutator-Literal,0,true,1,0.2784672,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false,<mask>, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+110,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2945,2945,IdentifierMutator-Literal,0,null,3,0.046777483,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false,<mask>, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+111,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2945,2945,IdentifierMutator-Literal,0,"""""",4,0.012142236,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false,<mask>, cs2, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+112,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2948,2950,IdentifierMutator-Variable,cs2,0,0,0.42195794,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0,<mask>, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+113,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2948,2950,IdentifierMutator-Variable,cs2,false,1,0.23488924,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0,<mask>, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+114,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2948,2950,IdentifierMutator-Variable,cs2,true,2,0.14902829,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0,<mask>, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+115,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2948,2950,IdentifierMutator-Variable,cs2,2,3,0.04089119,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0,<mask>, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+116,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2948,2950,IdentifierMutator-Variable,cs2,1,4,0.031914193,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0,<mask>, 0, Math.max(cs1.length(), cs2.length()));
+    }"
+117,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2953,2953,IdentifierMutator-Literal,0,false,1,0.28131577,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2,<mask>, Math.max(cs1.length(), cs2.length()));
+    }"
+118,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2953,2953,IdentifierMutator-Literal,0,true,2,0.12810364,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2,<mask>, Math.max(cs1.length(), cs2.length()));
+    }"
+119,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2953,2953,IdentifierMutator-Literal,0,1,3,0.027706388,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2,<mask>, Math.max(cs1.length(), cs2.length()));
+    }"
+120,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2953,2953,IdentifierMutator-Literal,0,null,4,0.01660383,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2,<mask>, Math.max(cs1.length(), cs2.length()));
+    }"
+121,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2961,2963,MethodCallMutator,max,min,0,0.66908634,"Math.<mask>(cs1.length(), cs2.length())","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.<mask>(cs1.length(), cs2.length()));
+    }"
+122,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2961,2963,MethodCallMutator,max,MIN,2,0.0029953169,"Math.<mask>(cs1.length(), cs2.length())","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.<mask>(cs1.length(), cs2.length()));
+    }"
+123,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2961,2963,MethodCallMutator,max,min,3,0.0028361578,"Math.<mask>(cs1.length(), cs2.length())","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.<mask>(cs1.length(), cs2.length()));
+    }"
+124,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2961,2963,MethodCallMutator,max,Min,4,0.001649458,"Math.<mask>(cs1.length(), cs2.length())","boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.<mask>(cs1.length(), cs2.length()));
+    }"
+125,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2969,2974,MethodCallMutator,length,len,2,8.535197E-6,cs1.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.<mask>(), cs2.length()));
+    }"
+126,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2969,2974,MethodCallMutator,length,Length,3,4.9984033E-6,cs1.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.<mask>(), cs2.length()));
+    }"
+127,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2969,2974,MethodCallMutator,length,duration,4,3.393073E-6,cs1.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.<mask>(), cs2.length()));
+    }"
+128,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2965,2967,IdentifierMutator-Variable,cs1,1,0,0.40882078,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(<mask>.length(), cs2.length()));
+    }"
+129,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2965,2967,IdentifierMutator-Variable,cs1,this,1,0.107203014,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(<mask>.length(), cs2.length()));
+    }"
+130,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2965,2967,IdentifierMutator-Variable,cs1,cs,2,0.07992785,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(<mask>.length(), cs2.length()));
+    }"
+131,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2965,2967,IdentifierMutator-Variable,cs1,null,3,0.028143175,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(<mask>.length(), cs2.length()));
+    }"
+132,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2965,2967,IdentifierMutator-Variable,cs1,self,4,0.022375897,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(<mask>.length(), cs2.length()));
+    }"
+133,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2983,2988,MethodCallMutator,length,duration,2,2.993832E-5,cs2.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.<mask>()));
+    }"
+134,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2983,2988,MethodCallMutator,length,position,3,2.1512822E-5,cs2.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.<mask>()));
+    }"
+135,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2983,2988,MethodCallMutator,length,Length,4,1.3043384E-5,cs2.<mask>(),"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.<mask>()));
+    }"
+136,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2979,2981,IdentifierMutator-Variable,cs2,2,0,0.5429647,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(),<mask>.length()));
+    }"
+137,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2979,2981,IdentifierMutator-Variable,cs2,2,1,0.12552917,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(),<mask>.length()));
+    }"
+138,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2979,2981,IdentifierMutator-Variable,cs2,second,2,0.021516386,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(),<mask>.length()));
+    }"
+139,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2979,2981,IdentifierMutator-Variable,cs2,match,3,0.015037656,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(),<mask>.length()));
+    }"
+140,StringUtils.java,equals,"boolean equals(final CharSequence cs1, final CharSequence cs2)",70,80,2979,2981,IdentifierMutator-Variable,cs2,"""""",4,0.013098564,<mask>,"boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(),<mask>.length()));
+    }"
+141,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3376,3379,BinaryOperatorMutator,==,=,2,0.0075081727,string <mask> null,"byte[] getBytes(final String string, final Charset charset) {
+        if (string<mask>null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+142,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3376,3379,BinaryOperatorMutator,==,!=,3,0.0026866205,string <mask> null,"byte[] getBytes(final String string, final Charset charset) {
+        if (string<mask>null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+143,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3376,3379,BinaryOperatorMutator,==,||,4,0.0015377637,string <mask> null,"byte[] getBytes(final String string, final Charset charset) {
+        if (string<mask>null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+144,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3370,3375,IdentifierMutator-Variable,string,String,2,4.2273648E-4,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (<mask> == null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+145,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3370,3375,IdentifierMutator-Variable,string,null,3,3.9426377E-4,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (<mask> == null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+146,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3370,3375,IdentifierMutator-Variable,string,strings,4,1.54786E-4,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (<mask> == null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+147,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3380,3383,IdentifierMutator-Literal,null,NULL,1,3.6333856E-4,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string ==<mask>) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+148,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3380,3383,IdentifierMutator-Literal,null,this,2,9.320713E-5,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string ==<mask>) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+149,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,93,3380,3383,IdentifierMutator-Literal,null,"""""",4,3.4334764E-5,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string ==<mask>) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }"
+150,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,94,3407,3410,IdentifierMutator-Literal,null,"""""",1,0.010560193,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return<mask>;
+        }
+        return string.getBytes(charset);
+    }"
+151,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,94,3407,3410,IdentifierMutator-Literal,null,bytes,2,0.002891617,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return<mask>;
+        }
+        return string.getBytes(charset);
+    }"
+152,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,94,3407,3410,IdentifierMutator-Literal,null,NULL,3,0.0023984124,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return<mask>;
+        }
+        return string.getBytes(charset);
+    }"
+153,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,94,3407,3410,IdentifierMutator-Literal,null,buffer,4,0.0016249113,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return<mask>;
+        }
+        return string.getBytes(charset);
+    }"
+154,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3445,3452,MethodCallMutator,getBytes,split,0,0.81127787,string.<mask>(charset),"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.<mask>(charset);
+    }"
+155,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3445,3452,MethodCallMutator,getBytes,bytes,1,0.08139961,string.<mask>(charset),"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.<mask>(charset);
+    }"
+156,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3445,3452,MethodCallMutator,getBytes,Bytes,2,0.06507939,string.<mask>(charset),"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.<mask>(charset);
+    }"
+157,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3445,3452,MethodCallMutator,getBytes,byte,3,0.0031611335,string.<mask>(charset),"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.<mask>(charset);
+    }"
+158,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3445,3452,MethodCallMutator,getBytes,get,4,0.0030201685,string.<mask>(charset),"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.<mask>(charset);
+    }"
+159,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3438,3443,IdentifierMutator-Variable,string,str,2,1.2404205E-4,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return<mask>.getBytes(charset);
+    }"
+160,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3438,3443,IdentifierMutator-Variable,string,resource,3,7.2098366E-5,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return<mask>.getBytes(charset);
+    }"
+161,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3438,3443,IdentifierMutator-Variable,string,text,4,4.3354237E-5,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return<mask>.getBytes(charset);
+    }"
+162,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3454,3460,IdentifierMutator-Variable,charset,null,0,0.13290237,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(<mask>);
+    }"
+163,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3454,3460,IdentifierMutator-Variable,charset,bc,1,0.09987398,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(<mask>);
+    }"
+164,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3454,3460,IdentifierMutator-Variable,charset,enc,2,0.07994484,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(<mask>);
+    }"
+165,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3454,3460,IdentifierMutator-Variable,charset,bytes,3,0.042171866,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(<mask>);
+    }"
+166,StringUtils.java,getBytes,"byte[] getBytes(final String string, final Charset charset)",92,96,3454,3460,IdentifierMutator-Variable,charset,8,4,0.034220345,<mask>,"byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(<mask>);
+    }"
+167,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4357,4364,MethodCallMutator,getBytes,bytes,0,0.707181,"<mask>(string, ISO_8859_1)","byte[] getBytesIso8859_1(final String string) {
+        return<mask>(string, Charsets.ISO_8859_1);
+    }"
+168,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4357,4364,MethodCallMutator,getBytes,decode,1,0.12444759,"<mask>(string, ISO_8859_1)","byte[] getBytesIso8859_1(final String string) {
+        return<mask>(string, Charsets.ISO_8859_1);
+    }"
+169,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4357,4364,MethodCallMutator,getBytes,Bytes,2,0.0388368,"<mask>(string, ISO_8859_1)","byte[] getBytesIso8859_1(final String string) {
+        return<mask>(string, Charsets.ISO_8859_1);
+    }"
+170,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4357,4364,MethodCallMutator,getBytes,get,3,0.037390895,"<mask>(string, ISO_8859_1)","byte[] getBytesIso8859_1(final String string) {
+        return<mask>(string, Charsets.ISO_8859_1);
+    }"
+171,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4357,4364,MethodCallMutator,getBytes,encode,4,0.033872057,"<mask>(string, ISO_8859_1)","byte[] getBytesIso8859_1(final String string) {
+        return<mask>(string, Charsets.ISO_8859_1);
+    }"
+172,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4366,4371,IdentifierMutator-Variable,string,String,1,4.8893486E-4,<mask>,"byte[] getBytesIso8859_1(final String string) {
+        return getBytes(<mask>, Charsets.ISO_8859_1);
+    }"
+173,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4366,4371,IdentifierMutator-Variable,string,str,2,1.3822828E-4,<mask>,"byte[] getBytesIso8859_1(final String string) {
+        return getBytes(<mask>, Charsets.ISO_8859_1);
+    }"
+174,StringUtils.java,getBytesIso8859_1,byte[] getBytesIso8859_1(final String string),113,114,4366,4371,IdentifierMutator-Variable,string,resource,4,1.9930923E-5,<mask>,"byte[] getBytesIso8859_1(final String string) {
+        return getBytes(<mask>, Charsets.ISO_8859_1);
+    }"
+175,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5448,5451,BinaryOperatorMutator,==,=,2,0.020066593,string <mask> null,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string<mask>null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+176,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5448,5451,BinaryOperatorMutator,==,!=,3,0.0037902293,string <mask> null,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string<mask>null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+177,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5448,5451,BinaryOperatorMutator,==,||,4,0.0020798515,string <mask> null,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string<mask>null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+178,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5442,5447,IdentifierMutator-Variable,string,String,2,3.4341036E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+179,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5442,5447,IdentifierMutator-Variable,string,null,3,1.6877243E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+180,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5442,5447,IdentifierMutator-Variable,string,strings,4,9.9904755E-5,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+181,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5452,5455,IdentifierMutator-Literal,null,NULL,1,4.9464253E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string ==<mask>) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+182,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5452,5455,IdentifierMutator-Literal,null,"""""",2,9.1072056E-5,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string ==<mask>) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+183,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,138,5452,5455,IdentifierMutator-Literal,null,this,3,5.8563422E-5,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string ==<mask>) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+184,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,139,5479,5482,IdentifierMutator-Literal,null,"""""",1,0.0065179667,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return<mask>;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+185,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,139,5479,5482,IdentifierMutator-Literal,null,bytes,2,0.0027546533,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return<mask>;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+186,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,139,5479,5482,IdentifierMutator-Literal,null,NULL,3,0.0021735975,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return<mask>;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+187,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,139,5479,5482,IdentifierMutator-Literal,null,buffer,4,0.0011563128,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return<mask>;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+188,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5535,5542,MethodCallMutator,getBytes,split,0,0.90097314,string.<mask>(charsetName),"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.<mask>(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+189,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5535,5542,MethodCallMutator,getBytes,Bytes,1,0.046412524,string.<mask>(charsetName),"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.<mask>(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+190,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5535,5542,MethodCallMutator,getBytes,bytes,2,0.01645695,string.<mask>(charsetName),"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.<mask>(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+191,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5535,5542,MethodCallMutator,getBytes,get,3,0.002640155,string.<mask>(charsetName),"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.<mask>(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+192,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5535,5542,MethodCallMutator,getBytes,replace,4,0.0021749325,string.<mask>(charsetName),"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.<mask>(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+193,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5528,5533,IdentifierMutator-Variable,string,str,2,2.7673726E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return<mask>.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+194,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5528,5533,IdentifierMutator-Variable,string,String,3,1.5632332E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return<mask>.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+195,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5528,5533,IdentifierMutator-Variable,string,resource,4,1.2986542E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return<mask>.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+196,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5544,5554,IdentifierMutator-Variable,charsetName,8,0,0.16698101,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+197,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5544,5554,IdentifierMutator-Variable,charsetName,false,1,0.11116567,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+198,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5544,5554,IdentifierMutator-Variable,charsetName,null,2,0.061935242,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+199,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5544,5554,IdentifierMutator-Variable,charsetName,true,3,0.054849606,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+200,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,142,5544,5554,IdentifierMutator-Variable,charsetName,16,4,0.046910614,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+201,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5645,5668,MethodCallMutator,newIllegalStateException,format,0,0.5311836,"StringUtils.<mask>(charsetName, e)","byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+202,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5645,5668,MethodCallMutator,newIllegalStateException,empty,1,0.0507321,"StringUtils.<mask>(charsetName, e)","byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+203,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5645,5668,MethodCallMutator,newIllegalStateException,illegal,2,0.035342954,"StringUtils.<mask>(charsetName, e)","byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+204,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5645,5668,MethodCallMutator,newIllegalStateException,class,3,0.031451587,"StringUtils.<mask>(charsetName, e)","byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+205,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5645,5668,MethodCallMutator,newIllegalStateException,parse,4,0.024963155,"StringUtils.<mask>(charsetName, e)","byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+206,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5670,5680,IdentifierMutator-Variable,charsetName,string,0,0.95971566,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+207,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5670,5680,IdentifierMutator-Variable,charsetName,String,1,0.012583586,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+208,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5670,5680,IdentifierMutator-Variable,charsetName,null,2,0.010247276,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+209,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5670,5680,IdentifierMutator-Variable,charsetName,str,3,0.003110613,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+210,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5670,5680,IdentifierMutator-Variable,charsetName,this,4,0.002906575,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+211,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5683,5683,IdentifierMutator-Variable,e,string,1,0.004975737,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+212,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5683,5683,IdentifierMutator-Variable,e,null,2,0.0018129558,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+213,StringUtils.java,getBytesUnchecked,"byte[] getBytesUnchecked(final String string, final String charsetName)",137,144,5683,5683,IdentifierMutator-Variable,e,exception,3,8.25991E-4,<mask>,"byte[] getBytesUnchecked(final String string, final String charsetName) {
+        if (string == null) {
+            return null;
+        }
+        try {
+            return string.getBytes(charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+214,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6584,6591,MethodCallMutator,getBytes,bytes,0,0.7143836,"<mask>(string, US_ASCII)","byte[] getBytesUsAscii(final String string) {
+        return<mask>(string, Charsets.US_ASCII);
+    }"
+215,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6584,6591,MethodCallMutator,getBytes,get,1,0.07681702,"<mask>(string, US_ASCII)","byte[] getBytesUsAscii(final String string) {
+        return<mask>(string, Charsets.US_ASCII);
+    }"
+216,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6584,6591,MethodCallMutator,getBytes,decode,2,0.0757433,"<mask>(string, US_ASCII)","byte[] getBytesUsAscii(final String string) {
+        return<mask>(string, Charsets.US_ASCII);
+    }"
+217,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6584,6591,MethodCallMutator,getBytes,Bytes,3,0.038083654,"<mask>(string, US_ASCII)","byte[] getBytesUsAscii(final String string) {
+        return<mask>(string, Charsets.US_ASCII);
+    }"
+218,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6584,6591,MethodCallMutator,getBytes,encode,4,0.021345826,"<mask>(string, US_ASCII)","byte[] getBytesUsAscii(final String string) {
+        return<mask>(string, Charsets.US_ASCII);
+    }"
+219,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6593,6598,IdentifierMutator-Variable,string,String,1,7.2509894E-4,<mask>,"byte[] getBytesUsAscii(final String string) {
+        return getBytes(<mask>, Charsets.US_ASCII);
+    }"
+220,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6593,6598,IdentifierMutator-Variable,string,str,2,2.1531527E-4,<mask>,"byte[] getBytesUsAscii(final String string) {
+        return getBytes(<mask>, Charsets.US_ASCII);
+    }"
+221,StringUtils.java,getBytesUsAscii,byte[] getBytesUsAscii(final String string),162,163,6593,6598,IdentifierMutator-Variable,string,resource,4,2.6697588E-5,<mask>,"byte[] getBytesUsAscii(final String string) {
+        return getBytes(<mask>, Charsets.US_ASCII);
+    }"
+222,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7502,7509,MethodCallMutator,getBytes,bytes,0,0.571125,"<mask>(string, UTF_16)","byte[] getBytesUtf16(final String string) {
+        return<mask>(string, Charsets.UTF_16);
+    }"
+223,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7502,7509,MethodCallMutator,getBytes,get,1,0.14848585,"<mask>(string, UTF_16)","byte[] getBytesUtf16(final String string) {
+        return<mask>(string, Charsets.UTF_16);
+    }"
+224,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7502,7509,MethodCallMutator,getBytes,decode,2,0.1269333,"<mask>(string, UTF_16)","byte[] getBytesUtf16(final String string) {
+        return<mask>(string, Charsets.UTF_16);
+    }"
+225,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7502,7509,MethodCallMutator,getBytes,encode,3,0.032271594,"<mask>(string, UTF_16)","byte[] getBytesUtf16(final String string) {
+        return<mask>(string, Charsets.UTF_16);
+    }"
+226,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7502,7509,MethodCallMutator,getBytes,Bytes,4,0.025961164,"<mask>(string, UTF_16)","byte[] getBytesUtf16(final String string) {
+        return<mask>(string, Charsets.UTF_16);
+    }"
+227,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7511,7516,IdentifierMutator-Variable,string,String,1,2.6472905E-4,<mask>,"byte[] getBytesUtf16(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16);
+    }"
+228,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7511,7516,IdentifierMutator-Variable,string,str,2,6.1215185E-5,<mask>,"byte[] getBytesUtf16(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16);
+    }"
+229,StringUtils.java,getBytesUtf16,byte[] getBytesUtf16(final String string),180,181,7511,7516,IdentifierMutator-Variable,string,resource,4,2.0118092E-5,<mask>,"byte[] getBytesUtf16(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16);
+    }"
+230,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8424,8431,MethodCallMutator,getBytes,bytes,0,0.62094855,"<mask>(string, UTF_16BE)","byte[] getBytesUtf16Be(final String string) {
+        return<mask>(string, Charsets.UTF_16BE);
+    }"
+231,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8424,8431,MethodCallMutator,getBytes,decode,1,0.11751947,"<mask>(string, UTF_16BE)","byte[] getBytesUtf16Be(final String string) {
+        return<mask>(string, Charsets.UTF_16BE);
+    }"
+232,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8424,8431,MethodCallMutator,getBytes,get,2,0.1160954,"<mask>(string, UTF_16BE)","byte[] getBytesUtf16Be(final String string) {
+        return<mask>(string, Charsets.UTF_16BE);
+    }"
+233,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8424,8431,MethodCallMutator,getBytes,encode,3,0.031745948,"<mask>(string, UTF_16BE)","byte[] getBytesUtf16Be(final String string) {
+        return<mask>(string, Charsets.UTF_16BE);
+    }"
+234,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8424,8431,MethodCallMutator,getBytes,Bytes,4,0.024202947,"<mask>(string, UTF_16BE)","byte[] getBytesUtf16Be(final String string) {
+        return<mask>(string, Charsets.UTF_16BE);
+    }"
+235,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8433,8438,IdentifierMutator-Variable,string,String,1,3.6755117E-4,<mask>,"byte[] getBytesUtf16Be(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16BE);
+    }"
+236,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8433,8438,IdentifierMutator-Variable,string,str,2,9.6085954E-5,<mask>,"byte[] getBytesUtf16Be(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16BE);
+    }"
+237,StringUtils.java,getBytesUtf16Be,byte[] getBytesUtf16Be(final String string),198,199,8433,8438,IdentifierMutator-Variable,string,resource,4,1.7800476E-5,<mask>,"byte[] getBytesUtf16Be(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16BE);
+    }"
+238,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9348,9355,MethodCallMutator,getBytes,bytes,0,0.62949723,"<mask>(string, UTF_16LE)","byte[] getBytesUtf16Le(final String string) {
+        return<mask>(string, Charsets.UTF_16LE);
+    }"
+239,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9348,9355,MethodCallMutator,getBytes,decode,1,0.111452475,"<mask>(string, UTF_16LE)","byte[] getBytesUtf16Le(final String string) {
+        return<mask>(string, Charsets.UTF_16LE);
+    }"
+240,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9348,9355,MethodCallMutator,getBytes,get,2,0.11137002,"<mask>(string, UTF_16LE)","byte[] getBytesUtf16Le(final String string) {
+        return<mask>(string, Charsets.UTF_16LE);
+    }"
+241,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9348,9355,MethodCallMutator,getBytes,encode,3,0.03307442,"<mask>(string, UTF_16LE)","byte[] getBytesUtf16Le(final String string) {
+        return<mask>(string, Charsets.UTF_16LE);
+    }"
+242,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9348,9355,MethodCallMutator,getBytes,Bytes,4,0.026741398,"<mask>(string, UTF_16LE)","byte[] getBytesUtf16Le(final String string) {
+        return<mask>(string, Charsets.UTF_16LE);
+    }"
+243,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9357,9362,IdentifierMutator-Variable,string,String,1,4.0622283E-4,<mask>,"byte[] getBytesUtf16Le(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16LE);
+    }"
+244,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9357,9362,IdentifierMutator-Variable,string,str,2,1.1163854E-4,<mask>,"byte[] getBytesUtf16Le(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16LE);
+    }"
+245,StringUtils.java,getBytesUtf16Le,byte[] getBytesUtf16Le(final String string),216,217,9357,9362,IdentifierMutator-Variable,string,resource,4,2.1465301E-5,<mask>,"byte[] getBytesUtf16Le(final String string) {
+        return getBytes(<mask>, Charsets.UTF_16LE);
+    }"
+246,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10263,10270,MethodCallMutator,getBytes,bytes,0,0.61842424,"<mask>(string, UTF_8)","byte[] getBytesUtf8(final String string) {
+        return<mask>(string, Charsets.UTF_8);
+    }"
+247,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10263,10270,MethodCallMutator,getBytes,get,1,0.14717777,"<mask>(string, UTF_8)","byte[] getBytesUtf8(final String string) {
+        return<mask>(string, Charsets.UTF_8);
+    }"
+248,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10263,10270,MethodCallMutator,getBytes,decode,2,0.10228869,"<mask>(string, UTF_8)","byte[] getBytesUtf8(final String string) {
+        return<mask>(string, Charsets.UTF_8);
+    }"
+249,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10263,10270,MethodCallMutator,getBytes,encode,3,0.02624935,"<mask>(string, UTF_8)","byte[] getBytesUtf8(final String string) {
+        return<mask>(string, Charsets.UTF_8);
+    }"
+250,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10263,10270,MethodCallMutator,getBytes,Bytes,4,0.024391785,"<mask>(string, UTF_8)","byte[] getBytesUtf8(final String string) {
+        return<mask>(string, Charsets.UTF_8);
+    }"
+251,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10272,10277,IdentifierMutator-Variable,string,String,1,2.932646E-4,<mask>,"byte[] getBytesUtf8(final String string) {
+        return getBytes(<mask>, Charsets.UTF_8);
+    }"
+252,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10272,10277,IdentifierMutator-Variable,string,str,2,7.5866046E-5,<mask>,"byte[] getBytesUtf8(final String string) {
+        return getBytes(<mask>, Charsets.UTF_8);
+    }"
+253,StringUtils.java,getBytesUtf8,byte[] getBytesUtf8(final String string),234,235,10272,10277,IdentifierMutator-Variable,string,resource,4,2.3813918E-5,<mask>,"byte[] getBytesUtf8(final String string) {
+        return getBytes(<mask>, Charsets.UTF_8);
+    }"
+254,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10561,10563,BinaryOperatorMutator,+,",",2,6.827113E-4,"(charsetName + "": "") <mask> e","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": ""<mask>e);
+    }"
+255,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10561,10563,BinaryOperatorMutator,+,)+,3,3.3193204E-4,"(charsetName + "": "") <mask> e","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": ""<mask>e);
+    }"
+256,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10561,10563,BinaryOperatorMutator,+,.,4,1.5263363E-4,"(charsetName + "": "") <mask> e","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": ""<mask>e);
+    }"
+257,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10554,10556,BinaryOperatorMutator,+,)+,2,0.0023996488,"charsetName <mask> "": ""","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName<mask>"": "" + e);
+    }"
+258,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10554,10556,BinaryOperatorMutator,+,",",3,6.481904E-4,"charsetName <mask> "": ""","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName<mask>"": "" + e);
+    }"
+259,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10554,10556,BinaryOperatorMutator,+,",""",4,4.927778E-4,"charsetName <mask> "": ""","IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName<mask>"": "" + e);
+    }"
+260,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10543,10553,IdentifierMutator-Variable,charsetName,name,0,0.76361006,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(<mask> + "": "" + e);
+    }"
+261,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10543,10553,IdentifierMutator-Variable,charsetName,string,1,0.041115157,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(<mask> + "": "" + e);
+    }"
+262,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10543,10553,IdentifierMutator-Variable,charsetName,str,2,0.016422983,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(<mask> + "": "" + e);
+    }"
+263,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10543,10553,IdentifierMutator-Variable,charsetName,prefix,3,0.009829804,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(<mask> + "": "" + e);
+    }"
+264,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10543,10553,IdentifierMutator-Variable,charsetName,Name,4,0.009274111,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(<mask> + "": "" + e);
+    }"
+265,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10557,10560,IdentifierMutator-Literal,""":""","""""",0,0.4785288,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName +<mask> + e);
+    }"
+266,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10557,10560,IdentifierMutator-Literal,""":""",prefix,1,0.08289289,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName +<mask> + e);
+    }"
+267,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10557,10560,IdentifierMutator-Literal,""":""","""",2,0.07169657,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName +<mask> + e);
+    }"
+268,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10557,10560,IdentifierMutator-Literal,""":""","''",3,0.017183628,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName +<mask> + e);
+    }"
+269,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10557,10560,IdentifierMutator-Literal,""":""",,4,0.015939463,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName +<mask> + e);
+    }"
+270,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10564,10564,IdentifierMutator-Variable,e,this,2,0.0010816696,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": "" +<mask>);
+    }"
+271,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10564,10564,IdentifierMutator-Variable,e,null,3,6.608337E-4,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": "" +<mask>);
+    }"
+272,StringUtils.java,newIllegalStateException,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e)",238,240,10564,10564,IdentifierMutator-Variable,e,name,4,4.839205E-4,<mask>,"IllegalStateException newIllegalStateException(final String charsetName,
+                                                                  final UnsupportedEncodingException e) {
+        return new IllegalStateException(charsetName + "": "" +<mask>);
+    }"
+273,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11410,IdentifierMutator-Conditional,"bytes==null?null:newjava.lang.String(bytes,charset)",bytes,0,0.48707232,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask>;
+    }"
+274,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11410,IdentifierMutator-Conditional,"bytes==null?null:newjava.lang.String(bytes,charset)",null,1,0.32390487,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask>;
+    }"
+275,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11410,IdentifierMutator-Conditional,"bytes==null?null:newjava.lang.String(bytes,charset)","""""",2,0.06941796,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask>;
+    }"
+276,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11410,IdentifierMutator-Conditional,"bytes==null?null:newjava.lang.String(bytes,charset)",string,3,0.03355153,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask>;
+    }"
+277,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11410,IdentifierMutator-Conditional,"bytes==null?null:newjava.lang.String(bytes,charset)",str,4,0.013731006,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask>;
+    }"
+278,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11367,11370,BinaryOperatorMutator,==,=,2,0.0053990535,bytes <mask> null,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes<mask>null ? null : new String(bytes, charset);
+    }"
+279,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11367,11370,BinaryOperatorMutator,==,.,3,8.1086456E-4,bytes <mask> null,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes<mask>null ? null : new String(bytes, charset);
+    }"
+280,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11367,11370,BinaryOperatorMutator,==,_,4,7.5419317E-4,bytes <mask> null,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes<mask>null ? null : new String(bytes, charset);
+    }"
+281,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11366,IdentifierMutator-Variable,bytes,null,1,7.5636886E-4,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask> == null ? null : new String(bytes, charset);
+    }"
+282,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11366,IdentifierMutator-Variable,bytes,string,3,1.3044955E-4,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask> == null ? null : new String(bytes, charset);
+    }"
+283,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11362,11366,IdentifierMutator-Variable,bytes,byte,4,1.156258E-4,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return<mask> == null ? null : new String(bytes, charset);
+    }"
+284,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11371,11374,IdentifierMutator-Literal,null,NULL,1,1.3028315E-4,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes ==<mask> ? null : new String(bytes, charset);
+    }"
+285,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11371,11374,IdentifierMutator-Literal,null,nil,2,1.2817355E-4,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes ==<mask> ? null : new String(bytes, charset);
+    }"
+286,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11371,11374,IdentifierMutator-Literal,null,empty,3,5.106981E-5,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes ==<mask> ? null : new String(bytes, charset);
+    }"
+287,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11371,11374,IdentifierMutator-Literal,null,0,4,2.9668941E-5,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes ==<mask> ? null : new String(bytes, charset);
+    }"
+288,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11378,11381,IdentifierMutator-Literal,null,"""""",1,0.058641378,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ?<mask> : new String(bytes, charset);
+    }"
+289,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11378,11381,IdentifierMutator-Literal,null,"''",2,0.0044279257,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ?<mask> : new String(bytes, charset);
+    }"
+290,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11378,11381,IdentifierMutator-Literal,null,NULL,3,0.0023178344,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ?<mask> : new String(bytes, charset);
+    }"
+291,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11378,11381,IdentifierMutator-Literal,null,empty,4,0.0013563121,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ?<mask> : new String(bytes, charset);
+    }"
+292,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11396,11400,IdentifierMutator-Variable,bytes,Bytes,2,9.938291E-5,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(<mask>, charset);
+    }"
+293,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11396,11400,IdentifierMutator-Variable,bytes,words,3,8.671639E-5,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(<mask>, charset);
+    }"
+294,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11396,11400,IdentifierMutator-Variable,bytes,files,4,1.9529347E-5,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(<mask>, charset);
+    }"
+295,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11403,11409,IdentifierMutator-Variable,charset,encoding,0,0.5262534,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(bytes,<mask>);
+    }"
+296,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11403,11409,IdentifierMutator-Variable,charset,chars,1,0.33323404,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(bytes,<mask>);
+    }"
+297,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11403,11409,IdentifierMutator-Variable,charset,true,2,0.04030231,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(bytes,<mask>);
+    }"
+298,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11403,11409,IdentifierMutator-Variable,charset,null,3,0.02379438,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(bytes,<mask>);
+    }"
+299,StringUtils.java,newString,"String newString(final byte[] bytes, final Charset charset)",256,257,11403,11409,IdentifierMutator-Variable,charset,false,4,0.012792708,<mask>,"String newString(final byte[] bytes, final Charset charset) {
+        return bytes == null ? null : new String(bytes,<mask>);
+    }"
+300,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12556,12559,BinaryOperatorMutator,==,=,2,0.031042067,bytes <mask> null,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes<mask>null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+301,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12556,12559,BinaryOperatorMutator,==,||,3,0.0031673748,bytes <mask> null,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes<mask>null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+302,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12556,12559,BinaryOperatorMutator,==,!=,4,0.0030314403,bytes <mask> null,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes<mask>null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+303,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12551,12555,IdentifierMutator-Variable,bytes,byte,1,9.81407E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+304,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12551,12555,IdentifierMutator-Variable,bytes,Bytes,2,9.110926E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+305,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12551,12555,IdentifierMutator-Variable,bytes,null,4,4.4619173E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (<mask> == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+306,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12560,12563,IdentifierMutator-Literal,null,NULL,1,2.4305153E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes ==<mask>) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+307,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12560,12563,IdentifierMutator-Literal,null,"""""",2,8.9156594E-5,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes ==<mask>) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+308,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,280,12560,12563,IdentifierMutator-Literal,null,0,3,6.1631115E-5,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes ==<mask>) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+309,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,281,12587,12590,IdentifierMutator-Literal,null,"""""",1,0.060620375,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return<mask>;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+310,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,281,12587,12590,IdentifierMutator-Literal,null,NULL,2,0.0030403056,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return<mask>;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+311,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,281,12587,12590,IdentifierMutator-Literal,null,"''",3,0.0020088297,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return<mask>;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+312,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,281,12587,12590,IdentifierMutator-Literal,null,this,4,0.0019052565,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return<mask>;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+313,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12647,12651,IdentifierMutator-Variable,bytes,Bytes,1,1.0650076E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(<mask>, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+314,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12647,12651,IdentifierMutator-Variable,bytes,string,3,6.248649E-6,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(<mask>, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+315,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12647,12651,IdentifierMutator-Variable,bytes,null,4,5.8213045E-6,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(<mask>, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+316,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12654,12664,IdentifierMutator-Variable,charsetName,encoding,0,0.87051916,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes,<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+317,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12654,12664,IdentifierMutator-Variable,charsetName,true,1,0.03436596,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes,<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+318,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12654,12664,IdentifierMutator-Variable,charsetName,chars,2,0.020153807,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes,<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+319,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12654,12664,IdentifierMutator-Variable,charsetName,false,3,0.015817622,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes,<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+320,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,284,12654,12664,IdentifierMutator-Variable,charsetName,null,4,0.013298729,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes,<mask>);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName, e);
+        }
+    }"
+321,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12755,12778,MethodCallMutator,newIllegalStateException,format,0,0.70289785,"StringUtils.<mask>(charsetName, e)","String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+322,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12755,12778,MethodCallMutator,newIllegalStateException,empty,1,0.028378181,"StringUtils.<mask>(charsetName, e)","String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+323,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12755,12778,MethodCallMutator,newIllegalStateException,create,2,0.02641729,"StringUtils.<mask>(charsetName, e)","String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+324,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12755,12778,MethodCallMutator,newIllegalStateException,class,3,0.016764523,"StringUtils.<mask>(charsetName, e)","String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+325,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12755,12778,MethodCallMutator,newIllegalStateException,illegal,4,0.014177291,"StringUtils.<mask>(charsetName, e)","String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.<mask>(charsetName, e);
+        }
+    }"
+326,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12780,12790,IdentifierMutator-Variable,charsetName,string,0,0.22505637,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+327,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12780,12790,IdentifierMutator-Variable,charsetName,null,1,0.19769691,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+328,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12780,12790,IdentifierMutator-Variable,charsetName,bytes,2,0.09610787,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+329,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12780,12790,IdentifierMutator-Variable,charsetName,this,3,0.08252118,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+330,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12780,12790,IdentifierMutator-Variable,charsetName,str,4,0.07576962,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(<mask>, e);
+        }
+    }"
+331,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12793,12793,IdentifierMutator-Variable,e,null,1,8.4687467E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+332,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12793,12793,IdentifierMutator-Variable,e,0,3,4.3004047E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+333,StringUtils.java,newString,"String newString(final byte[] bytes, final String charsetName)",279,286,12793,12793,IdentifierMutator-Variable,e,this,4,3.5608181E-4,<mask>,"String newString(final byte[] bytes, final String charsetName) {
+        if (bytes == null) {
+            return null;
+        }
+        try {
+            return new String(bytes, charsetName);
+        } catch (final UnsupportedEncodingException e) {
+            throw StringUtils.newIllegalStateException(charsetName,<mask>);
+        }
+    }"
+334,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13645,13649,IdentifierMutator-Variable,bytes,Bytes,1,2.6333457E-4,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(<mask>, Charsets.ISO_8859_1);
+    }"
+335,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13645,13649,IdentifierMutator-Variable,bytes,byte,3,2.4391644E-5,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(<mask>, Charsets.ISO_8859_1);
+    }"
+336,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13645,13649,IdentifierMutator-Variable,bytes,bits,4,1.6433723E-5,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(<mask>, Charsets.ISO_8859_1);
+    }"
+337,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13652,13670,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.ISO_8859_1,0,0,0.29517037,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+338,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13652,13670,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.ISO_8859_1,encoding,1,0.23352148,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+339,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13652,13670,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.ISO_8859_1,length,2,0.053543672,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+340,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13652,13670,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.ISO_8859_1,16,3,0.03890265,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+341,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13652,13670,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.ISO_8859_1,true,4,0.031684753,<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+342,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13661,13670,FieldReferenceMutator,ISO_8859_1,GB,0,0.16143897,org.apache.commons.codec.Charsets.<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+343,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13661,13670,FieldReferenceMutator,ISO_8859_1,US,1,0.14169136,org.apache.commons.codec.Charsets.<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+344,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13661,13670,FieldReferenceMutator,ISO_8859_1,UTF,2,0.080992416,org.apache.commons.codec.Charsets.<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+345,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13661,13670,FieldReferenceMutator,ISO_8859_1,NAME,3,0.04834507,org.apache.commons.codec.Charsets.<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+346,StringUtils.java,newStringIso8859_1,String newStringIso8859_1(final byte[] bytes),302,303,13661,13670,FieldReferenceMutator,ISO_8859_1,Latin,4,0.047818396,org.apache.commons.codec.Charsets.<mask>,"String newStringIso8859_1(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+347,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14483,14487,IdentifierMutator-Variable,bytes,Bytes,1,2.6455097E-4,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(<mask>, Charsets.US_ASCII);
+    }"
+348,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14483,14487,IdentifierMutator-Variable,bytes,byte,3,6.239233E-5,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(<mask>, Charsets.US_ASCII);
+    }"
+349,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14483,14487,IdentifierMutator-Variable,bytes,blocks,4,2.0734951E-5,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(<mask>, Charsets.US_ASCII);
+    }"
+350,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14490,14506,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.US_ASCII,0,0,0.35506597,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+351,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14490,14506,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.US_ASCII,encoding,1,0.2685895,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+352,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14490,14506,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.US_ASCII,length,2,0.07030652,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+353,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14490,14506,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.US_ASCII,16,3,0.043892883,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+354,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14490,14506,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.US_ASCII,true,4,0.033977266,<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+355,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14499,14506,FieldReferenceMutator,US_ASCII,ALL,0,0.14575388,org.apache.commons.codec.Charsets.<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+356,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14499,14506,FieldReferenceMutator,US_ASCII,Latin,1,0.0893467,org.apache.commons.codec.Charsets.<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+357,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14499,14506,FieldReferenceMutator,US_ASCII,ASC,2,0.06362332,org.apache.commons.codec.Charsets.<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+358,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14499,14506,FieldReferenceMutator,US_ASCII,UTF,3,0.059999295,org.apache.commons.codec.Charsets.<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+359,StringUtils.java,newStringUsAscii,String newStringUsAscii(final byte[] bytes),318,319,14499,14506,FieldReferenceMutator,US_ASCII,NAME,4,0.05105933,org.apache.commons.codec.Charsets.<mask>,"String newStringUsAscii(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+360,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15310,15314,IdentifierMutator-Variable,bytes,Bytes,1,2.5812624E-4,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16);
+    }"
+361,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15310,15314,IdentifierMutator-Variable,bytes,byte,3,6.5575725E-5,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16);
+    }"
+362,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15310,15314,IdentifierMutator-Variable,bytes,blocks,4,1.7352753E-5,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16);
+    }"
+363,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15317,15331,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16,16,0,0.40882388,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+364,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15317,15331,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16,0,1,0.27449545,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+365,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15317,15331,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16,encoding,2,0.10295847,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+366,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15317,15331,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16,length,3,0.054211654,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+367,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15317,15331,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16,len,4,0.011084829,<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+368,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15326,15331,FieldReferenceMutator,UTF_16,UTF,0,0.22438903,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+369,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15326,15331,FieldReferenceMutator,UTF_16,ALL,1,0.16526076,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+370,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15326,15331,FieldReferenceMutator,UTF_16,US,2,0.13296841,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+371,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15326,15331,FieldReferenceMutator,UTF_16,GB,3,0.04837699,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+372,StringUtils.java,newStringUtf16,String newStringUtf16(final byte[] bytes),334,335,15326,15331,FieldReferenceMutator,UTF_16,SET,4,0.032187074,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+373,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16144,16148,IdentifierMutator-Variable,bytes,Bytes,1,3.2093612E-4,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16BE);
+    }"
+374,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16144,16148,IdentifierMutator-Variable,bytes,byte,3,7.648913E-5,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16BE);
+    }"
+375,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16144,16148,IdentifierMutator-Variable,bytes,blocks,4,1.9546897E-5,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16BE);
+    }"
+376,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16151,16167,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16BE,0,0,0.30733246,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+377,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16151,16167,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16BE,16,1,0.20494379,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+378,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16151,16167,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16BE,encoding,2,0.13736175,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+379,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16151,16167,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16BE,length,3,0.09584623,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+380,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16151,16167,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16BE,false,4,0.023914576,<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+381,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16160,16167,FieldReferenceMutator,UTF_16BE,UTF,0,0.2956053,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+382,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16160,16167,FieldReferenceMutator,UTF_16BE,US,1,0.10469364,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+383,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16160,16167,FieldReferenceMutator,UTF_16BE,ALL,2,0.08646609,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+384,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16160,16167,FieldReferenceMutator,UTF_16BE,GB,3,0.07030568,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+385,StringUtils.java,newStringUtf16Be,String newStringUtf16Be(final byte[] bytes),350,351,16160,16167,FieldReferenceMutator,UTF_16BE,Latin,4,0.038019564,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Be(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+386,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16980,16984,IdentifierMutator-Variable,bytes,Bytes,1,3.0800176E-4,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16LE);
+    }"
+387,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16980,16984,IdentifierMutator-Variable,bytes,byte,3,6.663851E-5,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16LE);
+    }"
+388,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16980,16984,IdentifierMutator-Variable,bytes,blocks,4,2.4715933E-5,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(<mask>, Charsets.UTF_16LE);
+    }"
+389,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16987,17003,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16LE,0,0,0.45980227,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+390,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16987,17003,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16LE,length,1,0.11888486,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+391,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16987,17003,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16LE,16,2,0.108020574,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+392,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16987,17003,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16LE,encoding,3,0.05852636,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+393,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16987,17003,IdentifierMutator-Variable,org.apache.commons.codec.Charsets.UTF_16LE,len,4,0.015175957,<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes,<mask>);
+    }"
+394,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16996,17003,FieldReferenceMutator,UTF_16LE,LE,0,0.3828568,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+395,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16996,17003,FieldReferenceMutator,UTF_16LE,ALL,1,0.092545375,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+396,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16996,17003,FieldReferenceMutator,UTF_16LE,GB,2,0.08607474,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+397,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16996,17003,FieldReferenceMutator,UTF_16LE,Latin,3,0.08238381,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+398,StringUtils.java,newStringUtf16Le,String newStringUtf16Le(final byte[] bytes),366,367,16996,17003,FieldReferenceMutator,UTF_16LE,UTF,4,0.07262072,org.apache.commons.codec.Charsets.<mask>,"String newStringUtf16Le(final byte[] bytes) {
+        return new String(bytes, Charsets.<mask>);
+    }"
+399,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17793,17801,MethodCallMutator,newString,string,0,0.25331262,"<mask>(bytes, UTF_8)","String newStringUtf8(final byte[] bytes) {
+        return<mask>(bytes, Charsets.UTF_8);
+    }"
+400,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17793,17801,MethodCallMutator,newString,new,1,0.21872386,"<mask>(bytes, UTF_8)","String newStringUtf8(final byte[] bytes) {
+        return<mask>(bytes, Charsets.UTF_8);
+    }"
+401,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17793,17801,MethodCallMutator,newString,str,2,0.04680484,"<mask>(bytes, UTF_8)","String newStringUtf8(final byte[] bytes) {
+        return<mask>(bytes, Charsets.UTF_8);
+    }"
+402,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17793,17801,MethodCallMutator,newString,String,3,0.042571854,"<mask>(bytes, UTF_8)","String newStringUtf8(final byte[] bytes) {
+        return<mask>(bytes, Charsets.UTF_8);
+    }"
+403,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17793,17801,MethodCallMutator,newString,create,4,0.038443193,"<mask>(bytes, UTF_8)","String newStringUtf8(final byte[] bytes) {
+        return<mask>(bytes, Charsets.UTF_8);
+    }"
+404,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17803,17807,IdentifierMutator-Variable,bytes,Bytes,1,2.9484747E-4,<mask>,"String newStringUtf8(final byte[] bytes) {
+        return newString(<mask>, Charsets.UTF_8);
+    }"
+405,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17803,17807,IdentifierMutator-Variable,bytes,byte,2,1.03049715E-4,<mask>,"String newStringUtf8(final byte[] bytes) {
+        return newString(<mask>, Charsets.UTF_8);
+    }"
+406,StringUtils.java,newStringUtf8,String newStringUtf8(final byte[] bytes),382,383,17803,17807,IdentifierMutator-Variable,bytes,blocks,4,3.0826508E-5,<mask>,"String newStringUtf8(final byte[] bytes) {
+        return newString(<mask>, Charsets.UTF_8);
+    }"

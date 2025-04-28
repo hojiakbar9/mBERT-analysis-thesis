@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/codec/codec_14/generated-mutants-full/phonetic-engine/999/PhoneticEngine.java:398: error: cannot find symbol
+        final Map<String, List<Rule>> rules = Rule.getInstanceMap(This.nameType, RuleType.RULES, languageSet);
+                                                                  ^
+  symbol:   variable This
+  location: class PhoneticEngine
+1 error

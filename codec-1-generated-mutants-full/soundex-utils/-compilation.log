@@ -1,0 +1,2082 @@
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/0/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/1/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/1/SoundexUtils.java:41: error: bad operand types for binary operator '/'
+        if (str == null/str.length() == 0) {
+                       ^
+  first type:  <null>
+  second type: int
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/10/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/10/SoundexUtils.java:41: error: cannot find symbol
+        if (str == NULL || str.length() == 0) {
+                   ^
+  symbol:   variable NULL
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/100/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/100/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.at(i);
+                                    ^
+  symbol:   method at(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/101/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/101/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.escape(i);
+                                    ^
+  symbol:   method escape(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/102/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/102/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = string.charAt(i);
+                                 ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/103/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/103/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = arr.charAt(i);
+                                 ^
+  symbol:   variable arr
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/104/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/104/SoundexUtils.java:49: error: class expected
+                chars[count++] = char.charAt(i);
+                                      ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/104/SoundexUtils.java:49: error: ';' expected
+                chars[count++] = char.charAt(i);
+                                            ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/104/SoundexUtils.java:49: error: not a statement
+                chars[count++] = char.charAt(i);
+                                             ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/104/SoundexUtils.java:49: error: ';' expected
+                chars[count++] = char.charAt(i);
+                                              ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/105/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/106/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/106/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.charAt(j);
+                                            ^
+  symbol:   variable j
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/107/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/107/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.charAt(c);
+                                            ^
+  symbol:   variable c
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/108/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/108/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.charAt(I);
+                                            ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/109/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/11/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/110/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/111/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/112/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/113/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/113/SoundexUtils.java:52: error: cannot find symbol
+        if (current == len) {
+            ^
+  symbol:   variable current
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/114/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/114/SoundexUtils.java:52: error: cannot find symbol
+        if (code == len) {
+            ^
+  symbol:   variable code
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/115/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/116/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/117/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/118/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/119/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/12/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/120/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/121/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/121/SoundexUtils.java:53: error: cannot find symbol
+            return str.name(java.util.Locale.ENGLISH);
+                      ^
+  symbol:   method name(Locale)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/122/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/122/SoundexUtils.java:53: error: cannot find symbol
+            return str.title(java.util.Locale.ENGLISH);
+                      ^
+  symbol:   method title(Locale)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/123/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/123/SoundexUtils.java:53: error: cannot find symbol
+            return str.word(java.util.Locale.ENGLISH);
+                      ^
+  symbol:   method word(Locale)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/124/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/124/SoundexUtils.java:53: error: method strip in class String cannot be applied to given types;
+            return str.strip(java.util.Locale.ENGLISH);
+                      ^
+  required: no arguments
+  found: Locale
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/125/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/125/SoundexUtils.java:53: error: no suitable method found for replace(Locale)
+            return str.replace(java.util.Locale.ENGLISH);
+                      ^
+    method String.replace(char,char) is not applicable
+      (actual and formal argument lists differ in length)
+    method String.replace(CharSequence,CharSequence) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/126/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/126/SoundexUtils.java:53: error: cannot find symbol
+            return chars.toUpperCase(java.util.Locale.ENGLISH);
+                        ^
+  symbol:   method toUpperCase(Locale)
+  location: variable chars of type char[]
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/127/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/128/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/128/SoundexUtils.java:53: error: class expected
+            return char.toUpperCase(java.util.Locale.ENGLISH);
+                        ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/128/SoundexUtils.java:53: error: ';' expected
+            return char.toUpperCase(java.util.Locale.ENGLISH);
+                                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/128/SoundexUtils.java:53: error: not a statement
+            return char.toUpperCase(java.util.Locale.ENGLISH);
+                                                    ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/128/SoundexUtils.java:53: error: ';' expected
+            return char.toUpperCase(java.util.Locale.ENGLISH);
+                                                            ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/129/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/129/SoundexUtils.java:53: error: cannot find symbol
+            return string.toUpperCase(java.util.Locale.ENGLISH);
+                   ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/13/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/130/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/130/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(language);
+                                   ^
+  symbol:   variable language
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/131/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/131/SoundexUtils.java:53: error: illegal start of expression
+            return str.toUpperCase(case);
+                                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/131/SoundexUtils.java:53: error: illegal start of expression
+            return str.toUpperCase(case);
+                                       ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/132/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/132/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(lower);
+                                   ^
+  symbol:   variable lower
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/133/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/133/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(lang);
+                                   ^
+  symbol:   variable lang
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/134/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/134/SoundexUtils.java:53: error: incompatible types: boolean cannot be converted to Locale
+            return str.toUpperCase(false);
+                                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/135/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/136/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/136/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(java.util.Locale.English);
+                                                   ^
+  symbol:   variable English
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/137/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/137/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(java.util.Locale.ALL);
+                                                   ^
+  symbol:   variable ALL
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/138/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/138/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(java.util.Locale.BR);
+                                                   ^
+  symbol:   variable BR
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/139/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/139/SoundexUtils.java:53: error: cannot find symbol
+            return str.toUpperCase(java.util.Locale.EN);
+                                                   ^
+  symbol:   variable EN
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/14/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/140/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/140/SoundexUtils.java:55: error: <identifier> expected
+        return new String(chars, 0, count).case(java.util.Locale.ENGLISH);
+                                           ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/141/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/141/SoundexUtils.java:55: error: no suitable method found for replace(Locale)
+        return new String(chars, 0, count).replace(java.util.Locale.ENGLISH);
+                                          ^
+    method String.replace(char,char) is not applicable
+      (actual and formal argument lists differ in length)
+    method String.replace(CharSequence,CharSequence) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/142/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/142/SoundexUtils.java:55: error: incompatible types: Locale cannot be converted to String
+        return new String(chars, 0, count).split(java.util.Locale.ENGLISH);
+                                                                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/143/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/143/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).name(java.util.Locale.ENGLISH);
+                                          ^
+  symbol:   method name(Locale)
+  location: class String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/144/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/144/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).to(java.util.Locale.ENGLISH);
+                                          ^
+  symbol:   method to(Locale)
+  location: class String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/145/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/145/SoundexUtils.java:55: error: no suitable constructor found for String(String,int,int)
+        return new String(str, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+               ^
+    constructor String.String(char[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to char[])
+    constructor String.String(int[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to int[])
+    constructor String.String(byte[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to byte[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/146/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/146/SoundexUtils.java:55: error: '.class' expected
+        return new String(char, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+                              ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/147/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/147/SoundexUtils.java:55: error: cannot find symbol
+        return new String(string, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+                          ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/148/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/148/SoundexUtils.java:55: error: cannot find symbol
+        return new String(Str, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+                          ^
+  symbol:   variable Str
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/149/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/149/SoundexUtils.java:55: error: no suitable constructor found for String(String,int,int)
+        return new String(str, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+               ^
+    constructor String.String(char[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to char[])
+    constructor String.String(int[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to int[])
+    constructor String.String(byte[],int,int) is not applicable
+      (argument mismatch; String cannot be converted to byte[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/15/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/150/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/150/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, start, count).toUpperCase(java.util.Locale.ENGLISH);
+                                 ^
+  symbol:   variable start
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/151/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/152/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/152/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, offset, count).toUpperCase(java.util.Locale.ENGLISH);
+                                 ^
+  symbol:   variable offset
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/153/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/153/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, pos, count).toUpperCase(java.util.Locale.ENGLISH);
+                                 ^
+  symbol:   variable pos
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/154/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/155/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/155/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, length).toUpperCase(java.util.Locale.ENGLISH);
+                                    ^
+  symbol:   variable length
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/156/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/156/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, index).toUpperCase(java.util.Locale.ENGLISH);
+                                    ^
+  symbol:   variable index
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/157/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/157/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(region);
+                                                       ^
+  symbol:   variable region
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/158/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/158/SoundexUtils.java:55: error: incompatible types: String cannot be converted to Locale
+        return new String(chars, 0, count).toUpperCase(str);
+                                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/159/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/159/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(lang);
+                                                       ^
+  symbol:   variable lang
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/16/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/16/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || str.width() == 0) {
+                              ^
+  symbol:   method width()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/160/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/160/SoundexUtils.java:55: error: incompatible types: boolean cannot be converted to Locale
+        return new String(chars, 0, count).toUpperCase(false);
+                                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/161/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/161/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(language);
+                                                       ^
+  symbol:   variable language
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/162/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/163/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/163/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.English);
+                                                                       ^
+  symbol:   variable English
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/164/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/164/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ALL);
+                                                                       ^
+  symbol:   variable ALL
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/165/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/165/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.GB);
+                                                                       ^
+  symbol:   variable GB
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/166/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/166/SoundexUtils.java:55: error: cannot find symbol
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.EN);
+                                                                       ^
+  symbol:   variable EN
+  location: class Locale
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/167/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/167/SoundexUtils.java:85: error: method difference in class SoundexUtils cannot be applied to given types;
+        return difference(encoder.encode(s1), encoder.encode(s2));
+               ^
+  required: StringEncoder,String,String
+  found: String,String
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/168/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/168/SoundexUtils.java:85: error: cannot find symbol
+        return diff(encoder.encode(s1), encoder.encode(s2));
+               ^
+  symbol:   method diff(String,String)
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/169/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/169/SoundexUtils.java:85: error: cannot find symbol
+        return compare(encoder.encode(s1), encoder.encode(s2));
+               ^
+  symbol:   method compare(String,String)
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/17/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/17/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || str.Length() == 0) {
+                              ^
+  symbol:   method Length()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/170/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/170/SoundexUtils.java:85: error: cannot find symbol
+        return subtract(encoder.encode(s1), encoder.encode(s2));
+               ^
+  symbol:   method subtract(String,String)
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/171/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/171/SoundexUtils.java:85: error: cannot find symbol
+        return erence(encoder.encode(s1), encoder.encode(s2));
+               ^
+  symbol:   method erence(String,String)
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/172/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/172/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.code(s1), encoder.encode(s2));
+                                        ^
+  symbol:   method code(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/173/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/173/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.oder(s1), encoder.encode(s2));
+                                        ^
+  symbol:   method oder(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/174/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/174/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.escape(s1), encoder.encode(s2));
+                                        ^
+  symbol:   method escape(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/175/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/175/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.append(s1), encoder.encode(s2));
+                                        ^
+  symbol:   method append(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/176/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/176/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(oder.encode(s1), encoder.encode(s2));
+                                 ^
+  symbol:   variable oder
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/177/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/177/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(builder.encode(s1), encoder.encode(s2));
+                                 ^
+  symbol:   variable builder
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/178/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/178/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(writer.encode(s1), encoder.encode(s2));
+                                 ^
+  symbol:   variable writer
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/179/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/179/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(enc.encode(s1), encoder.encode(s2));
+                                 ^
+  symbol:   variable enc
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/18/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/18/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || str.len() == 0) {
+                              ^
+  symbol:   method len()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/180/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/180/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(processor.encode(s1), encoder.encode(s2));
+                                 ^
+  symbol:   variable processor
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/181/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/181/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s), encoder.encode(s2));
+                                                ^
+  symbol:   variable s
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/182/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/182/SoundexUtils.java:85: error: incompatible types: Object cannot be converted to String
+        return differenceEncoded(encoder.encode(1), encoder.encode(s2));
+                                               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/183/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/183/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(si), encoder.encode(s2));
+                                                ^
+  symbol:   variable si
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/184/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/184/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(sb), encoder.encode(s2));
+                                                ^
+  symbol:   variable sb
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/185/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/185/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(ss), encoder.encode(s2));
+                                                ^
+  symbol:   variable ss
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/186/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/186/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.code(s2));
+                                                            ^
+  symbol:   method code(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/187/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/187/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.escape(s2));
+                                                            ^
+  symbol:   method escape(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/188/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/188/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.append(s2));
+                                                            ^
+  symbol:   method append(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/189/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/189/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.oder(s2));
+                                                            ^
+  symbol:   method oder(String)
+  location: variable encoder of type StringEncoder
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/19/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/19/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || string.length() == 0) {
+                           ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/190/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/190/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), oder.encode(s2));
+                                                     ^
+  symbol:   variable oder
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/191/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/191/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoding.encode(s2));
+                                                     ^
+  symbol:   variable encoding
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/192/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/192/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), enc.encode(s2));
+                                                     ^
+  symbol:   variable enc
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/193/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/193/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), builder.encode(s2));
+                                                     ^
+  symbol:   variable builder
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/194/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/194/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), Decoder.encode(s2));
+                                                     ^
+  symbol:   variable Decoder
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/195/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/195/SoundexUtils.java:85: error: incompatible types: Object cannot be converted to String
+        return differenceEncoded(encoder.encode(s1), encoder.encode(2));
+                                                                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/196/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/196/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.encode(second));
+                                                                    ^
+  symbol:   variable second
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/197/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/197/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.encode(s));
+                                                                    ^
+  symbol:   variable s
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/198/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/198/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.encode(two));
+                                                                    ^
+  symbol:   variable two
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/199/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/199/SoundexUtils.java:85: error: cannot find symbol
+        return differenceEncoded(encoder.encode(s1), encoder.encode(sb));
+                                                                    ^
+  symbol:   variable sb
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/2/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/2/SoundexUtils.java:41: error: <null> cannot be dereferenced
+        if (str == null.str.length() == 0) {
+                       ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/20/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/20/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || text.length() == 0) {
+                           ^
+  symbol:   variable text
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/200/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/201/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/202/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/202/SoundexUtils.java:110: error: bad operand types for binary operator '/'
+        if (es1 == null/es2 == null) {
+                       ^
+  first type:  <null>
+  second type: String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/203/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/204/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/204/SoundexUtils.java:110: error: bad operand types for binary operator '||'
+        if (es1=null || es2 == null) {
+                     ^
+  first type:  <null>
+  second type: boolean
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/204/SoundexUtils.java:110: error: incompatible types: String cannot be converted to boolean
+        if (es1=null || es2 == null) {
+               ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/205/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/205/SoundexUtils.java:110: error: cannot find symbol
+        if (es1_null || es2 == null) {
+            ^
+  symbol:   variable es1_null
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/206/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/206/SoundexUtils.java:110: error: cannot find symbol
+        if (es == null || es2 == null) {
+            ^
+  symbol:   variable es
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/207/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/207/SoundexUtils.java:110: error: bad operand types for binary operator '=='
+        if (1 == null || es2 == null) {
+              ^
+  first type:  int
+  second type: <null>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/208/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/208/SoundexUtils.java:110: error: non-static variable this cannot be referenced from a static context
+        if (this == null || es2 == null) {
+            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/209/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/209/SoundexUtils.java:110: error: cannot find symbol
+        if (src == null || es2 == null) {
+            ^
+  symbol:   variable src
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/21/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/21/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || Str.length() == 0) {
+                           ^
+  symbol:   variable Str
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/210/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/211/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/212/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/212/SoundexUtils.java:110: error: non-static variable this cannot be referenced from a static context
+        if (es1 == this || es2 == null) {
+                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/212/SoundexUtils.java:110: error: incomparable types: String and SoundexUtils
+        if (es1 == this || es2 == null) {
+                ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/213/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/213/SoundexUtils.java:110: error: empty character literal
+        if (es1 == '' || es2 == null) {
+                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/213/SoundexUtils.java:110: error: not a statement
+        if (es1 == '' || es2 == null) {
+                             ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/213/SoundexUtils.java:110: error: ';' expected
+        if (es1 == '' || es2 == null) {
+                                    ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/214/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/214/SoundexUtils.java:110: error: cannot find symbol
+        if (es1 == empty || es2 == null) {
+                   ^
+  symbol:   variable empty
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/215/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/216/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/216/SoundexUtils.java:110: error: bad operand types for binary operator '||'
+        if (es1 == null || es2=null) {
+                        ^
+  first type:  boolean
+  second type: String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/217/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/217/SoundexUtils.java:110: error: cannot find symbol
+        if (es1 == null || es2_null) {
+                           ^
+  symbol:   variable es2_null
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/218/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/218/SoundexUtils.java:110: error: bad operand types for binary operator '=='
+        if (es1 == null || 2 == null) {
+                             ^
+  first type:  int
+  second type: <null>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/219/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/219/SoundexUtils.java:110: error: bad operand types for binary operator '=='
+        if (es1 == null || 2 == null) {
+                             ^
+  first type:  int
+  second type: <null>
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/22/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/220/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/220/SoundexUtils.java:110: error: cannot find symbol
+        if (es1 == null || both == null) {
+                           ^
+  symbol:   variable both
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/221/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/221/SoundexUtils.java:110: error: cannot find symbol
+        if (es1 == null || two == null) {
+                           ^
+  symbol:   variable two
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/222/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/223/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/224/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/224/SoundexUtils.java:110: error: non-static variable this cannot be referenced from a static context
+        if (es1 == null || es2 == this) {
+                                  ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/224/SoundexUtils.java:110: error: incomparable types: String and SoundexUtils
+        if (es1 == null || es2 == this) {
+                               ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/225/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/225/SoundexUtils.java:110: error: cannot find symbol
+        if (es1 == null || es2 == NULL) {
+                                  ^
+  symbol:   variable NULL
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/226/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/227/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/228/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/229/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/23/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/23/SoundexUtils.java:41: error: bad operand types for binary operator '=='
+        if (str == null || str.length() == "") {
+                                        ^
+  first type:  int
+  second type: String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/230/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/231/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/231/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.diff(es1.length(), es2.length());
+                                ^
+  symbol:   method diff(int,int)
+  location: class Math
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/232/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/232/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.Min(es1.length(), es2.length());
+                                ^
+  symbol:   method Min(int,int)
+  location: class Math
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/233/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/233/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.Length(), es2.length());
+                                        ^
+  symbol:   method Length()
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/234/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/234/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.distance(), es2.length());
+                                        ^
+  symbol:   method distance()
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/235/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/235/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.len(), es2.length());
+                                        ^
+  symbol:   method len()
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/236/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/236/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es.length(), es2.length());
+                                     ^
+  symbol:   variable es
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/237/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/237/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(ES.length(), es2.length());
+                                     ^
+  symbol:   variable ES
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/238/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/238/SoundexUtils.java:113: error: non-static variable this cannot be referenced from a static context
+        int lengthToMatch = Math.min(this.length(), es2.length());
+                                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/238/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(this.length(), es2.length());
+                                         ^
+  symbol: method length()
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/239/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/239/SoundexUtils.java:113: error: ')' expected
+        int lengthToMatch = Math.min(1.length(), es2.length());
+                                       ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/239/SoundexUtils.java:113: error: ';' expected
+        int lengthToMatch = Math.min(1.length(), es2.length());
+                                               ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/239/SoundexUtils.java:113: error: ';' expected
+        int lengthToMatch = Math.min(1.length(), es2.length());
+                                                             ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/24/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/24/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || str.length() == len) {
+                                           ^
+  symbol:   variable len
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/240/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/240/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(ex.length(), es2.length());
+                                     ^
+  symbol:   variable ex
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/241/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/241/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), es2.Length());
+                                                      ^
+  symbol:   method Length()
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/242/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/242/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), es2.duration());
+                                                      ^
+  symbol:   method duration()
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/243/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/243/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), es2.distance());
+                                                      ^
+  symbol:   method distance()
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/244/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/244/SoundexUtils.java:113: error: ')' expected
+        int lengthToMatch = Math.min(es1.length(), 2.length());
+                                                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/244/SoundexUtils.java:113: error: ';' expected
+        int lengthToMatch = Math.min(es1.length(), 2.length());
+                                                             ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/245/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/245/SoundexUtils.java:113: error: ')' expected
+        int lengthToMatch = Math.min(es1.length(), 2.length());
+                                                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/245/SoundexUtils.java:113: error: ';' expected
+        int lengthToMatch = Math.min(es1.length(), 2.length());
+                                                             ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/246/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/246/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), both.length());
+                                                   ^
+  symbol:   variable both
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/247/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/247/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), second.length());
+                                                   ^
+  symbol:   variable second
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/248/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/248/SoundexUtils.java:113: error: cannot find symbol
+        int lengthToMatch = Math.min(es1.length(), two.length());
+                                                   ^
+  symbol:   variable two
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/249/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/25/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/25/SoundexUtils.java:41: error: cannot find symbol
+        if (str == null || str.length() == length) {
+                                           ^
+  symbol:   variable length
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/250/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/251/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/252/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/253/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/254/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/255/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/256/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/256/SoundexUtils.java:115: error: > expected
+        for (int i = 0; i.<lengthToMatch; i++) {
+                                        ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/257/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/258/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/259/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/259/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; I < lengthToMatch; i++) {
+                        ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/26/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/260/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/260/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; I < lengthToMatch; i++) {
+                        ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/261/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/261/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; i < length; i++) {
+                            ^
+  symbol:   variable length
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/262/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/262/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; i < len; i++) {
+                            ^
+  symbol:   variable len
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/263/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/264/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/265/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/266/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/266/SoundexUtils.java:115: error: illegal start of expression
+        for (int i = 0; i < lengthToMatch; i++)) {
+                                               ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/267/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/267/SoundexUtils.java:115: error: ')' expected
+        for (int i = 0; i < lengthToMatch; i++;) {
+                                              ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/267/SoundexUtils.java:115: error: illegal start of expression
+        for (int i = 0; i < lengthToMatch; i++;) {
+                                               ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/268/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/269/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/269/SoundexUtils.java:115: error: illegal start of expression
+        for (int i = 0; i < lengthToMatch; ++) {
+                                             ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/27/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/270/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/270/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; i < lengthToMatch; I++) {
+                                           ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/271/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/271/SoundexUtils.java:115: error: cannot find symbol
+        for (int i = 0; i < lengthToMatch; I++) {
+                                           ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/272/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/273/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/274/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/SoundexUtils.java:116: error: <identifier> expected
+            if (es1.char(i) == es2.charAt(i)) {
+                    ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/SoundexUtils.java:116: error: ';' expected
+            if (es1.char(i) == es2.charAt(i)) {
+                        ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/SoundexUtils.java:116: error: not a statement
+            if (es1.char(i) == es2.charAt(i)) {
+                         ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/SoundexUtils.java:116: error: ';' expected
+            if (es1.char(i) == es2.charAt(i)) {
+                          ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/275/SoundexUtils.java:116: error: ';' expected
+            if (es1.char(i) == es2.charAt(i)) {
+                                            ^
+5 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/276/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/276/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.character(i) == es2.charAt(i)) {
+                   ^
+  symbol:   method character(int)
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/277/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/277/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.At(i) == es2.charAt(i)) {
+                   ^
+  symbol:   method At(int)
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/278/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/278/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.letter(i) == es2.charAt(i)) {
+                   ^
+  symbol:   method letter(int)
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/279/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/279/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.at(i) == es2.charAt(i)) {
+                   ^
+  symbol:   method at(int)
+  location: variable es1 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/28/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/28/SoundexUtils.java:42: error: non-static variable this cannot be referenced from a static context
+            return this;
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/280/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/280/SoundexUtils.java:116: error: cannot find symbol
+            if (es.charAt(i) == es2.charAt(i)) {
+                ^
+  symbol:   variable es
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/281/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/281/SoundexUtils.java:116: error: ')' expected
+            if (1.charAt(i) == es2.charAt(i)) {
+                  ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/281/SoundexUtils.java:116: error: not a statement
+            if (1.charAt(i) == es2.charAt(i)) {
+                            ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/281/SoundexUtils.java:116: error: ';' expected
+            if (1.charAt(i) == es2.charAt(i)) {
+                                            ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/282/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/282/SoundexUtils.java:116: error: cannot find symbol
+            if (ex.charAt(i) == es2.charAt(i)) {
+                ^
+  symbol:   variable ex
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/283/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/283/SoundexUtils.java:116: error: cannot find symbol
+            if (match.charAt(i) == es2.charAt(i)) {
+                ^
+  symbol:   variable match
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/284/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/284/SoundexUtils.java:116: error: cannot find symbol
+            if (e.charAt(i) == es2.charAt(i)) {
+                ^
+  symbol:   variable e
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/285/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/286/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/286/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(j) == es2.charAt(i)) {
+                           ^
+  symbol:   variable j
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/287/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/287/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(I) == es2.charAt(i)) {
+                           ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/288/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/288/SoundexUtils.java:116: error: <identifier> expected
+            if (es1.charAt(i) == es2.char(i)) {
+                                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/288/SoundexUtils.java:116: error: ';' expected
+            if (es1.charAt(i) == es2.char(i)) {
+                                         ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/288/SoundexUtils.java:116: error: not a statement
+            if (es1.charAt(i) == es2.char(i)) {
+                                          ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/288/SoundexUtils.java:116: error: ';' expected
+            if (es1.charAt(i) == es2.char(i)) {
+                                           ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/289/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/289/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.character(i)) {
+                                    ^
+  symbol:   method character(int)
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/29/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/29/SoundexUtils.java:42: error: empty character literal
+            return '';
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/290/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/290/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.at(i)) {
+                                    ^
+  symbol:   method at(int)
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/291/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/291/SoundexUtils.java:116: error: method length in class String cannot be applied to given types;
+            if (es1.charAt(i) == es2.length(i)) {
+                                    ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/292/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/292/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.letter(i)) {
+                                    ^
+  symbol:   method letter(int)
+  location: variable es2 of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/293/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/293/SoundexUtils.java:116: error: ')' expected
+            if (es1.charAt(i) == 2.charAt(i)) {
+                                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/293/SoundexUtils.java:116: error: ';' expected
+            if (es1.charAt(i) == 2.charAt(i)) {
+                                            ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/294/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/294/SoundexUtils.java:116: error: ')' expected
+            if (es1.charAt(i) == 2.charAt(i)) {
+                                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/294/SoundexUtils.java:116: error: ';' expected
+            if (es1.charAt(i) == 2.charAt(i)) {
+                                            ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/295/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/295/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == second.charAt(i)) {
+                                 ^
+  symbol:   variable second
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/296/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/296/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == url.charAt(i)) {
+                                 ^
+  symbol:   variable url
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/297/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/297/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == other.charAt(i)) {
+                                 ^
+  symbol:   variable other
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/298/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/298/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.charAt(j)) {
+                                            ^
+  symbol:   variable j
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/299/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/299/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.charAt(I)) {
+                                            ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/3/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/3/SoundexUtils.java:41: error: bad operand types for binary operator '||'
+        if (str=null || str.length() == 0) {
+                     ^
+  first type:  <null>
+  second type: boolean
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/3/SoundexUtils.java:41: error: incompatible types: String cannot be converted to boolean
+        if (str=null || str.length() == 0) {
+               ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/30/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/30/SoundexUtils.java:44: error: cannot find symbol
+        int len = str.len();
+                     ^
+  symbol:   method len()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/300/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/301/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/301/SoundexUtils.java:116: error: cannot find symbol
+            if (es1.charAt(i) == es2.charAt(e)) {
+                                            ^
+  symbol:   variable e
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/302/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/303/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/303/SoundexUtils.java:118: error: illegal start of expression
+            }
+            ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/304/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/304/SoundexUtils.java:117: error: ';' expected
+                diff--
+                      ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/305/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/305/SoundexUtils.java:117: error: cannot find symbol
+                difference++;
+                ^
+  symbol:   variable difference
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/306/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/306/SoundexUtils.java:117: error: cannot find symbol
+                delta++;
+                ^
+  symbol:   variable delta
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/307/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/307/SoundexUtils.java:117: error: cannot find symbol
+                Diff++;
+                ^
+  symbol:   variable Diff
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/308/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/308/SoundexUtils.java:120: error: cannot find symbol
+        return difference;
+               ^
+  symbol:   variable difference
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/309/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/31/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/31/SoundexUtils.java:44: error: cannot find symbol
+        int len = str.width();
+                     ^
+  symbol:   method width()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/310/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/310/SoundexUtils.java:120: error: cannot find symbol
+        return delta;
+               ^
+  symbol:   variable delta
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/311/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/32/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/32/SoundexUtils.java:44: error: cannot find symbol
+        int len = str.Length();
+                     ^
+  symbol:   method Length()
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/33/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/33/SoundexUtils.java:44: error: cannot find symbol
+        int len = string.length();
+                  ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/34/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/34/SoundexUtils.java:44: error: cannot find symbol
+        int len = arr.length();
+                  ^
+  symbol:   variable arr
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/35/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/35/SoundexUtils.java:44: error: cannot find symbol
+        int len = text.length();
+                  ^
+  symbol:   variable text
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/36/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/36/SoundexUtils.java:45: error: cannot find symbol
+        char[] chars = new char[Len];
+                                ^
+  symbol:   variable Len
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/37/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/37/SoundexUtils.java:45: error: cannot find symbol
+        char[] chars = new char[ln];
+                                ^
+  symbol:   variable ln
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/38/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/38/SoundexUtils.java:45: error: cannot find symbol
+        char[] chars = new char[l];
+                                ^
+  symbol:   variable l
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/39/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/4/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/40/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/41/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/42/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/43/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/44/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/44/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = start; i < len; i++) {
+                     ^
+  symbol:   variable start
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/45/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/46/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/47/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/47/SoundexUtils.java:47: error: > expected
+        for (int i = 0; i.<len; i++) {
+                              ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/48/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/48/SoundexUtils.java:47: error: ';' expected
+        for (int i = 0; i++len; i++) {
+                           ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/48/SoundexUtils.java:47: error: ')' expected
+        for (int i = 0; i++len; i++) {
+                              ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/48/SoundexUtils.java:47: error: ';' expected
+        for (int i = 0; i++len; i++) {
+                                   ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/49/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/5/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/5/SoundexUtils.java:41: error: illegal start of expression
+        if (str===null || str.length() == 0) {
+                 ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/50/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/50/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = 0; I < len; i++) {
+                        ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/51/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/52/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/52/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = 0; i < l; i++) {
+                            ^
+  symbol:   variable l
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/53/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/53/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = 0; i < length; i++) {
+                            ^
+  symbol:   variable length
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/54/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/54/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = 0; i < n; i++) {
+                            ^
+  symbol:   variable n
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/55/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/55/SoundexUtils.java:47: error: illegal start of expression
+        for (int i = 0; i < len; i++)) {
+                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/56/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/56/SoundexUtils.java:47: error: ')' expected
+        for (int i = 0; i < len; i++;) {
+                                    ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/56/SoundexUtils.java:47: error: illegal start of expression
+        for (int i = 0; i < len; i++;) {
+                                     ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/57/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/58/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/58/SoundexUtils.java:47: error: illegal start of expression
+        for (int i = 0; i < len; ++) {
+                                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/59/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/59/SoundexUtils.java:47: error: illegal start of expression
+        for (int i = 0; i < len; ++++) {
+                                     ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/6/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/6/SoundexUtils.java:41: error: cannot find symbol
+        if (string == null || str.length() == 0) {
+            ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/60/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/60/SoundexUtils.java:47: error: cannot find symbol
+        for (int i = 0; i < len; I++) {
+                                 ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/61/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/61/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.print(str.charAt(i))) {
+                         ^
+  symbol:   method print(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/62/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/62/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.alpha(str.charAt(i))) {
+                         ^
+  symbol:   method alpha(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/63/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/63/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.is(str.charAt(i))) {
+                         ^
+  symbol:   method is(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/64/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/64/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.Letter(str.charAt(i))) {
+                         ^
+  symbol:   method Letter(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/65/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/65/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.Char(str.charAt(i))) {
+                         ^
+  symbol:   method Char(char)
+  location: class Character
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/66/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/66/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.get(i))) {
+                                      ^
+  symbol:   method get(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/67/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/67/SoundexUtils.java:48: error: <identifier> expected
+            if (Character.isLetter(str.char(i))) {
+                                       ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/67/SoundexUtils.java:48: error: ';' expected
+            if (Character.isLetter(str.char(i))) {
+                                           ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/67/SoundexUtils.java:48: error: not a statement
+            if (Character.isLetter(str.char(i))) {
+                                            ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/67/SoundexUtils.java:48: error: ';' expected
+            if (Character.isLetter(str.char(i))) {
+                                             ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/68/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/68/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.At(i))) {
+                                      ^
+  symbol:   method At(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/69/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/69/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.letter(i))) {
+                                      ^
+  symbol:   method letter(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/7/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/7/SoundexUtils.java:41: error: cannot find symbol
+        if (obj == null || str.length() == 0) {
+            ^
+  symbol:   variable obj
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/70/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/70/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.at(i))) {
+                                      ^
+  symbol:   method at(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/71/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/71/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(Str.charAt(i))) {
+                                   ^
+  symbol:   variable Str
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/72/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/72/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(string.charAt(i))) {
+                                   ^
+  symbol:   variable string
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/73/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/73/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(tr.charAt(i))) {
+                                   ^
+  symbol:   variable tr
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/74/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/74/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.charAt(I))) {
+                                              ^
+  symbol:   variable I
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/75/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/76/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/76/SoundexUtils.java:48: error: cannot find symbol
+            if (Character.isLetter(str.charAt(j))) {
+                                              ^
+  symbol:   variable j
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/77/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/78/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/79/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/79/SoundexUtils.java:49: error: <identifier> expected
+                chars[count++].= str.charAt(i);
+                               ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/79/SoundexUtils.java:49: error: not a statement
+                chars[count++].= str.charAt(i);
+                              ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/79/SoundexUtils.java:49: error: ';' expected
+                chars[count++].= str.charAt(i);
+                                ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/8/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/8/SoundexUtils.java:41: error: cannot find symbol
+        if (arr == null || str.length() == 0) {
+            ^
+  symbol:   variable arr
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/80/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/80/SoundexUtils.java:49: error: illegal start of expression
+                chars[count++]||= str.charAt(i);
+                                ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/81/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/82/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/83/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/84/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/85/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/85/SoundexUtils.java:49: error: cannot find symbol
+                chars[c] = str.charAt(i);
+                      ^
+  symbol:   variable c
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/86/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/87/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/87/SoundexUtils.java:49: error: ']' expected
+                char[count++] = str.charAt(i);
+                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/87/SoundexUtils.java:49: error: ';' expected
+                char[count++] = str.charAt(i);
+                          ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/88/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/88/SoundexUtils.java:49: error: cannot find symbol
+                characters[count++] = str.charAt(i);
+                ^
+  symbol:   variable characters
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/89/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/89/SoundexUtils.java:49: error: array required, but String found
+                str[count++] = str.charAt(i);
+                   ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/9/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/9/SoundexUtils.java:41: error: non-static variable this cannot be referenced from a static context
+        if (str == this || str.length() == 0) {
+                   ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/9/SoundexUtils.java:41: error: incomparable types: String and SoundexUtils
+        if (str == this || str.length() == 0) {
+                ^
+2 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/90/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/90/SoundexUtils.java:49: error: cannot find symbol
+                cs[count++] = str.charAt(i);
+                ^
+  symbol:   variable cs
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/91/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/91/SoundexUtils.java:49: error: illegal start of expression
+                chars[count][] = str.charAt(i);
+                             ^
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/92/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/92/SoundexUtils.java:49: error: ']' expected
+                chars[count++;] = str.charAt(i);
+                             ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/92/SoundexUtils.java:49: error: not a statement
+                chars[count++;] = str.charAt(i);
+                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/92/SoundexUtils.java:49: error: illegal start of expression
+                chars[count++;] = str.charAt(i);
+                              ^
+3 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/93/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/94/
+> Mutant Compiled
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/95/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/95/SoundexUtils.java:49: error: cannot find symbol
+                chars[c++] = str.charAt(i);
+                      ^
+  symbol:   variable c
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/96/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/96/SoundexUtils.java:49: error: cannot find symbol
+                chars[Count++] = str.charAt(i);
+                      ^
+  symbol:   variable Count
+  location: class SoundexUtils
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/97/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/97/SoundexUtils.java:49: error: <identifier> expected
+                chars[count++] = str.char(i);
+                                     ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/97/SoundexUtils.java:49: error: ';' expected
+                chars[count++] = str.char(i);
+                                         ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/97/SoundexUtils.java:49: error: not a statement
+                chars[count++] = str.char(i);
+                                          ^
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/97/SoundexUtils.java:49: error: ';' expected
+                chars[count++] = str.char(i);
+                                           ^
+4 errors
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/98/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/98/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.get(i);
+                                    ^
+  symbol:   method get(int)
+  location: variable str of type String
+1 error
+> Processing mutant: /mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/99/
+> Mutant Incorrect Syntax
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/99/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.At(i);
+                                    ^
+  symbol:   method At(int)
+  location: variable str of type String
+1 error
+
+
+Mutants: 312
+Compilable: 80
+Total Compilation Time: 156 seconds

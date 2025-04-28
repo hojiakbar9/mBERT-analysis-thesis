@@ -1,0 +1,4473 @@
+id,classname,method_name,method_sig,method_def_line,mut_location,mut_start,mut_end,mut_operator,orig_token,pred_token,pred_pos,pred_score,masked_expr,masked_seq
+0,SoundexUtils.java,clean,String clean(String str),40,41,1395,1398,BinaryOperatorMutator,||,|,2,0.015799182,(str == null) <mask> (str.length() == 0),"String clean(String str) {
+        if (str == null<mask>str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+1,SoundexUtils.java,clean,String clean(String str),40,41,1395,1398,BinaryOperatorMutator,||,/,3,0.00436747,(str == null) <mask> (str.length() == 0),"String clean(String str) {
+        if (str == null<mask>str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+2,SoundexUtils.java,clean,String clean(String str),40,41,1395,1398,BinaryOperatorMutator,||,.,4,0.0043052323,(str == null) <mask> (str.length() == 0),"String clean(String str) {
+        if (str == null<mask>str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+3,SoundexUtils.java,clean,String clean(String str),40,41,1387,1390,BinaryOperatorMutator,==,=,2,0.0021118063,str <mask> null,"String clean(String str) {
+        if (str<mask>null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+4,SoundexUtils.java,clean,String clean(String str),40,41,1387,1390,BinaryOperatorMutator,==,!=,3,6.521875E-4,str <mask> null,"String clean(String str) {
+        if (str<mask>null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+5,SoundexUtils.java,clean,String clean(String str),40,41,1387,1390,BinaryOperatorMutator,==,===,4,3.6881046E-4,str <mask> null,"String clean(String str) {
+        if (str<mask>null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+6,SoundexUtils.java,clean,String clean(String str),40,41,1384,1386,IdentifierMutator-Variable,str,string,1,0.002974581,<mask>,"String clean(String str) {
+        if (<mask> == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+7,SoundexUtils.java,clean,String clean(String str),40,41,1384,1386,IdentifierMutator-Variable,str,obj,2,6.1352574E-4,<mask>,"String clean(String str) {
+        if (<mask> == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+8,SoundexUtils.java,clean,String clean(String str),40,41,1384,1386,IdentifierMutator-Variable,str,arr,4,5.0049496E-4,<mask>,"String clean(String str) {
+        if (<mask> == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+9,SoundexUtils.java,clean,String clean(String str),40,41,1391,1394,IdentifierMutator-Literal,null,this,1,4.505676E-4,<mask>,"String clean(String str) {
+        if (str ==<mask> || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+10,SoundexUtils.java,clean,String clean(String str),40,41,1391,1394,IdentifierMutator-Literal,null,NULL,2,1.5296829E-4,<mask>,"String clean(String str) {
+        if (str ==<mask> || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+11,SoundexUtils.java,clean,String clean(String str),40,41,1391,1394,IdentifierMutator-Literal,null,str,3,7.6610326E-5,<mask>,"String clean(String str) {
+        if (str ==<mask> || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+12,SoundexUtils.java,clean,String clean(String str),40,41,1391,1394,IdentifierMutator-Literal,null,"""""",4,5.7564288E-5,<mask>,"String clean(String str) {
+        if (str ==<mask> || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+13,SoundexUtils.java,clean,String clean(String str),40,41,1411,1414,BinaryOperatorMutator,==,>,2,0.022470798,str.length() <mask> 0,"String clean(String str) {
+        if (str == null || str.length()<mask>0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+14,SoundexUtils.java,clean,String clean(String str),40,41,1411,1414,BinaryOperatorMutator,==,<=,3,0.018739602,str.length() <mask> 0,"String clean(String str) {
+        if (str == null || str.length()<mask>0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+15,SoundexUtils.java,clean,String clean(String str),40,41,1411,1414,BinaryOperatorMutator,==,<,4,0.0062238453,str.length() <mask> 0,"String clean(String str) {
+        if (str == null || str.length()<mask>0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+16,SoundexUtils.java,clean,String clean(String str),40,41,1403,1408,MethodCallMutator,length,width,2,3.183684E-5,str.<mask>(),"String clean(String str) {
+        if (str == null || str.<mask>() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+17,SoundexUtils.java,clean,String clean(String str),40,41,1403,1408,MethodCallMutator,length,Length,3,2.4253286E-5,str.<mask>(),"String clean(String str) {
+        if (str == null || str.<mask>() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+18,SoundexUtils.java,clean,String clean(String str),40,41,1403,1408,MethodCallMutator,length,len,4,9.334456E-6,str.<mask>(),"String clean(String str) {
+        if (str == null || str.<mask>() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+19,SoundexUtils.java,clean,String clean(String str),40,41,1399,1401,IdentifierMutator-Variable,str,string,1,1.29026E-4,<mask>,"String clean(String str) {
+        if (str == null ||<mask>.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+20,SoundexUtils.java,clean,String clean(String str),40,41,1399,1401,IdentifierMutator-Variable,str,text,2,2.520026E-5,<mask>,"String clean(String str) {
+        if (str == null ||<mask>.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+21,SoundexUtils.java,clean,String clean(String str),40,41,1399,1401,IdentifierMutator-Variable,str,Str,3,2.0808375E-5,<mask>,"String clean(String str) {
+        if (str == null ||<mask>.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+22,SoundexUtils.java,clean,String clean(String str),40,41,1415,1415,IdentifierMutator-Literal,0,1,1,0.0010485929,<mask>,"String clean(String str) {
+        if (str == null || str.length() ==<mask>) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+23,SoundexUtils.java,clean,String clean(String str),40,41,1415,1415,IdentifierMutator-Literal,0,"""""",2,2.4304033E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() ==<mask>) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+24,SoundexUtils.java,clean,String clean(String str),40,41,1415,1415,IdentifierMutator-Literal,0,len,3,1.0257269E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() ==<mask>) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+25,SoundexUtils.java,clean,String clean(String str),40,41,1415,1415,IdentifierMutator-Literal,0,length,4,9.487328E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() ==<mask>) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+26,SoundexUtils.java,clean,String clean(String str),40,42,1439,1441,IdentifierMutator-Variable,str,null,1,0.11785482,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return<mask>;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+27,SoundexUtils.java,clean,String clean(String str),40,42,1439,1441,IdentifierMutator-Variable,str,"""""",2,0.028237315,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return<mask>;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+28,SoundexUtils.java,clean,String clean(String str),40,42,1439,1441,IdentifierMutator-Variable,str,this,3,0.009152873,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return<mask>;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+29,SoundexUtils.java,clean,String clean(String str),40,42,1439,1441,IdentifierMutator-Variable,str,"''",4,0.006263805,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return<mask>;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+30,SoundexUtils.java,clean,String clean(String str),40,44,1476,1481,MethodCallMutator,length,len,1,2.4084395E-5,str.<mask>(),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.<mask>();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+31,SoundexUtils.java,clean,String clean(String str),40,44,1476,1481,MethodCallMutator,length,width,2,9.195722E-6,str.<mask>(),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.<mask>();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+32,SoundexUtils.java,clean,String clean(String str),40,44,1476,1481,MethodCallMutator,length,Length,4,1.5192553E-6,str.<mask>(),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.<mask>();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+33,SoundexUtils.java,clean,String clean(String str),40,44,1472,1474,IdentifierMutator-Variable,str,string,1,0.0010222067,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len =<mask>.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+34,SoundexUtils.java,clean,String clean(String str),40,44,1472,1474,IdentifierMutator-Variable,str,arr,3,2.5842746E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len =<mask>.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+35,SoundexUtils.java,clean,String clean(String str),40,44,1472,1474,IdentifierMutator-Variable,str,text,4,2.0781318E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len =<mask>.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+36,SoundexUtils.java,clean,String clean(String str),40,45,1518,1520,IdentifierMutator-Variable,len,Len,1,0.014670586,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[<mask>];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+37,SoundexUtils.java,clean,String clean(String str),40,45,1518,1520,IdentifierMutator-Variable,len,ln,2,0.00234285,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[<mask>];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+38,SoundexUtils.java,clean,String clean(String str),40,45,1518,1520,IdentifierMutator-Variable,len,l,4,0.0020856268,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[<mask>];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+39,SoundexUtils.java,clean,String clean(String str),40,46,1544,1544,IdentifierMutator-Literal,0,1,1,0.033853855,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count =<mask>;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+40,SoundexUtils.java,clean,String clean(String str),40,46,1544,1544,IdentifierMutator-Literal,0,2,2,0.0012866302,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count =<mask>;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+41,SoundexUtils.java,clean,String clean(String str),40,46,1544,1544,IdentifierMutator-Literal,0,len,3,3.2534052E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count =<mask>;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+42,SoundexUtils.java,clean,String clean(String str),40,46,1544,1544,IdentifierMutator-Literal,0,5,4,2.5585925E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count =<mask>;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+43,SoundexUtils.java,clean,String clean(String str),40,47,1568,1568,IdentifierMutator-Literal,0,1,1,0.0067680515,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i =<mask>; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+44,SoundexUtils.java,clean,String clean(String str),40,47,1568,1568,IdentifierMutator-Literal,0,start,3,2.5012277E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i =<mask>; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+45,SoundexUtils.java,clean,String clean(String str),40,47,1568,1568,IdentifierMutator-Literal,0,2,4,2.3438291E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i =<mask>; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+46,SoundexUtils.java,clean,String clean(String str),40,47,1572,1574,BinaryOperatorMutator,<,<=,2,6.684201E-4,i <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i<mask>len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+47,SoundexUtils.java,clean,String clean(String str),40,47,1572,1574,BinaryOperatorMutator,<,.<,3,1.929321E-4,i <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i<mask>len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+48,SoundexUtils.java,clean,String clean(String str),40,47,1572,1574,BinaryOperatorMutator,<,++,4,1.2908602E-4,i <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i<mask>len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+49,SoundexUtils.java,clean,String clean(String str),40,47,1571,1571,IdentifierMutator-Variable,i,count,2,1.4683101E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0;<mask> < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+50,SoundexUtils.java,clean,String clean(String str),40,47,1571,1571,IdentifierMutator-Variable,i,I,3,1.1937458E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0;<mask> < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+51,SoundexUtils.java,clean,String clean(String str),40,47,1571,1571,IdentifierMutator-Variable,i,0,4,6.169362E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0;<mask> < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+52,SoundexUtils.java,clean,String clean(String str),40,47,1575,1577,IdentifierMutator-Variable,len,l,2,0.0015282397,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+53,SoundexUtils.java,clean,String clean(String str),40,47,1575,1577,IdentifierMutator-Variable,len,length,3,0.0012116265,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+54,SoundexUtils.java,clean,String clean(String str),40,47,1575,1577,IdentifierMutator-Variable,len,n,4,9.6562534E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+55,SoundexUtils.java,clean,String clean(String str),40,47,1581,1582,UnaryOperatorMutator,++,++),2,0.011507266,i<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i<mask>) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+56,SoundexUtils.java,clean,String clean(String str),40,47,1581,1582,UnaryOperatorMutator,++,++;,3,3.6612028E-4,i<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i<mask>) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+57,SoundexUtils.java,clean,String clean(String str),40,47,1581,1582,UnaryOperatorMutator,++,--,4,1.1130187E-4,i<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i<mask>) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+58,SoundexUtils.java,clean,String clean(String str),40,47,1580,1580,IdentifierMutator-Variable,i,,2,1.2411328E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len;<mask>++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+59,SoundexUtils.java,clean,String clean(String str),40,47,1580,1580,IdentifierMutator-Variable,i,++,3,1.1602516E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len;<mask>++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+60,SoundexUtils.java,clean,String clean(String str),40,47,1580,1580,IdentifierMutator-Variable,i,I,4,7.11201E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len;<mask>++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+61,SoundexUtils.java,clean,String clean(String str),40,48,1613,1620,MethodCallMutator,isLetter,print,0,0.14470276,Character.<mask>(str.charAt(i)),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.<mask>(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+62,SoundexUtils.java,clean,String clean(String str),40,48,1613,1620,MethodCallMutator,isLetter,alpha,1,0.104133084,Character.<mask>(str.charAt(i)),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.<mask>(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+63,SoundexUtils.java,clean,String clean(String str),40,48,1613,1620,MethodCallMutator,isLetter,is,2,0.07825553,Character.<mask>(str.charAt(i)),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.<mask>(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+64,SoundexUtils.java,clean,String clean(String str),40,48,1613,1620,MethodCallMutator,isLetter,Letter,3,0.07282443,Character.<mask>(str.charAt(i)),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.<mask>(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+65,SoundexUtils.java,clean,String clean(String str),40,48,1613,1620,MethodCallMutator,isLetter,Char,4,0.07109961,Character.<mask>(str.charAt(i)),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.<mask>(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+66,SoundexUtils.java,clean,String clean(String str),40,48,1626,1631,MethodCallMutator,charAt,get,0,0.64420927,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.<mask>(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+67,SoundexUtils.java,clean,String clean(String str),40,48,1626,1631,MethodCallMutator,charAt,char,1,0.17570633,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.<mask>(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+68,SoundexUtils.java,clean,String clean(String str),40,48,1626,1631,MethodCallMutator,charAt,At,2,0.0782111,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.<mask>(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+69,SoundexUtils.java,clean,String clean(String str),40,48,1626,1631,MethodCallMutator,charAt,letter,3,0.021987109,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.<mask>(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+70,SoundexUtils.java,clean,String clean(String str),40,48,1626,1631,MethodCallMutator,charAt,at,4,0.02059039,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.<mask>(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+71,SoundexUtils.java,clean,String clean(String str),40,48,1622,1624,IdentifierMutator-Variable,str,Str,1,1.2747377E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(<mask>.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+72,SoundexUtils.java,clean,String clean(String str),40,48,1622,1624,IdentifierMutator-Variable,str,string,2,1.2252067E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(<mask>.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+73,SoundexUtils.java,clean,String clean(String str),40,48,1622,1624,IdentifierMutator-Variable,str,tr,4,1.2871288E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(<mask>.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+74,SoundexUtils.java,clean,String clean(String str),40,48,1633,1633,IdentifierMutator-Variable,i,I,2,6.3524867E-6,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(<mask>))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+75,SoundexUtils.java,clean,String clean(String str),40,48,1633,1633,IdentifierMutator-Variable,i,0,3,6.1128103E-6,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(<mask>))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+76,SoundexUtils.java,clean,String clean(String str),40,48,1633,1633,IdentifierMutator-Variable,i,j,4,2.7965089E-6,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(<mask>))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+77,SoundexUtils.java,clean,String clean(String str),40,49,1670,1670,AssignmentMutator,chars[count++]=str.charAt(i),|,0,0.6370913,chars[count++] <mask>= str.charAt(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++]<mask>= str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+78,SoundexUtils.java,clean,String clean(String str),40,49,1670,1670,AssignmentMutator,chars[count++]=str.charAt(i),^,1,0.25189266,chars[count++] <mask>= str.charAt(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++]<mask>= str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+79,SoundexUtils.java,clean,String clean(String str),40,49,1670,1670,AssignmentMutator,chars[count++]=str.charAt(i),.,2,0.03455509,chars[count++] <mask>= str.charAt(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++]<mask>= str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+80,SoundexUtils.java,clean,String clean(String str),40,49,1670,1670,AssignmentMutator,chars[count++]=str.charAt(i),||,3,0.025063405,chars[count++] <mask>= str.charAt(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++]<mask>= str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+81,SoundexUtils.java,clean,String clean(String str),40,49,1670,1670,AssignmentMutator,chars[count++]=str.charAt(i),&,4,0.021848852,chars[count++] <mask>= str.charAt(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++]<mask>= str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+82,SoundexUtils.java,clean,String clean(String str),40,49,1662,1668,ArrayAccessMutator,count++,count,0,0.56618404,chars[<mask>],"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+83,SoundexUtils.java,clean,String clean(String str),40,49,1662,1668,ArrayAccessMutator,count++,i,1,0.41621614,chars[<mask>],"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+84,SoundexUtils.java,clean,String clean(String str),40,49,1662,1668,ArrayAccessMutator,count++,i,2,0.0034261863,chars[<mask>],"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+85,SoundexUtils.java,clean,String clean(String str),40,49,1662,1668,ArrayAccessMutator,count++,c,3,0.002848997,chars[<mask>],"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+86,SoundexUtils.java,clean,String clean(String str),40,49,1662,1668,ArrayAccessMutator,count++,count,4,0.002547714,chars[<mask>],"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+87,SoundexUtils.java,clean,String clean(String str),40,49,1656,1660,IdentifierMutator-Variable,chars,char,1,0.0012659682,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {<mask>[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+88,SoundexUtils.java,clean,String clean(String str),40,49,1656,1660,IdentifierMutator-Variable,chars,characters,2,0.0010304014,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {<mask>[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+89,SoundexUtils.java,clean,String clean(String str),40,49,1656,1660,IdentifierMutator-Variable,chars,str,3,3.702152E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {<mask>[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+90,SoundexUtils.java,clean,String clean(String str),40,49,1656,1660,IdentifierMutator-Variable,chars,cs,4,1.892978E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {<mask>[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+91,SoundexUtils.java,clean,String clean(String str),40,49,1667,1668,UnaryOperatorMutator,++,][,2,8.0833456E-4,count<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+92,SoundexUtils.java,clean,String clean(String str),40,49,1667,1668,UnaryOperatorMutator,++,++;,3,4.8150896E-4,count<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+93,SoundexUtils.java,clean,String clean(String str),40,49,1667,1668,UnaryOperatorMutator,++,--,4,2.2187499E-4,count<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count<mask>] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+94,SoundexUtils.java,clean,String clean(String str),40,49,1662,1666,IdentifierMutator-Variable,count,i,1,0.030724844,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+95,SoundexUtils.java,clean,String clean(String str),40,49,1662,1666,IdentifierMutator-Variable,count,c,3,0.003177175,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+96,SoundexUtils.java,clean,String clean(String str),40,49,1662,1666,IdentifierMutator-Variable,count,Count,4,0.0014316444,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[<mask>++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+97,SoundexUtils.java,clean,String clean(String str),40,49,1677,1682,MethodCallMutator,charAt,char,0,0.58959264,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.<mask>(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+98,SoundexUtils.java,clean,String clean(String str),40,49,1677,1682,MethodCallMutator,charAt,get,1,0.15471534,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.<mask>(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+99,SoundexUtils.java,clean,String clean(String str),40,49,1677,1682,MethodCallMutator,charAt,At,2,0.048623495,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.<mask>(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+100,SoundexUtils.java,clean,String clean(String str),40,49,1677,1682,MethodCallMutator,charAt,at,3,0.045534883,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.<mask>(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+101,SoundexUtils.java,clean,String clean(String str),40,49,1677,1682,MethodCallMutator,charAt,escape,4,0.034934457,str.<mask>(i),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.<mask>(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+102,SoundexUtils.java,clean,String clean(String str),40,49,1673,1675,IdentifierMutator-Variable,str,string,2,1.0921605E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] =<mask>.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+103,SoundexUtils.java,clean,String clean(String str),40,49,1673,1675,IdentifierMutator-Variable,str,arr,3,2.7486269E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] =<mask>.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+104,SoundexUtils.java,clean,String clean(String str),40,49,1673,1675,IdentifierMutator-Variable,str,char,4,2.0474447E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] =<mask>.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+105,SoundexUtils.java,clean,String clean(String str),40,49,1684,1684,IdentifierMutator-Variable,i,count,1,2.446325E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(<mask>);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+106,SoundexUtils.java,clean,String clean(String str),40,49,1684,1684,IdentifierMutator-Variable,i,j,2,2.0785186E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(<mask>);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+107,SoundexUtils.java,clean,String clean(String str),40,49,1684,1684,IdentifierMutator-Variable,i,c,3,1.9079853E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(<mask>);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+108,SoundexUtils.java,clean,String clean(String str),40,49,1684,1684,IdentifierMutator-Variable,i,I,4,1.49556245E-5,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(<mask>);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+109,SoundexUtils.java,clean,String clean(String str),40,52,1729,1732,BinaryOperatorMutator,==,<,1,0.1823895,count <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count<mask>len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+110,SoundexUtils.java,clean,String clean(String str),40,52,1729,1732,BinaryOperatorMutator,==,>,2,0.083750434,count <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count<mask>len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+111,SoundexUtils.java,clean,String clean(String str),40,52,1729,1732,BinaryOperatorMutator,==,<,3,0.039509628,count <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count<mask>len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+112,SoundexUtils.java,clean,String clean(String str),40,52,1729,1732,BinaryOperatorMutator,==,>=,4,0.029702004,count <mask> len,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count<mask>len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+113,SoundexUtils.java,clean,String clean(String str),40,52,1724,1728,IdentifierMutator-Variable,count,current,2,5.1450933E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (<mask> == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+114,SoundexUtils.java,clean,String clean(String str),40,52,1724,1728,IdentifierMutator-Variable,count,code,3,4.0186135E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (<mask> == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+115,SoundexUtils.java,clean,String clean(String str),40,52,1724,1728,IdentifierMutator-Variable,count,0,4,3.422119E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (<mask> == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+116,SoundexUtils.java,clean,String clean(String str),40,52,1733,1735,IdentifierMutator-Variable,len,0,0,0.8947672,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count ==<mask>) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+117,SoundexUtils.java,clean,String clean(String str),40,52,1733,1735,IdentifierMutator-Variable,len,1,1,0.0912371,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count ==<mask>) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+118,SoundexUtils.java,clean,String clean(String str),40,52,1733,1735,IdentifierMutator-Variable,len,2,2,0.0017507024,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count ==<mask>) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+119,SoundexUtils.java,clean,String clean(String str),40,52,1733,1735,IdentifierMutator-Variable,len,10,3,0.0010025213,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count ==<mask>) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+120,SoundexUtils.java,clean,String clean(String str),40,52,1733,1735,IdentifierMutator-Variable,len,5,4,9.284247E-4,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count ==<mask>) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+121,SoundexUtils.java,clean,String clean(String str),40,53,1763,1773,MethodCallMutator,toUpperCase,name,0,0.55023384,str.<mask>(Locale.ENGLISH),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.<mask>(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+122,SoundexUtils.java,clean,String clean(String str),40,53,1763,1773,MethodCallMutator,toUpperCase,title,1,0.047735874,str.<mask>(Locale.ENGLISH),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.<mask>(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+123,SoundexUtils.java,clean,String clean(String str),40,53,1763,1773,MethodCallMutator,toUpperCase,word,2,0.02805011,str.<mask>(Locale.ENGLISH),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.<mask>(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+124,SoundexUtils.java,clean,String clean(String str),40,53,1763,1773,MethodCallMutator,toUpperCase,strip,3,0.027802534,str.<mask>(Locale.ENGLISH),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.<mask>(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+125,SoundexUtils.java,clean,String clean(String str),40,53,1763,1773,MethodCallMutator,toUpperCase,replace,4,0.025337586,str.<mask>(Locale.ENGLISH),"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.<mask>(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+126,SoundexUtils.java,clean,String clean(String str),40,53,1759,1761,IdentifierMutator-Variable,str,chars,0,0.40987682,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return<mask>.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+127,SoundexUtils.java,clean,String clean(String str),40,53,1759,1761,IdentifierMutator-Variable,str,"""""",2,0.09169176,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return<mask>.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+128,SoundexUtils.java,clean,String clean(String str),40,53,1759,1761,IdentifierMutator-Variable,str,char,3,0.029709421,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return<mask>.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+129,SoundexUtils.java,clean,String clean(String str),40,53,1759,1761,IdentifierMutator-Variable,str,string,4,0.023025632,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return<mask>.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+130,SoundexUtils.java,clean,String clean(String str),40,53,1775,1798,IdentifierMutator-Variable,java.util.Locale.ENGLISH,language,0,0.0755414,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+131,SoundexUtils.java,clean,String clean(String str),40,53,1775,1798,IdentifierMutator-Variable,java.util.Locale.ENGLISH,case,1,0.057769224,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+132,SoundexUtils.java,clean,String clean(String str),40,53,1775,1798,IdentifierMutator-Variable,java.util.Locale.ENGLISH,lower,2,0.049354047,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+133,SoundexUtils.java,clean,String clean(String str),40,53,1775,1798,IdentifierMutator-Variable,java.util.Locale.ENGLISH,lang,3,0.048616417,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+134,SoundexUtils.java,clean,String clean(String str),40,53,1775,1798,IdentifierMutator-Variable,java.util.Locale.ENGLISH,false,4,0.03815313,<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+135,SoundexUtils.java,clean,String clean(String str),40,53,1792,1798,FieldReferenceMutator,ENGLISH,US,0,0.5829445,java.util.Locale.<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+136,SoundexUtils.java,clean,String clean(String str),40,53,1792,1798,FieldReferenceMutator,ENGLISH,English,1,0.11094011,java.util.Locale.<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+137,SoundexUtils.java,clean,String clean(String str),40,53,1792,1798,FieldReferenceMutator,ENGLISH,ALL,2,0.04917701,java.util.Locale.<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+138,SoundexUtils.java,clean,String clean(String str),40,53,1792,1798,FieldReferenceMutator,ENGLISH,BR,3,0.018698877,java.util.Locale.<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+139,SoundexUtils.java,clean,String clean(String str),40,53,1792,1798,FieldReferenceMutator,ENGLISH,EN,4,0.014991691,java.util.Locale.<mask>,"String clean(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.<mask>);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+140,SoundexUtils.java,clean,String clean(String str),40,55,1855,1865,MethodCallMutator,toUpperCase,case,0,0.29036638,"new String(chars, 0, count).<mask>(Locale.ENGLISH)","str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).<mask>(java.util.Locale.ENGLISH);
+    }"
+141,SoundexUtils.java,clean,String clean(String str),40,55,1855,1865,MethodCallMutator,toUpperCase,replace,1,0.10491411,"new String(chars, 0, count).<mask>(Locale.ENGLISH)","str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).<mask>(java.util.Locale.ENGLISH);
+    }"
+142,SoundexUtils.java,clean,String clean(String str),40,55,1855,1865,MethodCallMutator,toUpperCase,split,2,0.0796221,"new String(chars, 0, count).<mask>(Locale.ENGLISH)","str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).<mask>(java.util.Locale.ENGLISH);
+    }"
+143,SoundexUtils.java,clean,String clean(String str),40,55,1855,1865,MethodCallMutator,toUpperCase,name,3,0.071188025,"new String(chars, 0, count).<mask>(Locale.ENGLISH)","str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).<mask>(java.util.Locale.ENGLISH);
+    }"
+144,SoundexUtils.java,clean,String clean(String str),40,55,1855,1865,MethodCallMutator,toUpperCase,to,4,0.050709542,"new String(chars, 0, count).<mask>(Locale.ENGLISH)","str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).<mask>(java.util.Locale.ENGLISH);
+    }"
+145,SoundexUtils.java,clean,String clean(String str),40,55,1838,1842,IdentifierMutator-Variable,chars,str,0,0.9365736,<mask>,"      if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(<mask>, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+146,SoundexUtils.java,clean,String clean(String str),40,55,1838,1842,IdentifierMutator-Variable,chars,char,1,0.014381235,<mask>,"      if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(<mask>, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+147,SoundexUtils.java,clean,String clean(String str),40,55,1838,1842,IdentifierMutator-Variable,chars,string,2,0.012529835,<mask>,"      if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(<mask>, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+148,SoundexUtils.java,clean,String clean(String str),40,55,1838,1842,IdentifierMutator-Variable,chars,Str,3,0.00441924,<mask>,"      if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(<mask>, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+149,SoundexUtils.java,clean,String clean(String str),40,55,1838,1842,IdentifierMutator-Variable,chars,str,4,0.0029894034,<mask>,"      if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(<mask>, 0, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+150,SoundexUtils.java,clean,String clean(String str),40,55,1845,1845,IdentifierMutator-Literal,0,start,1,0.0025492779,<mask>,"   if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars,<mask>, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+151,SoundexUtils.java,clean,String clean(String str),40,55,1845,1845,IdentifierMutator-Literal,0,1,2,0.0024172382,<mask>,"   if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars,<mask>, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+152,SoundexUtils.java,clean,String clean(String str),40,55,1845,1845,IdentifierMutator-Literal,0,offset,3,0.0017522635,<mask>,"   if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars,<mask>, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+153,SoundexUtils.java,clean,String clean(String str),40,55,1845,1845,IdentifierMutator-Literal,0,pos,4,0.0013565918,<mask>,"   if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars,<mask>, count).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+154,SoundexUtils.java,clean,String clean(String str),40,55,1848,1852,IdentifierMutator-Variable,count,len,1,0.06726417,<mask>," if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0,<mask>).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+155,SoundexUtils.java,clean,String clean(String str),40,55,1848,1852,IdentifierMutator-Variable,count,length,3,0.0029526488,<mask>," if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0,<mask>).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+156,SoundexUtils.java,clean,String clean(String str),40,55,1848,1852,IdentifierMutator-Variable,count,index,4,0.0015311041,<mask>," if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0,<mask>).toUpperCase(java.util.Locale.ENGLISH);
+    }"
+157,SoundexUtils.java,clean,String clean(String str),40,55,1867,1890,IdentifierMutator-Variable,java.util.Locale.ENGLISH,region,0,0.12786716,<mask>,".length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(<mask>);
+    }"
+158,SoundexUtils.java,clean,String clean(String str),40,55,1867,1890,IdentifierMutator-Variable,java.util.Locale.ENGLISH,str,1,0.06421635,<mask>,".length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(<mask>);
+    }"
+159,SoundexUtils.java,clean,String clean(String str),40,55,1867,1890,IdentifierMutator-Variable,java.util.Locale.ENGLISH,lang,2,0.062135592,<mask>,".length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(<mask>);
+    }"
+160,SoundexUtils.java,clean,String clean(String str),40,55,1867,1890,IdentifierMutator-Variable,java.util.Locale.ENGLISH,false,3,0.030681329,<mask>,".length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(<mask>);
+    }"
+161,SoundexUtils.java,clean,String clean(String str),40,55,1867,1890,IdentifierMutator-Variable,java.util.Locale.ENGLISH,language,4,0.030192899,<mask>,".length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(<mask>);
+    }"
+162,SoundexUtils.java,clean,String clean(String str),40,55,1884,1890,FieldReferenceMutator,ENGLISH,US,0,0.63680065,java.util.Locale.<mask>,"
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.<mask>);
+    }"
+163,SoundexUtils.java,clean,String clean(String str),40,55,1884,1890,FieldReferenceMutator,ENGLISH,English,1,0.0732444,java.util.Locale.<mask>,"
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.<mask>);
+    }"
+164,SoundexUtils.java,clean,String clean(String str),40,55,1884,1890,FieldReferenceMutator,ENGLISH,ALL,2,0.033486623,java.util.Locale.<mask>,"
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.<mask>);
+    }"
+165,SoundexUtils.java,clean,String clean(String str),40,55,1884,1890,FieldReferenceMutator,ENGLISH,GB,3,0.025852483,java.util.Locale.<mask>,"
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.<mask>);
+    }"
+166,SoundexUtils.java,clean,String clean(String str),40,55,1884,1890,FieldReferenceMutator,ENGLISH,EN,4,0.021631602,java.util.Locale.<mask>,"
+            return str;
+        }
+        int len = str.length();
+        char[] chars = new char[len];
+        int count = 0;
+        for (int i = 0; i < len; i++) {
+            if (Character.isLetter(str.charAt(i))) {
+                chars[count++] = str.charAt(i);
+            }
+        }
+        if (count == len) {
+            return str.toUpperCase(java.util.Locale.ENGLISH);
+        }
+        return new String(chars, 0, count).toUpperCase(java.util.Locale.<mask>);
+    }"
+167,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3049,3065,MethodCallMutator,differenceEncoded,difference,0,0.9962753,"<mask>(encoder.encode(s1), encoder.encode(s2))","int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return<mask>(encoder.encode(s1), encoder.encode(s2));
+    }"
+168,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3049,3065,MethodCallMutator,differenceEncoded,diff,1,9.6562906E-4,"<mask>(encoder.encode(s1), encoder.encode(s2))","int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return<mask>(encoder.encode(s1), encoder.encode(s2));
+    }"
+169,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3049,3065,MethodCallMutator,differenceEncoded,compare,2,6.77566E-4,"<mask>(encoder.encode(s1), encoder.encode(s2))","int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return<mask>(encoder.encode(s1), encoder.encode(s2));
+    }"
+170,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3049,3065,MethodCallMutator,differenceEncoded,subtract,3,2.7456591E-4,"<mask>(encoder.encode(s1), encoder.encode(s2))","int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return<mask>(encoder.encode(s1), encoder.encode(s2));
+    }"
+171,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3049,3065,MethodCallMutator,differenceEncoded,erence,4,2.0032459E-4,"<mask>(encoder.encode(s1), encoder.encode(s2))","int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return<mask>(encoder.encode(s1), encoder.encode(s2));
+    }"
+172,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3075,3080,MethodCallMutator,encode,code,0,0.7949039,<mask>r.<mask>(s1),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.<mask>(s1), encoder.encode(s2));
+    }"
+173,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3075,3080,MethodCallMutator,encode,oder,2,0.005995713,<mask>r.<mask>(s1),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.<mask>(s1), encoder.encode(s2));
+    }"
+174,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3075,3080,MethodCallMutator,encode,escape,3,0.0016662488,<mask>r.<mask>(s1),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.<mask>(s1), encoder.encode(s2));
+    }"
+175,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3075,3080,MethodCallMutator,encode,append,4,0.0012127617,<mask>r.<mask>(s1),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.<mask>(s1), encoder.encode(s2));
+    }"
+176,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3067,3073,IdentifierMutator-Variable,encoder,oder,0,0.90909386,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(<mask>.encode(s1), encoder.encode(s2));
+    }"
+177,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3067,3073,IdentifierMutator-Variable,encoder,builder,1,0.057648215,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(<mask>.encode(s1), encoder.encode(s2));
+    }"
+178,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3067,3073,IdentifierMutator-Variable,encoder,writer,2,0.006636101,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(<mask>.encode(s1), encoder.encode(s2));
+    }"
+179,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3067,3073,IdentifierMutator-Variable,encoder,enc,3,0.002608035,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(<mask>.encode(s1), encoder.encode(s2));
+    }"
+180,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3067,3073,IdentifierMutator-Variable,encoder,processor,4,0.0012291588,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(<mask>.encode(s1), encoder.encode(s2));
+    }"
+181,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3082,3083,IdentifierMutator-Variable,s1,s,0,0.8530565,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(<mask>), encoder.encode(s2));
+    }"
+182,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3082,3083,IdentifierMutator-Variable,s1,1,1,0.06972661,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(<mask>), encoder.encode(s2));
+    }"
+183,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3082,3083,IdentifierMutator-Variable,s1,si,2,0.008954879,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(<mask>), encoder.encode(s2));
+    }"
+184,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3082,3083,IdentifierMutator-Variable,s1,sb,3,0.007275351,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(<mask>), encoder.encode(s2));
+    }"
+185,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3082,3083,IdentifierMutator-Variable,s1,ss,4,0.0056177536,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(<mask>), encoder.encode(s2));
+    }"
+186,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3095,3100,MethodCallMutator,encode,code,1,0.33831924,<mask>r.<mask>(s2),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.<mask>(s2));
+    }"
+187,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3095,3100,MethodCallMutator,encode,escape,2,0.032181196,<mask>r.<mask>(s2),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.<mask>(s2));
+    }"
+188,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3095,3100,MethodCallMutator,encode,append,3,0.016284421,<mask>r.<mask>(s2),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.<mask>(s2));
+    }"
+189,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3095,3100,MethodCallMutator,encode,oder,4,0.013556562,<mask>r.<mask>(s2),"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.<mask>(s2));
+    }"
+190,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3087,3093,IdentifierMutator-Variable,encoder,oder,0,0.90745986,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1),<mask>.encode(s2));
+    }"
+191,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3087,3093,IdentifierMutator-Variable,encoder,encoding,1,0.018451706,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1),<mask>.encode(s2));
+    }"
+192,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3087,3093,IdentifierMutator-Variable,encoder,enc,2,0.012581722,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1),<mask>.encode(s2));
+    }"
+193,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3087,3093,IdentifierMutator-Variable,encoder,builder,3,0.010071349,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1),<mask>.encode(s2));
+    }"
+194,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3087,3093,IdentifierMutator-Variable,encoder,Decoder,4,0.0089496765,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1),<mask>.encode(s2));
+    }"
+195,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3102,3103,IdentifierMutator-Variable,s2,2,0,0.51251554,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.encode(<mask>));
+    }"
+196,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3102,3103,IdentifierMutator-Variable,s2,second,1,0.2101046,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.encode(<mask>));
+    }"
+197,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3102,3103,IdentifierMutator-Variable,s2,s,2,0.18080498,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.encode(<mask>));
+    }"
+198,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3102,3103,IdentifierMutator-Variable,s2,two,3,0.020256024,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.encode(<mask>));
+    }"
+199,SoundexUtils.java,difference,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException",84,85,3102,3103,IdentifierMutator-Variable,s2,sb,4,0.012234758,<mask>,"int difference(StringEncoder encoder, String s1, String s2) throws EncoderException {
+        return differenceEncoded(encoder.encode(s1), encoder.encode(<mask>));
+    }"
+200,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3943,3946,BinaryOperatorMutator,||,&&,1,0.08450424,(es1 == null) <mask> (es2 == null),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null<mask>es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+201,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3943,3946,BinaryOperatorMutator,||,&&,2,0.05445701,(es1 == null) <mask> (es2 == null),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null<mask>es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+202,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3943,3946,BinaryOperatorMutator,||,/,4,0.0037019106,(es1 == null) <mask> (es2 == null),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null<mask>es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+203,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3935,3938,BinaryOperatorMutator,==,!=,2,0.0015362027,es1 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1<mask>null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+204,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3935,3938,BinaryOperatorMutator,==,=,3,2.828646E-4,es1 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1<mask>null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+205,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3935,3938,BinaryOperatorMutator,==,_,4,8.183705E-5,es1 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1<mask>null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+206,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3932,3934,IdentifierMutator-Variable,es1,es,0,0.53234714,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (<mask> == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+207,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3932,3934,IdentifierMutator-Variable,es1,1,1,0.11270557,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (<mask> == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+208,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3932,3934,IdentifierMutator-Variable,es1,this,2,0.055088,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (<mask> == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+209,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3932,3934,IdentifierMutator-Variable,es1,src,3,0.0147382,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (<mask> == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+210,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3932,3934,IdentifierMutator-Variable,es1,null,4,0.014244351,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (<mask> == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+211,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3939,3942,IdentifierMutator-Literal,null,"""""",1,7.732834E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 ==<mask> || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+212,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3939,3942,IdentifierMutator-Literal,null,this,2,2.192332E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 ==<mask> || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+213,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3939,3942,IdentifierMutator-Literal,null,"''",3,5.9095306E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 ==<mask> || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+214,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3939,3942,IdentifierMutator-Literal,null,empty,4,5.867038E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 ==<mask> || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+215,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3950,3953,BinaryOperatorMutator,==,!=,2,0.0021716608,es2 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2<mask>null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+216,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3950,3953,BinaryOperatorMutator,==,=,3,1.8419391E-4,es2 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2<mask>null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+217,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3950,3953,BinaryOperatorMutator,==,_,4,1.5934999E-4,es2 <mask> null,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2<mask>null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+218,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3947,3949,IdentifierMutator-Variable,es2,2,0,0.2742453,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null ||<mask> == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+219,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3947,3949,IdentifierMutator-Variable,es2,2,1,0.16220133,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null ||<mask> == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+220,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3947,3949,IdentifierMutator-Variable,es2,both,2,0.12263827,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null ||<mask> == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+221,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3947,3949,IdentifierMutator-Variable,es2,two,3,0.07573401,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null ||<mask> == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+222,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3947,3949,IdentifierMutator-Variable,es2,null,4,0.04304745,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null ||<mask> == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+223,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3954,3957,IdentifierMutator-Literal,null,"""""",1,3.087741E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 ==<mask>) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+224,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3954,3957,IdentifierMutator-Literal,null,this,2,6.768077E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 ==<mask>) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+225,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,110,3954,3957,IdentifierMutator-Literal,null,NULL,4,3.5403136E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 ==<mask>) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+226,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,111,3981,3981,IdentifierMutator-Literal,0,1,1,0.0633548,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return<mask>;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+227,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,111,3981,3981,IdentifierMutator-Literal,0,127,2,0.0042462717,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return<mask>;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+228,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,111,3981,3981,IdentifierMutator-Literal,0,255,3,0.0023092174,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return<mask>;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+229,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,111,3981,3981,IdentifierMutator-Literal,0,2,4,0.0020014956,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return<mask>;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+230,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4027,4029,MethodCallMutator,min,max,1,0.18587396,"Math.<mask>(es1.length(), es2.length())","int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.<mask>(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+231,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4027,4029,MethodCallMutator,min,diff,2,0.0045957277,"Math.<mask>(es1.length(), es2.length())","int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.<mask>(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+232,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4027,4029,MethodCallMutator,min,Min,4,8.0708734E-4,"Math.<mask>(es1.length(), es2.length())","int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.<mask>(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+233,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4035,4040,MethodCallMutator,length,Length,2,1.8810767E-6,es1.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.<mask>(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+234,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4035,4040,MethodCallMutator,length,distance,3,8.016556E-7,es1.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.<mask>(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+235,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4035,4040,MethodCallMutator,length,len,4,7.9846626E-7,es1.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.<mask>(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+236,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4031,4033,IdentifierMutator-Variable,es1,es,0,0.7456027,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(<mask>.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+237,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4031,4033,IdentifierMutator-Variable,es1,ES,1,0.03168148,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(<mask>.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+238,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4031,4033,IdentifierMutator-Variable,es1,this,2,0.03144363,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(<mask>.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+239,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4031,4033,IdentifierMutator-Variable,es1,1,3,0.021459058,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(<mask>.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+240,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4031,4033,IdentifierMutator-Variable,es1,ex,4,0.005751146,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(<mask>.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+241,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4049,4054,MethodCallMutator,length,Length,2,4.5438132E-6,es2.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.<mask>());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+242,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4049,4054,MethodCallMutator,length,duration,3,1.853257E-6,es2.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.<mask>());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+243,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4049,4054,MethodCallMutator,length,distance,4,8.611215E-7,es2.<mask>(),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.<mask>());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+244,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4045,4047,IdentifierMutator-Variable,es2,2,0,0.8513486,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(),<mask>.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+245,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4045,4047,IdentifierMutator-Variable,es2,2,1,0.061421208,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(),<mask>.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+246,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4045,4047,IdentifierMutator-Variable,es2,both,2,0.01829652,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(),<mask>.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+247,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4045,4047,IdentifierMutator-Variable,es2,second,3,0.00999342,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(),<mask>.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+248,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,113,4045,4047,IdentifierMutator-Variable,es2,two,4,0.009350386,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(),<mask>.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+249,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,114,4079,4079,IdentifierMutator-Literal,0,1,1,0.030976083,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff =<mask>;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+250,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,114,4079,4079,IdentifierMutator-Literal,0,2,2,0.0012453622,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff =<mask>;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+251,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,114,4079,4079,IdentifierMutator-Literal,0,5,4,2.051565E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff =<mask>;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+252,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4103,4103,IdentifierMutator-Literal,0,1,1,0.019903583,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i =<mask>; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+253,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4103,4103,IdentifierMutator-Literal,0,2,3,0.0019365952,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i =<mask>; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+254,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4103,4103,IdentifierMutator-Literal,0,3,4,3.9491564E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i =<mask>; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+255,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4107,4109,BinaryOperatorMutator,<,<=,2,0.002173144,i <mask> lengthToMatch,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i<mask>lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+256,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4107,4109,BinaryOperatorMutator,<,.<,3,7.017909E-4,i <mask> lengthToMatch,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i<mask>lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+257,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4107,4109,BinaryOperatorMutator,<,==,4,5.893002E-4,i <mask> lengthToMatch,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i<mask>lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+258,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4106,4106,IdentifierMutator-Variable,i,0,2,1.4724971E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0;<mask> < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+259,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4106,4106,IdentifierMutator-Variable,i,I,3,1.21615434E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0;<mask> < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+260,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4106,4106,IdentifierMutator-Variable,i,I,4,8.5474E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0;<mask> < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+261,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4110,4122,IdentifierMutator-Variable,lengthToMatch,length,0,0.538991,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+262,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4110,4122,IdentifierMutator-Variable,lengthToMatch,len,1,0.13188277,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+263,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4110,4122,IdentifierMutator-Variable,lengthToMatch,3,2,0.022708582,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+264,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4110,4122,IdentifierMutator-Variable,lengthToMatch,2,3,0.02213003,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+265,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4110,4122,IdentifierMutator-Variable,lengthToMatch,256,4,0.018524855,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i <<mask>; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+266,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4126,4127,UnaryOperatorMutator,++,++),2,0.015770882,i<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i<mask>) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+267,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4126,4127,UnaryOperatorMutator,++,++;,3,7.9954E-4,i<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i<mask>) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+268,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4126,4127,UnaryOperatorMutator,++,--,4,1.360513E-4,i<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i<mask>) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+269,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4125,4125,IdentifierMutator-Variable,i,,2,7.1590526E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch;<mask>++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+270,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4125,4125,IdentifierMutator-Variable,i,I,3,5.929977E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch;<mask>++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+271,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,115,4125,4125,IdentifierMutator-Variable,i,I,4,5.3719967E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch;<mask>++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+272,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4161,4164,BinaryOperatorMutator,==,!=,0,0.8501259,es1.charAt(i) <mask> es2.charAt(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i)<mask>es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+273,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4161,4164,BinaryOperatorMutator,==,<,3,0.015021012,es1.charAt(i) <mask> es2.charAt(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i)<mask>es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+274,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4161,4164,BinaryOperatorMutator,==,>,4,0.008630746,es1.charAt(i) <mask> es2.charAt(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i)<mask>es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+275,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4152,4157,MethodCallMutator,charAt,char,0,0.8786836,es1.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.<mask>(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+276,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4152,4157,MethodCallMutator,charAt,character,1,0.04962681,es1.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.<mask>(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+277,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4152,4157,MethodCallMutator,charAt,At,2,0.018287003,es1.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.<mask>(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+278,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4152,4157,MethodCallMutator,charAt,letter,3,0.01389388,es1.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.<mask>(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+279,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4152,4157,MethodCallMutator,charAt,at,4,0.011005606,es1.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.<mask>(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+280,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4148,4150,IdentifierMutator-Variable,es1,es,0,0.56090444,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (<mask>.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+281,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4148,4150,IdentifierMutator-Variable,es1,1,1,0.05698099,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (<mask>.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+282,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4148,4150,IdentifierMutator-Variable,es1,ex,2,0.027894592,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (<mask>.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+283,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4148,4150,IdentifierMutator-Variable,es1,match,3,0.022330469,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (<mask>.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+284,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4148,4150,IdentifierMutator-Variable,es1,e,4,0.013563581,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (<mask>.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+285,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4159,4159,IdentifierMutator-Variable,i,0,1,6.280621E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(<mask>) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+286,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4159,4159,IdentifierMutator-Variable,i,j,2,1.8446037E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(<mask>) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+287,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4159,4159,IdentifierMutator-Variable,i,I,3,1.4958985E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(<mask>) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+288,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4169,4174,MethodCallMutator,charAt,char,0,0.7486822,es2.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.<mask>(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+289,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4169,4174,MethodCallMutator,charAt,character,1,0.105763264,es2.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.<mask>(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+290,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4169,4174,MethodCallMutator,charAt,at,2,0.03175159,es2.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.<mask>(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+291,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4169,4174,MethodCallMutator,charAt,length,3,0.029835483,es2.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.<mask>(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+292,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4169,4174,MethodCallMutator,charAt,letter,4,0.014863884,es2.<mask>(i),"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.<mask>(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+293,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4165,4167,IdentifierMutator-Variable,es2,2,0,0.2605547,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) ==<mask>.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+294,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4165,4167,IdentifierMutator-Variable,es2,2,1,0.16481288,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) ==<mask>.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+295,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4165,4167,IdentifierMutator-Variable,es2,second,2,0.056990843,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) ==<mask>.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+296,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4165,4167,IdentifierMutator-Variable,es2,url,3,0.046032935,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) ==<mask>.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+297,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4165,4167,IdentifierMutator-Variable,es2,other,4,0.0401413,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) ==<mask>.charAt(i)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+298,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4176,4176,IdentifierMutator-Variable,i,j,1,7.413976E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(<mask>)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+299,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4176,4176,IdentifierMutator-Variable,i,I,2,1.8812481E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(<mask>)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+300,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4176,4176,IdentifierMutator-Variable,i,diff,3,1.6749858E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(<mask>)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+301,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,116,4176,4176,IdentifierMutator-Variable,i,e,4,1.1433243E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(<mask>)) {
+                diff++;
+            }
+        }
+        return diff;
+    }"
+302,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4202,4204,UnaryOperatorMutator,++,++;,1,0.383594,diff<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff<mask>
+            }
+        }
+        return diff;
+    }"
+303,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4202,4204,UnaryOperatorMutator,++,+=,2,0.03299716,diff<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff<mask>
+            }
+        }
+        return diff;
+    }"
+304,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4202,4204,UnaryOperatorMutator,++,--,4,0.007837468,diff<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff<mask>
+            }
+        }
+        return diff;
+    }"
+305,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4198,4201,IdentifierMutator-Variable,diff,difference,2,1.7481878E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {<mask>++;
+            }
+        }
+        return diff;
+    }"
+306,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4198,4201,IdentifierMutator-Variable,diff,delta,3,8.198527E-6,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {<mask>++;
+            }
+        }
+        return diff;
+    }"
+307,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,117,4198,4201,IdentifierMutator-Variable,diff,Diff,4,7.496491E-6,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {<mask>++;
+            }
+        }
+        return diff;
+    }"
+308,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,120,4245,4248,IdentifierMutator-Variable,diff,difference,1,6.119625E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return<mask>;
+    }"
+309,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,120,4245,4248,IdentifierMutator-Variable,diff,0,2,5.1012146E-4,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return<mask>;
+    }"
+310,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,120,4245,4248,IdentifierMutator-Variable,diff,delta,3,8.6280255E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return<mask>;
+    }"
+311,SoundexUtils.java,differenceEncoded,"int differenceEncoded(String es1, String es2)",108,120,4245,4248,IdentifierMutator-Variable,diff,1,4,8.360464E-5,<mask>,"int differenceEncoded(String es1, String es2) {
+
+        if (es1 == null || es2 == null) {
+            return 0;
+        }
+        int lengthToMatch = Math.min(es1.length(), es2.length());
+        int diff = 0;
+        for (int i = 0; i < lengthToMatch; i++) {
+            if (es1.charAt(i) == es2.charAt(i)) {
+                diff++;
+            }
+        }
+        return<mask>;
+    }"

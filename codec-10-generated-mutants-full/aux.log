@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/codec/codec_10/generated-mutants-full/999/Caverphone.java:101: error: cannot find symbol
+        txt = ta.replaceAll("y", "3");        // 2.0 only
+              ^
+  symbol:   variable ta
+  location: class Caverphone
+1 error

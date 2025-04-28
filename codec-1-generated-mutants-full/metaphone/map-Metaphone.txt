@@ -1,0 +1,2482 @@
+0 | Metaphone.java | String metaphone(String txt) | 82
+1 | Metaphone.java | String metaphone(String txt) | 82
+2 | Metaphone.java | String metaphone(String txt) | 82
+3 | Metaphone.java | String metaphone(String txt) | 82
+4 | Metaphone.java | String metaphone(String txt) | 83
+5 | Metaphone.java | String metaphone(String txt) | 83
+6 | Metaphone.java | String metaphone(String txt) | 83
+7 | Metaphone.java | String metaphone(String txt) | 83
+8 | Metaphone.java | String metaphone(String txt) | 83
+9 | Metaphone.java | String metaphone(String txt) | 83
+10 | Metaphone.java | String metaphone(String txt) | 83
+11 | Metaphone.java | String metaphone(String txt) | 83
+12 | Metaphone.java | String metaphone(String txt) | 83
+13 | Metaphone.java | String metaphone(String txt) | 83
+14 | Metaphone.java | String metaphone(String txt) | 83
+15 | Metaphone.java | String metaphone(String txt) | 83
+16 | Metaphone.java | String metaphone(String txt) | 83
+17 | Metaphone.java | String metaphone(String txt) | 83
+18 | Metaphone.java | String metaphone(String txt) | 83
+19 | Metaphone.java | String metaphone(String txt) | 83
+20 | Metaphone.java | String metaphone(String txt) | 83
+21 | Metaphone.java | String metaphone(String txt) | 83
+22 | Metaphone.java | String metaphone(String txt) | 83
+23 | Metaphone.java | String metaphone(String txt) | 83
+24 | Metaphone.java | String metaphone(String txt) | 83
+25 | Metaphone.java | String metaphone(String txt) | 83
+26 | Metaphone.java | String metaphone(String txt) | 83
+27 | Metaphone.java | String metaphone(String txt) | 83
+28 | Metaphone.java | String metaphone(String txt) | 83
+29 | Metaphone.java | String metaphone(String txt) | 83
+30 | Metaphone.java | String metaphone(String txt) | 83
+31 | Metaphone.java | String metaphone(String txt) | 84
+32 | Metaphone.java | String metaphone(String txt) | 84
+33 | Metaphone.java | String metaphone(String txt) | 84
+34 | Metaphone.java | String metaphone(String txt) | 84
+35 | Metaphone.java | String metaphone(String txt) | 87
+36 | Metaphone.java | String metaphone(String txt) | 87
+37 | Metaphone.java | String metaphone(String txt) | 87
+38 | Metaphone.java | String metaphone(String txt) | 87
+39 | Metaphone.java | String metaphone(String txt) | 87
+40 | Metaphone.java | String metaphone(String txt) | 87
+41 | Metaphone.java | String metaphone(String txt) | 87
+42 | Metaphone.java | String metaphone(String txt) | 87
+43 | Metaphone.java | String metaphone(String txt) | 87
+44 | Metaphone.java | String metaphone(String txt) | 87
+45 | Metaphone.java | String metaphone(String txt) | 87
+46 | Metaphone.java | String metaphone(String txt) | 87
+47 | Metaphone.java | String metaphone(String txt) | 87
+48 | Metaphone.java | String metaphone(String txt) | 87
+49 | Metaphone.java | String metaphone(String txt) | 88
+50 | Metaphone.java | String metaphone(String txt) | 88
+51 | Metaphone.java | String metaphone(String txt) | 88
+52 | Metaphone.java | String metaphone(String txt) | 88
+53 | Metaphone.java | String metaphone(String txt) | 88
+54 | Metaphone.java | String metaphone(String txt) | 88
+55 | Metaphone.java | String metaphone(String txt) | 88
+56 | Metaphone.java | String metaphone(String txt) | 88
+57 | Metaphone.java | String metaphone(String txt) | 88
+58 | Metaphone.java | String metaphone(String txt) | 88
+59 | Metaphone.java | String metaphone(String txt) | 88
+60 | Metaphone.java | String metaphone(String txt) | 88
+61 | Metaphone.java | String metaphone(String txt) | 88
+62 | Metaphone.java | String metaphone(String txt) | 88
+63 | Metaphone.java | String metaphone(String txt) | 88
+64 | Metaphone.java | String metaphone(String txt) | 88
+65 | Metaphone.java | String metaphone(String txt) | 88
+66 | Metaphone.java | String metaphone(String txt) | 88
+67 | Metaphone.java | String metaphone(String txt) | 88
+68 | Metaphone.java | String metaphone(String txt) | 88
+69 | Metaphone.java | String metaphone(String txt) | 91
+70 | Metaphone.java | String metaphone(String txt) | 91
+71 | Metaphone.java | String metaphone(String txt) | 91
+72 | Metaphone.java | String metaphone(String txt) | 91
+73 | Metaphone.java | String metaphone(String txt) | 91
+74 | Metaphone.java | String metaphone(String txt) | 91
+75 | Metaphone.java | String metaphone(String txt) | 91
+76 | Metaphone.java | String metaphone(String txt) | 91
+77 | Metaphone.java | String metaphone(String txt) | 91
+78 | Metaphone.java | String metaphone(String txt) | 91
+79 | Metaphone.java | String metaphone(String txt) | 91
+80 | Metaphone.java | String metaphone(String txt) | 91
+81 | Metaphone.java | String metaphone(String txt) | 91
+82 | Metaphone.java | String metaphone(String txt) | 91
+83 | Metaphone.java | String metaphone(String txt) | 91
+84 | Metaphone.java | String metaphone(String txt) | 91
+85 | Metaphone.java | String metaphone(String txt) | 91
+86 | Metaphone.java | String metaphone(String txt) | 91
+87 | Metaphone.java | String metaphone(String txt) | 91
+88 | Metaphone.java | String metaphone(String txt) | 91
+89 | Metaphone.java | String metaphone(String txt) | 91
+90 | Metaphone.java | String metaphone(String txt) | 91
+91 | Metaphone.java | String metaphone(String txt) | 91
+92 | Metaphone.java | String metaphone(String txt) | 91
+93 | Metaphone.java | String metaphone(String txt) | 91
+94 | Metaphone.java | String metaphone(String txt) | 93
+95 | Metaphone.java | String metaphone(String txt) | 93
+96 | Metaphone.java | String metaphone(String txt) | 93
+97 | Metaphone.java | String metaphone(String txt) | 93
+98 | Metaphone.java | String metaphone(String txt) | 93
+99 | Metaphone.java | String metaphone(String txt) | 94
+100 | Metaphone.java | String metaphone(String txt) | 94
+101 | Metaphone.java | String metaphone(String txt) | 94
+102 | Metaphone.java | String metaphone(String txt) | 94
+103 | Metaphone.java | String metaphone(String txt) | 94
+104 | Metaphone.java | String metaphone(String txt) | 96
+105 | Metaphone.java | String metaphone(String txt) | 96
+106 | Metaphone.java | String metaphone(String txt) | 96
+107 | Metaphone.java | String metaphone(String txt) | 96
+108 | Metaphone.java | String metaphone(String txt) | 96
+109 | Metaphone.java | String metaphone(String txt) | 96
+110 | Metaphone.java | String metaphone(String txt) | 96
+111 | Metaphone.java | String metaphone(String txt) | 96
+112 | Metaphone.java | String metaphone(String txt) | 96
+113 | Metaphone.java | String metaphone(String txt) | 96
+114 | Metaphone.java | String metaphone(String txt) | 96
+115 | Metaphone.java | String metaphone(String txt) | 96
+116 | Metaphone.java | String metaphone(String txt) | 96
+117 | Metaphone.java | String metaphone(String txt) | 97
+118 | Metaphone.java | String metaphone(String txt) | 97
+119 | Metaphone.java | String metaphone(String txt) | 97
+120 | Metaphone.java | String metaphone(String txt) | 97
+121 | Metaphone.java | String metaphone(String txt) | 97
+122 | Metaphone.java | String metaphone(String txt) | 98
+123 | Metaphone.java | String metaphone(String txt) | 98
+124 | Metaphone.java | String metaphone(String txt) | 98
+125 | Metaphone.java | String metaphone(String txt) | 98
+126 | Metaphone.java | String metaphone(String txt) | 98
+127 | Metaphone.java | String metaphone(String txt) | 99
+128 | Metaphone.java | String metaphone(String txt) | 99
+129 | Metaphone.java | String metaphone(String txt) | 99
+130 | Metaphone.java | String metaphone(String txt) | 99
+131 | Metaphone.java | String metaphone(String txt) | 99
+132 | Metaphone.java | String metaphone(String txt) | 100
+133 | Metaphone.java | String metaphone(String txt) | 100
+134 | Metaphone.java | String metaphone(String txt) | 100
+135 | Metaphone.java | String metaphone(String txt) | 100
+136 | Metaphone.java | String metaphone(String txt) | 100
+137 | Metaphone.java | String metaphone(String txt) | 100
+138 | Metaphone.java | String metaphone(String txt) | 100
+139 | Metaphone.java | String metaphone(String txt) | 100
+140 | Metaphone.java | String metaphone(String txt) | 100
+141 | Metaphone.java | String metaphone(String txt) | 100
+142 | Metaphone.java | String metaphone(String txt) | 100
+143 | Metaphone.java | String metaphone(String txt) | 100
+144 | Metaphone.java | String metaphone(String txt) | 100
+145 | Metaphone.java | String metaphone(String txt) | 100
+146 | Metaphone.java | String metaphone(String txt) | 100
+147 | Metaphone.java | String metaphone(String txt) | 100
+148 | Metaphone.java | String metaphone(String txt) | 100
+149 | Metaphone.java | String metaphone(String txt) | 100
+150 | Metaphone.java | String metaphone(String txt) | 100
+151 | Metaphone.java | String metaphone(String txt) | 100
+152 | Metaphone.java | String metaphone(String txt) | 100
+153 | Metaphone.java | String metaphone(String txt) | 101
+154 | Metaphone.java | String metaphone(String txt) | 101
+155 | Metaphone.java | String metaphone(String txt) | 101
+156 | Metaphone.java | String metaphone(String txt) | 101
+157 | Metaphone.java | String metaphone(String txt) | 101
+158 | Metaphone.java | String metaphone(String txt) | 101
+159 | Metaphone.java | String metaphone(String txt) | 101
+160 | Metaphone.java | String metaphone(String txt) | 101
+161 | Metaphone.java | String metaphone(String txt) | 101
+162 | Metaphone.java | String metaphone(String txt) | 101
+163 | Metaphone.java | String metaphone(String txt) | 101
+164 | Metaphone.java | String metaphone(String txt) | 101
+165 | Metaphone.java | String metaphone(String txt) | 101
+166 | Metaphone.java | String metaphone(String txt) | 101
+167 | Metaphone.java | String metaphone(String txt) | 101
+168 | Metaphone.java | String metaphone(String txt) | 101
+169 | Metaphone.java | String metaphone(String txt) | 101
+170 | Metaphone.java | String metaphone(String txt) | 101
+171 | Metaphone.java | String metaphone(String txt) | 101
+172 | Metaphone.java | String metaphone(String txt) | 101
+173 | Metaphone.java | String metaphone(String txt) | 101
+174 | Metaphone.java | String metaphone(String txt) | 101
+175 | Metaphone.java | String metaphone(String txt) | 101
+176 | Metaphone.java | String metaphone(String txt) | 101
+177 | Metaphone.java | String metaphone(String txt) | 101
+178 | Metaphone.java | String metaphone(String txt) | 101
+179 | Metaphone.java | String metaphone(String txt) | 101
+180 | Metaphone.java | String metaphone(String txt) | 101
+181 | Metaphone.java | String metaphone(String txt) | 101
+182 | Metaphone.java | String metaphone(String txt) | 101
+183 | Metaphone.java | String metaphone(String txt) | 101
+184 | Metaphone.java | String metaphone(String txt) | 101
+185 | Metaphone.java | String metaphone(String txt) | 101
+186 | Metaphone.java | String metaphone(String txt) | 101
+187 | Metaphone.java | String metaphone(String txt) | 103
+188 | Metaphone.java | String metaphone(String txt) | 103
+189 | Metaphone.java | String metaphone(String txt) | 103
+190 | Metaphone.java | String metaphone(String txt) | 103
+191 | Metaphone.java | String metaphone(String txt) | 103
+192 | Metaphone.java | String metaphone(String txt) | 103
+193 | Metaphone.java | String metaphone(String txt) | 103
+194 | Metaphone.java | String metaphone(String txt) | 103
+195 | Metaphone.java | String metaphone(String txt) | 103
+196 | Metaphone.java | String metaphone(String txt) | 103
+197 | Metaphone.java | String metaphone(String txt) | 103
+198 | Metaphone.java | String metaphone(String txt) | 103
+199 | Metaphone.java | String metaphone(String txt) | 106
+200 | Metaphone.java | String metaphone(String txt) | 106
+201 | Metaphone.java | String metaphone(String txt) | 106
+202 | Metaphone.java | String metaphone(String txt) | 106
+203 | Metaphone.java | String metaphone(String txt) | 106
+204 | Metaphone.java | String metaphone(String txt) | 107
+205 | Metaphone.java | String metaphone(String txt) | 107
+206 | Metaphone.java | String metaphone(String txt) | 107
+207 | Metaphone.java | String metaphone(String txt) | 107
+208 | Metaphone.java | String metaphone(String txt) | 107
+209 | Metaphone.java | String metaphone(String txt) | 107
+210 | Metaphone.java | String metaphone(String txt) | 107
+211 | Metaphone.java | String metaphone(String txt) | 107
+212 | Metaphone.java | String metaphone(String txt) | 107
+213 | Metaphone.java | String metaphone(String txt) | 107
+214 | Metaphone.java | String metaphone(String txt) | 107
+215 | Metaphone.java | String metaphone(String txt) | 107
+216 | Metaphone.java | String metaphone(String txt) | 107
+217 | Metaphone.java | String metaphone(String txt) | 107
+218 | Metaphone.java | String metaphone(String txt) | 107
+219 | Metaphone.java | String metaphone(String txt) | 107
+220 | Metaphone.java | String metaphone(String txt) | 107
+221 | Metaphone.java | String metaphone(String txt) | 107
+222 | Metaphone.java | String metaphone(String txt) | 107
+223 | Metaphone.java | String metaphone(String txt) | 107
+224 | Metaphone.java | String metaphone(String txt) | 107
+225 | Metaphone.java | String metaphone(String txt) | 108
+226 | Metaphone.java | String metaphone(String txt) | 108
+227 | Metaphone.java | String metaphone(String txt) | 108
+228 | Metaphone.java | String metaphone(String txt) | 108
+229 | Metaphone.java | String metaphone(String txt) | 108
+230 | Metaphone.java | String metaphone(String txt) | 108
+231 | Metaphone.java | String metaphone(String txt) | 108
+232 | Metaphone.java | String metaphone(String txt) | 108
+233 | Metaphone.java | String metaphone(String txt) | 108
+234 | Metaphone.java | String metaphone(String txt) | 108
+235 | Metaphone.java | String metaphone(String txt) | 108
+236 | Metaphone.java | String metaphone(String txt) | 108
+237 | Metaphone.java | String metaphone(String txt) | 108
+238 | Metaphone.java | String metaphone(String txt) | 108
+239 | Metaphone.java | String metaphone(String txt) | 108
+240 | Metaphone.java | String metaphone(String txt) | 108
+241 | Metaphone.java | String metaphone(String txt) | 108
+242 | Metaphone.java | String metaphone(String txt) | 108
+243 | Metaphone.java | String metaphone(String txt) | 108
+244 | Metaphone.java | String metaphone(String txt) | 108
+245 | Metaphone.java | String metaphone(String txt) | 108
+246 | Metaphone.java | String metaphone(String txt) | 108
+247 | Metaphone.java | String metaphone(String txt) | 108
+248 | Metaphone.java | String metaphone(String txt) | 108
+249 | Metaphone.java | String metaphone(String txt) | 108
+250 | Metaphone.java | String metaphone(String txt) | 108
+251 | Metaphone.java | String metaphone(String txt) | 108
+252 | Metaphone.java | String metaphone(String txt) | 108
+253 | Metaphone.java | String metaphone(String txt) | 108
+254 | Metaphone.java | String metaphone(String txt) | 108
+255 | Metaphone.java | String metaphone(String txt) | 108
+256 | Metaphone.java | String metaphone(String txt) | 108
+257 | Metaphone.java | String metaphone(String txt) | 108
+258 | Metaphone.java | String metaphone(String txt) | 108
+259 | Metaphone.java | String metaphone(String txt) | 110
+260 | Metaphone.java | String metaphone(String txt) | 110
+261 | Metaphone.java | String metaphone(String txt) | 110
+262 | Metaphone.java | String metaphone(String txt) | 110
+263 | Metaphone.java | String metaphone(String txt) | 110
+264 | Metaphone.java | String metaphone(String txt) | 110
+265 | Metaphone.java | String metaphone(String txt) | 110
+266 | Metaphone.java | String metaphone(String txt) | 110
+267 | Metaphone.java | String metaphone(String txt) | 110
+268 | Metaphone.java | String metaphone(String txt) | 110
+269 | Metaphone.java | String metaphone(String txt) | 110
+270 | Metaphone.java | String metaphone(String txt) | 110
+271 | Metaphone.java | String metaphone(String txt) | 113
+272 | Metaphone.java | String metaphone(String txt) | 113
+273 | Metaphone.java | String metaphone(String txt) | 113
+274 | Metaphone.java | String metaphone(String txt) | 113
+275 | Metaphone.java | String metaphone(String txt) | 113
+276 | Metaphone.java | String metaphone(String txt) | 114
+277 | Metaphone.java | String metaphone(String txt) | 114
+278 | Metaphone.java | String metaphone(String txt) | 114
+279 | Metaphone.java | String metaphone(String txt) | 114
+280 | Metaphone.java | String metaphone(String txt) | 114
+281 | Metaphone.java | String metaphone(String txt) | 114
+282 | Metaphone.java | String metaphone(String txt) | 114
+283 | Metaphone.java | String metaphone(String txt) | 114
+284 | Metaphone.java | String metaphone(String txt) | 114
+285 | Metaphone.java | String metaphone(String txt) | 114
+286 | Metaphone.java | String metaphone(String txt) | 114
+287 | Metaphone.java | String metaphone(String txt) | 114
+288 | Metaphone.java | String metaphone(String txt) | 114
+289 | Metaphone.java | String metaphone(String txt) | 114
+290 | Metaphone.java | String metaphone(String txt) | 114
+291 | Metaphone.java | String metaphone(String txt) | 114
+292 | Metaphone.java | String metaphone(String txt) | 114
+293 | Metaphone.java | String metaphone(String txt) | 114
+294 | Metaphone.java | String metaphone(String txt) | 114
+295 | Metaphone.java | String metaphone(String txt) | 114
+296 | Metaphone.java | String metaphone(String txt) | 114
+297 | Metaphone.java | String metaphone(String txt) | 115
+298 | Metaphone.java | String metaphone(String txt) | 115
+299 | Metaphone.java | String metaphone(String txt) | 115
+300 | Metaphone.java | String metaphone(String txt) | 115
+301 | Metaphone.java | String metaphone(String txt) | 115
+302 | Metaphone.java | String metaphone(String txt) | 115
+303 | Metaphone.java | String metaphone(String txt) | 115
+304 | Metaphone.java | String metaphone(String txt) | 115
+305 | Metaphone.java | String metaphone(String txt) | 115
+306 | Metaphone.java | String metaphone(String txt) | 115
+307 | Metaphone.java | String metaphone(String txt) | 115
+308 | Metaphone.java | String metaphone(String txt) | 115
+309 | Metaphone.java | String metaphone(String txt) | 115
+310 | Metaphone.java | String metaphone(String txt) | 115
+311 | Metaphone.java | String metaphone(String txt) | 115
+312 | Metaphone.java | String metaphone(String txt) | 115
+313 | Metaphone.java | String metaphone(String txt) | 115
+314 | Metaphone.java | String metaphone(String txt) | 115
+315 | Metaphone.java | String metaphone(String txt) | 115
+316 | Metaphone.java | String metaphone(String txt) | 115
+317 | Metaphone.java | String metaphone(String txt) | 115
+318 | Metaphone.java | String metaphone(String txt) | 115
+319 | Metaphone.java | String metaphone(String txt) | 115
+320 | Metaphone.java | String metaphone(String txt) | 115
+321 | Metaphone.java | String metaphone(String txt) | 115
+322 | Metaphone.java | String metaphone(String txt) | 115
+323 | Metaphone.java | String metaphone(String txt) | 115
+324 | Metaphone.java | String metaphone(String txt) | 115
+325 | Metaphone.java | String metaphone(String txt) | 115
+326 | Metaphone.java | String metaphone(String txt) | 115
+327 | Metaphone.java | String metaphone(String txt) | 115
+328 | Metaphone.java | String metaphone(String txt) | 115
+329 | Metaphone.java | String metaphone(String txt) | 115
+330 | Metaphone.java | String metaphone(String txt) | 115
+331 | Metaphone.java | String metaphone(String txt) | 118
+332 | Metaphone.java | String metaphone(String txt) | 118
+333 | Metaphone.java | String metaphone(String txt) | 118
+334 | Metaphone.java | String metaphone(String txt) | 118
+335 | Metaphone.java | String metaphone(String txt) | 118
+336 | Metaphone.java | String metaphone(String txt) | 118
+337 | Metaphone.java | String metaphone(String txt) | 118
+338 | Metaphone.java | String metaphone(String txt) | 118
+339 | Metaphone.java | String metaphone(String txt) | 118
+340 | Metaphone.java | String metaphone(String txt) | 118
+341 | Metaphone.java | String metaphone(String txt) | 118
+342 | Metaphone.java | String metaphone(String txt) | 118
+343 | Metaphone.java | String metaphone(String txt) | 118
+344 | Metaphone.java | String metaphone(String txt) | 118
+345 | Metaphone.java | String metaphone(String txt) | 118
+346 | Metaphone.java | String metaphone(String txt) | 118
+347 | Metaphone.java | String metaphone(String txt) | 118
+348 | Metaphone.java | String metaphone(String txt) | 118
+349 | Metaphone.java | String metaphone(String txt) | 118
+350 | Metaphone.java | String metaphone(String txt) | 118
+351 | Metaphone.java | String metaphone(String txt) | 118
+352 | Metaphone.java | String metaphone(String txt) | 119
+353 | Metaphone.java | String metaphone(String txt) | 119
+354 | Metaphone.java | String metaphone(String txt) | 119
+355 | Metaphone.java | String metaphone(String txt) | 119
+356 | Metaphone.java | String metaphone(String txt) | 119
+357 | Metaphone.java | String metaphone(String txt) | 119
+358 | Metaphone.java | String metaphone(String txt) | 119
+359 | Metaphone.java | String metaphone(String txt) | 119
+360 | Metaphone.java | String metaphone(String txt) | 119
+361 | Metaphone.java | String metaphone(String txt) | 119
+362 | Metaphone.java | String metaphone(String txt) | 119
+363 | Metaphone.java | String metaphone(String txt) | 119
+364 | Metaphone.java | String metaphone(String txt) | 119
+365 | Metaphone.java | String metaphone(String txt) | 119
+366 | Metaphone.java | String metaphone(String txt) | 119
+367 | Metaphone.java | String metaphone(String txt) | 119
+368 | Metaphone.java | String metaphone(String txt) | 119
+369 | Metaphone.java | String metaphone(String txt) | 119
+370 | Metaphone.java | String metaphone(String txt) | 119
+371 | Metaphone.java | String metaphone(String txt) | 119
+372 | Metaphone.java | String metaphone(String txt) | 119
+373 | Metaphone.java | String metaphone(String txt) | 119
+374 | Metaphone.java | String metaphone(String txt) | 119
+375 | Metaphone.java | String metaphone(String txt) | 119
+376 | Metaphone.java | String metaphone(String txt) | 119
+377 | Metaphone.java | String metaphone(String txt) | 119
+378 | Metaphone.java | String metaphone(String txt) | 119
+379 | Metaphone.java | String metaphone(String txt) | 119
+380 | Metaphone.java | String metaphone(String txt) | 119
+381 | Metaphone.java | String metaphone(String txt) | 119
+382 | Metaphone.java | String metaphone(String txt) | 119
+383 | Metaphone.java | String metaphone(String txt) | 119
+384 | Metaphone.java | String metaphone(String txt) | 119
+385 | Metaphone.java | String metaphone(String txt) | 119
+386 | Metaphone.java | String metaphone(String txt) | 120
+387 | Metaphone.java | String metaphone(String txt) | 120
+388 | Metaphone.java | String metaphone(String txt) | 120
+389 | Metaphone.java | String metaphone(String txt) | 120
+390 | Metaphone.java | String metaphone(String txt) | 120
+391 | Metaphone.java | String metaphone(String txt) | 120
+392 | Metaphone.java | String metaphone(String txt) | 120
+393 | Metaphone.java | String metaphone(String txt) | 120
+394 | Metaphone.java | String metaphone(String txt) | 120
+395 | Metaphone.java | String metaphone(String txt) | 120
+396 | Metaphone.java | String metaphone(String txt) | 120
+397 | Metaphone.java | String metaphone(String txt) | 120
+398 | Metaphone.java | String metaphone(String txt) | 120
+399 | Metaphone.java | String metaphone(String txt) | 120
+400 | Metaphone.java | String metaphone(String txt) | 120
+401 | Metaphone.java | String metaphone(String txt) | 120
+402 | Metaphone.java | String metaphone(String txt) | 120
+403 | Metaphone.java | String metaphone(String txt) | 122
+404 | Metaphone.java | String metaphone(String txt) | 122
+405 | Metaphone.java | String metaphone(String txt) | 122
+406 | Metaphone.java | String metaphone(String txt) | 122
+407 | Metaphone.java | String metaphone(String txt) | 122
+408 | Metaphone.java | String metaphone(String txt) | 122
+409 | Metaphone.java | String metaphone(String txt) | 122
+410 | Metaphone.java | String metaphone(String txt) | 122
+411 | Metaphone.java | String metaphone(String txt) | 122
+412 | Metaphone.java | String metaphone(String txt) | 122
+413 | Metaphone.java | String metaphone(String txt) | 122
+414 | Metaphone.java | String metaphone(String txt) | 122
+415 | Metaphone.java | String metaphone(String txt) | 125
+416 | Metaphone.java | String metaphone(String txt) | 125
+417 | Metaphone.java | String metaphone(String txt) | 125
+418 | Metaphone.java | String metaphone(String txt) | 125
+419 | Metaphone.java | String metaphone(String txt) | 125
+420 | Metaphone.java | String metaphone(String txt) | 126
+421 | Metaphone.java | String metaphone(String txt) | 126
+422 | Metaphone.java | String metaphone(String txt) | 126
+423 | Metaphone.java | String metaphone(String txt) | 126
+424 | Metaphone.java | String metaphone(String txt) | 126
+425 | Metaphone.java | String metaphone(String txt) | 126
+426 | Metaphone.java | String metaphone(String txt) | 126
+427 | Metaphone.java | String metaphone(String txt) | 126
+428 | Metaphone.java | String metaphone(String txt) | 126
+429 | Metaphone.java | String metaphone(String txt) | 126
+430 | Metaphone.java | String metaphone(String txt) | 126
+431 | Metaphone.java | String metaphone(String txt) | 126
+432 | Metaphone.java | String metaphone(String txt) | 126
+433 | Metaphone.java | String metaphone(String txt) | 126
+434 | Metaphone.java | String metaphone(String txt) | 126
+435 | Metaphone.java | String metaphone(String txt) | 126
+436 | Metaphone.java | String metaphone(String txt) | 126
+437 | Metaphone.java | String metaphone(String txt) | 126
+438 | Metaphone.java | String metaphone(String txt) | 126
+439 | Metaphone.java | String metaphone(String txt) | 126
+440 | Metaphone.java | String metaphone(String txt) | 126
+441 | Metaphone.java | String metaphone(String txt) | 126
+442 | Metaphone.java | String metaphone(String txt) | 126
+443 | Metaphone.java | String metaphone(String txt) | 127
+444 | Metaphone.java | String metaphone(String txt) | 127
+445 | Metaphone.java | String metaphone(String txt) | 127
+446 | Metaphone.java | String metaphone(String txt) | 127
+447 | Metaphone.java | String metaphone(String txt) | 127
+448 | Metaphone.java | String metaphone(String txt) | 127
+449 | Metaphone.java | String metaphone(String txt) | 127
+450 | Metaphone.java | String metaphone(String txt) | 127
+451 | Metaphone.java | String metaphone(String txt) | 127
+452 | Metaphone.java | String metaphone(String txt) | 127
+453 | Metaphone.java | String metaphone(String txt) | 127
+454 | Metaphone.java | String metaphone(String txt) | 127
+455 | Metaphone.java | String metaphone(String txt) | 130
+456 | Metaphone.java | String metaphone(String txt) | 130
+457 | Metaphone.java | String metaphone(String txt) | 130
+458 | Metaphone.java | String metaphone(String txt) | 130
+459 | Metaphone.java | String metaphone(String txt) | 130
+460 | Metaphone.java | String metaphone(String txt) | 130
+461 | Metaphone.java | String metaphone(String txt) | 130
+462 | Metaphone.java | String metaphone(String txt) | 130
+463 | Metaphone.java | String metaphone(String txt) | 130
+464 | Metaphone.java | String metaphone(String txt) | 130
+465 | Metaphone.java | String metaphone(String txt) | 130
+466 | Metaphone.java | String metaphone(String txt) | 130
+467 | Metaphone.java | String metaphone(String txt) | 130
+468 | Metaphone.java | String metaphone(String txt) | 133
+469 | Metaphone.java | String metaphone(String txt) | 133
+470 | Metaphone.java | String metaphone(String txt) | 133
+471 | Metaphone.java | String metaphone(String txt) | 133
+472 | Metaphone.java | String metaphone(String txt) | 133
+473 | Metaphone.java | String metaphone(String txt) | 133
+474 | Metaphone.java | String metaphone(String txt) | 133
+475 | Metaphone.java | String metaphone(String txt) | 133
+476 | Metaphone.java | String metaphone(String txt) | 134
+477 | Metaphone.java | String metaphone(String txt) | 134
+478 | Metaphone.java | String metaphone(String txt) | 134
+479 | Metaphone.java | String metaphone(String txt) | 134
+480 | Metaphone.java | String metaphone(String txt) | 136
+481 | Metaphone.java | String metaphone(String txt) | 136
+482 | Metaphone.java | String metaphone(String txt) | 136
+483 | Metaphone.java | String metaphone(String txt) | 136
+484 | Metaphone.java | String metaphone(String txt) | 136
+485 | Metaphone.java | String metaphone(String txt) | 136
+486 | Metaphone.java | String metaphone(String txt) | 136
+487 | Metaphone.java | String metaphone(String txt) | 136
+488 | Metaphone.java | String metaphone(String txt) | 136
+489 | Metaphone.java | String metaphone(String txt) | 136
+490 | Metaphone.java | String metaphone(String txt) | 136
+491 | Metaphone.java | String metaphone(String txt) | 136
+492 | Metaphone.java | String metaphone(String txt) | 136
+493 | Metaphone.java | String metaphone(String txt) | 136
+494 | Metaphone.java | String metaphone(String txt) | 136
+495 | Metaphone.java | String metaphone(String txt) | 136
+496 | Metaphone.java | String metaphone(String txt) | 136
+497 | Metaphone.java | String metaphone(String txt) | 136
+498 | Metaphone.java | String metaphone(String txt) | 136
+499 | Metaphone.java | String metaphone(String txt) | 136
+500 | Metaphone.java | String metaphone(String txt) | 136
+501 | Metaphone.java | String metaphone(String txt) | 136
+502 | Metaphone.java | String metaphone(String txt) | 137
+503 | Metaphone.java | String metaphone(String txt) | 137
+504 | Metaphone.java | String metaphone(String txt) | 137
+505 | Metaphone.java | String metaphone(String txt) | 137
+506 | Metaphone.java | String metaphone(String txt) | 137
+507 | Metaphone.java | String metaphone(String txt) | 137
+508 | Metaphone.java | String metaphone(String txt) | 137
+509 | Metaphone.java | String metaphone(String txt) | 137
+510 | Metaphone.java | String metaphone(String txt) | 137
+511 | Metaphone.java | String metaphone(String txt) | 137
+512 | Metaphone.java | String metaphone(String txt) | 137
+513 | Metaphone.java | String metaphone(String txt) | 138
+514 | Metaphone.java | String metaphone(String txt) | 138
+515 | Metaphone.java | String metaphone(String txt) | 138
+516 | Metaphone.java | String metaphone(String txt) | 138
+517 | Metaphone.java | String metaphone(String txt) | 138
+518 | Metaphone.java | String metaphone(String txt) | 138
+519 | Metaphone.java | String metaphone(String txt) | 138
+520 | Metaphone.java | String metaphone(String txt) | 138
+521 | Metaphone.java | String metaphone(String txt) | 138
+522 | Metaphone.java | String metaphone(String txt) | 138
+523 | Metaphone.java | String metaphone(String txt) | 138
+524 | Metaphone.java | String metaphone(String txt) | 138
+525 | Metaphone.java | String metaphone(String txt) | 140
+526 | Metaphone.java | String metaphone(String txt) | 140
+527 | Metaphone.java | String metaphone(String txt) | 140
+528 | Metaphone.java | String metaphone(String txt) | 140
+529 | Metaphone.java | String metaphone(String txt) | 140
+530 | Metaphone.java | String metaphone(String txt) | 140
+531 | Metaphone.java | String metaphone(String txt) | 140
+532 | Metaphone.java | String metaphone(String txt) | 140
+533 | Metaphone.java | String metaphone(String txt) | 140
+534 | Metaphone.java | String metaphone(String txt) | 140
+535 | Metaphone.java | String metaphone(String txt) | 140
+536 | Metaphone.java | String metaphone(String txt) | 140
+537 | Metaphone.java | String metaphone(String txt) | 140
+538 | Metaphone.java | String metaphone(String txt) | 140
+539 | Metaphone.java | String metaphone(String txt) | 140
+540 | Metaphone.java | String metaphone(String txt) | 140
+541 | Metaphone.java | String metaphone(String txt) | 140
+542 | Metaphone.java | String metaphone(String txt) | 140
+543 | Metaphone.java | String metaphone(String txt) | 140
+544 | Metaphone.java | String metaphone(String txt) | 140
+545 | Metaphone.java | String metaphone(String txt) | 140
+546 | Metaphone.java | String metaphone(String txt) | 140
+547 | Metaphone.java | String metaphone(String txt) | 140
+548 | Metaphone.java | String metaphone(String txt) | 140
+549 | Metaphone.java | String metaphone(String txt) | 140
+550 | Metaphone.java | String metaphone(String txt) | 140
+551 | Metaphone.java | String metaphone(String txt) | 140
+552 | Metaphone.java | String metaphone(String txt) | 140
+553 | Metaphone.java | String metaphone(String txt) | 140
+554 | Metaphone.java | String metaphone(String txt) | 140
+555 | Metaphone.java | String metaphone(String txt) | 140
+556 | Metaphone.java | String metaphone(String txt) | 140
+557 | Metaphone.java | String metaphone(String txt) | 140
+558 | Metaphone.java | String metaphone(String txt) | 141
+559 | Metaphone.java | String metaphone(String txt) | 141
+560 | Metaphone.java | String metaphone(String txt) | 141
+561 | Metaphone.java | String metaphone(String txt) | 141
+562 | Metaphone.java | String metaphone(String txt) | 141
+563 | Metaphone.java | String metaphone(String txt) | 141
+564 | Metaphone.java | String metaphone(String txt) | 143
+565 | Metaphone.java | String metaphone(String txt) | 143
+566 | Metaphone.java | String metaphone(String txt) | 143
+567 | Metaphone.java | String metaphone(String txt) | 143
+568 | Metaphone.java | String metaphone(String txt) | 143
+569 | Metaphone.java | String metaphone(String txt) | 144
+570 | Metaphone.java | String metaphone(String txt) | 144
+571 | Metaphone.java | String metaphone(String txt) | 144
+572 | Metaphone.java | String metaphone(String txt) | 144
+573 | Metaphone.java | String metaphone(String txt) | 144
+574 | Metaphone.java | String metaphone(String txt) | 144
+575 | Metaphone.java | String metaphone(String txt) | 144
+576 | Metaphone.java | String metaphone(String txt) | 144
+577 | Metaphone.java | String metaphone(String txt) | 144
+578 | Metaphone.java | String metaphone(String txt) | 144
+579 | Metaphone.java | String metaphone(String txt) | 144
+580 | Metaphone.java | String metaphone(String txt) | 144
+581 | Metaphone.java | String metaphone(String txt) | 144
+582 | Metaphone.java | String metaphone(String txt) | 144
+583 | Metaphone.java | String metaphone(String txt) | 144
+584 | Metaphone.java | String metaphone(String txt) | 144
+585 | Metaphone.java | String metaphone(String txt) | 144
+586 | Metaphone.java | String metaphone(String txt) | 144
+587 | Metaphone.java | String metaphone(String txt) | 144
+588 | Metaphone.java | String metaphone(String txt) | 144
+589 | Metaphone.java | String metaphone(String txt) | 144
+590 | Metaphone.java | String metaphone(String txt) | 144
+591 | Metaphone.java | String metaphone(String txt) | 144
+592 | Metaphone.java | String metaphone(String txt) | 144
+593 | Metaphone.java | String metaphone(String txt) | 144
+594 | Metaphone.java | String metaphone(String txt) | 145
+595 | Metaphone.java | String metaphone(String txt) | 145
+596 | Metaphone.java | String metaphone(String txt) | 145
+597 | Metaphone.java | String metaphone(String txt) | 145
+598 | Metaphone.java | String metaphone(String txt) | 145
+599 | Metaphone.java | String metaphone(String txt) | 145
+600 | Metaphone.java | String metaphone(String txt) | 145
+601 | Metaphone.java | String metaphone(String txt) | 145
+602 | Metaphone.java | String metaphone(String txt) | 145
+603 | Metaphone.java | String metaphone(String txt) | 145
+604 | Metaphone.java | String metaphone(String txt) | 145
+605 | Metaphone.java | String metaphone(String txt) | 146
+606 | Metaphone.java | String metaphone(String txt) | 146
+607 | Metaphone.java | String metaphone(String txt) | 146
+608 | Metaphone.java | String metaphone(String txt) | 146
+609 | Metaphone.java | String metaphone(String txt) | 146
+610 | Metaphone.java | String metaphone(String txt) | 146
+611 | Metaphone.java | String metaphone(String txt) | 146
+612 | Metaphone.java | String metaphone(String txt) | 146
+613 | Metaphone.java | String metaphone(String txt) | 146
+614 | Metaphone.java | String metaphone(String txt) | 146
+615 | Metaphone.java | String metaphone(String txt) | 146
+616 | Metaphone.java | String metaphone(String txt) | 146
+617 | Metaphone.java | String metaphone(String txt) | 149
+618 | Metaphone.java | String metaphone(String txt) | 149
+619 | Metaphone.java | String metaphone(String txt) | 149
+620 | Metaphone.java | String metaphone(String txt) | 149
+621 | Metaphone.java | String metaphone(String txt) | 149
+622 | Metaphone.java | String metaphone(String txt) | 150
+623 | Metaphone.java | String metaphone(String txt) | 150
+624 | Metaphone.java | String metaphone(String txt) | 150
+625 | Metaphone.java | String metaphone(String txt) | 150
+626 | Metaphone.java | String metaphone(String txt) | 150
+627 | Metaphone.java | String metaphone(String txt) | 150
+628 | Metaphone.java | String metaphone(String txt) | 150
+629 | Metaphone.java | String metaphone(String txt) | 150
+630 | Metaphone.java | String metaphone(String txt) | 150
+631 | Metaphone.java | String metaphone(String txt) | 150
+632 | Metaphone.java | String metaphone(String txt) | 150
+633 | Metaphone.java | String metaphone(String txt) | 150
+634 | Metaphone.java | String metaphone(String txt) | 150
+635 | Metaphone.java | String metaphone(String txt) | 150
+636 | Metaphone.java | String metaphone(String txt) | 150
+637 | Metaphone.java | String metaphone(String txt) | 150
+638 | Metaphone.java | String metaphone(String txt) | 150
+639 | Metaphone.java | String metaphone(String txt) | 150
+640 | Metaphone.java | String metaphone(String txt) | 150
+641 | Metaphone.java | String metaphone(String txt) | 150
+642 | Metaphone.java | String metaphone(String txt) | 150
+643 | Metaphone.java | String metaphone(String txt) | 151
+644 | Metaphone.java | String metaphone(String txt) | 151
+645 | Metaphone.java | String metaphone(String txt) | 151
+646 | Metaphone.java | String metaphone(String txt) | 151
+647 | Metaphone.java | String metaphone(String txt) | 151
+648 | Metaphone.java | String metaphone(String txt) | 151
+649 | Metaphone.java | String metaphone(String txt) | 151
+650 | Metaphone.java | String metaphone(String txt) | 151
+651 | Metaphone.java | String metaphone(String txt) | 151
+652 | Metaphone.java | String metaphone(String txt) | 151
+653 | Metaphone.java | String metaphone(String txt) | 151
+654 | Metaphone.java | String metaphone(String txt) | 151
+655 | Metaphone.java | String metaphone(String txt) | 151
+656 | Metaphone.java | String metaphone(String txt) | 151
+657 | Metaphone.java | String metaphone(String txt) | 154
+658 | Metaphone.java | String metaphone(String txt) | 154
+659 | Metaphone.java | String metaphone(String txt) | 154
+660 | Metaphone.java | String metaphone(String txt) | 154
+661 | Metaphone.java | String metaphone(String txt) | 154
+662 | Metaphone.java | String metaphone(String txt) | 154
+663 | Metaphone.java | String metaphone(String txt) | 154
+664 | Metaphone.java | String metaphone(String txt) | 154
+665 | Metaphone.java | String metaphone(String txt) | 154
+666 | Metaphone.java | String metaphone(String txt) | 154
+667 | Metaphone.java | String metaphone(String txt) | 154
+668 | Metaphone.java | String metaphone(String txt) | 154
+669 | Metaphone.java | String metaphone(String txt) | 156
+670 | Metaphone.java | String metaphone(String txt) | 156
+671 | Metaphone.java | String metaphone(String txt) | 156
+672 | Metaphone.java | String metaphone(String txt) | 156
+673 | Metaphone.java | String metaphone(String txt) | 156
+674 | Metaphone.java | String metaphone(String txt) | 159
+675 | Metaphone.java | String metaphone(String txt) | 159
+676 | Metaphone.java | String metaphone(String txt) | 159
+677 | Metaphone.java | String metaphone(String txt) | 158
+678 | Metaphone.java | String metaphone(String txt) | 158
+679 | Metaphone.java | String metaphone(String txt) | 158
+680 | Metaphone.java | String metaphone(String txt) | 158
+681 | Metaphone.java | String metaphone(String txt) | 158
+682 | Metaphone.java | String metaphone(String txt) | 158
+683 | Metaphone.java | String metaphone(String txt) | 158
+684 | Metaphone.java | String metaphone(String txt) | 158
+685 | Metaphone.java | String metaphone(String txt) | 158
+686 | Metaphone.java | String metaphone(String txt) | 158
+687 | Metaphone.java | String metaphone(String txt) | 158
+688 | Metaphone.java | String metaphone(String txt) | 158
+689 | Metaphone.java | String metaphone(String txt) | 158
+690 | Metaphone.java | String metaphone(String txt) | 158
+691 | Metaphone.java | String metaphone(String txt) | 158
+692 | Metaphone.java | String metaphone(String txt) | 158
+693 | Metaphone.java | String metaphone(String txt) | 158
+694 | Metaphone.java | String metaphone(String txt) | 158
+695 | Metaphone.java | String metaphone(String txt) | 158
+696 | Metaphone.java | String metaphone(String txt) | 158
+697 | Metaphone.java | String metaphone(String txt) | 159
+698 | Metaphone.java | String metaphone(String txt) | 159
+699 | Metaphone.java | String metaphone(String txt) | 159
+700 | Metaphone.java | String metaphone(String txt) | 159
+701 | Metaphone.java | String metaphone(String txt) | 159
+702 | Metaphone.java | String metaphone(String txt) | 159
+703 | Metaphone.java | String metaphone(String txt) | 159
+704 | Metaphone.java | String metaphone(String txt) | 159
+705 | Metaphone.java | String metaphone(String txt) | 159
+706 | Metaphone.java | String metaphone(String txt) | 159
+707 | Metaphone.java | String metaphone(String txt) | 159
+708 | Metaphone.java | String metaphone(String txt) | 159
+709 | Metaphone.java | String metaphone(String txt) | 159
+710 | Metaphone.java | String metaphone(String txt) | 159
+711 | Metaphone.java | String metaphone(String txt) | 159
+712 | Metaphone.java | String metaphone(String txt) | 159
+713 | Metaphone.java | String metaphone(String txt) | 159
+714 | Metaphone.java | String metaphone(String txt) | 160
+715 | Metaphone.java | String metaphone(String txt) | 160
+716 | Metaphone.java | String metaphone(String txt) | 160
+717 | Metaphone.java | String metaphone(String txt) | 160
+718 | Metaphone.java | String metaphone(String txt) | 160
+719 | Metaphone.java | String metaphone(String txt) | 160
+720 | Metaphone.java | String metaphone(String txt) | 160
+721 | Metaphone.java | String metaphone(String txt) | 160
+722 | Metaphone.java | String metaphone(String txt) | 160
+723 | Metaphone.java | String metaphone(String txt) | 160
+724 | Metaphone.java | String metaphone(String txt) | 160
+725 | Metaphone.java | String metaphone(String txt) | 160
+726 | Metaphone.java | String metaphone(String txt) | 160
+727 | Metaphone.java | String metaphone(String txt) | 160
+728 | Metaphone.java | String metaphone(String txt) | 160
+729 | Metaphone.java | String metaphone(String txt) | 160
+730 | Metaphone.java | String metaphone(String txt) | 160
+731 | Metaphone.java | String metaphone(String txt) | 160
+732 | Metaphone.java | String metaphone(String txt) | 160
+733 | Metaphone.java | String metaphone(String txt) | 160
+734 | Metaphone.java | String metaphone(String txt) | 160
+735 | Metaphone.java | String metaphone(String txt) | 160
+736 | Metaphone.java | String metaphone(String txt) | 160
+737 | Metaphone.java | String metaphone(String txt) | 160
+738 | Metaphone.java | String metaphone(String txt) | 160
+739 | Metaphone.java | String metaphone(String txt) | 160
+740 | Metaphone.java | String metaphone(String txt) | 160
+741 | Metaphone.java | String metaphone(String txt) | 160
+742 | Metaphone.java | String metaphone(String txt) | 160
+743 | Metaphone.java | String metaphone(String txt) | 160
+744 | Metaphone.java | String metaphone(String txt) | 160
+745 | Metaphone.java | String metaphone(String txt) | 160
+746 | Metaphone.java | String metaphone(String txt) | 160
+747 | Metaphone.java | String metaphone(String txt) | 160
+748 | Metaphone.java | String metaphone(String txt) | 160
+749 | Metaphone.java | String metaphone(String txt) | 160
+750 | Metaphone.java | String metaphone(String txt) | 160
+751 | Metaphone.java | String metaphone(String txt) | 160
+752 | Metaphone.java | String metaphone(String txt) | 160
+753 | Metaphone.java | String metaphone(String txt) | 160
+754 | Metaphone.java | String metaphone(String txt) | 160
+755 | Metaphone.java | String metaphone(String txt) | 163
+756 | Metaphone.java | String metaphone(String txt) | 163
+757 | Metaphone.java | String metaphone(String txt) | 163
+758 | Metaphone.java | String metaphone(String txt) | 163
+759 | Metaphone.java | String metaphone(String txt) | 163
+760 | Metaphone.java | String metaphone(String txt) | 163
+761 | Metaphone.java | String metaphone(String txt) | 163
+762 | Metaphone.java | String metaphone(String txt) | 163
+763 | Metaphone.java | String metaphone(String txt) | 163
+764 | Metaphone.java | String metaphone(String txt) | 163
+765 | Metaphone.java | String metaphone(String txt) | 163
+766 | Metaphone.java | String metaphone(String txt) | 163
+767 | Metaphone.java | String metaphone(String txt) | 163
+768 | Metaphone.java | String metaphone(String txt) | 163
+769 | Metaphone.java | String metaphone(String txt) | 163
+770 | Metaphone.java | String metaphone(String txt) | 163
+771 | Metaphone.java | String metaphone(String txt) | 163
+772 | Metaphone.java | String metaphone(String txt) | 164
+773 | Metaphone.java | String metaphone(String txt) | 164
+774 | Metaphone.java | String metaphone(String txt) | 164
+775 | Metaphone.java | String metaphone(String txt) | 164
+776 | Metaphone.java | String metaphone(String txt) | 164
+777 | Metaphone.java | String metaphone(String txt) | 164
+778 | Metaphone.java | String metaphone(String txt) | 164
+779 | Metaphone.java | String metaphone(String txt) | 164
+780 | Metaphone.java | String metaphone(String txt) | 164
+781 | Metaphone.java | String metaphone(String txt) | 164
+782 | Metaphone.java | String metaphone(String txt) | 164
+783 | Metaphone.java | String metaphone(String txt) | 164
+784 | Metaphone.java | String metaphone(String txt) | 164
+785 | Metaphone.java | String metaphone(String txt) | 167
+786 | Metaphone.java | String metaphone(String txt) | 167
+787 | Metaphone.java | String metaphone(String txt) | 167
+788 | Metaphone.java | String metaphone(String txt) | 167
+789 | Metaphone.java | String metaphone(String txt) | 167
+790 | Metaphone.java | String metaphone(String txt) | 167
+791 | Metaphone.java | String metaphone(String txt) | 167
+792 | Metaphone.java | String metaphone(String txt) | 167
+793 | Metaphone.java | String metaphone(String txt) | 167
+794 | Metaphone.java | String metaphone(String txt) | 167
+795 | Metaphone.java | String metaphone(String txt) | 167
+796 | Metaphone.java | String metaphone(String txt) | 167
+797 | Metaphone.java | String metaphone(String txt) | 167
+798 | Metaphone.java | String metaphone(String txt) | 167
+799 | Metaphone.java | String metaphone(String txt) | 167
+800 | Metaphone.java | String metaphone(String txt) | 167
+801 | Metaphone.java | String metaphone(String txt) | 167
+802 | Metaphone.java | String metaphone(String txt) | 167
+803 | Metaphone.java | String metaphone(String txt) | 167
+804 | Metaphone.java | String metaphone(String txt) | 168
+805 | Metaphone.java | String metaphone(String txt) | 168
+806 | Metaphone.java | String metaphone(String txt) | 168
+807 | Metaphone.java | String metaphone(String txt) | 168
+808 | Metaphone.java | String metaphone(String txt) | 168
+809 | Metaphone.java | String metaphone(String txt) | 168
+810 | Metaphone.java | String metaphone(String txt) | 168
+811 | Metaphone.java | String metaphone(String txt) | 168
+812 | Metaphone.java | String metaphone(String txt) | 168
+813 | Metaphone.java | String metaphone(String txt) | 168
+814 | Metaphone.java | String metaphone(String txt) | 168
+815 | Metaphone.java | String metaphone(String txt) | 168
+816 | Metaphone.java | String metaphone(String txt) | 168
+817 | Metaphone.java | String metaphone(String txt) | 168
+818 | Metaphone.java | String metaphone(String txt) | 168
+819 | Metaphone.java | String metaphone(String txt) | 168
+820 | Metaphone.java | String metaphone(String txt) | 168
+821 | Metaphone.java | String metaphone(String txt) | 168
+822 | Metaphone.java | String metaphone(String txt) | 168
+823 | Metaphone.java | String metaphone(String txt) | 168
+824 | Metaphone.java | String metaphone(String txt) | 168
+825 | Metaphone.java | String metaphone(String txt) | 168
+826 | Metaphone.java | String metaphone(String txt) | 168
+827 | Metaphone.java | String metaphone(String txt) | 168
+828 | Metaphone.java | String metaphone(String txt) | 168
+829 | Metaphone.java | String metaphone(String txt) | 168
+830 | Metaphone.java | String metaphone(String txt) | 168
+831 | Metaphone.java | String metaphone(String txt) | 168
+832 | Metaphone.java | String metaphone(String txt) | 168
+833 | Metaphone.java | String metaphone(String txt) | 168
+834 | Metaphone.java | String metaphone(String txt) | 168
+835 | Metaphone.java | String metaphone(String txt) | 168
+836 | Metaphone.java | String metaphone(String txt) | 168
+837 | Metaphone.java | String metaphone(String txt) | 168
+838 | Metaphone.java | String metaphone(String txt) | 168
+839 | Metaphone.java | String metaphone(String txt) | 168
+840 | Metaphone.java | String metaphone(String txt) | 168
+841 | Metaphone.java | String metaphone(String txt) | 168
+842 | Metaphone.java | String metaphone(String txt) | 168
+843 | Metaphone.java | String metaphone(String txt) | 168
+844 | Metaphone.java | String metaphone(String txt) | 168
+845 | Metaphone.java | String metaphone(String txt) | 168
+846 | Metaphone.java | String metaphone(String txt) | 168
+847 | Metaphone.java | String metaphone(String txt) | 169
+848 | Metaphone.java | String metaphone(String txt) | 169
+849 | Metaphone.java | String metaphone(String txt) | 169
+850 | Metaphone.java | String metaphone(String txt) | 169
+851 | Metaphone.java | String metaphone(String txt) | 169
+852 | Metaphone.java | String metaphone(String txt) | 169
+853 | Metaphone.java | String metaphone(String txt) | 169
+854 | Metaphone.java | String metaphone(String txt) | 169
+855 | Metaphone.java | String metaphone(String txt) | 169
+856 | Metaphone.java | String metaphone(String txt) | 169
+857 | Metaphone.java | String metaphone(String txt) | 169
+858 | Metaphone.java | String metaphone(String txt) | 169
+859 | Metaphone.java | String metaphone(String txt) | 172
+860 | Metaphone.java | String metaphone(String txt) | 172
+861 | Metaphone.java | String metaphone(String txt) | 172
+862 | Metaphone.java | String metaphone(String txt) | 172
+863 | Metaphone.java | String metaphone(String txt) | 172
+864 | Metaphone.java | String metaphone(String txt) | 172
+865 | Metaphone.java | String metaphone(String txt) | 172
+866 | Metaphone.java | String metaphone(String txt) | 172
+867 | Metaphone.java | String metaphone(String txt) | 172
+868 | Metaphone.java | String metaphone(String txt) | 172
+869 | Metaphone.java | String metaphone(String txt) | 172
+870 | Metaphone.java | String metaphone(String txt) | 172
+871 | Metaphone.java | String metaphone(String txt) | 172
+872 | Metaphone.java | String metaphone(String txt) | 172
+873 | Metaphone.java | String metaphone(String txt) | 172
+874 | Metaphone.java | String metaphone(String txt) | 172
+875 | Metaphone.java | String metaphone(String txt) | 172
+876 | Metaphone.java | String metaphone(String txt) | 172
+877 | Metaphone.java | String metaphone(String txt) | 172
+878 | Metaphone.java | String metaphone(String txt) | 172
+879 | Metaphone.java | String metaphone(String txt) | 172
+880 | Metaphone.java | String metaphone(String txt) | 173
+881 | Metaphone.java | String metaphone(String txt) | 173
+882 | Metaphone.java | String metaphone(String txt) | 173
+883 | Metaphone.java | String metaphone(String txt) | 173
+884 | Metaphone.java | String metaphone(String txt) | 173
+885 | Metaphone.java | String metaphone(String txt) | 173
+886 | Metaphone.java | String metaphone(String txt) | 173
+887 | Metaphone.java | String metaphone(String txt) | 173
+888 | Metaphone.java | String metaphone(String txt) | 173
+889 | Metaphone.java | String metaphone(String txt) | 173
+890 | Metaphone.java | String metaphone(String txt) | 173
+891 | Metaphone.java | String metaphone(String txt) | 173
+892 | Metaphone.java | String metaphone(String txt) | 173
+893 | Metaphone.java | String metaphone(String txt) | 173
+894 | Metaphone.java | String metaphone(String txt) | 173
+895 | Metaphone.java | String metaphone(String txt) | 173
+896 | Metaphone.java | String metaphone(String txt) | 173
+897 | Metaphone.java | String metaphone(String txt) | 174
+898 | Metaphone.java | String metaphone(String txt) | 174
+899 | Metaphone.java | String metaphone(String txt) | 174
+900 | Metaphone.java | String metaphone(String txt) | 174
+901 | Metaphone.java | String metaphone(String txt) | 174
+902 | Metaphone.java | String metaphone(String txt) | 174
+903 | Metaphone.java | String metaphone(String txt) | 174
+904 | Metaphone.java | String metaphone(String txt) | 174
+905 | Metaphone.java | String metaphone(String txt) | 174
+906 | Metaphone.java | String metaphone(String txt) | 174
+907 | Metaphone.java | String metaphone(String txt) | 174
+908 | Metaphone.java | String metaphone(String txt) | 174
+909 | Metaphone.java | String metaphone(String txt) | 177
+910 | Metaphone.java | String metaphone(String txt) | 177
+911 | Metaphone.java | String metaphone(String txt) | 177
+912 | Metaphone.java | String metaphone(String txt) | 177
+913 | Metaphone.java | String metaphone(String txt) | 177
+914 | Metaphone.java | String metaphone(String txt) | 177
+915 | Metaphone.java | String metaphone(String txt) | 177
+916 | Metaphone.java | String metaphone(String txt) | 177
+917 | Metaphone.java | String metaphone(String txt) | 177
+918 | Metaphone.java | String metaphone(String txt) | 177
+919 | Metaphone.java | String metaphone(String txt) | 177
+920 | Metaphone.java | String metaphone(String txt) | 177
+921 | Metaphone.java | String metaphone(String txt) | 177
+922 | Metaphone.java | String metaphone(String txt) | 177
+923 | Metaphone.java | String metaphone(String txt) | 177
+924 | Metaphone.java | String metaphone(String txt) | 177
+925 | Metaphone.java | String metaphone(String txt) | 177
+926 | Metaphone.java | String metaphone(String txt) | 177
+927 | Metaphone.java | String metaphone(String txt) | 179
+928 | Metaphone.java | String metaphone(String txt) | 179
+929 | Metaphone.java | String metaphone(String txt) | 179
+930 | Metaphone.java | String metaphone(String txt) | 178
+931 | Metaphone.java | String metaphone(String txt) | 178
+932 | Metaphone.java | String metaphone(String txt) | 178
+933 | Metaphone.java | String metaphone(String txt) | 178
+934 | Metaphone.java | String metaphone(String txt) | 178
+935 | Metaphone.java | String metaphone(String txt) | 178
+936 | Metaphone.java | String metaphone(String txt) | 178
+937 | Metaphone.java | String metaphone(String txt) | 178
+938 | Metaphone.java | String metaphone(String txt) | 178
+939 | Metaphone.java | String metaphone(String txt) | 178
+940 | Metaphone.java | String metaphone(String txt) | 178
+941 | Metaphone.java | String metaphone(String txt) | 178
+942 | Metaphone.java | String metaphone(String txt) | 178
+943 | Metaphone.java | String metaphone(String txt) | 178
+944 | Metaphone.java | String metaphone(String txt) | 179
+945 | Metaphone.java | String metaphone(String txt) | 179
+946 | Metaphone.java | String metaphone(String txt) | 179
+947 | Metaphone.java | String metaphone(String txt) | 179
+948 | Metaphone.java | String metaphone(String txt) | 179
+949 | Metaphone.java | String metaphone(String txt) | 179
+950 | Metaphone.java | String metaphone(String txt) | 179
+951 | Metaphone.java | String metaphone(String txt) | 179
+952 | Metaphone.java | String metaphone(String txt) | 179
+953 | Metaphone.java | String metaphone(String txt) | 179
+954 | Metaphone.java | String metaphone(String txt) | 179
+955 | Metaphone.java | String metaphone(String txt) | 179
+956 | Metaphone.java | String metaphone(String txt) | 179
+957 | Metaphone.java | String metaphone(String txt) | 179
+958 | Metaphone.java | String metaphone(String txt) | 180
+959 | Metaphone.java | String metaphone(String txt) | 180
+960 | Metaphone.java | String metaphone(String txt) | 180
+961 | Metaphone.java | String metaphone(String txt) | 180
+962 | Metaphone.java | String metaphone(String txt) | 180
+963 | Metaphone.java | String metaphone(String txt) | 180
+964 | Metaphone.java | String metaphone(String txt) | 180
+965 | Metaphone.java | String metaphone(String txt) | 180
+966 | Metaphone.java | String metaphone(String txt) | 180
+967 | Metaphone.java | String metaphone(String txt) | 180
+968 | Metaphone.java | String metaphone(String txt) | 180
+969 | Metaphone.java | String metaphone(String txt) | 180
+970 | Metaphone.java | String metaphone(String txt) | 180
+971 | Metaphone.java | String metaphone(String txt) | 180
+972 | Metaphone.java | String metaphone(String txt) | 181
+973 | Metaphone.java | String metaphone(String txt) | 181
+974 | Metaphone.java | String metaphone(String txt) | 181
+975 | Metaphone.java | String metaphone(String txt) | 181
+976 | Metaphone.java | String metaphone(String txt) | 181
+977 | Metaphone.java | String metaphone(String txt) | 181
+978 | Metaphone.java | String metaphone(String txt) | 181
+979 | Metaphone.java | String metaphone(String txt) | 181
+980 | Metaphone.java | String metaphone(String txt) | 181
+981 | Metaphone.java | String metaphone(String txt) | 181
+982 | Metaphone.java | String metaphone(String txt) | 181
+983 | Metaphone.java | String metaphone(String txt) | 181
+984 | Metaphone.java | String metaphone(String txt) | 183
+985 | Metaphone.java | String metaphone(String txt) | 183
+986 | Metaphone.java | String metaphone(String txt) | 183
+987 | Metaphone.java | String metaphone(String txt) | 183
+988 | Metaphone.java | String metaphone(String txt) | 183
+989 | Metaphone.java | String metaphone(String txt) | 183
+990 | Metaphone.java | String metaphone(String txt) | 183
+991 | Metaphone.java | String metaphone(String txt) | 183
+992 | Metaphone.java | String metaphone(String txt) | 183
+993 | Metaphone.java | String metaphone(String txt) | 183
+994 | Metaphone.java | String metaphone(String txt) | 183
+995 | Metaphone.java | String metaphone(String txt) | 183
+996 | Metaphone.java | String metaphone(String txt) | 186
+997 | Metaphone.java | String metaphone(String txt) | 186
+998 | Metaphone.java | String metaphone(String txt) | 186
+999 | Metaphone.java | String metaphone(String txt) | 186
+1000 | Metaphone.java | String metaphone(String txt) | 186
+1001 | Metaphone.java | String metaphone(String txt) | 186
+1002 | Metaphone.java | String metaphone(String txt) | 186
+1003 | Metaphone.java | String metaphone(String txt) | 186
+1004 | Metaphone.java | String metaphone(String txt) | 186
+1005 | Metaphone.java | String metaphone(String txt) | 186
+1006 | Metaphone.java | String metaphone(String txt) | 186
+1007 | Metaphone.java | String metaphone(String txt) | 186
+1008 | Metaphone.java | String metaphone(String txt) | 189
+1009 | Metaphone.java | String metaphone(String txt) | 189
+1010 | Metaphone.java | String metaphone(String txt) | 189
+1011 | Metaphone.java | String metaphone(String txt) | 189
+1012 | Metaphone.java | String metaphone(String txt) | 189
+1013 | Metaphone.java | String metaphone(String txt) | 191
+1014 | Metaphone.java | String metaphone(String txt) | 191
+1015 | Metaphone.java | String metaphone(String txt) | 191
+1016 | Metaphone.java | String metaphone(String txt) | 190
+1017 | Metaphone.java | String metaphone(String txt) | 190
+1018 | Metaphone.java | String metaphone(String txt) | 190
+1019 | Metaphone.java | String metaphone(String txt) | 190
+1020 | Metaphone.java | String metaphone(String txt) | 190
+1021 | Metaphone.java | String metaphone(String txt) | 190
+1022 | Metaphone.java | String metaphone(String txt) | 190
+1023 | Metaphone.java | String metaphone(String txt) | 190
+1024 | Metaphone.java | String metaphone(String txt) | 190
+1025 | Metaphone.java | String metaphone(String txt) | 190
+1026 | Metaphone.java | String metaphone(String txt) | 190
+1027 | Metaphone.java | String metaphone(String txt) | 190
+1028 | Metaphone.java | String metaphone(String txt) | 190
+1029 | Metaphone.java | String metaphone(String txt) | 190
+1030 | Metaphone.java | String metaphone(String txt) | 190
+1031 | Metaphone.java | String metaphone(String txt) | 190
+1032 | Metaphone.java | String metaphone(String txt) | 190
+1033 | Metaphone.java | String metaphone(String txt) | 190
+1034 | Metaphone.java | String metaphone(String txt) | 190
+1035 | Metaphone.java | String metaphone(String txt) | 190
+1036 | Metaphone.java | String metaphone(String txt) | 190
+1037 | Metaphone.java | String metaphone(String txt) | 190
+1038 | Metaphone.java | String metaphone(String txt) | 190
+1039 | Metaphone.java | String metaphone(String txt) | 190
+1040 | Metaphone.java | String metaphone(String txt) | 190
+1041 | Metaphone.java | String metaphone(String txt) | 190
+1042 | Metaphone.java | String metaphone(String txt) | 190
+1043 | Metaphone.java | String metaphone(String txt) | 191
+1044 | Metaphone.java | String metaphone(String txt) | 191
+1045 | Metaphone.java | String metaphone(String txt) | 191
+1046 | Metaphone.java | String metaphone(String txt) | 191
+1047 | Metaphone.java | String metaphone(String txt) | 191
+1048 | Metaphone.java | String metaphone(String txt) | 191
+1049 | Metaphone.java | String metaphone(String txt) | 191
+1050 | Metaphone.java | String metaphone(String txt) | 191
+1051 | Metaphone.java | String metaphone(String txt) | 191
+1052 | Metaphone.java | String metaphone(String txt) | 191
+1053 | Metaphone.java | String metaphone(String txt) | 191
+1054 | Metaphone.java | String metaphone(String txt) | 191
+1055 | Metaphone.java | String metaphone(String txt) | 191
+1056 | Metaphone.java | String metaphone(String txt) | 191
+1057 | Metaphone.java | String metaphone(String txt) | 191
+1058 | Metaphone.java | String metaphone(String txt) | 191
+1059 | Metaphone.java | String metaphone(String txt) | 191
+1060 | Metaphone.java | String metaphone(String txt) | 191
+1061 | Metaphone.java | String metaphone(String txt) | 192
+1062 | Metaphone.java | String metaphone(String txt) | 192
+1063 | Metaphone.java | String metaphone(String txt) | 192
+1064 | Metaphone.java | String metaphone(String txt) | 192
+1065 | Metaphone.java | String metaphone(String txt) | 192
+1066 | Metaphone.java | String metaphone(String txt) | 192
+1067 | Metaphone.java | String metaphone(String txt) | 192
+1068 | Metaphone.java | String metaphone(String txt) | 192
+1069 | Metaphone.java | String metaphone(String txt) | 192
+1070 | Metaphone.java | String metaphone(String txt) | 192
+1071 | Metaphone.java | String metaphone(String txt) | 192
+1072 | Metaphone.java | String metaphone(String txt) | 192
+1073 | Metaphone.java | String metaphone(String txt) | 192
+1074 | Metaphone.java | String metaphone(String txt) | 192
+1075 | Metaphone.java | String metaphone(String txt) | 192
+1076 | Metaphone.java | String metaphone(String txt) | 192
+1077 | Metaphone.java | String metaphone(String txt) | 192
+1078 | Metaphone.java | String metaphone(String txt) | 192
+1079 | Metaphone.java | String metaphone(String txt) | 192
+1080 | Metaphone.java | String metaphone(String txt) | 192
+1081 | Metaphone.java | String metaphone(String txt) | 192
+1082 | Metaphone.java | String metaphone(String txt) | 192
+1083 | Metaphone.java | String metaphone(String txt) | 192
+1084 | Metaphone.java | String metaphone(String txt) | 192
+1085 | Metaphone.java | String metaphone(String txt) | 192
+1086 | Metaphone.java | String metaphone(String txt) | 192
+1087 | Metaphone.java | String metaphone(String txt) | 192
+1088 | Metaphone.java | String metaphone(String txt) | 192
+1089 | Metaphone.java | String metaphone(String txt) | 192
+1090 | Metaphone.java | String metaphone(String txt) | 192
+1091 | Metaphone.java | String metaphone(String txt) | 192
+1092 | Metaphone.java | String metaphone(String txt) | 192
+1093 | Metaphone.java | String metaphone(String txt) | 192
+1094 | Metaphone.java | String metaphone(String txt) | 192
+1095 | Metaphone.java | String metaphone(String txt) | 192
+1096 | Metaphone.java | String metaphone(String txt) | 192
+1097 | Metaphone.java | String metaphone(String txt) | 192
+1098 | Metaphone.java | String metaphone(String txt) | 192
+1099 | Metaphone.java | String metaphone(String txt) | 192
+1100 | Metaphone.java | String metaphone(String txt) | 192
+1101 | Metaphone.java | String metaphone(String txt) | 192
+1102 | Metaphone.java | String metaphone(String txt) | 192
+1103 | Metaphone.java | String metaphone(String txt) | 193
+1104 | Metaphone.java | String metaphone(String txt) | 193
+1105 | Metaphone.java | String metaphone(String txt) | 193
+1106 | Metaphone.java | String metaphone(String txt) | 193
+1107 | Metaphone.java | String metaphone(String txt) | 193
+1108 | Metaphone.java | String metaphone(String txt) | 193
+1109 | Metaphone.java | String metaphone(String txt) | 193
+1110 | Metaphone.java | String metaphone(String txt) | 193
+1111 | Metaphone.java | String metaphone(String txt) | 193
+1112 | Metaphone.java | String metaphone(String txt) | 193
+1113 | Metaphone.java | String metaphone(String txt) | 193
+1114 | Metaphone.java | String metaphone(String txt) | 193
+1115 | Metaphone.java | String metaphone(String txt) | 193
+1116 | Metaphone.java | String metaphone(String txt) | 193
+1117 | Metaphone.java | String metaphone(String txt) | 193
+1118 | Metaphone.java | String metaphone(String txt) | 193
+1119 | Metaphone.java | String metaphone(String txt) | 193
+1120 | Metaphone.java | String metaphone(String txt) | 193
+1121 | Metaphone.java | String metaphone(String txt) | 193
+1122 | Metaphone.java | String metaphone(String txt) | 193
+1123 | Metaphone.java | String metaphone(String txt) | 193
+1124 | Metaphone.java | String metaphone(String txt) | 193
+1125 | Metaphone.java | String metaphone(String txt) | 193
+1126 | Metaphone.java | String metaphone(String txt) | 193
+1127 | Metaphone.java | String metaphone(String txt) | 195
+1128 | Metaphone.java | String metaphone(String txt) | 195
+1129 | Metaphone.java | String metaphone(String txt) | 195
+1130 | Metaphone.java | String metaphone(String txt) | 195
+1131 | Metaphone.java | String metaphone(String txt) | 195
+1132 | Metaphone.java | String metaphone(String txt) | 195
+1133 | Metaphone.java | String metaphone(String txt) | 195
+1134 | Metaphone.java | String metaphone(String txt) | 195
+1135 | Metaphone.java | String metaphone(String txt) | 195
+1136 | Metaphone.java | String metaphone(String txt) | 195
+1137 | Metaphone.java | String metaphone(String txt) | 195
+1138 | Metaphone.java | String metaphone(String txt) | 195
+1139 | Metaphone.java | String metaphone(String txt) | 198
+1140 | Metaphone.java | String metaphone(String txt) | 198
+1141 | Metaphone.java | String metaphone(String txt) | 198
+1142 | Metaphone.java | String metaphone(String txt) | 198
+1143 | Metaphone.java | String metaphone(String txt) | 198
+1144 | Metaphone.java | String metaphone(String txt) | 199
+1145 | Metaphone.java | String metaphone(String txt) | 199
+1146 | Metaphone.java | String metaphone(String txt) | 199
+1147 | Metaphone.java | String metaphone(String txt) | 199
+1148 | Metaphone.java | String metaphone(String txt) | 199
+1149 | Metaphone.java | String metaphone(String txt) | 199
+1150 | Metaphone.java | String metaphone(String txt) | 199
+1151 | Metaphone.java | String metaphone(String txt) | 199
+1152 | Metaphone.java | String metaphone(String txt) | 199
+1153 | Metaphone.java | String metaphone(String txt) | 199
+1154 | Metaphone.java | String metaphone(String txt) | 199
+1155 | Metaphone.java | String metaphone(String txt) | 199
+1156 | Metaphone.java | String metaphone(String txt) | 199
+1157 | Metaphone.java | String metaphone(String txt) | 199
+1158 | Metaphone.java | String metaphone(String txt) | 199
+1159 | Metaphone.java | String metaphone(String txt) | 199
+1160 | Metaphone.java | String metaphone(String txt) | 199
+1161 | Metaphone.java | String metaphone(String txt) | 199
+1162 | Metaphone.java | String metaphone(String txt) | 199
+1163 | Metaphone.java | String metaphone(String txt) | 199
+1164 | Metaphone.java | String metaphone(String txt) | 199
+1165 | Metaphone.java | String metaphone(String txt) | 199
+1166 | Metaphone.java | String metaphone(String txt) | 200
+1167 | Metaphone.java | String metaphone(String txt) | 200
+1168 | Metaphone.java | String metaphone(String txt) | 200
+1169 | Metaphone.java | String metaphone(String txt) | 200
+1170 | Metaphone.java | String metaphone(String txt) | 200
+1171 | Metaphone.java | String metaphone(String txt) | 200
+1172 | Metaphone.java | String metaphone(String txt) | 200
+1173 | Metaphone.java | String metaphone(String txt) | 200
+1174 | Metaphone.java | String metaphone(String txt) | 200
+1175 | Metaphone.java | String metaphone(String txt) | 200
+1176 | Metaphone.java | String metaphone(String txt) | 200
+1177 | Metaphone.java | String metaphone(String txt) | 200
+1178 | Metaphone.java | String metaphone(String txt) | 200
+1179 | Metaphone.java | String metaphone(String txt) | 200
+1180 | Metaphone.java | String metaphone(String txt) | 200
+1181 | Metaphone.java | String metaphone(String txt) | 200
+1182 | Metaphone.java | String metaphone(String txt) | 204
+1183 | Metaphone.java | String metaphone(String txt) | 204
+1184 | Metaphone.java | String metaphone(String txt) | 204
+1185 | Metaphone.java | String metaphone(String txt) | 203
+1186 | Metaphone.java | String metaphone(String txt) | 203
+1187 | Metaphone.java | String metaphone(String txt) | 203
+1188 | Metaphone.java | String metaphone(String txt) | 203
+1189 | Metaphone.java | String metaphone(String txt) | 203
+1190 | Metaphone.java | String metaphone(String txt) | 203
+1191 | Metaphone.java | String metaphone(String txt) | 203
+1192 | Metaphone.java | String metaphone(String txt) | 203
+1193 | Metaphone.java | String metaphone(String txt) | 203
+1194 | Metaphone.java | String metaphone(String txt) | 203
+1195 | Metaphone.java | String metaphone(String txt) | 203
+1196 | Metaphone.java | String metaphone(String txt) | 203
+1197 | Metaphone.java | String metaphone(String txt) | 203
+1198 | Metaphone.java | String metaphone(String txt) | 203
+1199 | Metaphone.java | String metaphone(String txt) | 203
+1200 | Metaphone.java | String metaphone(String txt) | 203
+1201 | Metaphone.java | String metaphone(String txt) | 203
+1202 | Metaphone.java | String metaphone(String txt) | 203
+1203 | Metaphone.java | String metaphone(String txt) | 203
+1204 | Metaphone.java | String metaphone(String txt) | 203
+1205 | Metaphone.java | String metaphone(String txt) | 203
+1206 | Metaphone.java | String metaphone(String txt) | 203
+1207 | Metaphone.java | String metaphone(String txt) | 203
+1208 | Metaphone.java | String metaphone(String txt) | 203
+1209 | Metaphone.java | String metaphone(String txt) | 203
+1210 | Metaphone.java | String metaphone(String txt) | 204
+1211 | Metaphone.java | String metaphone(String txt) | 204
+1212 | Metaphone.java | String metaphone(String txt) | 204
+1213 | Metaphone.java | String metaphone(String txt) | 204
+1214 | Metaphone.java | String metaphone(String txt) | 204
+1215 | Metaphone.java | String metaphone(String txt) | 204
+1216 | Metaphone.java | String metaphone(String txt) | 204
+1217 | Metaphone.java | String metaphone(String txt) | 204
+1218 | Metaphone.java | String metaphone(String txt) | 204
+1219 | Metaphone.java | String metaphone(String txt) | 204
+1220 | Metaphone.java | String metaphone(String txt) | 204
+1221 | Metaphone.java | String metaphone(String txt) | 204
+1222 | Metaphone.java | String metaphone(String txt) | 204
+1223 | Metaphone.java | String metaphone(String txt) | 204
+1224 | Metaphone.java | String metaphone(String txt) | 204
+1225 | Metaphone.java | String metaphone(String txt) | 204
+1226 | Metaphone.java | String metaphone(String txt) | 205
+1227 | Metaphone.java | String metaphone(String txt) | 205
+1228 | Metaphone.java | String metaphone(String txt) | 205
+1229 | Metaphone.java | String metaphone(String txt) | 205
+1230 | Metaphone.java | String metaphone(String txt) | 205
+1231 | Metaphone.java | String metaphone(String txt) | 205
+1232 | Metaphone.java | String metaphone(String txt) | 205
+1233 | Metaphone.java | String metaphone(String txt) | 205
+1234 | Metaphone.java | String metaphone(String txt) | 205
+1235 | Metaphone.java | String metaphone(String txt) | 205
+1236 | Metaphone.java | String metaphone(String txt) | 205
+1237 | Metaphone.java | String metaphone(String txt) | 205
+1238 | Metaphone.java | String metaphone(String txt) | 205
+1239 | Metaphone.java | String metaphone(String txt) | 205
+1240 | Metaphone.java | String metaphone(String txt) | 205
+1241 | Metaphone.java | String metaphone(String txt) | 205
+1242 | Metaphone.java | String metaphone(String txt) | 205
+1243 | Metaphone.java | String metaphone(String txt) | 205
+1244 | Metaphone.java | String metaphone(String txt) | 205
+1245 | Metaphone.java | String metaphone(String txt) | 205
+1246 | Metaphone.java | String metaphone(String txt) | 205
+1247 | Metaphone.java | String metaphone(String txt) | 205
+1248 | Metaphone.java | String metaphone(String txt) | 205
+1249 | Metaphone.java | String metaphone(String txt) | 208
+1250 | Metaphone.java | String metaphone(String txt) | 208
+1251 | Metaphone.java | String metaphone(String txt) | 208
+1252 | Metaphone.java | String metaphone(String txt) | 208
+1253 | Metaphone.java | String metaphone(String txt) | 208
+1254 | Metaphone.java | String metaphone(String txt) | 208
+1255 | Metaphone.java | String metaphone(String txt) | 208
+1256 | Metaphone.java | String metaphone(String txt) | 208
+1257 | Metaphone.java | String metaphone(String txt) | 208
+1258 | Metaphone.java | String metaphone(String txt) | 208
+1259 | Metaphone.java | String metaphone(String txt) | 208
+1260 | Metaphone.java | String metaphone(String txt) | 208
+1261 | Metaphone.java | String metaphone(String txt) | 208
+1262 | Metaphone.java | String metaphone(String txt) | 209
+1263 | Metaphone.java | String metaphone(String txt) | 209
+1264 | Metaphone.java | String metaphone(String txt) | 209
+1265 | Metaphone.java | String metaphone(String txt) | 209
+1266 | Metaphone.java | String metaphone(String txt) | 209
+1267 | Metaphone.java | String metaphone(String txt) | 209
+1268 | Metaphone.java | String metaphone(String txt) | 209
+1269 | Metaphone.java | String metaphone(String txt) | 209
+1270 | Metaphone.java | String metaphone(String txt) | 209
+1271 | Metaphone.java | String metaphone(String txt) | 209
+1272 | Metaphone.java | String metaphone(String txt) | 209
+1273 | Metaphone.java | String metaphone(String txt) | 209
+1274 | Metaphone.java | String metaphone(String txt) | 209
+1275 | Metaphone.java | String metaphone(String txt) | 209
+1276 | Metaphone.java | String metaphone(String txt) | 209
+1277 | Metaphone.java | String metaphone(String txt) | 209
+1278 | Metaphone.java | String metaphone(String txt) | 209
+1279 | Metaphone.java | String metaphone(String txt) | 209
+1280 | Metaphone.java | String metaphone(String txt) | 209
+1281 | Metaphone.java | String metaphone(String txt) | 209
+1282 | Metaphone.java | String metaphone(String txt) | 210
+1283 | Metaphone.java | String metaphone(String txt) | 210
+1284 | Metaphone.java | String metaphone(String txt) | 210
+1285 | Metaphone.java | String metaphone(String txt) | 210
+1286 | Metaphone.java | String metaphone(String txt) | 210
+1287 | Metaphone.java | String metaphone(String txt) | 210
+1288 | Metaphone.java | String metaphone(String txt) | 210
+1289 | Metaphone.java | String metaphone(String txt) | 210
+1290 | Metaphone.java | String metaphone(String txt) | 210
+1291 | Metaphone.java | String metaphone(String txt) | 210
+1292 | Metaphone.java | String metaphone(String txt) | 210
+1293 | Metaphone.java | String metaphone(String txt) | 210
+1294 | Metaphone.java | String metaphone(String txt) | 210
+1295 | Metaphone.java | String metaphone(String txt) | 210
+1296 | Metaphone.java | String metaphone(String txt) | 210
+1297 | Metaphone.java | String metaphone(String txt) | 210
+1298 | Metaphone.java | String metaphone(String txt) | 213
+1299 | Metaphone.java | String metaphone(String txt) | 213
+1300 | Metaphone.java | String metaphone(String txt) | 213
+1301 | Metaphone.java | String metaphone(String txt) | 213
+1302 | Metaphone.java | String metaphone(String txt) | 213
+1303 | Metaphone.java | String metaphone(String txt) | 213
+1304 | Metaphone.java | String metaphone(String txt) | 213
+1305 | Metaphone.java | String metaphone(String txt) | 213
+1306 | Metaphone.java | String metaphone(String txt) | 213
+1307 | Metaphone.java | String metaphone(String txt) | 213
+1308 | Metaphone.java | String metaphone(String txt) | 213
+1309 | Metaphone.java | String metaphone(String txt) | 213
+1310 | Metaphone.java | String metaphone(String txt) | 213
+1311 | Metaphone.java | String metaphone(String txt) | 213
+1312 | Metaphone.java | String metaphone(String txt) | 213
+1313 | Metaphone.java | String metaphone(String txt) | 213
+1314 | Metaphone.java | String metaphone(String txt) | 213
+1315 | Metaphone.java | String metaphone(String txt) | 214
+1316 | Metaphone.java | String metaphone(String txt) | 214
+1317 | Metaphone.java | String metaphone(String txt) | 214
+1318 | Metaphone.java | String metaphone(String txt) | 214
+1319 | Metaphone.java | String metaphone(String txt) | 214
+1320 | Metaphone.java | String metaphone(String txt) | 214
+1321 | Metaphone.java | String metaphone(String txt) | 214
+1322 | Metaphone.java | String metaphone(String txt) | 214
+1323 | Metaphone.java | String metaphone(String txt) | 214
+1324 | Metaphone.java | String metaphone(String txt) | 214
+1325 | Metaphone.java | String metaphone(String txt) | 214
+1326 | Metaphone.java | String metaphone(String txt) | 214
+1327 | Metaphone.java | String metaphone(String txt) | 214
+1328 | Metaphone.java | String metaphone(String txt) | 216
+1329 | Metaphone.java | String metaphone(String txt) | 216
+1330 | Metaphone.java | String metaphone(String txt) | 216
+1331 | Metaphone.java | String metaphone(String txt) | 216
+1332 | Metaphone.java | String metaphone(String txt) | 216
+1333 | Metaphone.java | String metaphone(String txt) | 216
+1334 | Metaphone.java | String metaphone(String txt) | 216
+1335 | Metaphone.java | String metaphone(String txt) | 216
+1336 | Metaphone.java | String metaphone(String txt) | 216
+1337 | Metaphone.java | String metaphone(String txt) | 216
+1338 | Metaphone.java | String metaphone(String txt) | 216
+1339 | Metaphone.java | String metaphone(String txt) | 216
+1340 | Metaphone.java | String metaphone(String txt) | 216
+1341 | Metaphone.java | String metaphone(String txt) | 219
+1342 | Metaphone.java | String metaphone(String txt) | 219
+1343 | Metaphone.java | String metaphone(String txt) | 219
+1344 | Metaphone.java | String metaphone(String txt) | 218
+1345 | Metaphone.java | String metaphone(String txt) | 218
+1346 | Metaphone.java | String metaphone(String txt) | 218
+1347 | Metaphone.java | String metaphone(String txt) | 218
+1348 | Metaphone.java | String metaphone(String txt) | 218
+1349 | Metaphone.java | String metaphone(String txt) | 218
+1350 | Metaphone.java | String metaphone(String txt) | 218
+1351 | Metaphone.java | String metaphone(String txt) | 218
+1352 | Metaphone.java | String metaphone(String txt) | 218
+1353 | Metaphone.java | String metaphone(String txt) | 218
+1354 | Metaphone.java | String metaphone(String txt) | 218
+1355 | Metaphone.java | String metaphone(String txt) | 218
+1356 | Metaphone.java | String metaphone(String txt) | 218
+1357 | Metaphone.java | String metaphone(String txt) | 218
+1358 | Metaphone.java | String metaphone(String txt) | 218
+1359 | Metaphone.java | String metaphone(String txt) | 218
+1360 | Metaphone.java | String metaphone(String txt) | 218
+1361 | Metaphone.java | String metaphone(String txt) | 218
+1362 | Metaphone.java | String metaphone(String txt) | 218
+1363 | Metaphone.java | String metaphone(String txt) | 218
+1364 | Metaphone.java | String metaphone(String txt) | 219
+1365 | Metaphone.java | String metaphone(String txt) | 219
+1366 | Metaphone.java | String metaphone(String txt) | 219
+1367 | Metaphone.java | String metaphone(String txt) | 219
+1368 | Metaphone.java | String metaphone(String txt) | 219
+1369 | Metaphone.java | String metaphone(String txt) | 219
+1370 | Metaphone.java | String metaphone(String txt) | 219
+1371 | Metaphone.java | String metaphone(String txt) | 219
+1372 | Metaphone.java | String metaphone(String txt) | 219
+1373 | Metaphone.java | String metaphone(String txt) | 219
+1374 | Metaphone.java | String metaphone(String txt) | 219
+1375 | Metaphone.java | String metaphone(String txt) | 219
+1376 | Metaphone.java | String metaphone(String txt) | 219
+1377 | Metaphone.java | String metaphone(String txt) | 219
+1378 | Metaphone.java | String metaphone(String txt) | 219
+1379 | Metaphone.java | String metaphone(String txt) | 219
+1380 | Metaphone.java | String metaphone(String txt) | 219
+1381 | Metaphone.java | String metaphone(String txt) | 219
+1382 | Metaphone.java | String metaphone(String txt) | 219
+1383 | Metaphone.java | String metaphone(String txt) | 219
+1384 | Metaphone.java | String metaphone(String txt) | 219
+1385 | Metaphone.java | String metaphone(String txt) | 219
+1386 | Metaphone.java | String metaphone(String txt) | 219
+1387 | Metaphone.java | String metaphone(String txt) | 219
+1388 | Metaphone.java | String metaphone(String txt) | 219
+1389 | Metaphone.java | String metaphone(String txt) | 219
+1390 | Metaphone.java | String metaphone(String txt) | 219
+1391 | Metaphone.java | String metaphone(String txt) | 219
+1392 | Metaphone.java | String metaphone(String txt) | 219
+1393 | Metaphone.java | String metaphone(String txt) | 219
+1394 | Metaphone.java | String metaphone(String txt) | 219
+1395 | Metaphone.java | String metaphone(String txt) | 219
+1396 | Metaphone.java | String metaphone(String txt) | 219
+1397 | Metaphone.java | String metaphone(String txt) | 219
+1398 | Metaphone.java | String metaphone(String txt) | 219
+1399 | Metaphone.java | String metaphone(String txt) | 219
+1400 | Metaphone.java | String metaphone(String txt) | 219
+1401 | Metaphone.java | String metaphone(String txt) | 219
+1402 | Metaphone.java | String metaphone(String txt) | 219
+1403 | Metaphone.java | String metaphone(String txt) | 219
+1404 | Metaphone.java | String metaphone(String txt) | 219
+1405 | Metaphone.java | String metaphone(String txt) | 219
+1406 | Metaphone.java | String metaphone(String txt) | 219
+1407 | Metaphone.java | String metaphone(String txt) | 220
+1408 | Metaphone.java | String metaphone(String txt) | 220
+1409 | Metaphone.java | String metaphone(String txt) | 220
+1410 | Metaphone.java | String metaphone(String txt) | 220
+1411 | Metaphone.java | String metaphone(String txt) | 220
+1412 | Metaphone.java | String metaphone(String txt) | 220
+1413 | Metaphone.java | String metaphone(String txt) | 220
+1414 | Metaphone.java | String metaphone(String txt) | 221
+1415 | Metaphone.java | String metaphone(String txt) | 221
+1416 | Metaphone.java | String metaphone(String txt) | 221
+1417 | Metaphone.java | String metaphone(String txt) | 221
+1418 | Metaphone.java | String metaphone(String txt) | 221
+1419 | Metaphone.java | String metaphone(String txt) | 221
+1420 | Metaphone.java | String metaphone(String txt) | 221
+1421 | Metaphone.java | String metaphone(String txt) | 221
+1422 | Metaphone.java | String metaphone(String txt) | 221
+1423 | Metaphone.java | String metaphone(String txt) | 221
+1424 | Metaphone.java | String metaphone(String txt) | 221
+1425 | Metaphone.java | String metaphone(String txt) | 221
+1426 | Metaphone.java | String metaphone(String txt) | 223
+1427 | Metaphone.java | String metaphone(String txt) | 223
+1428 | Metaphone.java | String metaphone(String txt) | 223
+1429 | Metaphone.java | String metaphone(String txt) | 223
+1430 | Metaphone.java | String metaphone(String txt) | 223
+1431 | Metaphone.java | String metaphone(String txt) | 223
+1432 | Metaphone.java | String metaphone(String txt) | 223
+1433 | Metaphone.java | String metaphone(String txt) | 223
+1434 | Metaphone.java | String metaphone(String txt) | 223
+1435 | Metaphone.java | String metaphone(String txt) | 223
+1436 | Metaphone.java | String metaphone(String txt) | 223
+1437 | Metaphone.java | String metaphone(String txt) | 223
+1438 | Metaphone.java | String metaphone(String txt) | 226
+1439 | Metaphone.java | String metaphone(String txt) | 226
+1440 | Metaphone.java | String metaphone(String txt) | 226
+1441 | Metaphone.java | String metaphone(String txt) | 226
+1442 | Metaphone.java | String metaphone(String txt) | 226
+1443 | Metaphone.java | String metaphone(String txt) | 227
+1444 | Metaphone.java | String metaphone(String txt) | 227
+1445 | Metaphone.java | String metaphone(String txt) | 227
+1446 | Metaphone.java | String metaphone(String txt) | 227
+1447 | Metaphone.java | String metaphone(String txt) | 227
+1448 | Metaphone.java | String metaphone(String txt) | 227
+1449 | Metaphone.java | String metaphone(String txt) | 227
+1450 | Metaphone.java | String metaphone(String txt) | 227
+1451 | Metaphone.java | String metaphone(String txt) | 227
+1452 | Metaphone.java | String metaphone(String txt) | 227
+1453 | Metaphone.java | String metaphone(String txt) | 227
+1454 | Metaphone.java | String metaphone(String txt) | 227
+1455 | Metaphone.java | String metaphone(String txt) | 227
+1456 | Metaphone.java | String metaphone(String txt) | 230
+1457 | Metaphone.java | String metaphone(String txt) | 230
+1458 | Metaphone.java | String metaphone(String txt) | 230
+1459 | Metaphone.java | String metaphone(String txt) | 230
+1460 | Metaphone.java | String metaphone(String txt) | 230
+1461 | Metaphone.java | String metaphone(String txt) | 230
+1462 | Metaphone.java | String metaphone(String txt) | 230
+1463 | Metaphone.java | String metaphone(String txt) | 230
+1464 | Metaphone.java | String metaphone(String txt) | 230
+1465 | Metaphone.java | String metaphone(String txt) | 230
+1466 | Metaphone.java | String metaphone(String txt) | 230
+1467 | Metaphone.java | String metaphone(String txt) | 230
+1468 | Metaphone.java | String metaphone(String txt) | 230
+1469 | Metaphone.java | String metaphone(String txt) | 231
+1470 | Metaphone.java | String metaphone(String txt) | 231
+1471 | Metaphone.java | String metaphone(String txt) | 231
+1472 | Metaphone.java | String metaphone(String txt) | 231
+1473 | Metaphone.java | String metaphone(String txt) | 231
+1474 | Metaphone.java | String metaphone(String txt) | 231
+1475 | Metaphone.java | String metaphone(String txt) | 231
+1476 | Metaphone.java | String metaphone(String txt) | 231
+1477 | Metaphone.java | String metaphone(String txt) | 231
+1478 | Metaphone.java | String metaphone(String txt) | 231
+1479 | Metaphone.java | String metaphone(String txt) | 231
+1480 | Metaphone.java | String metaphone(String txt) | 231
+1481 | Metaphone.java | String metaphone(String txt) | 231
+1482 | Metaphone.java | String metaphone(String txt) | 231
+1483 | Metaphone.java | String metaphone(String txt) | 231
+1484 | Metaphone.java | String metaphone(String txt) | 231
+1485 | Metaphone.java | String metaphone(String txt) | 231
+1486 | Metaphone.java | String metaphone(String txt) | 231
+1487 | Metaphone.java | String metaphone(String txt) | 231
+1488 | Metaphone.java | String metaphone(String txt) | 231
+1489 | Metaphone.java | String metaphone(String txt) | 231
+1490 | Metaphone.java | String metaphone(String txt) | 231
+1491 | Metaphone.java | String metaphone(String txt) | 231
+1492 | Metaphone.java | String metaphone(String txt) | 231
+1493 | Metaphone.java | String metaphone(String txt) | 231
+1494 | Metaphone.java | String metaphone(String txt) | 231
+1495 | Metaphone.java | String metaphone(String txt) | 231
+1496 | Metaphone.java | String metaphone(String txt) | 231
+1497 | Metaphone.java | String metaphone(String txt) | 231
+1498 | Metaphone.java | String metaphone(String txt) | 231
+1499 | Metaphone.java | String metaphone(String txt) | 231
+1500 | Metaphone.java | String metaphone(String txt) | 231
+1501 | Metaphone.java | String metaphone(String txt) | 231
+1502 | Metaphone.java | String metaphone(String txt) | 231
+1503 | Metaphone.java | String metaphone(String txt) | 231
+1504 | Metaphone.java | String metaphone(String txt) | 231
+1505 | Metaphone.java | String metaphone(String txt) | 231
+1506 | Metaphone.java | String metaphone(String txt) | 231
+1507 | Metaphone.java | String metaphone(String txt) | 231
+1508 | Metaphone.java | String metaphone(String txt) | 231
+1509 | Metaphone.java | String metaphone(String txt) | 231
+1510 | Metaphone.java | String metaphone(String txt) | 231
+1511 | Metaphone.java | String metaphone(String txt) | 231
+1512 | Metaphone.java | String metaphone(String txt) | 234
+1513 | Metaphone.java | String metaphone(String txt) | 234
+1514 | Metaphone.java | String metaphone(String txt) | 234
+1515 | Metaphone.java | String metaphone(String txt) | 234
+1516 | Metaphone.java | String metaphone(String txt) | 234
+1517 | Metaphone.java | String metaphone(String txt) | 234
+1518 | Metaphone.java | String metaphone(String txt) | 234
+1519 | Metaphone.java | String metaphone(String txt) | 234
+1520 | Metaphone.java | String metaphone(String txt) | 234
+1521 | Metaphone.java | String metaphone(String txt) | 234
+1522 | Metaphone.java | String metaphone(String txt) | 234
+1523 | Metaphone.java | String metaphone(String txt) | 234
+1524 | Metaphone.java | String metaphone(String txt) | 234
+1525 | Metaphone.java | String metaphone(String txt) | 234
+1526 | Metaphone.java | String metaphone(String txt) | 234
+1527 | Metaphone.java | String metaphone(String txt) | 234
+1528 | Metaphone.java | String metaphone(String txt) | 234
+1529 | Metaphone.java | String metaphone(String txt) | 234
+1530 | Metaphone.java | String metaphone(String txt) | 234
+1531 | Metaphone.java | String metaphone(String txt) | 235
+1532 | Metaphone.java | String metaphone(String txt) | 235
+1533 | Metaphone.java | String metaphone(String txt) | 235
+1534 | Metaphone.java | String metaphone(String txt) | 235
+1535 | Metaphone.java | String metaphone(String txt) | 235
+1536 | Metaphone.java | String metaphone(String txt) | 235
+1537 | Metaphone.java | String metaphone(String txt) | 235
+1538 | Metaphone.java | String metaphone(String txt) | 235
+1539 | Metaphone.java | String metaphone(String txt) | 235
+1540 | Metaphone.java | String metaphone(String txt) | 235
+1541 | Metaphone.java | String metaphone(String txt) | 235
+1542 | Metaphone.java | String metaphone(String txt) | 235
+1543 | Metaphone.java | String metaphone(String txt) | 238
+1544 | Metaphone.java | String metaphone(String txt) | 238
+1545 | Metaphone.java | String metaphone(String txt) | 238
+1546 | Metaphone.java | String metaphone(String txt) | 238
+1547 | Metaphone.java | String metaphone(String txt) | 238
+1548 | Metaphone.java | String metaphone(String txt) | 239
+1549 | Metaphone.java | String metaphone(String txt) | 239
+1550 | Metaphone.java | String metaphone(String txt) | 239
+1551 | Metaphone.java | String metaphone(String txt) | 239
+1552 | Metaphone.java | String metaphone(String txt) | 239
+1553 | Metaphone.java | String metaphone(String txt) | 240
+1554 | Metaphone.java | String metaphone(String txt) | 240
+1555 | Metaphone.java | String metaphone(String txt) | 240
+1556 | Metaphone.java | String metaphone(String txt) | 240
+1557 | Metaphone.java | String metaphone(String txt) | 240
+1558 | Metaphone.java | String metaphone(String txt) | 241
+1559 | Metaphone.java | String metaphone(String txt) | 241
+1560 | Metaphone.java | String metaphone(String txt) | 241
+1561 | Metaphone.java | String metaphone(String txt) | 241
+1562 | Metaphone.java | String metaphone(String txt) | 241
+1563 | Metaphone.java | String metaphone(String txt) | 242
+1564 | Metaphone.java | String metaphone(String txt) | 242
+1565 | Metaphone.java | String metaphone(String txt) | 242
+1566 | Metaphone.java | String metaphone(String txt) | 242
+1567 | Metaphone.java | String metaphone(String txt) | 242
+1568 | Metaphone.java | String metaphone(String txt) | 243
+1569 | Metaphone.java | String metaphone(String txt) | 243
+1570 | Metaphone.java | String metaphone(String txt) | 243
+1571 | Metaphone.java | String metaphone(String txt) | 243
+1572 | Metaphone.java | String metaphone(String txt) | 243
+1573 | Metaphone.java | String metaphone(String txt) | 244
+1574 | Metaphone.java | String metaphone(String txt) | 244
+1575 | Metaphone.java | String metaphone(String txt) | 244
+1576 | Metaphone.java | String metaphone(String txt) | 244
+1577 | Metaphone.java | String metaphone(String txt) | 244
+1578 | Metaphone.java | String metaphone(String txt) | 244
+1579 | Metaphone.java | String metaphone(String txt) | 244
+1580 | Metaphone.java | String metaphone(String txt) | 244
+1581 | Metaphone.java | String metaphone(String txt) | 244
+1582 | Metaphone.java | String metaphone(String txt) | 244
+1583 | Metaphone.java | String metaphone(String txt) | 244
+1584 | Metaphone.java | String metaphone(String txt) | 244
+1585 | Metaphone.java | String metaphone(String txt) | 246
+1586 | Metaphone.java | String metaphone(String txt) | 246
+1587 | Metaphone.java | String metaphone(String txt) | 246
+1588 | Metaphone.java | String metaphone(String txt) | 246
+1589 | Metaphone.java | String metaphone(String txt) | 246
+1590 | Metaphone.java | String metaphone(String txt) | 247
+1591 | Metaphone.java | String metaphone(String txt) | 247
+1592 | Metaphone.java | String metaphone(String txt) | 247
+1593 | Metaphone.java | String metaphone(String txt) | 247
+1594 | Metaphone.java | String metaphone(String txt) | 247
+1595 | Metaphone.java | String metaphone(String txt) | 247
+1596 | Metaphone.java | String metaphone(String txt) | 247
+1597 | Metaphone.java | String metaphone(String txt) | 247
+1598 | Metaphone.java | String metaphone(String txt) | 247
+1599 | Metaphone.java | String metaphone(String txt) | 247
+1600 | Metaphone.java | String metaphone(String txt) | 247
+1601 | Metaphone.java | String metaphone(String txt) | 248
+1602 | Metaphone.java | String metaphone(String txt) | 248
+1603 | Metaphone.java | String metaphone(String txt) | 248
+1604 | Metaphone.java | String metaphone(String txt) | 248
+1605 | Metaphone.java | String metaphone(String txt) | 248
+1606 | Metaphone.java | String metaphone(String txt) | 248
+1607 | Metaphone.java | String metaphone(String txt) | 248
+1608 | Metaphone.java | String metaphone(String txt) | 248
+1609 | Metaphone.java | String metaphone(String txt) | 248
+1610 | Metaphone.java | String metaphone(String txt) | 248
+1611 | Metaphone.java | String metaphone(String txt) | 248
+1612 | Metaphone.java | String metaphone(String txt) | 248
+1613 | Metaphone.java | String metaphone(String txt) | 248
+1614 | Metaphone.java | String metaphone(String txt) | 248
+1615 | Metaphone.java | String metaphone(String txt) | 248
+1616 | Metaphone.java | String metaphone(String txt) | 248
+1617 | Metaphone.java | String metaphone(String txt) | 248
+1618 | Metaphone.java | String metaphone(String txt) | 248
+1619 | Metaphone.java | String metaphone(String txt) | 248
+1620 | Metaphone.java | String metaphone(String txt) | 248
+1621 | Metaphone.java | String metaphone(String txt) | 249
+1622 | Metaphone.java | String metaphone(String txt) | 249
+1623 | Metaphone.java | String metaphone(String txt) | 249
+1624 | Metaphone.java | String metaphone(String txt) | 249
+1625 | Metaphone.java | String metaphone(String txt) | 249
+1626 | Metaphone.java | String metaphone(String txt) | 249
+1627 | Metaphone.java | String metaphone(String txt) | 249
+1628 | Metaphone.java | String metaphone(String txt) | 249
+1629 | Metaphone.java | String metaphone(String txt) | 249
+1630 | Metaphone.java | String metaphone(String txt) | 249
+1631 | Metaphone.java | String metaphone(String txt) | 249
+1632 | Metaphone.java | String metaphone(String txt) | 252
+1633 | Metaphone.java | String metaphone(String txt) | 252
+1634 | Metaphone.java | String metaphone(String txt) | 252
+1635 | Metaphone.java | String metaphone(String txt) | 252
+1636 | Metaphone.java | String metaphone(String txt) | 252
+1637 | Metaphone.java | String metaphone(String txt) | 252
+1638 | Metaphone.java | String metaphone(String txt) | 252
+1639 | Metaphone.java | String metaphone(String txt) | 252
+1640 | Metaphone.java | String metaphone(String txt) | 252
+1641 | Metaphone.java | String metaphone(String txt) | 252
+1642 | Metaphone.java | String metaphone(String txt) | 252
+1643 | Metaphone.java | String metaphone(String txt) | 255
+1644 | Metaphone.java | String metaphone(String txt) | 255
+1645 | Metaphone.java | String metaphone(String txt) | 255
+1646 | Metaphone.java | String metaphone(String txt) | 255
+1647 | Metaphone.java | String metaphone(String txt) | 255
+1648 | Metaphone.java | String metaphone(String txt) | 256
+1649 | Metaphone.java | String metaphone(String txt) | 256
+1650 | Metaphone.java | String metaphone(String txt) | 256
+1651 | Metaphone.java | String metaphone(String txt) | 256
+1652 | Metaphone.java | String metaphone(String txt) | 256
+1653 | Metaphone.java | String metaphone(String txt) | 256
+1654 | Metaphone.java | String metaphone(String txt) | 256
+1655 | Metaphone.java | String metaphone(String txt) | 256
+1656 | Metaphone.java | String metaphone(String txt) | 256
+1657 | Metaphone.java | String metaphone(String txt) | 256
+1658 | Metaphone.java | String metaphone(String txt) | 256
+1659 | Metaphone.java | String metaphone(String txt) | 256
+1660 | Metaphone.java | String metaphone(String txt) | 256
+1661 | Metaphone.java | String metaphone(String txt) | 256
+1662 | Metaphone.java | String metaphone(String txt) | 256
+1663 | Metaphone.java | String metaphone(String txt) | 256
+1664 | Metaphone.java | String metaphone(String txt) | 256
+1665 | Metaphone.java | String metaphone(String txt) | 258
+1666 | Metaphone.java | String metaphone(String txt) | 258
+1667 | Metaphone.java | String metaphone(String txt) | 258
+1668 | Metaphone.java | String metaphone(String txt) | 258
+1669 | Metaphone.java | String metaphone(String txt) | 258
+1670 | Metaphone.java | String metaphone(String txt) | 258
+1671 | Metaphone.java | String metaphone(String txt) | 258
+1672 | Metaphone.java | String metaphone(String txt) | 258
+1673 | Metaphone.java | String metaphone(String txt) | 258
+1674 | Metaphone.java | String metaphone(String txt) | 258
+1675 | Metaphone.java | String metaphone(String txt) | 258
+1676 | Metaphone.java | String metaphone(String txt) | 258
+1677 | Metaphone.java | String metaphone(String txt) | 258
+1678 | Metaphone.java | String metaphone(String txt) | 260
+1679 | Metaphone.java | String metaphone(String txt) | 260
+1680 | Metaphone.java | String metaphone(String txt) | 260
+1681 | Metaphone.java | String metaphone(String txt) | 260
+1682 | Metaphone.java | String metaphone(String txt) | 260
+1683 | Metaphone.java | String metaphone(String txt) | 260
+1684 | Metaphone.java | String metaphone(String txt) | 260
+1685 | Metaphone.java | String metaphone(String txt) | 260
+1686 | Metaphone.java | String metaphone(String txt) | 260
+1687 | Metaphone.java | String metaphone(String txt) | 260
+1688 | Metaphone.java | String metaphone(String txt) | 260
+1689 | Metaphone.java | String metaphone(String txt) | 260
+1690 | Metaphone.java | String metaphone(String txt) | 263
+1691 | Metaphone.java | String metaphone(String txt) | 263
+1692 | Metaphone.java | String metaphone(String txt) | 263
+1693 | Metaphone.java | String metaphone(String txt) | 263
+1694 | Metaphone.java | String metaphone(String txt) | 263
+1695 | Metaphone.java | String metaphone(String txt) | 264
+1696 | Metaphone.java | String metaphone(String txt) | 264
+1697 | Metaphone.java | String metaphone(String txt) | 264
+1698 | Metaphone.java | String metaphone(String txt) | 264
+1699 | Metaphone.java | String metaphone(String txt) | 264
+1700 | Metaphone.java | String metaphone(String txt) | 264
+1701 | Metaphone.java | String metaphone(String txt) | 264
+1702 | Metaphone.java | String metaphone(String txt) | 264
+1703 | Metaphone.java | String metaphone(String txt) | 264
+1704 | Metaphone.java | String metaphone(String txt) | 264
+1705 | Metaphone.java | String metaphone(String txt) | 264
+1706 | Metaphone.java | String metaphone(String txt) | 264
+1707 | Metaphone.java | String metaphone(String txt) | 266
+1708 | Metaphone.java | String metaphone(String txt) | 266
+1709 | Metaphone.java | String metaphone(String txt) | 266
+1710 | Metaphone.java | String metaphone(String txt) | 266
+1711 | Metaphone.java | String metaphone(String txt) | 266
+1712 | Metaphone.java | String metaphone(String txt) | 268
+1713 | Metaphone.java | String metaphone(String txt) | 268
+1714 | Metaphone.java | String metaphone(String txt) | 268
+1715 | Metaphone.java | String metaphone(String txt) | 267
+1716 | Metaphone.java | String metaphone(String txt) | 267
+1717 | Metaphone.java | String metaphone(String txt) | 267
+1718 | Metaphone.java | String metaphone(String txt) | 267
+1719 | Metaphone.java | String metaphone(String txt) | 267
+1720 | Metaphone.java | String metaphone(String txt) | 267
+1721 | Metaphone.java | String metaphone(String txt) | 267
+1722 | Metaphone.java | String metaphone(String txt) | 267
+1723 | Metaphone.java | String metaphone(String txt) | 267
+1724 | Metaphone.java | String metaphone(String txt) | 267
+1725 | Metaphone.java | String metaphone(String txt) | 267
+1726 | Metaphone.java | String metaphone(String txt) | 267
+1727 | Metaphone.java | String metaphone(String txt) | 267
+1728 | Metaphone.java | String metaphone(String txt) | 267
+1729 | Metaphone.java | String metaphone(String txt) | 267
+1730 | Metaphone.java | String metaphone(String txt) | 267
+1731 | Metaphone.java | String metaphone(String txt) | 267
+1732 | Metaphone.java | String metaphone(String txt) | 267
+1733 | Metaphone.java | String metaphone(String txt) | 267
+1734 | Metaphone.java | String metaphone(String txt) | 267
+1735 | Metaphone.java | String metaphone(String txt) | 267
+1736 | Metaphone.java | String metaphone(String txt) | 268
+1737 | Metaphone.java | String metaphone(String txt) | 268
+1738 | Metaphone.java | String metaphone(String txt) | 268
+1739 | Metaphone.java | String metaphone(String txt) | 268
+1740 | Metaphone.java | String metaphone(String txt) | 268
+1741 | Metaphone.java | String metaphone(String txt) | 268
+1742 | Metaphone.java | String metaphone(String txt) | 268
+1743 | Metaphone.java | String metaphone(String txt) | 268
+1744 | Metaphone.java | String metaphone(String txt) | 268
+1745 | Metaphone.java | String metaphone(String txt) | 268
+1746 | Metaphone.java | String metaphone(String txt) | 268
+1747 | Metaphone.java | String metaphone(String txt) | 268
+1748 | Metaphone.java | String metaphone(String txt) | 268
+1749 | Metaphone.java | String metaphone(String txt) | 268
+1750 | Metaphone.java | String metaphone(String txt) | 268
+1751 | Metaphone.java | String metaphone(String txt) | 268
+1752 | Metaphone.java | String metaphone(String txt) | 269
+1753 | Metaphone.java | String metaphone(String txt) | 269
+1754 | Metaphone.java | String metaphone(String txt) | 269
+1755 | Metaphone.java | String metaphone(String txt) | 269
+1756 | Metaphone.java | String metaphone(String txt) | 269
+1757 | Metaphone.java | String metaphone(String txt) | 269
+1758 | Metaphone.java | String metaphone(String txt) | 269
+1759 | Metaphone.java | String metaphone(String txt) | 269
+1760 | Metaphone.java | String metaphone(String txt) | 269
+1761 | Metaphone.java | String metaphone(String txt) | 269
+1762 | Metaphone.java | String metaphone(String txt) | 269
+1763 | Metaphone.java | String metaphone(String txt) | 269
+1764 | Metaphone.java | String metaphone(String txt) | 269
+1765 | Metaphone.java | String metaphone(String txt) | 269
+1766 | Metaphone.java | String metaphone(String txt) | 269
+1767 | Metaphone.java | String metaphone(String txt) | 269
+1768 | Metaphone.java | String metaphone(String txt) | 270
+1769 | Metaphone.java | String metaphone(String txt) | 270
+1770 | Metaphone.java | String metaphone(String txt) | 270
+1771 | Metaphone.java | String metaphone(String txt) | 270
+1772 | Metaphone.java | String metaphone(String txt) | 270
+1773 | Metaphone.java | String metaphone(String txt) | 270
+1774 | Metaphone.java | String metaphone(String txt) | 270
+1775 | Metaphone.java | String metaphone(String txt) | 270
+1776 | Metaphone.java | String metaphone(String txt) | 270
+1777 | Metaphone.java | String metaphone(String txt) | 270
+1778 | Metaphone.java | String metaphone(String txt) | 270
+1779 | Metaphone.java | String metaphone(String txt) | 270
+1780 | Metaphone.java | String metaphone(String txt) | 272
+1781 | Metaphone.java | String metaphone(String txt) | 272
+1782 | Metaphone.java | String metaphone(String txt) | 272
+1783 | Metaphone.java | String metaphone(String txt) | 272
+1784 | Metaphone.java | String metaphone(String txt) | 272
+1785 | Metaphone.java | String metaphone(String txt) | 272
+1786 | Metaphone.java | String metaphone(String txt) | 272
+1787 | Metaphone.java | String metaphone(String txt) | 272
+1788 | Metaphone.java | String metaphone(String txt) | 272
+1789 | Metaphone.java | String metaphone(String txt) | 272
+1790 | Metaphone.java | String metaphone(String txt) | 272
+1791 | Metaphone.java | String metaphone(String txt) | 275
+1792 | Metaphone.java | String metaphone(String txt) | 275
+1793 | Metaphone.java | String metaphone(String txt) | 275
+1794 | Metaphone.java | String metaphone(String txt) | 275
+1795 | Metaphone.java | String metaphone(String txt) | 275
+1796 | Metaphone.java | String metaphone(String txt) | 276
+1797 | Metaphone.java | String metaphone(String txt) | 276
+1798 | Metaphone.java | String metaphone(String txt) | 276
+1799 | Metaphone.java | String metaphone(String txt) | 276
+1800 | Metaphone.java | String metaphone(String txt) | 276
+1801 | Metaphone.java | String metaphone(String txt) | 276
+1802 | Metaphone.java | String metaphone(String txt) | 276
+1803 | Metaphone.java | String metaphone(String txt) | 276
+1804 | Metaphone.java | String metaphone(String txt) | 276
+1805 | Metaphone.java | String metaphone(String txt) | 276
+1806 | Metaphone.java | String metaphone(String txt) | 276
+1807 | Metaphone.java | String metaphone(String txt) | 276
+1808 | Metaphone.java | String metaphone(String txt) | 276
+1809 | Metaphone.java | String metaphone(String txt) | 276
+1810 | Metaphone.java | String metaphone(String txt) | 276
+1811 | Metaphone.java | String metaphone(String txt) | 276
+1812 | Metaphone.java | String metaphone(String txt) | 276
+1813 | Metaphone.java | String metaphone(String txt) | 276
+1814 | Metaphone.java | String metaphone(String txt) | 276
+1815 | Metaphone.java | String metaphone(String txt) | 277
+1816 | Metaphone.java | String metaphone(String txt) | 277
+1817 | Metaphone.java | String metaphone(String txt) | 277
+1818 | Metaphone.java | String metaphone(String txt) | 277
+1819 | Metaphone.java | String metaphone(String txt) | 277
+1820 | Metaphone.java | String metaphone(String txt) | 277
+1821 | Metaphone.java | String metaphone(String txt) | 277
+1822 | Metaphone.java | String metaphone(String txt) | 277
+1823 | Metaphone.java | String metaphone(String txt) | 277
+1824 | Metaphone.java | String metaphone(String txt) | 277
+1825 | Metaphone.java | String metaphone(String txt) | 277
+1826 | Metaphone.java | String metaphone(String txt) | 277
+1827 | Metaphone.java | String metaphone(String txt) | 277
+1828 | Metaphone.java | String metaphone(String txt) | 277
+1829 | Metaphone.java | String metaphone(String txt) | 277
+1830 | Metaphone.java | String metaphone(String txt) | 277
+1831 | Metaphone.java | String metaphone(String txt) | 278
+1832 | Metaphone.java | String metaphone(String txt) | 278
+1833 | Metaphone.java | String metaphone(String txt) | 278
+1834 | Metaphone.java | String metaphone(String txt) | 278
+1835 | Metaphone.java | String metaphone(String txt) | 278
+1836 | Metaphone.java | String metaphone(String txt) | 278
+1837 | Metaphone.java | String metaphone(String txt) | 278
+1838 | Metaphone.java | String metaphone(String txt) | 278
+1839 | Metaphone.java | String metaphone(String txt) | 278
+1840 | Metaphone.java | String metaphone(String txt) | 278
+1841 | Metaphone.java | String metaphone(String txt) | 278
+1842 | Metaphone.java | String metaphone(String txt) | 278
+1843 | Metaphone.java | String metaphone(String txt) | 281
+1844 | Metaphone.java | String metaphone(String txt) | 281
+1845 | Metaphone.java | String metaphone(String txt) | 281
+1846 | Metaphone.java | String metaphone(String txt) | 281
+1847 | Metaphone.java | String metaphone(String txt) | 281
+1848 | Metaphone.java | String metaphone(String txt) | 281
+1849 | Metaphone.java | String metaphone(String txt) | 281
+1850 | Metaphone.java | String metaphone(String txt) | 281
+1851 | Metaphone.java | String metaphone(String txt) | 281
+1852 | Metaphone.java | String metaphone(String txt) | 281
+1853 | Metaphone.java | String metaphone(String txt) | 281
+1854 | Metaphone.java | String metaphone(String txt) | 281
+1855 | Metaphone.java | String metaphone(String txt) | 281
+1856 | Metaphone.java | String metaphone(String txt) | 281
+1857 | Metaphone.java | String metaphone(String txt) | 281
+1858 | Metaphone.java | String metaphone(String txt) | 281
+1859 | Metaphone.java | String metaphone(String txt) | 281
+1860 | Metaphone.java | String metaphone(String txt) | 286
+1861 | Metaphone.java | String metaphone(String txt) | 286
+1862 | Metaphone.java | String metaphone(String txt) | 286
+1863 | Metaphone.java | String metaphone(String txt) | 286
+1864 | Metaphone.java | String metaphone(String txt) | 286
+1865 | Metaphone.java | String metaphone(String txt) | 286
+1866 | Metaphone.java | String metaphone(String txt) | 286
+1867 | Metaphone.java | String metaphone(String txt) | 286
+1868 | Metaphone.java | String metaphone(String txt) | 286
+1869 | Metaphone.java | String metaphone(String txt) | 286
+1870 | Metaphone.java | String metaphone(String txt) | 286
+1871 | Metaphone.java | String metaphone(String txt) | 286
+1872 | Metaphone.java | String metaphone(String txt) | 286
+1873 | Metaphone.java | String metaphone(String txt) | 286
+1874 | Metaphone.java | String metaphone(String txt) | 286
+1875 | Metaphone.java | String metaphone(String txt) | 286
+1876 | Metaphone.java | String metaphone(String txt) | 286
+1877 | Metaphone.java | String metaphone(String txt) | 287
+1878 | Metaphone.java | String metaphone(String txt) | 287
+1879 | Metaphone.java | String metaphone(String txt) | 287
+1880 | Metaphone.java | String metaphone(String txt) | 287
+1881 | Metaphone.java | String metaphone(String txt) | 287
+1882 | Metaphone.java | String metaphone(String txt) | 287
+1883 | Metaphone.java | String metaphone(String txt) | 287
+1884 | Metaphone.java | String metaphone(String txt) | 287
+1885 | Metaphone.java | String metaphone(String txt) | 287
+1886 | Metaphone.java | String metaphone(String txt) | 287
+1887 | Metaphone.java | String metaphone(String txt) | 287
+1888 | Metaphone.java | String metaphone(String txt) | 287
+1889 | Metaphone.java | String metaphone(String txt) | 289
+1890 | Metaphone.java | String metaphone(String txt) | 289
+1891 | Metaphone.java | String metaphone(String txt) | 289
+1892 | Metaphone.java | String metaphone(String txt) | 289
+1893 | Metaphone.java | String metaphone(String txt) | 289
+1894 | Metaphone.java | String metaphone(String txt) | 289
+1895 | Metaphone.java | String metaphone(String txt) | 289
+1896 | Metaphone.java | String metaphone(String txt) | 289
+1897 | Metaphone.java | String metaphone(String txt) | 289
+1898 | Metaphone.java | String metaphone(String txt) | 289
+1899 | Metaphone.java | String metaphone(String txt) | 289
+1900 | Metaphone.java | String metaphone(String txt) | 289
+1901 | Metaphone.java | String metaphone(String txt) | 292
+1902 | Metaphone.java | String metaphone(String txt) | 292
+1903 | Metaphone.java | String metaphone(String txt) | 292
+1904 | Metaphone.java | String metaphone(String txt) | 292
+1905 | Metaphone.java | String metaphone(String txt) | 292
+1906 | Metaphone.java | String metaphone(String txt) | 293
+1907 | Metaphone.java | String metaphone(String txt) | 293
+1908 | Metaphone.java | String metaphone(String txt) | 293
+1909 | Metaphone.java | String metaphone(String txt) | 293
+1910 | Metaphone.java | String metaphone(String txt) | 293
+1911 | Metaphone.java | String metaphone(String txt) | 293
+1912 | Metaphone.java | String metaphone(String txt) | 293
+1913 | Metaphone.java | String metaphone(String txt) | 293
+1914 | Metaphone.java | String metaphone(String txt) | 293
+1915 | Metaphone.java | String metaphone(String txt) | 293
+1916 | Metaphone.java | String metaphone(String txt) | 293
+1917 | Metaphone.java | String metaphone(String txt) | 293
+1918 | Metaphone.java | String metaphone(String txt) | 294
+1919 | Metaphone.java | String metaphone(String txt) | 294
+1920 | Metaphone.java | String metaphone(String txt) | 294
+1921 | Metaphone.java | String metaphone(String txt) | 294
+1922 | Metaphone.java | String metaphone(String txt) | 294
+1923 | Metaphone.java | String metaphone(String txt) | 294
+1924 | Metaphone.java | String metaphone(String txt) | 294
+1925 | Metaphone.java | String metaphone(String txt) | 294
+1926 | Metaphone.java | String metaphone(String txt) | 294
+1927 | Metaphone.java | String metaphone(String txt) | 294
+1928 | Metaphone.java | String metaphone(String txt) | 295
+1929 | Metaphone.java | String metaphone(String txt) | 295
+1930 | Metaphone.java | String metaphone(String txt) | 295
+1931 | Metaphone.java | String metaphone(String txt) | 295
+1932 | Metaphone.java | String metaphone(String txt) | 295
+1933 | Metaphone.java | String metaphone(String txt) | 295
+1934 | Metaphone.java | String metaphone(String txt) | 295
+1935 | Metaphone.java | String metaphone(String txt) | 295
+1936 | Metaphone.java | String metaphone(String txt) | 295
+1937 | Metaphone.java | String metaphone(String txt) | 295
+1938 | Metaphone.java | String metaphone(String txt) | 295
+1939 | Metaphone.java | String metaphone(String txt) | 295
+1940 | Metaphone.java | String metaphone(String txt) | 295
+1941 | Metaphone.java | String metaphone(String txt) | 295
+1942 | Metaphone.java | String metaphone(String txt) | 295
+1943 | Metaphone.java | String metaphone(String txt) | 295
+1944 | Metaphone.java | String metaphone(String txt) | 295
+1945 | Metaphone.java | String metaphone(String txt) | 295
+1946 | Metaphone.java | String metaphone(String txt) | 295
+1947 | Metaphone.java | String metaphone(String txt) | 296
+1948 | Metaphone.java | String metaphone(String txt) | 296
+1949 | Metaphone.java | String metaphone(String txt) | 296
+1950 | Metaphone.java | String metaphone(String txt) | 296
+1951 | Metaphone.java | String metaphone(String txt) | 296
+1952 | Metaphone.java | String metaphone(String txt) | 296
+1953 | Metaphone.java | String metaphone(String txt) | 296
+1954 | Metaphone.java | String metaphone(String txt) | 296
+1955 | Metaphone.java | String metaphone(String txt) | 296
+1956 | Metaphone.java | String metaphone(String txt) | 296
+1957 | Metaphone.java | String metaphone(String txt) | 296
+1958 | Metaphone.java | String metaphone(String txt) | 296
+1959 | Metaphone.java | String metaphone(String txt) | 296
+1960 | Metaphone.java | String metaphone(String txt) | 296
+1961 | Metaphone.java | String metaphone(String txt) | 296
+1962 | Metaphone.java | String metaphone(String txt) | 296
+1963 | Metaphone.java | String metaphone(String txt) | 296
+1964 | Metaphone.java | String metaphone(String txt) | 296
+1965 | Metaphone.java | String metaphone(String txt) | 296
+1966 | Metaphone.java | String metaphone(String txt) | 297
+1967 | Metaphone.java | String metaphone(String txt) | 297
+1968 | Metaphone.java | String metaphone(String txt) | 297
+1969 | Metaphone.java | String metaphone(String txt) | 297
+1970 | Metaphone.java | String metaphone(String txt) | 297
+1971 | Metaphone.java | String metaphone(String txt) | 297
+1972 | Metaphone.java | String metaphone(String txt) | 297
+1973 | Metaphone.java | String metaphone(String txt) | 297
+1974 | Metaphone.java | String metaphone(String txt) | 297
+1975 | Metaphone.java | String metaphone(String txt) | 297
+1976 | Metaphone.java | String metaphone(String txt) | 297
+1977 | Metaphone.java | String metaphone(String txt) | 297
+1978 | Metaphone.java | String metaphone(String txt) | 300
+1979 | Metaphone.java | String metaphone(String txt) | 300
+1980 | Metaphone.java | String metaphone(String txt) | 300
+1981 | Metaphone.java | String metaphone(String txt) | 300
+1982 | Metaphone.java | String metaphone(String txt) | 300
+1983 | Metaphone.java | String metaphone(String txt) | 301
+1984 | Metaphone.java | String metaphone(String txt) | 301
+1985 | Metaphone.java | String metaphone(String txt) | 301
+1986 | Metaphone.java | String metaphone(String txt) | 301
+1987 | Metaphone.java | String metaphone(String txt) | 301
+1988 | Metaphone.java | String metaphone(String txt) | 301
+1989 | Metaphone.java | String metaphone(String txt) | 301
+1990 | Metaphone.java | String metaphone(String txt) | 301
+1991 | Metaphone.java | String metaphone(String txt) | 301
+1992 | Metaphone.java | String metaphone(String txt) | 301
+1993 | Metaphone.java | String metaphone(String txt) | 301
+1994 | Metaphone.java | String metaphone(String txt) | 301
+1995 | Metaphone.java | String metaphone(String txt) | 301
+1996 | Metaphone.java | String metaphone(String txt) | 301
+1997 | Metaphone.java | String metaphone(String txt) | 301
+1998 | Metaphone.java | String metaphone(String txt) | 301
+1999 | Metaphone.java | String metaphone(String txt) | 301
+2000 | Metaphone.java | String metaphone(String txt) | 301
+2001 | Metaphone.java | String metaphone(String txt) | 301
+2002 | Metaphone.java | String metaphone(String txt) | 301
+2003 | Metaphone.java | String metaphone(String txt) | 301
+2004 | Metaphone.java | String metaphone(String txt) | 301
+2005 | Metaphone.java | String metaphone(String txt) | 301
+2006 | Metaphone.java | String metaphone(String txt) | 301
+2007 | Metaphone.java | String metaphone(String txt) | 303
+2008 | Metaphone.java | String metaphone(String txt) | 303
+2009 | Metaphone.java | String metaphone(String txt) | 303
+2010 | Metaphone.java | String metaphone(String txt) | 303
+2011 | Metaphone.java | String metaphone(String txt) | 303
+2012 | Metaphone.java | String metaphone(String txt) | 304
+2013 | Metaphone.java | String metaphone(String txt) | 304
+2014 | Metaphone.java | String metaphone(String txt) | 304
+2015 | Metaphone.java | String metaphone(String txt) | 304
+2016 | Metaphone.java | String metaphone(String txt) | 304
+2017 | Metaphone.java | String metaphone(String txt) | 304
+2018 | Metaphone.java | String metaphone(String txt) | 304
+2019 | Metaphone.java | String metaphone(String txt) | 304
+2020 | Metaphone.java | String metaphone(String txt) | 304
+2021 | Metaphone.java | String metaphone(String txt) | 304
+2022 | Metaphone.java | String metaphone(String txt) | 304
+2023 | Metaphone.java | String metaphone(String txt) | 304
+2024 | Metaphone.java | String metaphone(String txt) | 306
+2025 | Metaphone.java | String metaphone(String txt) | 306
+2026 | Metaphone.java | String metaphone(String txt) | 306
+2027 | Metaphone.java | String metaphone(String txt) | 306
+2028 | Metaphone.java | String metaphone(String txt) | 306
+2029 | Metaphone.java | String metaphone(String txt) | 306
+2030 | Metaphone.java | String metaphone(String txt) | 306
+2031 | Metaphone.java | String metaphone(String txt) | 308
+2032 | Metaphone.java | String metaphone(String txt) | 308
+2033 | Metaphone.java | String metaphone(String txt) | 308
+2034 | Metaphone.java | String metaphone(String txt) | 308
+2035 | Metaphone.java | String metaphone(String txt) | 308
+2036 | Metaphone.java | String metaphone(String txt) | 308
+2037 | Metaphone.java | String metaphone(String txt) | 308
+2038 | Metaphone.java | String metaphone(String txt) | 308
+2039 | Metaphone.java | String metaphone(String txt) | 308
+2040 | Metaphone.java | String metaphone(String txt) | 308
+2041 | Metaphone.java | String metaphone(String txt) | 308
+2042 | Metaphone.java | String metaphone(String txt) | 308
+2043 | Metaphone.java | String metaphone(String txt) | 308
+2044 | Metaphone.java | String metaphone(String txt) | 308
+2045 | Metaphone.java | String metaphone(String txt) | 308
+2046 | Metaphone.java | String metaphone(String txt) | 308
+2047 | Metaphone.java | String metaphone(String txt) | 308
+2048 | Metaphone.java | String metaphone(String txt) | 308
+2049 | Metaphone.java | String metaphone(String txt) | 309
+2050 | Metaphone.java | String metaphone(String txt) | 309
+2051 | Metaphone.java | String metaphone(String txt) | 309
+2052 | Metaphone.java | String metaphone(String txt) | 309
+2053 | Metaphone.java | String metaphone(String txt) | 309
+2054 | Metaphone.java | String metaphone(String txt) | 309
+2055 | Metaphone.java | String metaphone(String txt) | 309
+2056 | Metaphone.java | String metaphone(String txt) | 309
+2057 | Metaphone.java | String metaphone(String txt) | 309
+2058 | Metaphone.java | String metaphone(String txt) | 309
+2059 | Metaphone.java | String metaphone(String txt) | 309
+2060 | Metaphone.java | String metaphone(String txt) | 309
+2061 | Metaphone.java | String metaphone(String txt) | 309
+2062 | Metaphone.java | String metaphone(String txt) | 309
+2063 | Metaphone.java | String metaphone(String txt) | 309
+2064 | Metaphone.java | String metaphone(String txt) | 309
+2065 | Metaphone.java | String metaphone(String txt) | 312
+2066 | Metaphone.java | String metaphone(String txt) | 312
+2067 | Metaphone.java | String metaphone(String txt) | 312
+2068 | Metaphone.java | String metaphone(String txt) | 312
+2069 | Metaphone.java | String metaphone(String txt) | 312
+2070 | Metaphone.java | String metaphone(String txt) | 312
+2071 | Metaphone.java | String metaphone(String txt) | 312
+2072 | Metaphone.java | String metaphone(String txt) | 312
+2073 | Metaphone.java | String metaphone(String txt) | 312
+2074 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2075 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2076 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2077 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2078 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2079 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2080 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2081 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2082 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2083 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2084 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2085 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2086 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2087 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2088 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2089 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2090 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2091 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2092 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2093 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2094 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2095 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2096 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2097 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2098 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2099 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2100 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2101 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2102 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2103 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2104 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2105 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2106 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2107 | Metaphone.java | boolean isVowel(StringBuffer string, int index) | 316
+2108 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 320
+2109 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 320
+2110 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 320
+2111 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2112 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2113 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2114 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2115 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2116 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2117 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2118 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2119 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2120 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2121 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2122 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2123 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 321
+2124 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2125 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2126 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2127 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2128 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2129 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2130 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2131 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2132 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2133 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2134 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2135 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2136 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 322
+2137 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2138 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2139 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2140 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2141 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2142 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2143 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2144 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2145 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2146 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2147 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2148 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2149 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2150 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2151 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2152 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2153 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2154 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2155 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2156 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2157 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2158 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2159 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2160 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2161 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2162 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2163 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2164 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2165 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2166 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2167 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2168 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2169 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2170 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 323
+2171 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 325
+2172 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 325
+2173 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 325
+2174 | Metaphone.java | boolean isPreviousChar(StringBuffer string, int index, char c) | 325
+2175 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 329
+2176 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 329
+2177 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 329
+2178 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2179 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2180 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2181 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2182 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2183 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2184 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2185 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2186 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2187 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2188 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2189 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2190 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2191 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 330
+2192 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2193 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2194 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2195 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2196 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2197 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2198 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2199 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2200 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2201 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2202 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2203 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2204 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2205 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2206 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2207 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2208 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2209 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2210 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2211 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 331
+2212 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2213 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2214 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2215 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2216 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2217 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2218 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2219 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2220 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2221 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2222 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2223 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2224 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2225 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2226 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2227 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2228 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2229 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2230 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2231 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2232 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2233 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2234 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2235 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2236 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2237 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2238 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2239 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2240 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2241 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2242 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2243 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2244 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2245 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 332
+2246 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 334
+2247 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 334
+2248 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 334
+2249 | Metaphone.java | boolean isNextChar(StringBuffer string, int index, char c) | 334
+2250 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 338
+2251 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 338
+2252 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 338
+2253 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 338
+2254 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2255 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2256 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2257 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2258 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2259 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2260 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2261 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2262 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2263 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2264 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2265 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2266 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2267 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 339
+2268 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2269 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2270 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2271 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2272 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2273 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2274 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2275 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2276 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2277 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2278 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2279 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2280 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2281 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2282 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2283 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2284 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2285 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2286 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2287 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2288 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2289 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2290 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2291 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2292 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2293 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2294 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2295 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2296 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2297 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 340
+2298 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2299 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2300 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2301 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2302 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2303 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2304 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2305 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2306 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2307 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2308 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2309 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2310 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2311 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2312 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2313 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2314 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2315 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2316 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2317 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2318 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2319 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2320 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2321 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2322 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 341
+2323 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2324 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2325 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2326 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2327 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2328 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2329 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2330 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2331 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2332 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2333 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2334 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2335 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2336 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2337 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2338 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2339 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2340 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2341 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2342 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2343 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2344 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2345 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 342
+2346 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 344
+2347 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 344
+2348 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 344
+2349 | Metaphone.java | boolean regionMatch(StringBuffer string, int index, String test) | 344
+2350 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2351 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2352 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2353 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2354 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2355 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2356 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2357 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2358 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2359 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2360 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2361 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2362 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2363 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2364 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2365 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2366 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2367 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2368 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2369 | Metaphone.java | boolean isLastChar(int wdsz, int n) | 348
+2370 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2371 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2372 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2373 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2374 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2375 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2376 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2377 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2378 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2379 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2380 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2381 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2382 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2383 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2384 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2385 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2386 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2387 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 365
+2388 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 366
+2389 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 366
+2390 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 366
+2391 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 366
+2392 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 366
+2393 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2394 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2395 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2396 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2397 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2398 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2399 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2400 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2401 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2402 | Metaphone.java | Object encode(Object pObject) throws EncoderException | 368
+2403 | Metaphone.java | String encode(String pString) | 378
+2404 | Metaphone.java | String encode(String pString) | 378
+2405 | Metaphone.java | String encode(String pString) | 378
+2406 | Metaphone.java | String encode(String pString) | 378
+2407 | Metaphone.java | String encode(String pString) | 378
+2408 | Metaphone.java | String encode(String pString) | 378
+2409 | Metaphone.java | String encode(String pString) | 378
+2410 | Metaphone.java | String encode(String pString) | 378
+2411 | Metaphone.java | String encode(String pString) | 378
+2412 | Metaphone.java | String encode(String pString) | 378
+2413 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2414 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2415 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2416 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2417 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2418 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2419 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2420 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2421 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2422 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2423 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2424 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2425 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2426 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2427 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2428 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2429 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2430 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2431 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2432 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2433 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2434 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2435 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2436 | Metaphone.java | boolean isMetaphoneEqual(String str1, String str2) | 390
+2437 | Metaphone.java | int getMaxCodeLen() | 397
+2438 | Metaphone.java | int getMaxCodeLen() | 397
+2439 | Metaphone.java | int getMaxCodeLen() | 397
+2440 | Metaphone.java | int getMaxCodeLen() | 397
+2441 | Metaphone.java | int getMaxCodeLen() | 397
+2442 | Metaphone.java | int getMaxCodeLen() | 397
+2443 | Metaphone.java | int getMaxCodeLen() | 397
+2444 | Metaphone.java | int getMaxCodeLen() | 397
+2445 | Metaphone.java | int getMaxCodeLen() | 397
+2446 | Metaphone.java | int getMaxCodeLen() | 397
+2447 | Metaphone.java | int getMaxCodeLen() | 397
+2448 | Metaphone.java | int getMaxCodeLen() | 397
+2449 | Metaphone.java | int getMaxCodeLen() | 397
+2450 | Metaphone.java | int getMaxCodeLen() | 397
+2451 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2452 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2453 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2454 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2455 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2456 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2457 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2458 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2459 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2460 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2461 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2462 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2463 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2464 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2465 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2466 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2467 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2468 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2469 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2470 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2471 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2472 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+2473 | Metaphone.java | void setMaxCodeLen(int maxCodeLen) | 403
+
+Settings{CODEBERT_TIMEOUT=60, MAX_NUM_OF_MUTANTS=2147483647}
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47:22 min
+[INFO] Finished at: 2025-03-03T22:03:24+01:00
+[INFO] ------------------------------------------------------------------------

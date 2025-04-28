@@ -1,0 +1,320 @@
+0 | SoundexUtils.java | String clean(String str) | 41
+1 | SoundexUtils.java | String clean(String str) | 41
+2 | SoundexUtils.java | String clean(String str) | 41
+3 | SoundexUtils.java | String clean(String str) | 41
+4 | SoundexUtils.java | String clean(String str) | 41
+5 | SoundexUtils.java | String clean(String str) | 41
+6 | SoundexUtils.java | String clean(String str) | 41
+7 | SoundexUtils.java | String clean(String str) | 41
+8 | SoundexUtils.java | String clean(String str) | 41
+9 | SoundexUtils.java | String clean(String str) | 41
+10 | SoundexUtils.java | String clean(String str) | 41
+11 | SoundexUtils.java | String clean(String str) | 41
+12 | SoundexUtils.java | String clean(String str) | 41
+13 | SoundexUtils.java | String clean(String str) | 41
+14 | SoundexUtils.java | String clean(String str) | 41
+15 | SoundexUtils.java | String clean(String str) | 41
+16 | SoundexUtils.java | String clean(String str) | 41
+17 | SoundexUtils.java | String clean(String str) | 41
+18 | SoundexUtils.java | String clean(String str) | 41
+19 | SoundexUtils.java | String clean(String str) | 41
+20 | SoundexUtils.java | String clean(String str) | 41
+21 | SoundexUtils.java | String clean(String str) | 41
+22 | SoundexUtils.java | String clean(String str) | 41
+23 | SoundexUtils.java | String clean(String str) | 41
+24 | SoundexUtils.java | String clean(String str) | 41
+25 | SoundexUtils.java | String clean(String str) | 41
+26 | SoundexUtils.java | String clean(String str) | 42
+27 | SoundexUtils.java | String clean(String str) | 42
+28 | SoundexUtils.java | String clean(String str) | 42
+29 | SoundexUtils.java | String clean(String str) | 42
+30 | SoundexUtils.java | String clean(String str) | 44
+31 | SoundexUtils.java | String clean(String str) | 44
+32 | SoundexUtils.java | String clean(String str) | 44
+33 | SoundexUtils.java | String clean(String str) | 44
+34 | SoundexUtils.java | String clean(String str) | 44
+35 | SoundexUtils.java | String clean(String str) | 44
+36 | SoundexUtils.java | String clean(String str) | 45
+37 | SoundexUtils.java | String clean(String str) | 45
+38 | SoundexUtils.java | String clean(String str) | 45
+39 | SoundexUtils.java | String clean(String str) | 46
+40 | SoundexUtils.java | String clean(String str) | 46
+41 | SoundexUtils.java | String clean(String str) | 46
+42 | SoundexUtils.java | String clean(String str) | 46
+43 | SoundexUtils.java | String clean(String str) | 47
+44 | SoundexUtils.java | String clean(String str) | 47
+45 | SoundexUtils.java | String clean(String str) | 47
+46 | SoundexUtils.java | String clean(String str) | 47
+47 | SoundexUtils.java | String clean(String str) | 47
+48 | SoundexUtils.java | String clean(String str) | 47
+49 | SoundexUtils.java | String clean(String str) | 47
+50 | SoundexUtils.java | String clean(String str) | 47
+51 | SoundexUtils.java | String clean(String str) | 47
+52 | SoundexUtils.java | String clean(String str) | 47
+53 | SoundexUtils.java | String clean(String str) | 47
+54 | SoundexUtils.java | String clean(String str) | 47
+55 | SoundexUtils.java | String clean(String str) | 47
+56 | SoundexUtils.java | String clean(String str) | 47
+57 | SoundexUtils.java | String clean(String str) | 47
+58 | SoundexUtils.java | String clean(String str) | 47
+59 | SoundexUtils.java | String clean(String str) | 47
+60 | SoundexUtils.java | String clean(String str) | 47
+61 | SoundexUtils.java | String clean(String str) | 48
+62 | SoundexUtils.java | String clean(String str) | 48
+63 | SoundexUtils.java | String clean(String str) | 48
+64 | SoundexUtils.java | String clean(String str) | 48
+65 | SoundexUtils.java | String clean(String str) | 48
+66 | SoundexUtils.java | String clean(String str) | 48
+67 | SoundexUtils.java | String clean(String str) | 48
+68 | SoundexUtils.java | String clean(String str) | 48
+69 | SoundexUtils.java | String clean(String str) | 48
+70 | SoundexUtils.java | String clean(String str) | 48
+71 | SoundexUtils.java | String clean(String str) | 48
+72 | SoundexUtils.java | String clean(String str) | 48
+73 | SoundexUtils.java | String clean(String str) | 48
+74 | SoundexUtils.java | String clean(String str) | 48
+75 | SoundexUtils.java | String clean(String str) | 48
+76 | SoundexUtils.java | String clean(String str) | 48
+77 | SoundexUtils.java | String clean(String str) | 49
+78 | SoundexUtils.java | String clean(String str) | 49
+79 | SoundexUtils.java | String clean(String str) | 49
+80 | SoundexUtils.java | String clean(String str) | 49
+81 | SoundexUtils.java | String clean(String str) | 49
+82 | SoundexUtils.java | String clean(String str) | 49
+83 | SoundexUtils.java | String clean(String str) | 49
+84 | SoundexUtils.java | String clean(String str) | 49
+85 | SoundexUtils.java | String clean(String str) | 49
+86 | SoundexUtils.java | String clean(String str) | 49
+87 | SoundexUtils.java | String clean(String str) | 49
+88 | SoundexUtils.java | String clean(String str) | 49
+89 | SoundexUtils.java | String clean(String str) | 49
+90 | SoundexUtils.java | String clean(String str) | 49
+91 | SoundexUtils.java | String clean(String str) | 49
+92 | SoundexUtils.java | String clean(String str) | 49
+93 | SoundexUtils.java | String clean(String str) | 49
+94 | SoundexUtils.java | String clean(String str) | 49
+95 | SoundexUtils.java | String clean(String str) | 49
+96 | SoundexUtils.java | String clean(String str) | 49
+97 | SoundexUtils.java | String clean(String str) | 49
+98 | SoundexUtils.java | String clean(String str) | 49
+99 | SoundexUtils.java | String clean(String str) | 49
+100 | SoundexUtils.java | String clean(String str) | 49
+101 | SoundexUtils.java | String clean(String str) | 49
+102 | SoundexUtils.java | String clean(String str) | 49
+103 | SoundexUtils.java | String clean(String str) | 49
+104 | SoundexUtils.java | String clean(String str) | 49
+105 | SoundexUtils.java | String clean(String str) | 49
+106 | SoundexUtils.java | String clean(String str) | 49
+107 | SoundexUtils.java | String clean(String str) | 49
+108 | SoundexUtils.java | String clean(String str) | 49
+109 | SoundexUtils.java | String clean(String str) | 52
+110 | SoundexUtils.java | String clean(String str) | 52
+111 | SoundexUtils.java | String clean(String str) | 52
+112 | SoundexUtils.java | String clean(String str) | 52
+113 | SoundexUtils.java | String clean(String str) | 52
+114 | SoundexUtils.java | String clean(String str) | 52
+115 | SoundexUtils.java | String clean(String str) | 52
+116 | SoundexUtils.java | String clean(String str) | 52
+117 | SoundexUtils.java | String clean(String str) | 52
+118 | SoundexUtils.java | String clean(String str) | 52
+119 | SoundexUtils.java | String clean(String str) | 52
+120 | SoundexUtils.java | String clean(String str) | 52
+121 | SoundexUtils.java | String clean(String str) | 53
+122 | SoundexUtils.java | String clean(String str) | 53
+123 | SoundexUtils.java | String clean(String str) | 53
+124 | SoundexUtils.java | String clean(String str) | 53
+125 | SoundexUtils.java | String clean(String str) | 53
+126 | SoundexUtils.java | String clean(String str) | 53
+127 | SoundexUtils.java | String clean(String str) | 53
+128 | SoundexUtils.java | String clean(String str) | 53
+129 | SoundexUtils.java | String clean(String str) | 53
+130 | SoundexUtils.java | String clean(String str) | 53
+131 | SoundexUtils.java | String clean(String str) | 53
+132 | SoundexUtils.java | String clean(String str) | 53
+133 | SoundexUtils.java | String clean(String str) | 53
+134 | SoundexUtils.java | String clean(String str) | 53
+135 | SoundexUtils.java | String clean(String str) | 53
+136 | SoundexUtils.java | String clean(String str) | 53
+137 | SoundexUtils.java | String clean(String str) | 53
+138 | SoundexUtils.java | String clean(String str) | 53
+139 | SoundexUtils.java | String clean(String str) | 53
+140 | SoundexUtils.java | String clean(String str) | 55
+141 | SoundexUtils.java | String clean(String str) | 55
+142 | SoundexUtils.java | String clean(String str) | 55
+143 | SoundexUtils.java | String clean(String str) | 55
+144 | SoundexUtils.java | String clean(String str) | 55
+145 | SoundexUtils.java | String clean(String str) | 55
+146 | SoundexUtils.java | String clean(String str) | 55
+147 | SoundexUtils.java | String clean(String str) | 55
+148 | SoundexUtils.java | String clean(String str) | 55
+149 | SoundexUtils.java | String clean(String str) | 55
+150 | SoundexUtils.java | String clean(String str) | 55
+151 | SoundexUtils.java | String clean(String str) | 55
+152 | SoundexUtils.java | String clean(String str) | 55
+153 | SoundexUtils.java | String clean(String str) | 55
+154 | SoundexUtils.java | String clean(String str) | 55
+155 | SoundexUtils.java | String clean(String str) | 55
+156 | SoundexUtils.java | String clean(String str) | 55
+157 | SoundexUtils.java | String clean(String str) | 55
+158 | SoundexUtils.java | String clean(String str) | 55
+159 | SoundexUtils.java | String clean(String str) | 55
+160 | SoundexUtils.java | String clean(String str) | 55
+161 | SoundexUtils.java | String clean(String str) | 55
+162 | SoundexUtils.java | String clean(String str) | 55
+163 | SoundexUtils.java | String clean(String str) | 55
+164 | SoundexUtils.java | String clean(String str) | 55
+165 | SoundexUtils.java | String clean(String str) | 55
+166 | SoundexUtils.java | String clean(String str) | 55
+167 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+168 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+169 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+170 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+171 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+172 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+173 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+174 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+175 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+176 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+177 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+178 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+179 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+180 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+181 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+182 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+183 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+184 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+185 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+186 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+187 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+188 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+189 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+190 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+191 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+192 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+193 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+194 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+195 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+196 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+197 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+198 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+199 | SoundexUtils.java | int difference(StringEncoder encoder, String s1, String s2) throws EncoderException | 85
+200 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+201 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+202 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+203 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+204 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+205 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+206 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+207 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+208 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+209 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+210 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+211 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+212 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+213 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+214 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+215 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+216 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+217 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+218 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+219 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+220 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+221 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+222 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+223 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+224 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+225 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 110
+226 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 111
+227 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 111
+228 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 111
+229 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 111
+230 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+231 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+232 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+233 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+234 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+235 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+236 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+237 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+238 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+239 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+240 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+241 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+242 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+243 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+244 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+245 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+246 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+247 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+248 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 113
+249 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 114
+250 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 114
+251 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 114
+252 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+253 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+254 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+255 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+256 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+257 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+258 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+259 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+260 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+261 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+262 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+263 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+264 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+265 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+266 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+267 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+268 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+269 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+270 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+271 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 115
+272 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+273 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+274 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+275 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+276 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+277 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+278 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+279 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+280 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+281 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+282 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+283 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+284 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+285 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+286 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+287 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+288 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+289 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+290 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+291 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+292 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+293 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+294 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+295 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+296 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+297 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+298 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+299 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+300 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+301 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 116
+302 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+303 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+304 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+305 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+306 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+307 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 117
+308 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 120
+309 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 120
+310 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 120
+311 | SoundexUtils.java | int differenceEncoded(String es1, String es2) | 120
+
+Settings{CODEBERT_TIMEOUT=60, MAX_NUM_OF_MUTANTS=2147483647}
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:46 min
+[INFO] Finished at: 2025-03-03T22:02:50+01:00
+[INFO] ------------------------------------------------------------------------

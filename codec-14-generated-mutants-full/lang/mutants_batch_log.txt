@@ -1,0 +1,711 @@
+[2025-03-15 07:32:23] Found 97 compilable mutants
+[2025-03-15 07:32:23] Created 5 batches (batch size: 20)
+[2025-03-15 07:47:25] [batch_496_9] Completed:
+[batch_496_9 - Mutant 496] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 514] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 521] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty1Letter
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_496_9 - Mutant 533] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 542] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 554] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 565] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 585] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_496_9 - Mutant 595] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_496_9 - Mutant 597] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_496_9 - Mutant 599] Exit Code: 0
+Failing tests: 5
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck3
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_496_9 - Mutant 609] Exit Code: 0
+Failing tests: 32
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeGna
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty1Letter
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAllChars
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testOOM
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck2
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck3
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testLongestEnglishSurname
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testLocaleIndependence
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_496_9 - Mutant 69] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_496_9 - Mutant 71] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testInvalidLangIllegalStateException
+
+[batch_496_9 - Mutant 85] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 86] Exit Code: 0
+Failing tests: 0
+
+[batch_496_9 - Mutant 9] Exit Code: 0
+Failing tests: 0
+
+[2025-03-15 07:47:31] [batch_205_287] Completed:
+[batch_205_287 - Mutant 205] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 206] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 223] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 224] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 225] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 231] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 239] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 246] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 247] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 256] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 257] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 258] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 267] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 269] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 271] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 272] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 273] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 274] Exit Code: 0
+Failing tests: 0
+
+[batch_205_287 - Mutant 286] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_205_287 - Mutant 287] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[2025-03-15 07:47:40] [batch_0_204] Completed:
+[batch_0_204 - Mutant 0] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 112] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 124] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 127] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 133] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 134] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 141] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 151] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 152] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 155] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 161] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 173] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 174] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 177] Exit Code: 0
+Failing tests: 0
+
+[batch_0_204 - Mutant 183] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 195] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 196] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 197] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 198] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_0_204 - Mutant 204] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[2025-03-15 07:47:57] [batch_288_363] Completed:
+[batch_288_363 - Mutant 288] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 289] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 303] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 307] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 312] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 316] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 331] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 332] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 333] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 337] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 338] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 339] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 343] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 344] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 345] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 350] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 351] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_288_363 - Mutant 352] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 353] Exit Code: 0
+Failing tests: 0
+
+[batch_288_363 - Mutant 363] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[2025-03-15 07:48:06] [batch_364_494] Completed:
+[batch_364_494 - Mutant 364] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 365] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_364_494 - Mutant 366] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 371] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_364_494 - Mutant 372] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 373] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_364_494 - Mutant 374] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 377] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 378] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 379] Exit Code: 0
+Failing tests: 16
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+
+[batch_364_494 - Mutant 382] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 403] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 429] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 449] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 450] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 452] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 469] Exit Code: 0
+Failing tests: 34
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeGna
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty1Letter
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAllChars
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeAtzNotEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testOOM
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testAsciiEncodeNotEmpty2Letters
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck2
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testSpeedCheck3
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testLongestEnglishSurname
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testEncodeEmpty
+  - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest::testLocaleIndependence
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.LanguageGuessingTest::testLanguageGuessing
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrGENERIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrSEPHARDIC
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testSolrASHKENAZI
+
+[batch_364_494 - Mutant 471] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 475] Exit Code: 0
+Failing tests: 0
+
+[batch_364_494 - Mutant 494] Exit Code: 0
+Failing tests: 0
+
+[2025-03-15 07:48:06] All batches completed.

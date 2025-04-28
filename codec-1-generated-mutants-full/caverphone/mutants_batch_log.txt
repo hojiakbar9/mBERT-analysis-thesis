@@ -1,0 +1,1196 @@
+[2025-03-11 08:53:29] Found 329 compilable mutants
+[2025-03-11 08:53:29] Created 17 batches (batch size: 20)
+[2025-03-11 09:08:03] [batch_1527_1667] Completed:
+[batch_1527_1667 - Mutant 1527] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 153] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1531] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1534] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1555] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1560] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 157] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1575] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1583] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1585] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1589] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1604] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1610] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1618] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1637] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1639] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1647] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1649] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1527_1667 - Mutant 1661] Exit Code: 0
+Failing tests: 0
+
+[batch_1527_1667 - Mutant 1667] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:08:04] [batch_1177_1315] Completed:
+[batch_1177_1315 - Mutant 1177] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1194] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1199] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1204] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1207] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 121] Exit Code: 0
+Failing tests: 0
+
+[batch_1177_1315 - Mutant 1224] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1229] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1234] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1237] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1255] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1259] Exit Code: 0
+Failing tests: 0
+
+[batch_1177_1315 - Mutant 1264] Exit Code: 0
+Failing tests: 0
+
+[batch_1177_1315 - Mutant 1267] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 127] Exit Code: 0
+Failing tests: 0
+
+[batch_1177_1315 - Mutant 1285] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1289] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1294] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1297] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1177_1315 - Mutant 1315] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:08:05] [batch_1100_1174] Completed:
+[batch_1100_1174 - Mutant 1100] Exit Code: 0
+Failing tests: 0
+
+[batch_1100_1174 - Mutant 1105] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1107] Exit Code: 0
+Failing tests: 0
+
+[batch_1100_1174 - Mutant 1109] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1114] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1115] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1118] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 113] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1131] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1135] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1137] Exit Code: 0
+Failing tests: 0
+
+[batch_1100_1174 - Mutant 1139] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1143] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1144] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1147] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 116] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1161] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1164] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1169] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1100_1174 - Mutant 1174] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:08:05] [batch_1668_1765] Completed:
+[batch_1668_1765 - Mutant 1668] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1669] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1675] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1676] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1679] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1691] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1693] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1702] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1703] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1716] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 172] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1721] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1723] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1724] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1730] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1731] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1734] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1748] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1668_1765 - Mutant 1751] Exit Code: 0
+Failing tests: 0
+
+[batch_1668_1765 - Mutant 1765] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:08:06] [batch_1316_142] Completed:
+[batch_1316_142 - Mutant 1316] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1319] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1324] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1326] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1346] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1348] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1353] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1355] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1357] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1370] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1374] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1379] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1383] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1387] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 14] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1406] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 1407] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1412] Exit Code: 0
+Failing tests: 0
+
+[batch_1316_142 - Mutant 1415] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1316_142 - Mutant 142] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:08:07] [batch_0_1086] Completed:
+[batch_0_1086 - Mutant 0] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_0_1086 - Mutant 10] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_0_1086 - Mutant 1009] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 101] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1016] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1019] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1024] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1026] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1027] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1028] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1044] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1048] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1049] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1054] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1058] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1072] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1074] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_0_1086 - Mutant 1079] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1084] Exit Code: 0
+Failing tests: 0
+
+[batch_0_1086 - Mutant 1086] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:08:07] [batch_1767_1814] Completed:
+[batch_1767_1814 - Mutant 1767] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1770] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1771] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1772] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1773] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1774] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1776] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1777] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1778] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1779] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1767_1814 - Mutant 1790] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1791] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1792] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1793] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1794] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1796] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1797] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1798] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1767_1814 - Mutant 1812] Exit Code: 0
+Failing tests: 0
+
+[batch_1767_1814 - Mutant 1814] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:08:07] [batch_1428_1525] Completed:
+[batch_1428_1525 - Mutant 1428] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1434] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 1435] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1437] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1441] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1442] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 1459] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1463] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1464] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 1467] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1471] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1474] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 1495] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1497] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 15] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1501] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1503] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 151] Exit Code: 0
+Failing tests: 0
+
+[batch_1428_1525 - Mutant 1521] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1428_1525 - Mutant 1525] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:22:39] [batch_279_367] Completed:
+[batch_279_367 - Mutant 279] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_279_367 - Mutant 28] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 29] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 290] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 299] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 30] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 300] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 305] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 320] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 328] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 334] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 338] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_279_367 - Mutant 34] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 349] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 35] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 356] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 359] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_279_367 - Mutant 363] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_279_367 - Mutant 364] Exit Code: 0
+Failing tests: 0
+
+[batch_279_367 - Mutant 367] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:22:40] [batch_1815_275] Completed:
+[batch_1815_275 - Mutant 1815] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+
+[batch_1815_275 - Mutant 1819] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 1822] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 183] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 1832] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+
+[batch_1815_275 - Mutant 187] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 202] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 210] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1815_275 - Mutant 212] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 217] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 221] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1815_275 - Mutant 232] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 24] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1815_275 - Mutant 241] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1815_275 - Mutant 246] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 248] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_1815_275 - Mutant 25] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 26] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 261] Exit Code: 0
+Failing tests: 0
+
+[batch_1815_275 - Mutant 275] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:22:43] [batch_381_473] Completed:
+[batch_381_473 - Mutant 381] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 387] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 388] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 389] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 393] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 394] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 397] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 398] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 411] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 417] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 419] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 423] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 424] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 427] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 447] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 449] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 453] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 454] Exit Code: 0
+Failing tests: 0
+
+[batch_381_473 - Mutant 457] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_381_473 - Mutant 473] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:22:43] [batch_478_569] Completed:
+[batch_478_569 - Mutant 478] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 479] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 483] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 484] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 487] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 5] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeNull
+
+[batch_478_569 - Mutant 507] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 508] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 509] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 511] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 514] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 517] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 532] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 537] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 539] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 541] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 544] Exit Code: 0
+Failing tests: 0
+
+[batch_478_569 - Mutant 547] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 567] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_478_569 - Mutant 569] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:22:45] [batch_571_650] Completed:
+[batch_571_650 - Mutant 571] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 574] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 577] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 58] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 59] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 598] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 599] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 604] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 606] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 608] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 620] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 627] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 628] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 629] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 63] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 632] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 634] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 636] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_571_650 - Mutant 64] Exit Code: 0
+Failing tests: 0
+
+[batch_571_650 - Mutant 650] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:22:46] [batch_658_740] Completed:
+[batch_658_740 - Mutant 658] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 659] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 664] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 666] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 668] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 681] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 688] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 689] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 692] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 694] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 695] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 710] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 717] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 719] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 72] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 723] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 724] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 726] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_658_740 - Mutant 74] Exit Code: 0
+Failing tests: 0
+
+[batch_658_740 - Mutant 740] Exit Code: 0
+Failing tests: 0
+
+[2025-03-11 09:22:47] [batch_748_847] Completed:
+[batch_748_847 - Mutant 748] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 749] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 754] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 755] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 772] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 778] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 779] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 784] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 785] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 800] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 807] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 809] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 814] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 815] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 831] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 837] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 838] Exit Code: 0
+Failing tests: 0
+
+[batch_748_847 - Mutant 839] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 844] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_748_847 - Mutant 847] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:22:47] [batch_848_955] Completed:
+[batch_848_955 - Mutant 848] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 863] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 866] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 869] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 874] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 876] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 88] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEncodeEmpty
+
+[batch_848_955 - Mutant 895] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 899] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 904] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 907] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 91] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 923] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 924] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 932] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 934] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 937] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_848_955 - Mutant 938] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 952] Exit Code: 0
+Failing tests: 0
+
+[batch_848_955 - Mutant 955] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:29:22] [batch_964_998] Completed:
+[batch_964_998 - Mutant 964] Exit Code: 0
+Failing tests: 0
+
+[batch_964_998 - Mutant 966] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_964_998 - Mutant 981] Exit Code: 0
+Failing tests: 0
+
+[batch_964_998 - Mutant 984] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_964_998 - Mutant 987] Exit Code: 0
+Failing tests: 0
+
+[batch_964_998 - Mutant 99] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_964_998 - Mutant 990] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[batch_964_998 - Mutant 994] Exit Code: 0
+Failing tests: 0
+
+[batch_964_998 - Mutant 998] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testSpecificationExamples
+
+[2025-03-11 09:29:22] All batches completed.

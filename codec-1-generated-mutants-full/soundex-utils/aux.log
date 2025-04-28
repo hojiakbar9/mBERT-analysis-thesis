@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/codec/codec_1/generated-mutants-full/soundex-utils/99/SoundexUtils.java:49: error: cannot find symbol
+                chars[count++] = str.At(i);
+                                    ^
+  symbol:   method At(int)
+  location: variable str of type String
+1 error

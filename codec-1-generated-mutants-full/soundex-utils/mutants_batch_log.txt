@@ -1,0 +1,888 @@
+[2025-03-11 21:41:23] Found 80 compilable mutants
+[2025-03-11 21:41:23] Created 4 batches (batch size: 20)
+[2025-03-11 21:50:40] [batch_154_252] Completed:
+[batch_154_252 - Mutant 154] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_154_252 - Mutant 162] Exit Code: 0
+Failing tests: 0
+
+[batch_154_252 - Mutant 200] Exit Code: 0
+Failing tests: 0
+
+[batch_154_252 - Mutant 201] Exit Code: 0
+Failing tests: 0
+
+[batch_154_252 - Mutant 203] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 210] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 211] Exit Code: 0
+Failing tests: 0
+
+[batch_154_252 - Mutant 215] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 22] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_154_252 - Mutant 222] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 223] Exit Code: 0
+Failing tests: 0
+
+[batch_154_252 - Mutant 226] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 227] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 228] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 229] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 230] Exit Code: 0
+Failing tests: 1
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+
+[batch_154_252 - Mutant 249] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 250] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 251] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_154_252 - Mutant 252] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[2025-03-11 21:50:41] [batch_0_151] Completed:
+[batch_0_151 - Mutant 0] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 105] Exit Code: 0
+Failing tests: 27
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_0_151 - Mutant 109] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_0_151 - Mutant 11] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_0_151 - Mutant 110] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 111] Exit Code: 0
+Failing tests: 9
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_0_151 - Mutant 112] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 115] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 116] Exit Code: 0
+Failing tests: 3
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_0_151 - Mutant 117] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 118] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 119] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+
+[batch_0_151 - Mutant 12] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 120] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 127] Exit Code: 0
+Failing tests: 22
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_0_151 - Mutant 13] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_0_151 - Mutant 135] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 14] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 15] Exit Code: 0
+Failing tests: 0
+
+[batch_0_151 - Mutant 151] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+
+[2025-03-11 21:50:47] [batch_253_39] Completed:
+[batch_253_39 - Mutant 253] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 254] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 255] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 257] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 258] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 26] Exit Code: 0
+Failing tests: 4
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_253_39 - Mutant 263] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 264] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 265] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 268] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 27] Exit Code: 0
+Failing tests: 0
+
+[batch_253_39 - Mutant 272] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 273] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 274] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 285] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 300] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 302] Exit Code: 0
+Failing tests: 0
+
+[batch_253_39 - Mutant 309] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 311] Exit Code: 0
+Failing tests: 2
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+
+[batch_253_39 - Mutant 39] Exit Code: 0
+Failing tests: 28
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[2025-03-11 21:50:50] [batch_4_94] Completed:
+[batch_4_94 - Mutant 4] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 40] Exit Code: 0
+Failing tests: 29
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 41] Exit Code: 0
+Failing tests: 28
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 42] Exit Code: 0
+Failing tests: 29
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 43] Exit Code: 0
+Failing tests: 23
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 45] Exit Code: 0
+Failing tests: 23
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 46] Exit Code: 0
+Failing tests: 29
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 49] Exit Code: 0
+Failing tests: 10
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+
+[batch_4_94 - Mutant 51] Exit Code: 0
+Failing tests: 29
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 57] Exit Code: 0
+Failing tests: 29
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeEmpty
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 75] Exit Code: 0
+Failing tests: 6
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+
+[batch_4_94 - Mutant 77] Exit Code: 0
+Failing tests: 0
+
+[batch_4_94 - Mutant 78] Exit Code: 0
+Failing tests: 0
+
+[batch_4_94 - Mutant 81] Exit Code: 0
+Failing tests: 8
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+
+[batch_4_94 - Mutant 82] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 83] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 84] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 86] Exit Code: 0
+Failing tests: 24
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+
+[batch_4_94 - Mutant 93] Exit Code: 0
+Failing tests: 27
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[batch_4_94 - Mutant 94] Exit Code: 0
+Failing tests: 27
+  - org.apache.commons.codec.StringEncoderComparatorTest::testComparatorWithSoundex
+  - org.apache.commons.codec.language.RefinedSoundexTest::testDifference
+  - org.apache.commons.codec.language.RefinedSoundexTest::testEncode
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testBadCharacters
+  - org.apache.commons.codec.language.SoundexTest::testUsEnglishStatic
+  - org.apache.commons.codec.language.SoundexTest::testMaxLengthLessThan3Fix
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer1
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer2
+  - org.apache.commons.codec.language.SoundexTest::testMsSqlServer3
+  - org.apache.commons.codec.language.SoundexTest::testB650
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch2
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch3
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBatch4
+  - org.apache.commons.codec.language.SoundexTest::testMaxLength
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreHyphens
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreTrimmable
+  - org.apache.commons.codec.language.SoundexTest::testEncodeIgnoreApostrophes
+  - org.apache.commons.codec.language.SoundexTest::testDifference
+  - org.apache.commons.codec.language.SoundexTest::testNewInstance
+  - org.apache.commons.codec.language.SoundexTest::testEncodeBasic
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingEWithAcute
+  - org.apache.commons.codec.language.SoundexTest::testUsMappingOWithDiaeresis
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx2
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx3
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+
+[2025-03-11 21:50:50] All batches completed.

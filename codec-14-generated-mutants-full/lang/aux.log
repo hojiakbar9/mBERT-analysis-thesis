@@ -1,0 +1,6 @@
+/mnt/c/Users/localadmin/repos/codec/codec_14/generated-mutants-full/lang/99/Lang.java:137: error: cannot find symbol
+        final Scanner scanner = new Scanner(ris, ResourceConstants.ENCODING);
+                                            ^
+  symbol:   variable ris
+  location: class Lang
+1 error
